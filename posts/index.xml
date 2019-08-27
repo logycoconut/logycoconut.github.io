@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Logycoconut`s Blog</title>
+    <link>https://logycoconut.github.io/posts/</link>
+    <description>Recent content in Posts on Logycoconut`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 02 Aug 2019 23:29:30 +0800</lastBuildDate>
+    
+	<atom:link href="https://logycoconut.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>远程连接MySQL配置</title>
+      <link>https://logycoconut.github.io/2019/002_mysql_remote_access/</link>
+      <pubDate>Fri, 02 Aug 2019 23:29:30 +0800</pubDate>
+      
+      <guid>https://logycoconut.github.io/2019/002_mysql_remote_access/</guid>
+      <description>1、问题背景 开发环境与数据库不在一台机器上，需要远程访问数据库进行数据的增删改查。在安装完MySQL，确定开启远程连接权限的情况下，SQLy</description>
+    </item>
+    
+    <item>
+      <title>使用Hugo搭建个人博客并部署到Github仓库中</title>
+      <link>https://logycoconut.github.io/2019/001_hugo_blog_build/</link>
+      <pubDate>Thu, 01 Aug 2019 21:20:11 +0800</pubDate>
+      
+      <guid>https://logycoconut.github.io/2019/001_hugo_blog_build/</guid>
+      <description>1、Hugo安装 在Hugo的官方Github仓库中下载对应的安装包 将zip文件解压后放在自己想放的位置，然后将hugo.exe所在的目录添加</description>
+    </item>
+    
+  </channel>
+</rss>

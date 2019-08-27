@@ -1,0 +1,141 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logycoconut`s Blog on Logycoconut`s Blog</title>
+    <link>https://logycoconut.github.io/</link>
+    <description>Recent content in Logycoconut`s Blog on Logycoconut`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 02 Aug 2019 23:29:30 +0800</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>远程连接MySQL配置</title>
+      <link>https://logycoconut.github.io/2019/002_mysql_remote_access/</link>
+      <pubDate>Fri, 02 Aug 2019 23:29:30 +0800</pubDate>
+      
+      <guid>https://logycoconut.github.io/2019/002_mysql_remote_access/</guid>
+      <description>
+
+&lt;h2 id=&#34;1-问题背景&#34;&gt;1、问题背景&lt;/h2&gt;
+
+&lt;p&gt;开发环境与数据库不在一台机器上，需要远程访问数据库进行数据的增删改查。在安装完MySQL，&lt;strong&gt;确定开启远程连接权限&lt;/strong&gt;的情况下，SQLyog还是提示 &lt;code&gt;1130 - Host XXX is not allowed to connect to this MySQL server&lt;/code&gt; 。经过排查后发现，是因为安装数据库的机器的防火墙阻止了3306端口（MySQL的默认端口），将其开启即可顺利访问。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;2-远程连接授权&#34;&gt;2、远程连接授权&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;查看mysql库中user表，首先选择数据库 &lt;code&gt;use mysql;&lt;/code&gt; ，查看user表中的host、user信息 &lt;code&gt;select host, user from user;&lt;/code&gt;
+&lt;img src=&#34;https://i.loli.net/2019/08/03/eQpOjSBJl9vKk1U.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;如果开发主机的IP没有在表中，则需要给开发主机授权， &lt;code&gt;GRANT ALL PRIVILEGES ON *.* TO &#39;root&#39;@&#39;%&#39; WITH GRANT OPTION&lt;/code&gt; ，这意味着赋予所有主机访问数据库的权限（如果只给单个主机则可以使用 &lt;code&gt;GRANT ALL PRIVILEGES ON *.* TO &#39;USERNAME&#39;@&#39;USERIP&#39; IDENTIFIED BY &#39;USERPASSWORD&#39; WITH GRANT OPTION;&lt;/code&gt; ）&lt;/li&gt;
+&lt;li&gt;刷新权限 &lt;code&gt;FLUSH PRIVILEGES&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;3-开启mysql主机防火墙的3306端口&#34;&gt;3、开启MySQL主机防火墙的3306端口&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;以Win10为例&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;打开控制面板 - 所有控制面板 - Windows Defender防火墙 - 高级设置
+&lt;img src=&#34;https://i.loli.net/2019/08/03/Hb6LNcRUMAKpqCT.png&#34; alt=&#34;高级设置&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;点击入站规则 - 新建规则 - 选择&amp;rdquo;端口&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;应用于TCP，特定本地端口为3306（MySQL的默认端口）&lt;/li&gt;
+&lt;li&gt;然后无脑下一步，输入名称（你为这个入站规则起的名字）后点击完成即可&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;参考资料&#34;&gt;&lt;em&gt;参考资料&lt;/em&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gwh-08.iteye.com/blog/1396490&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;MySQL授权远程服务&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jingyan.baidu.com/article/09ea3ede7311dec0afde3977.html&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;Win10防火墙开放端口&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>使用Hugo搭建个人博客并部署到Github仓库中</title>
+      <link>https://logycoconut.github.io/2019/001_hugo_blog_build/</link>
+      <pubDate>Thu, 01 Aug 2019 21:20:11 +0800</pubDate>
+      
+      <guid>https://logycoconut.github.io/2019/001_hugo_blog_build/</guid>
+      <description>
+
+&lt;h2 id=&#34;1-hugo安装&#34;&gt;1、Hugo安装&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;在Hugo的&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;官方Github仓库&lt;/a&gt;中下载对应的安装包&lt;/li&gt;
+&lt;li&gt;将zip文件解压后放在自己想放的位置，然后将hugo.exe所在的目录添加到 Windows 的系统环境变量的 PATH 中即可&lt;/li&gt;
+&lt;li&gt;在终端中输入 &lt;code&gt;hugo&lt;/code&gt; 并回车，查看是否配置成功&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;2-hugo使用&#34;&gt;2、Hugo使用&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;在终端中切换目录至你想放置博客目录的位置，输入 &lt;code&gt;hugo new site BLOG&lt;/code&gt;
+( &lt;em&gt;BLOG就是博客的根目录名字&lt;/em&gt; )&lt;/li&gt;
+&lt;li&gt;在&lt;a href=&#34;https://themes.gohugo.io/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;Hugo主题官网&lt;/a&gt;中下载喜欢的主题,以m10c为例，在博客根目录输入 &lt;code&gt;git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c&lt;/code&gt; 完成下载
+( &lt;em&gt;Hugo默认没有主题，必须安装主题后才能使用&lt;/em&gt; )
+&lt;img src=&#34;https://i.loli.net/2019/08/02/5d43f7e8b8c9f89663.png&#34; alt=&#34;themes文件夹中多了一个主题&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;在终端中输入 &lt;code&gt;hugo server -t m10c --buildDrafts&lt;/code&gt; 启动服务
+&lt;img src=&#34;https://i.loli.net/2019/08/02/5d43f80f763c862373.png&#34; alt=&#34;访问本地1313端口&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;在根目录输入 &lt;code&gt;hugo new post/xxxx.md&lt;/code&gt; 在post创建一篇新的博客
+&lt;img src=&#34;https://i.loli.net/2019/08/02/5d43f8257bbf165069.png&#34; alt=&#34;博客默认开头&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;现在启动服务器即可看到新增的那篇文章&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;3-部署至github仓库&#34;&gt;3、部署至GitHub仓库&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;在个人GitHub新增一个名为 &lt;code&gt;NAME.github.io&lt;/code&gt; 的仓库，NAME更换为自己的昵称小写&lt;img src=&#34;https://i.loli.net/2019/08/02/5d43f834c390d56402.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;在根目录输入 &lt;code&gt;hugo --theme=m10c --baseUrl=&amp;quot;https://NAME.github.io/&amp;quot;  --buildDrafts&lt;/code&gt; ，目录下会生成public文件夹&lt;/li&gt;
+&lt;li&gt;cd到public文件夹中，输入 &lt;code&gt;git init&lt;/code&gt; 将public文件夹初始化为一个git仓库&lt;/li&gt;
+&lt;li&gt;输入 &lt;code&gt;git add .&lt;/code&gt;将所有改变提交到暂存区，输入 &lt;code&gt;git commit -m &amp;quot;注释&amp;quot;&lt;/code&gt; 将改变提交到仓库&lt;/li&gt;
+&lt;li&gt;输入 &lt;code&gt;git remote add origin git@github.com:logycoconut/logycoconut.github.io.git&lt;/code&gt; ，使得本地仓库与远端仓库关联&lt;/li&gt;
+&lt;li&gt;输入 &lt;code&gt;git push -u origin master&lt;/code&gt; 推到远端的仓库中&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;参考资料&#34;&gt;&lt;em&gt;参考资料&lt;/em&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/av51574688?t=870&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;B站CodeSheep教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;Git远程仓库教程&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>logycoconut</title>
+      <link>https://logycoconut.github.io/about/</link>
+      <pubDate>Fri, 19 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://logycoconut.github.io/about/</guid>
+      <description>&lt;p&gt;Hugo is the &lt;strong&gt;world’s fastest framework for building websites&lt;/strong&gt;. It is written in Go.&lt;/p&gt;
+
+&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/russross/blackfriday&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;https://github.com/russross/blackfriday&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/alecthomas/chroma&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;https://github.com/alecthomas/chroma&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/muesli/smartcrop&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;https://github.com/muesli/smartcrop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;https://github.com/spf13/cobra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;https://github.com/spf13/viper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Logycoconut`s Blog</title>
+    <link>https://logycoconut.github.io/tags/</link>
+    <description>Recent content in Tags on Logycoconut`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 02 Aug 2019 23:29:30 +0800</lastBuildDate>
+    
+	<atom:link href="https://logycoconut.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mysql</title>
+      <link>https://logycoconut.github.io/tags/mysql/</link>
+      <pubDate>Fri, 02 Aug 2019 23:29:30 +0800</pubDate>
+      
+      <guid>https://logycoconut.github.io/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://logycoconut.github.io/tags/blog/</link>
+      <pubDate>Thu, 01 Aug 2019 21:20:11 +0800</pubDate>
+      
+      <guid>https://logycoconut.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://logycoconut.github.io/tags/hugo/</link>
+      <pubDate>Thu, 01 Aug 2019 21:20:11 +0800</pubDate>
+      
+      <guid>https://logycoconut.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

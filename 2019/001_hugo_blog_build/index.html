@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="logycoconut">
+  
+  
+  
+  
+  <link rel="next" href="https://logycoconut.github.io/2019/002_mysql_remote_access/" />
+  <link rel="canonical" href="https://logycoconut.github.io/2019/001_hugo_blog_build/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           使用Hugo搭建个人博客并部署到Github仓库中 | Logycoconut`s Blog
+       
+  </title>
+  <meta name="title" content="使用Hugo搭建个人博客并部署到Github仓库中 | Logycoconut`s Blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https:\/\/logycoconut.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "使用Hugo搭建个人博客并部署到Github仓库中",
+    "headline" : "使用Hugo搭建个人博客并部署到Github仓库中",
+    "description" : "1、Hugo安装 在Hugo的官方Github仓库中下载对应的安装包 将zip文件解压后放在自己想放的位置，然后将hugo.exe所在的目录添加",
+    "inLanguage" : "zh-cn",
+    "author" : "logycoconut",
+    "creator" : "logycoconut",
+    "publisher": "logycoconut",
+    "accountablePerson" : "logycoconut",
+    "copyrightHolder" : "logycoconut",
+    "copyrightYear" : "2019",
+    "datePublished": "2019-08-01 21:20:11 \x2b0800 CST",
+    "dateModified" : "2019-08-01 21:20:11 \x2b0800 CST",
+    "url" : "https:\/\/logycoconut.github.io\/2019\/001_hugo_blog_build\/",
+    "wordCount" : "493",
+    "keywords" : [ "Hugo","Blog", "Logycoconut`s Blog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	&nbsp;<a href="https://logycoconut.github.io"> > cd /Home/</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+        <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://logycoconut.github.io">Logycoconut`s Blog</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">使用Hugo搭建个人博客并部署到Github仓库中</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="https://logycoconut.github.io" rel="author">logycoconut</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2019-08-01 itemprop="datePublished">August 1, 2019</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://logycoconut.github.io/categories/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/"> 折腾博客 </a>
+                        
+                </span>
+                <span class="post-word-count">, 493 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          
+
+<h2 id="1-hugo安装">1、Hugo安装</h2>
+
+<ul>
+<li>在Hugo的<a href="https://github.com/gohugoio/hugo/releases" rel="nofollow noreferrer" target="_blank">官方Github仓库</a>中下载对应的安装包</li>
+<li>将zip文件解压后放在自己想放的位置，然后将hugo.exe所在的目录添加到 Windows 的系统环境变量的 PATH 中即可</li>
+<li>在终端中输入 <code>hugo</code> 并回车，查看是否配置成功</li>
+</ul>
+
+<hr />
+
+<h2 id="2-hugo使用">2、Hugo使用</h2>
+
+<ul>
+<li>在终端中切换目录至你想放置博客目录的位置，输入 <code>hugo new site BLOG</code>
+( <em>BLOG就是博客的根目录名字</em> )</li>
+<li>在<a href="https://themes.gohugo.io/" rel="nofollow noreferrer" target="_blank">Hugo主题官网</a>中下载喜欢的主题,以m10c为例，在博客根目录输入 <code>git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c</code> 完成下载
+( <em>Hugo默认没有主题，必须安装主题后才能使用</em> )
+<figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://i.loli.net/2019/08/02/5d43f7e8b8c9f89663.png" alt="themes文件夹中多了一个主题" class="lazyload"><figcaption class="image-caption">themes文件夹中多了一个主题</figcaption></figure></li>
+<li>在终端中输入 <code>hugo server -t m10c --buildDrafts</code> 启动服务
+<figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://i.loli.net/2019/08/02/5d43f80f763c862373.png" alt="访问本地1313端口" class="lazyload"><figcaption class="image-caption">访问本地1313端口</figcaption></figure></li>
+<li>在根目录输入 <code>hugo new post/xxxx.md</code> 在post创建一篇新的博客
+<figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://i.loli.net/2019/08/02/5d43f8257bbf165069.png" alt="博客默认开头" class="lazyload"><figcaption class="image-caption">博客默认开头</figcaption></figure></li>
+<li>现在启动服务器即可看到新增的那篇文章</li>
+</ul>
+
+<hr />
+
+<h2 id="3-部署至github仓库">3、部署至GitHub仓库</h2>
+
+<ul>
+<li>在个人GitHub新增一个名为 <code>NAME.github.io</code> 的仓库，NAME更换为自己的昵称小写<figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://i.loli.net/2019/08/02/5d43f834c390d56402.png" alt="image.png" class="lazyload"><figcaption class="image-caption">image.png</figcaption></figure></li>
+<li>在根目录输入 <code>hugo --theme=m10c --baseUrl=&quot;https://NAME.github.io/&quot;  --buildDrafts</code> ，目录下会生成public文件夹</li>
+<li>cd到public文件夹中，输入 <code>git init</code> 将public文件夹初始化为一个git仓库</li>
+<li>输入 <code>git add .</code>将所有改变提交到暂存区，输入 <code>git commit -m &quot;注释&quot;</code> 将改变提交到仓库</li>
+<li>输入 <code>git remote add origin git@github.com:logycoconut/logycoconut.github.io.git</code> ，使得本地仓库与远端仓库关联</li>
+<li>输入 <code>git push -u origin master</code> 推到远端的仓库中</li>
+</ul>
+
+<hr />
+
+<h2 id="参考资料"><em>参考资料</em></h2>
+
+<ul>
+<li><a href="https://www.bilibili.com/video/av51574688?t=870" rel="nofollow noreferrer" target="_blank">B站CodeSheep教程</a></li>
+<li><a href="https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416" rel="nofollow noreferrer" target="_blank">Git远程仓库教程</a></li>
+</ul>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>logycoconut </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=https://logycoconut.github.io/2019/001_hugo_blog_build/>https://logycoconut.github.io/2019/001_hugo_blog_build/</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://logycoconut.github.io/tags/hugo/">
+                    #Hugo</a></span>
+            
+            <span class="tag"><a href="https://logycoconut.github.io/tags/blog/">
+                    #Blog</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="https://logycoconut.github.io">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+         
+        
+        <a href="https://logycoconut.github.io/2019/002_mysql_remote_access/" class="next" rel="next" title="远程连接MySQL配置">远程连接MySQL配置&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+          
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script>
+  const gitalk = new Gitalk({
+    clientID: 'd90032d05f05e501fdba',
+    clientSecret: '60ce281109be3b8b4a7f0440c1054fadf7a45697',
+    repo: 'logycoconut.github.io',
+    owner: 'logycoconut',
+    admin: ['logycoconut'],
+    id: location.pathname, 
+    distractionFreeMode: false 
+  });
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+      return;
+    }
+    gitalk.render('gitalk-container');
+  })();
+</script>
+
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2018 - 2019</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://logycoconut.github.io">logycoconut</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+     </div>
+  </body>
+</html>

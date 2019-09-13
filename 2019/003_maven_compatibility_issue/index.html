@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="https://logycoconut.github.io/2019/001_hugo_blog_build/" />
-  <link rel="next" href="https://logycoconut.github.io/2019/003_maven_compatibility_issue/" />
-  <link rel="canonical" href="https://logycoconut.github.io/2019/002_mysql_remote_access/" />
+  <link rel="prev" href="https://logycoconut.github.io/2019/002_mysql_remote_access/" />
+  
+  <link rel="canonical" href="https://logycoconut.github.io/2019/003_maven_compatibility_issue/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           远程连接MySQL配置 | Logycoconut`s Blog
+           Maven兼容性问题 | Logycoconut`s Blog
        
   </title>
-  <meta name="title" content="远程连接MySQL配置 | Logycoconut`s Blog">
+  <meta name="title" content="Maven兼容性问题 | Logycoconut`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,9 +44,9 @@
          "@id": "https:\/\/logycoconut.github.io"
     },
     "articleSection" : "posts",
-    "name" : "远程连接MySQL配置",
-    "headline" : "远程连接MySQL配置",
-    "description" : "1、问题背景 开发环境与数据库不在一台机器上，需要远程访问数据库进行数据的增删改查。在安装完MySQL，确定开启远程连接权限的情况下，SQLy",
+    "name" : "Maven兼容性问题",
+    "headline" : "Maven兼容性问题",
+    "description" : "1、问题背景 在idea集成Maven开发时，新建项目后出现 Unable to import maven project: See logs for details 的问题，百思不得其解，打开idea的log日志后发现有如下报错（",
     "inLanguage" : "zh-cn",
     "author" : "logycoconut",
     "creator" : "logycoconut",
@@ -54,11 +54,11 @@
     "accountablePerson" : "logycoconut",
     "copyrightHolder" : "logycoconut",
     "copyrightYear" : "2019",
-    "datePublished": "2019-08-02 23:29:30 \x2b0800 CST",
-    "dateModified" : "2019-08-02 23:29:30 \x2b0800 CST",
-    "url" : "https:\/\/logycoconut.github.io\/2019\/002_mysql_remote_access\/",
-    "wordCount" : "473",
-    "keywords" : [ "Mysql", "Logycoconut`s Blog"]
+    "datePublished": "2019-09-11 21:44:10 \x2b0800 CST",
+    "dateModified" : "2019-09-11 21:44:10 \x2b0800 CST",
+    "url" : "https:\/\/logycoconut.github.io\/2019\/003_maven_compatibility_issue\/",
+    "wordCount" : "288",
+    "keywords" : [ "Maven", "Logycoconut`s Blog"]
 }
 </script>
 
@@ -123,11 +123,11 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">远程连接MySQL配置</h1>
+        <h1 class="post-title" itemprop="name headline">Maven兼容性问题</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://logycoconut.github.io" rel="author">logycoconut</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2019-08-02 itemprop="datePublished">August 2, 2019</time>
+                on <time datetime=2019-09-11 itemprop="datePublished">September 11, 2019</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -135,14 +135,12 @@
                         <a href="https://logycoconut.github.io/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/"> 关于技术 </a>
                         
                 </span>
-                <span class="post-word-count">, 473 words</span>
+                <span class="post-word-count">, 288 words</span>
         </div>
     </header>
     <div class="post-content">
         
 
-        
-            
         
 
         
@@ -160,43 +158,56 @@
 
 <h2 id="1-问题背景">1、问题背景</h2>
 
-<p>开发环境与数据库不在一台机器上，需要远程访问数据库进行数据的增删改查。在安装完MySQL，<strong>确定开启远程连接权限</strong>的情况下，SQLyog还是提示 <code>1130 - Host XXX is not allowed to connect to this MySQL server</code> 。经过排查后发现，是因为安装数据库的机器的防火墙阻止了3306端口（MySQL的默认端口），将其开启即可顺利访问。</p>
+<p>在idea集成Maven开发时，新建项目后出现 <code>Unable to import maven project: See logs for details</code> 的问题，百思不得其解，打开idea的log日志后发现有如下报错（日志过长，只截取部分）</p>
+
+<pre><code>ERROR - #org.jetbrains.idea.maven - com.google.inject.CreationException: Unable to create injector, see the following errors:
+
+1) No implementation for org.apache.maven.model.path.PathTranslator was bound.
+  while locating org.apache.maven.model.path.PathTranslator
+    for field at org.apache.maven.model.interpolation.AbstractStringBasedModelInterpolator.pathTranslator(Unknown Source)
+  at org.codehaus.plexus.DefaultPlexusContainer$1.configure(DefaultPlexusContainer.java:350)
+
+2) No implementation for org.apache.maven.model.path.UrlNormalizer was bound.
+  while locating org.apache.maven.model.path.UrlNormalizer
+    for field at org.apache.maven.model.interpolation.AbstractStringBasedModelInterpolator.urlNormalizer(Unknown Source)
+  at org.codehaus.plexus.DefaultPlexusContainer$1.configure(DefaultPlexusContainer.java:350)
+
+2 errors 
+java.lang.RuntimeException: com.google.inject.CreationException: Unable to create injector, see the following errors:
+
+1) No implementation for org.apache.maven.model.path.PathTranslator was bound.
+  while locating org.apache.maven.model.path.PathTranslator
+    for field at org.apache.maven.model.interpolation.AbstractStringBasedModelInterpolator.pathTranslator(Unknown Source)
+  at org.codehaus.plexus.DefaultPlexusContainer$1.configure(DefaultPlexusContainer.java:350)
+
+2) No implementation for org.apache.maven.model.path.UrlNormalizer was bound.
+  while locating org.apache.maven.model.path.UrlNormalizer
+    for field at org.apache.maven.model.interpolation.AbstractStringBasedModelInterpolator.urlNormalizer(Unknown Source)
+  at org.codehaus.plexus.DefaultPlexusContainer$1.configure(DefaultPlexusContainer.java:350)
+
+2 errors
+	at com.google.inject.internal.Errors.throwCreationExceptionIfErrorsExist(Errors.java:543)
+	at com.google.inject.internal.InternalInjectorCreator.initializeStatically(InternalInjectorCreator.java:159)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:106)
+	at com.google.inject.Guice.createInjector(Guice.java:87)
+	at com.google.inject.Guice.createInjector(Guice.java:69)
+	at com.google.inject.Guice.createInjector(Guice.java:59)
+    .......
+</code></pre>
 
 <hr />
 
-<h2 id="2-远程连接授权">2、远程连接授权</h2>
+<h2 id="2-问题解决">2、问题解决</h2>
 
-<ul>
-<li>查看mysql库中user表，首先选择数据库 <code>use mysql;</code> ，查看user表中的host、user信息 <code>select host, user from user;</code>
-<figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://i.loli.net/2019/08/03/eQpOjSBJl9vKk1U.png" alt="" class="lazyload"><figcaption class="image-caption"></figcaption></figure></li>
-<li>如果开发主机的IP没有在表中，则需要给开发主机授权， <code>GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION</code> ，这意味着赋予所有主机访问数据库的权限（如果只给单个主机则可以使用 <code>GRANT ALL PRIVILEGES ON *.* TO 'USERNAME'@'USERIP' IDENTIFIED BY 'USERPASSWORD' WITH GRANT OPTION;</code> ）</li>
-<li>刷新权限 <code>FLUSH PRIVILEGES</code></li>
-</ul>
+<p>根据日志信息完全推不出什么有效信息，所以猜想有没有可能是版本的问题，所以下了一个去年的版本，按照之前一样的配置将环境配置好，发现问题解决&hellip;..</p>
 
 <hr />
 
-<h2 id="3-开启mysql主机防火墙的3306端口">3、开启MySQL主机防火墙的3306端口</h2>
+<h2 id="3-感言">3、感言</h2>
 
-<blockquote>
-<p>以Win10为例</p>
-</blockquote>
-
-<ul>
-<li>打开控制面板 - 所有控制面板 - Windows Defender防火墙 - 高级设置
-<figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://i.loli.net/2019/08/03/Hb6LNcRUMAKpqCT.png" alt="高级设置" class="lazyload"><figcaption class="image-caption">高级设置</figcaption></figure></li>
-<li>点击入站规则 - 新建规则 - 选择&rdquo;端口&rdquo;</li>
-<li>应用于TCP，特定本地端口为3306（MySQL的默认端口）</li>
-<li>然后无脑下一步，输入名称（你为这个入站规则起的名字）后点击完成即可</li>
-</ul>
+<p>浪费了很多时间，生气😫</p>
 
 <hr />
-
-<h2 id="参考资料"><em>参考资料</em></h2>
-
-<ul>
-<li><a href="https://gwh-08.iteye.com/blog/1396490" rel="nofollow noreferrer" target="_blank">MySQL授权远程服务</a></li>
-<li><a href="https://jingyan.baidu.com/article/09ea3ede7311dec0afde3977.html" rel="nofollow noreferrer" target="_blank">Win10防火墙开放端口</a></li>
-</ul>
 
     </div>
 
@@ -211,7 +222,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://logycoconut.github.io/2019/002_mysql_remote_access/>https://logycoconut.github.io/2019/002_mysql_remote_access/</span>
+                    <a href=https://logycoconut.github.io/2019/003_maven_compatibility_issue/>https://logycoconut.github.io/2019/003_maven_compatibility_issue/</span>
             </p>
             
              
@@ -227,8 +238,8 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="https://logycoconut.github.io/tags/mysql/">
-                    #Mysql</a></span>
+            <span class="tag"><a href="https://logycoconut.github.io/tags/maven/">
+                    #Maven</a></span>
             
             </section>
         
@@ -240,10 +251,8 @@
 
     <div class="post-nav">
         
-        <a href="https://logycoconut.github.io/2019/001_hugo_blog_build/" class="prev" rel="prev" title="使用Hugo搭建个人博客并部署到Github仓库中"><i class="iconfont icon-left"></i>&nbsp;使用Hugo搭建个人博客并部署到Github仓库中</a>
+        <a href="https://logycoconut.github.io/2019/002_mysql_remote_access/" class="prev" rel="prev" title="远程连接MySQL配置"><i class="iconfont icon-left"></i>&nbsp;远程连接MySQL配置</a>
          
-        
-        <a href="https://logycoconut.github.io/2019/003_maven_compatibility_issue/" class="next" rel="next" title="Maven兼容性问题">Maven兼容性问题&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -309,9 +318,8 @@
 
 
     
-     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
-      
-     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
     
   
 

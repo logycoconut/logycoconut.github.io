@@ -2,7 +2,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>https://logycoco.xyz/categories/</loc>
+      <loc>https://logycoco.xyz/blog/categories/</loc>
       
       <lastmod>2019-10-02T20:03:16+08:00</lastmod>
       
@@ -14,7 +14,7 @@
     </url>
   
     <url>
-      <loc>https://logycoco.xyz/</loc>
+      <loc>https://logycoco.xyz/blog/</loc>
       
       <lastmod>2019-10-02T20:03:16+08:00</lastmod>
       
@@ -26,7 +26,7 @@
     </url>
   
     <url>
-      <loc>https://logycoco.xyz/posts/</loc>
+      <loc>https://logycoco.xyz/blog/posts/</loc>
       
       <lastmod>2019-10-02T20:03:16+08:00</lastmod>
       
@@ -38,7 +38,7 @@
     </url>
   
     <url>
-      <loc>https://logycoco.xyz/tags/spring/</loc>
+      <loc>https://logycoco.xyz/blog/tags/spring/</loc>
       
       <lastmod>2019-10-02T20:03:16+08:00</lastmod>
       
@@ -50,7 +50,7 @@
     </url>
   
     <url>
-      <loc>https://logycoco.xyz/2019/004_spring_notes/</loc>
+      <loc>https://logycoco.xyz/blog/2019/004_spring_notes/</loc>
       
       <lastmod>2019-10-02T20:03:16+08:00</lastmod>
       
@@ -60,19 +60,7 @@
     </url>
   
     <url>
-      <loc>https://logycoco.xyz/tags/</loc>
-      
-      <lastmod>2019-10-02T20:03:16+08:00</lastmod>
-      
-      
-      
-      <priority>0</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/</loc>
+      <loc>https://logycoco.xyz/blog/tags/</loc>
       
       <lastmod>2019-10-02T20:03:16+08:00</lastmod>
       
@@ -84,7 +72,19 @@
     </url>
   
     <url>
-      <loc>https://logycoco.xyz/tags/maven/</loc>
+      <loc>https://logycoco.xyz/blog/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/</loc>
+      
+      <lastmod>2019-10-02T20:03:16+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://logycoco.xyz/blog/tags/maven/</loc>
       
       <lastmod>2019-09-11T21:44:10+08:00</lastmod>
       
@@ -96,7 +96,7 @@
     </url>
   
     <url>
-      <loc>https://logycoco.xyz/2019/003_maven_compatibility_issue/</loc>
+      <loc>https://logycoco.xyz/blog/2019/003_maven_compatibility_issue/</loc>
       
       <lastmod>2019-09-11T21:44:10+08:00</lastmod>
       
@@ -106,7 +106,7 @@
     </url>
   
     <url>
-      <loc>https://logycoco.xyz/tags/mysql/</loc>
+      <loc>https://logycoco.xyz/blog/tags/mysql/</loc>
       
       <lastmod>2019-08-02T23:29:30+08:00</lastmod>
       
@@ -118,7 +118,7 @@
     </url>
   
     <url>
-      <loc>https://logycoco.xyz/2019/002_mysql_remote_access/</loc>
+      <loc>https://logycoco.xyz/blog/2019/002_mysql_remote_access/</loc>
       
       <lastmod>2019-08-02T23:29:30+08:00</lastmod>
       
@@ -128,7 +128,7 @@
     </url>
   
     <url>
-      <loc>https://logycoco.xyz/tags/blog/</loc>
+      <loc>https://logycoco.xyz/blog/tags/blog/</loc>
       
       <lastmod>2019-08-01T21:20:11+08:00</lastmod>
       
@@ -140,7 +140,7 @@
     </url>
   
     <url>
-      <loc>https://logycoco.xyz/tags/hugo/</loc>
+      <loc>https://logycoco.xyz/blog/tags/hugo/</loc>
       
       <lastmod>2019-08-01T21:20:11+08:00</lastmod>
       
@@ -152,7 +152,7 @@
     </url>
   
     <url>
-      <loc>https://logycoco.xyz/2019/001_hugo_blog_build/</loc>
+      <loc>https://logycoco.xyz/blog/2019/001_hugo_blog_build/</loc>
       
       <lastmod>2019-08-01T21:20:11+08:00</lastmod>
       
@@ -162,7 +162,7 @@
     </url>
   
     <url>
-      <loc>https://logycoco.xyz/categories/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</loc>
+      <loc>https://logycoco.xyz/blog/categories/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</loc>
       
       <lastmod>2019-08-01T21:20:11+08:00</lastmod>
       
@@ -174,7 +174,7 @@
     </url>
   
     <url>
-      <loc>https://logycoco.xyz/about/</loc>
+      <loc>https://logycoco.xyz/blog/about/</loc>
       
       <lastmod>2019-07-19T00:00:00+00:00</lastmod>
       

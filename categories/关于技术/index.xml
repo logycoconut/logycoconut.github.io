@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>关于技术 on Logycoconut`s Blog</title>
-    <link>https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/</link>
+    <link>https://logycoco.xyz/blog/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/</link>
     <description>Recent content in 关于技术 on Logycoconut`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 02 Oct 2019 20:03:16 +0800</lastBuildDate>
     
-	<atom:link href="https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://logycoco.xyz/blog/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Spring配置笔记</title>
-      <link>https://logycoco.xyz/2019/004_spring_notes/</link>
+      <link>https://logycoco.xyz/blog/2019/004_spring_notes/</link>
       <pubDate>Wed, 02 Oct 2019 20:03:16 +0800</pubDate>
       
-      <guid>https://logycoco.xyz/2019/004_spring_notes/</guid>
+      <guid>https://logycoco.xyz/blog/2019/004_spring_notes/</guid>
       <description>Spring配置笔记 忘记的时候翻一翻 一、XML配置 1、IOC容器 使用bean标签，除了id和class属性之外没有其他属性和标签时，采用的就</description>
     </item>
     
     <item>
       <title>Maven兼容性问题</title>
-      <link>https://logycoco.xyz/2019/003_maven_compatibility_issue/</link>
+      <link>https://logycoco.xyz/blog/2019/003_maven_compatibility_issue/</link>
       <pubDate>Wed, 11 Sep 2019 21:44:10 +0800</pubDate>
       
-      <guid>https://logycoco.xyz/2019/003_maven_compatibility_issue/</guid>
+      <guid>https://logycoco.xyz/blog/2019/003_maven_compatibility_issue/</guid>
       <description>1、问题背景 在idea集成Maven开发时，新建项目后出现 Unable to import maven project: See logs for details 的问题，百思不得其解，打开idea的log日志后发现有如下报错（</description>
     </item>
     
     <item>
       <title>远程连接MySQL配置</title>
-      <link>https://logycoco.xyz/2019/002_mysql_remote_access/</link>
+      <link>https://logycoco.xyz/blog/2019/002_mysql_remote_access/</link>
       <pubDate>Fri, 02 Aug 2019 23:29:30 +0800</pubDate>
       
-      <guid>https://logycoco.xyz/2019/002_mysql_remote_access/</guid>
+      <guid>https://logycoco.xyz/blog/2019/002_mysql_remote_access/</guid>
       <description>1、问题背景 开发环境与数据库不在一台机器上，需要远程访问数据库进行数据的增删改查。在安装完MySQL，确定开启远程连接权限的情况下，SQLy</description>
     </item>
     

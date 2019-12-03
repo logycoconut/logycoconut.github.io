@@ -1,19 +1,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Logycoconut`s Blog on Logycoconut`s Blog</title>
-    <link>https://logycoco.xyz/</link>
+    <link>https://logycoco.xyz/blog/</link>
     <description>Recent content in Logycoconut`s Blog on Logycoconut`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 02 Oct 2019 20:03:16 +0800</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <atom:link href="/blog/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Spring配置笔记</title>
-      <link>https://logycoco.xyz/2019/004_spring_notes/</link>
+      <link>https://logycoco.xyz/blog/2019/004_spring_notes/</link>
       <pubDate>Wed, 02 Oct 2019 20:03:16 +0800</pubDate>
       
-      <guid>https://logycoco.xyz/2019/004_spring_notes/</guid>
+      <guid>https://logycoco.xyz/blog/2019/004_spring_notes/</guid>
       <description>
 
 &lt;h1 id=&#34;spring配置笔记&#34;&gt;Spring配置笔记&lt;/h1&gt;
@@ -266,10 +266,10 @@ public Object aroundAdvice(ProceedingJoinPoint joinPoint) {
     
     <item>
       <title>Maven兼容性问题</title>
-      <link>https://logycoco.xyz/2019/003_maven_compatibility_issue/</link>
+      <link>https://logycoco.xyz/blog/2019/003_maven_compatibility_issue/</link>
       <pubDate>Wed, 11 Sep 2019 21:44:10 +0800</pubDate>
       
-      <guid>https://logycoco.xyz/2019/003_maven_compatibility_issue/</guid>
+      <guid>https://logycoco.xyz/blog/2019/003_maven_compatibility_issue/</guid>
       <description>
 
 &lt;h2 id=&#34;1-问题背景&#34;&gt;1、问题背景&lt;/h2&gt;
@@ -329,10 +329,10 @@ java.lang.RuntimeException: com.google.inject.CreationException: Unable to creat
     
     <item>
       <title>远程连接MySQL配置</title>
-      <link>https://logycoco.xyz/2019/002_mysql_remote_access/</link>
+      <link>https://logycoco.xyz/blog/2019/002_mysql_remote_access/</link>
       <pubDate>Fri, 02 Aug 2019 23:29:30 +0800</pubDate>
       
-      <guid>https://logycoco.xyz/2019/002_mysql_remote_access/</guid>
+      <guid>https://logycoco.xyz/blog/2019/002_mysql_remote_access/</guid>
       <description>
 
 &lt;h2 id=&#34;1-问题背景&#34;&gt;1、问题背景&lt;/h2&gt;
@@ -379,10 +379,10 @@ java.lang.RuntimeException: com.google.inject.CreationException: Unable to creat
     
     <item>
       <title>使用Hugo搭建个人博客并部署到Github仓库中</title>
-      <link>https://logycoco.xyz/2019/001_hugo_blog_build/</link>
+      <link>https://logycoco.xyz/blog/2019/001_hugo_blog_build/</link>
       <pubDate>Thu, 01 Aug 2019 21:20:11 +0800</pubDate>
       
-      <guid>https://logycoco.xyz/2019/001_hugo_blog_build/</guid>
+      <guid>https://logycoco.xyz/blog/2019/001_hugo_blog_build/</guid>
       <description>
 
 &lt;h2 id=&#34;1-hugo安装&#34;&gt;1、Hugo安装&lt;/h2&gt;
@@ -436,10 +436,10 @@ java.lang.RuntimeException: com.google.inject.CreationException: Unable to creat
     
     <item>
       <title>logycoconut</title>
-      <link>https://logycoco.xyz/about/</link>
+      <link>https://logycoco.xyz/blog/about/</link>
       <pubDate>Fri, 19 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://logycoco.xyz/about/</guid>
+      <guid>https://logycoco.xyz/blog/about/</guid>
       <description>&lt;style&gt;
     @import url(&#39;https://fonts.googleapis.com/css?family=Katibeh&amp;display=swap&#39;);
     .about-info {

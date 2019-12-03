@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mysql on Logycoconut`s Blog</title>
-    <link>https://logycoconut.github.io/tags/mysql/</link>
+    <link>https://logycoco.xyz/tags/mysql/</link>
     <description>Recent content in Mysql on Logycoconut`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 02 Aug 2019 23:29:30 +0800</lastBuildDate>
     
-	<atom:link href="https://logycoconut.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://logycoco.xyz/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>远程连接MySQL配置</title>
-      <link>https://logycoconut.github.io/2019/002_mysql_remote_access/</link>
+      <link>https://logycoco.xyz/2019/002_mysql_remote_access/</link>
       <pubDate>Fri, 02 Aug 2019 23:29:30 +0800</pubDate>
       
-      <guid>https://logycoconut.github.io/2019/002_mysql_remote_access/</guid>
+      <guid>https://logycoco.xyz/2019/002_mysql_remote_access/</guid>
       <description>1、问题背景 开发环境与数据库不在一台机器上，需要远程访问数据库进行数据的增删改查。在安装完MySQL，确定开启远程连接权限的情况下，SQLy</description>
     </item>
     

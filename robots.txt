@@ -63,4 +63,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://logycoconut.github.io/sitemap.xml
+Sitemap: https://logycoco.xyz/sitemap.xml

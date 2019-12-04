@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Logycoconut`s Blog</title>
-    <link>https://logycoco.xyz/blog/categories/</link>
+    <link>https://logycoco.xyz/categories/</link>
     <description>Recent content in Categories on Logycoconut`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 02 Oct 2019 20:03:16 +0800</lastBuildDate>
     
-	<atom:link href="https://logycoco.xyz/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://logycoco.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>关于技术</title>
-      <link>https://logycoco.xyz/blog/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/</link>
+      <link>https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/</link>
       <pubDate>Wed, 02 Oct 2019 20:03:16 +0800</pubDate>
       
-      <guid>https://logycoco.xyz/blog/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/</guid>
+      <guid>https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/</guid>
       <description></description>
     </item>
     
     <item>
       <title>折腾博客</title>
-      <link>https://logycoco.xyz/blog/categories/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://logycoco.xyz/categories/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Thu, 01 Aug 2019 21:20:11 +0800</pubDate>
       
-      <guid>https://logycoco.xyz/blog/categories/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://logycoco.xyz/categories/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</guid>
       <description></description>
     </item>
     

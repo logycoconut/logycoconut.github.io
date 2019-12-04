@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Spring on Logycoconut`s Blog</title>
-    <link>https://logycoco.xyz/blog/tags/spring/</link>
+    <link>https://logycoco.xyz/tags/spring/</link>
     <description>Recent content in Spring on Logycoconut`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 02 Oct 2019 20:03:16 +0800</lastBuildDate>
     
-	<atom:link href="https://logycoco.xyz/blog/tags/spring/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://logycoco.xyz/tags/spring/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Spring配置笔记</title>
-      <link>https://logycoco.xyz/blog/2019/004_spring_notes/</link>
+      <link>https://logycoco.xyz/2019/004_spring_notes/</link>
       <pubDate>Wed, 02 Oct 2019 20:03:16 +0800</pubDate>
       
-      <guid>https://logycoco.xyz/blog/2019/004_spring_notes/</guid>
+      <guid>https://logycoco.xyz/2019/004_spring_notes/</guid>
       <description>Spring配置笔记 忘记的时候翻一翻 一、XML配置 1、IOC容器 使用bean标签，除了id和class属性之外没有其他属性和标签时，采用的就</description>
     </item>
     

@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Logycoconut`s Blog</title>
-    <link>https://logycoco.xyz/blog/tags/</link>
+    <link>https://logycoco.xyz/tags/</link>
     <description>Recent content in Tags on Logycoconut`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 02 Oct 2019 20:03:16 +0800</lastBuildDate>
     
-	<atom:link href="https://logycoco.xyz/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://logycoco.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Spring</title>
-      <link>https://logycoco.xyz/blog/tags/spring/</link>
+      <link>https://logycoco.xyz/tags/spring/</link>
       <pubDate>Wed, 02 Oct 2019 20:03:16 +0800</pubDate>
       
-      <guid>https://logycoco.xyz/blog/tags/spring/</guid>
+      <guid>https://logycoco.xyz/tags/spring/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maven</title>
-      <link>https://logycoco.xyz/blog/tags/maven/</link>
+      <link>https://logycoco.xyz/tags/maven/</link>
       <pubDate>Wed, 11 Sep 2019 21:44:10 +0800</pubDate>
       
-      <guid>https://logycoco.xyz/blog/tags/maven/</guid>
+      <guid>https://logycoco.xyz/tags/maven/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mysql</title>
-      <link>https://logycoco.xyz/blog/tags/mysql/</link>
+      <link>https://logycoco.xyz/tags/mysql/</link>
       <pubDate>Fri, 02 Aug 2019 23:29:30 +0800</pubDate>
       
-      <guid>https://logycoco.xyz/blog/tags/mysql/</guid>
+      <guid>https://logycoco.xyz/tags/mysql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blog</title>
-      <link>https://logycoco.xyz/blog/tags/blog/</link>
+      <link>https://logycoco.xyz/tags/blog/</link>
       <pubDate>Thu, 01 Aug 2019 21:20:11 +0800</pubDate>
       
-      <guid>https://logycoco.xyz/blog/tags/blog/</guid>
+      <guid>https://logycoco.xyz/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://logycoco.xyz/blog/tags/hugo/</link>
+      <link>https://logycoco.xyz/tags/hugo/</link>
       <pubDate>Thu, 01 Aug 2019 21:20:11 +0800</pubDate>
       
-      <guid>https://logycoco.xyz/blog/tags/hugo/</guid>
+      <guid>https://logycoco.xyz/tags/hugo/</guid>
       <description></description>
     </item>
     

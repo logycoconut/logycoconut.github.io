@@ -138,6 +138,51 @@
                 <span class="post-word-count">, 494 words</span>
         </div>
     </header>
+
+    
+        <div class="post-toc" id="post-toc">
+    <h2 class="post-toc-title"></h2>
+    
+    <div class="post-toc-content always-active">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#1hugo">1、Hugo安装</a></li>
+    <li><a href="#2hugo">2、Hugo使用</a></li>
+    <li><a href="#3github">3、部署至GitHub仓库</a></li>
+    <li><a href="#heading">参考资料</a></li>
+  </ul>
+</nav>
+    </div>
+  </div>
+  <script type="text/javascript">
+    window.onload = function () {
+      var fix = $('.post-toc');
+      var end = $('.post-comment');
+      var fixTop = fix.offset().top, fixHeight = fix.height();
+      var endTop, miss;
+      var offsetTop = fix[0].offsetTop;
+      $(window).scroll(function () {
+        var docTop = Math.max(document.body.scrollTop, document.documentElement.scrollTop);
+        if (end.length > 0) {
+          endTop = end.offset().top;
+          miss = endTop - docTop - fixHeight;
+        }
+        if (fixTop < docTop) {
+          fix.css({ 'position': 'fixed' });
+          if ((end.length > 0) && (endTop < (docTop + fixHeight))) {
+            fix.css({ top: miss });
+          } else {
+            fix.css({ top: 0 });
+          }
+        } else {
+          fix.css({ 'position': 'absolute' });
+          fix.css({ top: offsetTop });
+        }
+      })
+    }
+  </script> 
+    
+
     <div class="post-content">
         
 
@@ -156,53 +201,41 @@
           
           
 
-          
-
-<h2 id="1-hugo安装">1、Hugo安装</h2>
-
+          <h2 id="1hugo">1、Hugo安装</h2>
 <ul>
-<li>在Hugo的<a href="https://github.com/gohugoio/hugo/releases" rel="nofollow noreferrer" target="_blank">官方Github仓库</a>中下载对应的安装包</li>
+<li>在Hugo的<a href="https://github.com/gohugoio/hugo/releases">官方Github仓库</a>中下载对应的安装包</li>
 <li>将zip文件解压后放在自己想放的位置，然后将hugo.exe所在的目录添加到 Windows 的系统环境变量的 PATH 中即可</li>
 <li>在终端中输入 <code>hugo</code> 并回车，查看是否配置成功</li>
 </ul>
-
-<hr />
-
-<h2 id="2-hugo使用">2、Hugo使用</h2>
-
+<hr>
+<h2 id="2hugo">2、Hugo使用</h2>
 <ul>
 <li>在终端中切换目录至你想放置博客目录的位置，输入 <code>hugo new site BLOG</code>
 ( <em>BLOG就是博客的根目录名字</em> )</li>
-<li>在<a href="https://themes.gohugo.io/" rel="nofollow noreferrer" target="_blank">Hugo主题官网</a>中下载喜欢的主题,以m10c为例，在博客根目录输入 <code>git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c</code> 完成下载
+<li>在<a href="https://themes.gohugo.io/">Hugo主题官网</a>中下载喜欢的主题,以m10c为例，在博客根目录输入 <code>git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c</code> 完成下载
 ( <em>Hugo默认没有主题，必须安装主题后才能使用</em> )
-<figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://i.loli.net/2019/08/02/5d43f7e8b8c9f89663.png" alt="themes文件夹中多了一个主题" class="lazyload"><figcaption class="image-caption">themes文件夹中多了一个主题</figcaption></figure></li>
+<img src="https://i.loli.net/2019/08/02/5d43f7e8b8c9f89663.png" alt="themes文件夹中多了一个主题"></li>
 <li>在终端中输入 <code>hugo server -t m10c --buildDrafts</code> 启动服务
-<figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://i.loli.net/2019/08/02/5d43f80f763c862373.png" alt="访问本地1313端口" class="lazyload"><figcaption class="image-caption">访问本地1313端口</figcaption></figure></li>
+<img src="https://i.loli.net/2019/08/02/5d43f80f763c862373.png" alt="访问本地1313端口"></li>
 <li>在根目录输入 <code>hugo new posts/xxxx.md</code> 在posts创建一篇新的博客
-<figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://i.loli.net/2019/08/02/5d43f8257bbf165069.png" alt="博客默认开头" class="lazyload"><figcaption class="image-caption">博客默认开头</figcaption></figure></li>
+<img src="https://i.loli.net/2019/08/02/5d43f8257bbf165069.png" alt="博客默认开头"></li>
 <li>现在启动服务器即可看到新增的那篇文章</li>
 </ul>
-
-<hr />
-
-<h2 id="3-部署至github仓库">3、部署至GitHub仓库</h2>
-
+<hr>
+<h2 id="3github">3、部署至GitHub仓库</h2>
 <ul>
-<li>在个人GitHub新增一个名为 <code>NAME.github.io</code> 的仓库，NAME更换为自己的昵称小写<figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://i.loli.net/2019/08/02/5d43f834c390d56402.png" alt="image.png" class="lazyload"><figcaption class="image-caption">image.png</figcaption></figure></li>
+<li>在个人GitHub新增一个名为 <code>NAME.github.io</code> 的仓库，NAME更换为自己的昵称小写<img src="https://i.loli.net/2019/08/02/5d43f834c390d56402.png" alt="image.png"></li>
 <li>在根目录输入 <code>hugo --theme=m10c --baseUrl=&quot;https://NAME.github.io/&quot;  --buildDrafts</code> ，目录下会生成public文件夹</li>
 <li>cd到public文件夹中，输入 <code>git init</code> 将public文件夹初始化为一个git仓库</li>
 <li>输入 <code>git add .</code>将所有改变提交到暂存区，输入 <code>git commit -m &quot;注释&quot;</code> 将改变提交到仓库</li>
 <li>输入 <code>git remote add origin git@github.com:logycoconut/logycoconut.github.io.git</code> ，使得本地仓库与远端仓库关联</li>
 <li>输入 <code>git push -u origin master</code> 推到远端的仓库中</li>
 </ul>
-
-<hr />
-
-<h2 id="参考资料"><em>参考资料</em></h2>
-
+<hr>
+<h2 id="heading"><em>参考资料</em></h2>
 <ul>
-<li><a href="https://www.bilibili.com/video/av51574688?t=870" rel="nofollow noreferrer" target="_blank">B站CodeSheep教程</a></li>
-<li><a href="https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416" rel="nofollow noreferrer" target="_blank">Git远程仓库教程</a></li>
+<li><a href="https://www.bilibili.com/video/av51574688?t=870">B站CodeSheep教程</a></li>
+<li><a href="https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416">Git远程仓库教程</a></li>
 </ul>
 
     </div>
@@ -255,33 +288,33 @@
         
     </div>
 
-    <div class="post-comment">
-          
-                 
-          
-          
-<div id="gitalk-container"></div>
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-<script>
-  const gitalk = new Gitalk({
-    clientID: 'd90032d05f05e501fdba',
-    clientSecret: '60ce281109be3b8b4a7f0440c1054fadf7a45697',
-    repo: 'logycoconut.github.io',
-    owner: 'logycoconut',
-    admin: ['logycoconut'],
-    id: location.pathname, 
-    distractionFreeMode: false 
-  });
-  (function() {
-    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-      document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
-      return;
-    }
-    gitalk.render('gitalk-container');
-  })();
-</script>
+    
 
+    <div class="post-comment">
+        
+              
+              
+              <span id="/2019/001_hugo_blog_build/" class="leancloud_visitors" data-flag-title="使用Hugo搭建个人博客并部署到Github仓库中">
+                  <span class="post-meta-item-text">访问量 </span>
+                  <span class="leancloud-visitors-count"></span>
+                  <p></p>
+              </span>
+              <div id="vcomments"></div>
+              <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+              <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+              <script type="text/javascript">
+                  new Valine({
+                      el: '#vcomments' ,
+                      appId: 'StEymzkNLSKQUScNukHRuQVx-gzGzoHsz',
+                      appKey: 'pL74IWizdQgqxiD9bHivwzQJ',
+                      notify:  false ,
+                      verify:  false ,
+                      avatar:'mp',
+                      placeholder: '说点什么吧...',
+                      visitor:  true 
+                  });
+              </script>
+        
     </div>
 </article>
           </div>

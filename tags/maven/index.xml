@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Maven on Logycoconut`s Blog</title>
+    <title>Maven on logycoconut`s blog</title>
     <link>https://logycoco.xyz/tags/maven/</link>
-    <description>Recent content in Maven on Logycoconut`s Blog</description>
+    <description>Recent content in Maven on logycoconut`s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 11 Sep 2019 21:44:10 +0800</lastBuildDate>

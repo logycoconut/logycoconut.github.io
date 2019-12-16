@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mysql on Logycoconut`s Blog</title>
+    <title>Mysql on logycoconut`s blog</title>
     <link>https://logycoco.xyz/tags/mysql/</link>
-    <description>Recent content in Mysql on Logycoconut`s Blog</description>
+    <description>Recent content in Mysql on logycoconut`s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 02 Aug 2019 23:29:30 +0800</lastBuildDate>

@@ -6,10 +6,28 @@
     <description>Recent content in Tags on logycoconut`s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 02 Oct 2019 20:03:16 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2019 16:42:46 +0800</lastBuildDate>
     
 	<atom:link href="https://logycoco.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Oracle</title>
+      <link>https://logycoco.xyz/tags/oracle/</link>
+      <pubDate>Wed, 18 Dec 2019 16:42:46 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/tags/oracle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SpringMVC</title>
+      <link>https://logycoco.xyz/tags/springmvc/</link>
+      <pubDate>Sun, 06 Oct 2019 18:53:39 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/tags/springmvc/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Spring</title>

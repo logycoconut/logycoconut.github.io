@@ -53,7 +53,7 @@
       <pubDate>Fri, 02 Aug 2019 23:29:30 +0800</pubDate>
       
       <guid>https://logycoco.xyz/2019/002_mysql_remote_access/</guid>
-      <description>1、问题背景 开发环境与数据库不在一台机器上，需要远程访问数据库进行数据的增删改查。在安装完MySQL，确定开启远程连接权限的情况下，SQLy</description>
+      <description>问题背景 开发环境与数据库不在一台机器上，需要远程访问数据库进行数据的增删改查。在安装完MySQL，确定开启远程连接权限的情况下，SQLyog</description>
     </item>
     
     <item>
@@ -62,7 +62,7 @@
       <pubDate>Thu, 01 Aug 2019 21:20:11 +0800</pubDate>
       
       <guid>https://logycoco.xyz/2019/001_hugo_blog_build/</guid>
-      <description>1、Hugo安装 在Hugo的官方Github仓库中下载对应的安装包 将zip文件解压后放在自己想放的位置，然后将hugo.exe所在的目录添加</description>
+      <description>Hugo安装 在Hugo的官方Github仓库中下载对应的安装包 将zip文件解压后放在自己想放的位置，然后将hugo.exe所在的目录添加到 Windows</description>
     </item>
     
   </channel>

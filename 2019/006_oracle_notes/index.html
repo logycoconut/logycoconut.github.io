@@ -57,7 +57,7 @@
     "datePublished": "2019-12-18 16:42:46 \x2b0800 CST",
     "dateModified" : "2019-12-18 16:42:46 \x2b0800 CST",
     "url" : "https:\/\/logycoco.xyz\/2019\/006_oracle_notes\/",
-    "wordCount" : "4644",
+    "wordCount" : "4828",
     "keywords" : [ "Oracle", "logycoconut`s blog"]
 }
 </script>
@@ -135,7 +135,7 @@
                         <a href="https://logycoco.xyz/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"> 数据库 </a>
                         
                 </span>
-                <span class="post-word-count">, 4644 words</span>
+                <span class="post-word-count">, 4828 words</span>
         </div>
     </header>
 
@@ -172,6 +172,7 @@
         <li><a href="#heading14">触发器</a></li>
       </ul>
     </li>
+    <li><a href="#oracle2">Oracle的奇技淫巧</a></li>
   </ul>
 </nav>
     </div>
@@ -839,6 +840,29 @@ insert into person (pname) values ('a');
 commit;
 insert into person values (1, 'b');
 commit;
+</code></pre><h2 id="oracle2">Oracle的奇技淫巧</h2>
+<ul>
+<li><strong>生成数字结果集</strong></li>
+</ul>
+<pre><code>--lpad 将左边的字符串截取后填充一些特定的字符，使其达到指定的长度
+select lpad(level,2,0) from dual
+connect by level&lt;13  构造序列
+</code></pre><ul>
+<li><strong>获取日期的结果集</strong></li>
+</ul>
+<pre><code>select to_char((sysdate + rownum - 10), 'mm-dd') d1
+from user_objects
+where rownum &lt;= 10;
+</code></pre><ul>
+<li><strong>日期转换</strong></li>
+</ul>
+<pre><code>select trunc(sysdate) from dual;                          --返回今天日期
+select trunc(sysdate,'dd') from dual;                     --返回今天日期
+select trunc(sysdate, 'mm')  from dual;                   --返回当月第一天
+select trunc(sysdate,'d') from dual ;                     --返回当前星期的第一天(星期天)
+select trunc(sysdate,'yy') from dual;                     --返回当年第一天
+select trunc(sysdate,'yyyy') from dual;                   --返回当年第一天
+select add_months(trunc(sysdate,'yyyy'),12)-1 from dual;  -- 返回当年最后一天
 </code></pre>
     </div>
 

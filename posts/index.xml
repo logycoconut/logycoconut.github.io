@@ -6,10 +6,19 @@
     <description>Recent content in Posts on logycoconut`s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 18 Dec 2019 16:42:46 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 22 Dec 2019 13:16:58 +0800</lastBuildDate>
     
 	<atom:link href="https://logycoco.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>优雅地使用Git</title>
+      <link>https://logycoco.xyz/2019/007_use_git_gracefully/</link>
+      <pubDate>Sun, 22 Dec 2019 13:16:58 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2019/007_use_git_gracefully/</guid>
+      <description>Git教程 Git思维导图 gitmoji使用 emoji不能随意的使用，在gitmoji官网中就有着不同emoji对应着的不同释义 提交格式 git commit -m</description>
+    </item>
     
     <item>
       <title>Oracle基础入门笔记</title>

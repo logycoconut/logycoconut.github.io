@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="https://logycoco.xyz/2019/006_oracle_notes/" />
-  <link rel="next" href="https://logycoco.xyz/2020/008_spring_security_notes/" />
-  <link rel="canonical" href="https://logycoco.xyz/2019/007_use_git_gracefully/" />
+  <link rel="prev" href="https://logycoco.xyz/2019/007_use_git_gracefully/" />
+  
+  <link rel="canonical" href="https://logycoco.xyz/2020/008_spring_security_notes/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           优雅地使用Git | logycoconut`s blog
+           Spring Security折腾小记🐵 | logycoconut`s blog
        
   </title>
-  <meta name="title" content="优雅地使用Git | logycoconut`s blog">
+  <meta name="title" content="Spring Security折腾小记🐵 | logycoconut`s blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,21 +44,21 @@
          "@id": "https:\/\/logycoco.xyz\/"
     },
     "articleSection" : "posts",
-    "name" : "优雅地使用Git",
-    "headline" : "优雅地使用Git",
-    "description" : "Git教程 Git思维导图 gitmoji使用 emoji不能随意的使用，在gitmoji官网中就有着不同emoji对应着的不同释义 提交格式 git commit -m",
+    "name" : "Spring Security折腾小记🐵",
+    "headline" : "Spring Security折腾小记🐵",
+    "description" : "使用Spring Security过程中遇到的问题 web.xml配置 \x26lt;!--指定spring-security配置文件的路径--\x26gt;",
     "inLanguage" : "zh-cn",
     "author" : "logycoconut",
     "creator" : "logycoconut",
     "publisher": "logycoconut",
     "accountablePerson" : "logycoconut",
     "copyrightHolder" : "logycoconut",
-    "copyrightYear" : "2019",
-    "datePublished": "2019-12-22 13:16:58 \x2b0800 CST",
-    "dateModified" : "2019-12-22 13:16:58 \x2b0800 CST",
-    "url" : "https:\/\/logycoco.xyz\/2019\/007_use_git_gracefully\/",
-    "wordCount" : "203",
-    "keywords" : [ "git", "logycoconut`s blog"]
+    "copyrightYear" : "2020",
+    "datePublished": "2020-01-02 21:03:09 \x2b0800 CST",
+    "dateModified" : "2020-01-02 21:03:09 \x2b0800 CST",
+    "url" : "https:\/\/logycoco.xyz\/2020\/008_spring_security_notes\/",
+    "wordCount" : "736",
+    "keywords" : [ "spring security", "logycoconut`s blog"]
 }
 </script>
 
@@ -123,19 +123,19 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">优雅地使用Git</h1>
+        <h1 class="post-title" itemprop="name headline">Spring Security折腾小记🐵</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://logycoco.xyz/" rel="author">logycoconut</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2019-12-22 itemprop="datePublished">December 22, 2019</time>
+                on <time datetime=2020-01-02 itemprop="datePublished">January 2, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="https://logycoco.xyz/categories/version-control/"> version control </a>
+                        <a href="https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/"> 关于技术 </a>
                         
                 </span>
-                <span class="post-word-count">, 203 words</span>
+                <span class="post-word-count">, 736 words</span>
         </div>
     </header>
 
@@ -146,14 +146,10 @@
     <div class="post-toc-content always-active">
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#git">Git教程</a></li>
-    <li><a href="#gitmoji">gitmoji使用</a>
-      <ul>
-        <li><a href="#heading">提交格式</a></li>
-        <li><a href="#moji">常用的几个moji表情</a></li>
-      </ul>
-    </li>
-    <li><a href="#heading1">参考链接</a></li>
+    <li><a href="#webxml">web.xml配置</a></li>
+    <li><a href="#springsecurityxml">spring-security.xml配置</a></li>
+    <li><a href="#userdetailsservice">UserDetailsService接口</a></li>
+    <li><a href="#heading">方法权限控制</a></li>
   </ul>
 </nav>
     </div>
@@ -203,71 +199,125 @@
           
           
 
-          <h2 id="git">Git教程</h2>
-<p><a href="https://www.processon.com/view/link/5c6e2755e4b03334b523ffc3#map">Git思维导图</a></p>
-<h2 id="gitmoji">gitmoji使用</h2>
-<blockquote>
-<p>emoji不能随意的使用，在gitmoji官网中就有着不同emoji对应着的不同释义</p>
+          <blockquote>
+<p>使用Spring Security过程中遇到的问题</p>
 </blockquote>
-<h3 id="heading">提交格式</h3>
-<p><code>git commit -m ':emojicode: gitmoji演示'</code></p>
-<h3 id="moji">常用的几个moji表情</h3>
-<table>
-<thead>
-<tr>
-<th align="center">emoji</th>
-<th align="center">emoji代码</th>
-<th align="center">说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">🎨</td>
-<td align="center"><code>art</code></td>
-<td align="center">改进代码结构/代码格式</td>
-</tr>
-<tr>
-<td align="center">🐛</td>
-<td align="center"><code>bug</code></td>
-<td align="center">修复bug</td>
-</tr>
-<tr>
-<td align="center">⚡️</td>
-<td align="center"><code>zap</code></td>
-<td align="center">提升性能</td>
-</tr>
-<tr>
-<td align="center">🔥</td>
-<td align="center"><code>fire</code></td>
-<td align="center">移除代码或文件</td>
-</tr>
-<tr>
-<td align="center">📝</td>
-<td align="center"><code>memo</code></td>
-<td align="center">写文档</td>
-</tr>
-<tr>
-<td align="center">✅</td>
-<td align="center"><code>ite_check_mark</code></td>
-<td align="center">增加测试</td>
-</tr>
-<tr>
-<td align="center">🔒</td>
-<td align="center"><code>lock</code></td>
-<td align="center">修复安全问题</td>
-</tr>
-<tr>
-<td align="center">💩</td>
-<td align="center"><code>hankey</code></td>
-<td align="center">编写需要改进的错误代码</td>
-</tr>
-</tbody>
-</table>
-<h2 id="heading1">参考链接</h2>
-<p><a href="https://gitmoji.carloscuesta.me/">gitmoji文档</a></p>
-<p><a href="https://www.wenjunjiang.win/2016/11/22/gitmoji%E7%9A%84%E4%BD%BF%E7%94%A8/">一个老哥整理的中文翻译</a></p>
-<p><a href="https://github.com/geeeeeeeeek/git-recipes/wiki">高质量的 Git 中文教程</a></p>
+<h2 id="webxml"><strong>web.xml配置</strong></h2>
+<pre><code>&lt;!--指定spring-security配置文件的路径--&gt;
+&lt;context-param&gt;
+    &lt;param-name&gt;contextConfigLocation&lt;/param-name&gt;
+    &lt;param-value&gt;classpath:spring-security.xml&lt;/param-value&gt;
+&lt;/context-param&gt;
 
+&lt;!--过滤器的名字不能变--&gt;
+&lt;filter&gt;
+    &lt;filter-name&gt;springSecurityFilterChain&lt;/filter-name&gt;
+    &lt;filter-class&gt;org.springframework.web.filter.DelegatingFilterProxy&lt;/filter-class&gt;
+&lt;/filter&gt;
+&lt;filter-mapping&gt;
+    &lt;filter-name&gt;springSecurityFilterChain&lt;/filter-name&gt;
+    &lt;url-pattern&gt;/*&lt;/url-pattern&gt;
+&lt;/filter-mapping&gt;
+
+&lt;!--配置监听器--&gt;
+&lt;listener&gt;
+    &lt;listener-class&gt;org.springframework.web.context.ContextLoaderListener&lt;/listener-class&gt;
+&lt;/listener&gt;
+</code></pre><h2 id="springsecurityxml"><strong>spring-security.xml配置</strong></h2>
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;
+       xmlns:security=&quot;http://www.springframework.org/schema/security&quot;
+       xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+       xsi:schemaLocation=&quot;http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/security
+    http://www.springframework.org/schema/security/spring-security.xsd&quot;&gt;
+
+    &lt;security:global-method-security jsr250-annotations=&quot;enabled&quot; secured-annotations=&quot;enabled&quot; /&gt;
+
+    &lt;!-- 配置不拦截的资源 --&gt;
+    &lt;security:http pattern=&quot;/login.jsp&quot; security=&quot;none&quot;/&gt;
+    &lt;security:http pattern=&quot;/failure.jsp&quot; security=&quot;none&quot;/&gt;
+    &lt;security:http pattern=&quot;/css/**&quot; security=&quot;none&quot;/&gt;
+    &lt;security:http pattern=&quot;/img/**&quot; security=&quot;none&quot;/&gt;
+    &lt;security:http pattern=&quot;/plugins/**&quot; security=&quot;none&quot;/&gt;
+
+    &lt;!--配置具体的规则--&gt;
+    &lt;security:http auto-config=&quot;true&quot; use-expressions=&quot;false&quot;&gt;
+        &lt;!-- 配置拦截的规则 --&gt;
+        &lt;security:intercept-url pattern=&quot;/**&quot; access=&quot;ROLE_USER,ROLE_ADMIN&quot;/&gt;
+
+        &lt;!-- 定义跳转的具体的页面 --&gt;
+        &lt;security:form-login
+                login-page=&quot;/login.jsp&quot;
+                login-processing-url=&quot;/login.do&quot;
+                default-target-url=&quot;/index.jsp&quot;
+                authentication-failure-url=&quot;/failer.jsp&quot;
+                authentication-success-forward-url=&quot;/pages/main.jsp&quot;
+        /&gt;
+
+        &lt;!-- 关闭跨域请求 --&gt;
+        &lt;security:csrf disabled=&quot;true&quot;/&gt;
+
+        &lt;!-- 退出 --&gt;
+        &lt;security:logout invalidate-session=&quot;true&quot; logout-url=&quot;/logout.do&quot; logout-success-url=&quot;/login.jsp&quot;/&gt;
+
+    &lt;/security:http&gt;
+
+    &lt;!-- 使用数据库中的用户名和密码 --&gt;
+    &lt;security:authentication-manager&gt;
+        &lt;!--配置自己编写的userService--&gt;
+        &lt;security:authentication-provider user-service-ref=&quot;userService&quot;&gt;
+            &lt;!-- 配置加密的方式 --&gt;
+            &lt;security:password-encoder ref=&quot;passwordEncoder&quot;/&gt;
+        &lt;/security:authentication-provider&gt;
+    &lt;/security:authentication-manager&gt;
+
+    &lt;!-- 配置加密类 --&gt;
+    &lt;bean id=&quot;passwordEncoder&quot; class=&quot;org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder&quot;/&gt;
+
+&lt;/beans&gt;
+</code></pre><h2 id="userdetailsservice"><strong>UserDetailsService接口</strong></h2>
+<blockquote>
+<p>Spring Security框架已经为我们写好了用户认证的流程，我们只需编写继承自UserDetailsService的用户服务层，并重写loadUserByUsername方法即可</p>
+</blockquote>
+<pre><code>@Service
+public class UserService implements IUserService {
+
+    // 查询出数据库中的userinfo并将其封装到框架为我们提供的User类中
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        UserInfo userinfo = null;
+        try {
+            userinfo = userDao.findByUsername(username);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        // 处理自己的用户对象封装成UserDetails
+        return new User(userinfo.getUsername(), userinfo.getPassword(), getAuthority(userinfo.getRoles()));
+    }
+    
+    // 返回一个List集合，集合中装入的是角色描述
+    private List&lt;SimpleGrantedAuthority&gt; getAuthority(List&lt;Role&gt; roles) {
+    
+        List&lt;SimpleGrantedAuthority&gt; list = new ArrayList&lt;&gt;();
+        for (Role role : roles) {
+            list.add(new SimpleGrantedAuthority(&quot;ROLE_&quot; + role.getRoleName()));
+        }
+        return list;
+    }
+ }
+</code></pre><h2 id="heading"><strong>方法权限控制</strong></h2>
+<pre><code>// JSR-250
+@RolesAllowed(&quot;ROLE_USER&quot;)表示访问对应方法时所应该具有的角色
+@PermitAll表示允许所有的角色进行访问，也就是说不进行权限控制 
+@DenyAll是和PermitAll相反的，表示无论什么角色都不能访问 
+
+// secured注解
+@Secured(&quot;ROLE_USER&quot;)
+
+// 支持表达式的注解
+</code></pre>
     </div>
 
     <div class="post-copyright">
@@ -281,7 +331,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://logycoco.xyz/2019/007_use_git_gracefully/>https://logycoco.xyz/2019/007_use_git_gracefully/</span>
+                    <a href=https://logycoco.xyz/2020/008_spring_security_notes/>https://logycoco.xyz/2020/008_spring_security_notes/</span>
             </p>
             
              
@@ -297,8 +347,8 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="https://logycoco.xyz/tags/git/">
-                    #git</a></span>
+            <span class="tag"><a href="https://logycoco.xyz/tags/spring-security/">
+                    #spring security</a></span>
             
             </section>
         
@@ -310,10 +360,8 @@
 
     <div class="post-nav">
         
-        <a href="https://logycoco.xyz/2019/006_oracle_notes/" class="prev" rel="prev" title="Oracle基础入门笔记"><i class="iconfont icon-left"></i>&nbsp;Oracle基础入门笔记</a>
+        <a href="https://logycoco.xyz/2019/007_use_git_gracefully/" class="prev" rel="prev" title="优雅地使用Git"><i class="iconfont icon-left"></i>&nbsp;优雅地使用Git</a>
          
-        
-        <a href="https://logycoco.xyz/2020/008_spring_security_notes/" class="next" rel="next" title="Spring Security折腾小记🐵">Spring Security折腾小记🐵&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -323,7 +371,7 @@
         
               
               
-              <span id="/2019/007_use_git_gracefully/" class="leancloud_visitors" data-flag-title="优雅地使用Git">
+              <span id="/2020/008_spring_security_notes/" class="leancloud_visitors" data-flag-title="Spring Security折腾小记🐵">
                   <span class="post-meta-item-text">访问量 </span>
                   <span class="leancloud-visitors-count"></span>
                   <p></p>

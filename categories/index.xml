@@ -6,10 +6,19 @@
     <description>Recent content in Categories on logycoconut`s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 22 Dec 2019 13:16:58 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2020 21:03:09 +0800</lastBuildDate>
     
 	<atom:link href="https://logycoco.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>关于技术</title>
+      <link>https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Thu, 02 Jan 2020 21:03:09 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>version control</title>
@@ -26,15 +35,6 @@
       <pubDate>Wed, 18 Dec 2019 16:42:46 +0800</pubDate>
       
       <guid>https://logycoco.xyz/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>关于技术</title>
-      <link>https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/</link>
-      <pubDate>Sun, 06 Oct 2019 18:53:39 +0800</pubDate>
-      
-      <guid>https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/</guid>
       <description></description>
     </item>
     

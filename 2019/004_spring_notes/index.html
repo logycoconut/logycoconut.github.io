@@ -46,7 +46,7 @@
     "articleSection" : "posts",
     "name" : "Spring配置笔记",
     "headline" : "Spring配置笔记",
-    "description" : "忘记的时候翻一翻 一、XML配置 1、IOC容器 使用bean标签，除了id和class属性之外没有其他属性和标签时，采用的就是默认构造函数创建b",
+    "description" : "忘记的时候翻一翻 XML配置 IOC容器 使用bean标签，除了id和class属性之外没有其他属性和标签时，采用的就是默认构造函数创建bean对",
     "inLanguage" : "zh-cn",
     "author" : "logycoconut",
     "creator" : "logycoconut",
@@ -57,7 +57,7 @@
     "datePublished": "2019-10-02 20:03:16 \x2b0800 CST",
     "dateModified" : "2019-10-02 20:03:16 \x2b0800 CST",
     "url" : "https:\/\/logycoco.xyz\/2019\/004_spring_notes\/",
-    "wordCount" : "1790",
+    "wordCount" : "1906",
     "keywords" : [ "Spring", "logycoconut`s blog"]
 }
 </script>
@@ -135,7 +135,7 @@
                         <a href="https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/"> 关于技术 </a>
                         
                 </span>
-                <span class="post-word-count">, 1790 words</span>
+                <span class="post-word-count">, 1906 words</span>
         </div>
     </header>
 
@@ -146,15 +146,19 @@
     <div class="post-toc-content always-active">
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#xml">一、XML配置</a>
+    <li><a href="#xml">XML配置</a>
       <ul>
-        <li><a href="#1ioc">1、IOC容器</a></li>
-        <li><a href="#2di">2、DI依赖注入</a></li>
-        <li><a href="#3aop">3、AOP面向切面</a></li>
-        <li><a href="#4spring">4、Spring事务</a></li>
+        <li><a href="#ioc">IOC容器</a></li>
+        <li><a href="#di">DI依赖注入</a></li>
+        <li><a href="#aop">AOP面向切面</a></li>
+        <li><a href="#spring">Spring事务</a></li>
       </ul>
     </li>
-    <li><a href="#heading3">二、注解配置</a></li>
+    <li><a href="#heading3">注解配置</a>
+      <ul>
+        <li><a href="#joinpoint">JoinPoint类型的几个方法</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
     </div>
@@ -207,8 +211,8 @@
           <blockquote>
 <p>忘记的时候翻一翻</p>
 </blockquote>
-<h2 id="xml"><strong>一、XML配置</strong></h2>
-<h3 id="1ioc"><strong>1、IOC容器</strong></h3>
+<h2 id="xml"><strong>XML配置</strong></h2>
+<h3 id="ioc"><strong>IOC容器</strong></h3>
 <p><em>使用bean标签，除了id和class属性之外没有其他属性和标签时，采用的就是默认构造函数创建bean对象
 如果类中没有默认构造函数，则无法创建</em></p>
 <ul>
@@ -227,7 +231,7 @@
 </ul>
 <pre><code>&lt;bean id=&quot;accountService&quot; class=&quot;com.hall.factory.StaticFactory&quot; factory-method=&quot;getExampleService&quot;&gt;&lt;/bean&gt;
 </code></pre><hr>
-<h3 id="2di"><strong>2、DI依赖注入</strong></h3>
+<h3 id="di"><strong>DI依赖注入</strong></h3>
 <h4 id="heading"><strong>能注入的数据类型</strong></h4>
 <ul>
 <li>基本类型和String类型</li>
@@ -258,8 +262,8 @@
 <li>使用注解提供</li>
 </ul>
 <hr>
-<h3 id="3aop"><strong>3、AOP面向切面</strong></h3>
-<h4 id="aop"><strong>配置AOP</strong></h4>
+<h3 id="aop"><strong>AOP面向切面</strong></h3>
+<h4 id="aop1"><strong>配置AOP</strong></h4>
 <pre><code>&lt;!--开始aop的配置--&gt;
 &lt;aop:config&gt;
     &lt;!--配置切面,指定通知类的bean的id--&gt;
@@ -290,7 +294,7 @@
 <li><strong>实际开发中切入点表达式的通常写法</strong> 切到业务层实现类下的所有方法</li>
 </ul>
 <hr>
-<h3 id="4spring"><strong>4、Spring事务</strong></h3>
+<h3 id="spring"><strong>Spring事务</strong></h3>
 <ul>
 <li>配置事务管理器</li>
 <li>配置事务的通知</li>
@@ -323,7 +327,7 @@
     &lt;aop:advisor advice-ref=&quot;txAdvice&quot; pointcut-ref=&quot;pt&quot; &gt;&lt;/aop:advisor&gt;
 &lt;/aop:config&gt;
 </code></pre><hr>
-<h2 id="heading3"><strong>二、注解配置</strong></h2>
+<h2 id="heading3"><strong>注解配置</strong></h2>
 <ul>
 <li><strong>用于创建对象的</strong></li>
 </ul>
@@ -392,7 +396,12 @@ public Object aroundAdvice(ProceedingJoinPoint joinPoint) {
         System.out.println(&quot;最终通知&quot;);
     }
 }
-</code></pre><hr>
+</code></pre><h3 id="joinpoint">JoinPoint类型的几个方法</h3>
+<p><code>Object[] getArgs()</code>：返回执行目标方法时的参数</p>
+<p><code>Signature getSignature()</code>：返回被增强的方法的相关信息。</p>
+<p><code>Object getTarget()</code>：返回被织入advice的目标对象</p>
+<p><code>Object getThis()</code>：返回AOP框架为目标对象生成的代理对象</p>
+<hr>
 
     </div>
 

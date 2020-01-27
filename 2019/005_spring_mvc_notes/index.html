@@ -46,7 +46,7 @@
     "articleSection" : "posts",
     "name" : "SpringMVC配置笔记",
     "headline" : "SpringMVC配置笔记",
-    "description" : "忘记的时候翻一翻 一、基本注解 @Controller 定义一个Controller控制器 @RequestMapping 映射URL到控制器类 @RequestParam、@RequestBody 获",
+    "description" : "忘记的时候翻一翻 基本注解 @Controller 定义一个Controller控制器 @RequestMapping 映射URL到控制器类 @RequestParam、@RequestBody 获取请",
     "inLanguage" : "zh-cn",
     "author" : "logycoconut",
     "creator" : "logycoconut",
@@ -57,7 +57,7 @@
     "datePublished": "2019-10-06 18:53:39 \x2b0800 CST",
     "dateModified" : "2019-10-06 18:53:39 \x2b0800 CST",
     "url" : "https:\/\/logycoco.xyz\/2019\/005_spring_mvc_notes\/",
-    "wordCount" : "1215",
+    "wordCount" : "1211",
     "keywords" : [ "SpringMVC", "logycoconut`s blog"]
 }
 </script>
@@ -135,7 +135,7 @@
                         <a href="https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/"> 关于技术 </a>
                         
                 </span>
-                <span class="post-word-count">, 1215 words</span>
+                <span class="post-word-count">, 1211 words</span>
         </div>
     </header>
 
@@ -146,10 +146,10 @@
     <div class="post-toc-content always-active">
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#heading">一、基本注解</a></li>
-    <li><a href="#webxml">二、web.xml文件示例</a></li>
-    <li><a href="#springxml">三、spring.xml文件示例</a></li>
-    <li><a href="#heading1">四、拓展功能</a>
+    <li><a href="#heading">基本注解</a></li>
+    <li><a href="#webxml">web.xml文件示例</a></li>
+    <li><a href="#springmvcxml">spring-mvc.xml文件示例</a></li>
+    <li><a href="#heading1">拓展功能</a>
       <ul>
         <li><a href="#heading2">异常处理</a></li>
         <li><a href="#heading3">拦截器</a></li>
@@ -208,7 +208,7 @@
           <blockquote>
 <p>忘记的时候翻一翻</p>
 </blockquote>
-<h2 id="heading"><strong>一、基本注解</strong></h2>
+<h2 id="heading"><strong>基本注解</strong></h2>
 <p><code>@Controller</code>
 定义一个Controller控制器</p>
 <p><code>@RequestMapping</code>
@@ -223,7 +223,7 @@
 在Controller的方法执行之前执行</p>
 <p><code>@CookieValue</code>、<code>@SessionAttribute</code>
 获取Cookie、Session的参数</p>
-<h2 id="webxml"><strong>二、web.xml文件示例</strong></h2>
+<h2 id="webxml"><strong>web.xml文件示例</strong></h2>
 <pre><code>&lt;!DOCTYPE web-app PUBLIC
  &quot;-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN&quot;
  &quot;http://java.sun.com/dtd/web-app_2_3.dtd&quot; &gt;
@@ -276,7 +276,7 @@
 
 &lt;/web-app&gt;
 
-</code></pre><h2 id="springxml"><strong>三、spring.xml文件示例</strong></h2>
+</code></pre><h2 id="springmvcxml"><strong>spring-mvc.xml文件示例</strong></h2>
 <pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;
        xmlns:mvc=&quot;http://www.springframework.org/schema/mvc&quot;
@@ -337,7 +337,7 @@
     &lt;!--HiddenHttpMethodFilter--&gt;
 
 &lt;/beans&gt;
-</code></pre><h2 id="heading1"><strong>四、拓展功能</strong></h2>
+</code></pre><h2 id="heading1"><strong>拓展功能</strong></h2>
 <h3 id="heading2"><strong>异常处理</strong></h3>
 <blockquote>
 <p>需要实现HandlerExceptionResolver接口，并且在spring容器中声明</p>

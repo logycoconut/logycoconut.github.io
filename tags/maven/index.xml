@@ -17,7 +17,7 @@
       <pubDate>Wed, 11 Sep 2019 21:44:10 +0800</pubDate>
       
       <guid>https://logycoco.xyz/2019/003_maven_compatibility_issue/</guid>
-      <description>1、问题背景 在idea集成Maven开发时，新建项目后出现 Unable to import maven project: See logs for details 的问题，百思不得其解，打开idea的log日志后发现有如下报错（</description>
+      <description>问题背景 在idea集成Maven开发时，新建项目后出现 Unable to import maven project: See logs for details 的问题，百思不得其解，打开idea的log日志后发现有如下报错（日志</description>
     </item>
     
   </channel>

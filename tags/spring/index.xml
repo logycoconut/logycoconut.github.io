@@ -17,7 +17,7 @@
       <pubDate>Wed, 02 Oct 2019 20:03:16 +0800</pubDate>
       
       <guid>https://logycoco.xyz/2019/004_spring_notes/</guid>
-      <description>忘记的时候翻一翻 一、XML配置 1、IOC容器 使用bean标签，除了id和class属性之外没有其他属性和标签时，采用的就是默认构造函数创建b</description>
+      <description>忘记的时候翻一翻 XML配置 IOC容器 使用bean标签，除了id和class属性之外没有其他属性和标签时，采用的就是默认构造函数创建bean对</description>
     </item>
     
   </channel>

@@ -17,7 +17,7 @@
       <pubDate>Sun, 06 Oct 2019 18:53:39 +0800</pubDate>
       
       <guid>https://logycoco.xyz/2019/005_spring_mvc_notes/</guid>
-      <description>忘记的时候翻一翻 一、基本注解 @Controller 定义一个Controller控制器 @RequestMapping 映射URL到控制器类 @RequestParam、@RequestBody 获</description>
+      <description>忘记的时候翻一翻 基本注解 @Controller 定义一个Controller控制器 @RequestMapping 映射URL到控制器类 @RequestParam、@RequestBody 获取请</description>
     </item>
     
   </channel>

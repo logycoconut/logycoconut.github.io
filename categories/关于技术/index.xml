@@ -26,7 +26,7 @@
       <pubDate>Sun, 06 Oct 2019 18:53:39 +0800</pubDate>
       
       <guid>https://logycoco.xyz/2019/005_spring_mvc_notes/</guid>
-      <description>忘记的时候翻一翻 一、基本注解 @Controller 定义一个Controller控制器 @RequestMapping 映射URL到控制器类 @RequestParam、@RequestBody 获</description>
+      <description>忘记的时候翻一翻 基本注解 @Controller 定义一个Controller控制器 @RequestMapping 映射URL到控制器类 @RequestParam、@RequestBody 获取请</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Wed, 02 Oct 2019 20:03:16 +0800</pubDate>
       
       <guid>https://logycoco.xyz/2019/004_spring_notes/</guid>
-      <description>忘记的时候翻一翻 一、XML配置 1、IOC容器 使用bean标签，除了id和class属性之外没有其他属性和标签时，采用的就是默认构造函数创建b</description>
+      <description>忘记的时候翻一翻 XML配置 IOC容器 使用bean标签，除了id和class属性之外没有其他属性和标签时，采用的就是默认构造函数创建bean对</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@
       <pubDate>Wed, 11 Sep 2019 21:44:10 +0800</pubDate>
       
       <guid>https://logycoco.xyz/2019/003_maven_compatibility_issue/</guid>
-      <description>1、问题背景 在idea集成Maven开发时，新建项目后出现 Unable to import maven project: See logs for details 的问题，百思不得其解，打开idea的log日志后发现有如下报错（</description>
+      <description>问题背景 在idea集成Maven开发时，新建项目后出现 Unable to import maven project: See logs for details 的问题，百思不得其解，打开idea的log日志后发现有如下报错（日志</description>
     </item>
     
   </channel>

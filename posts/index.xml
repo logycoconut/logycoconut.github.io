@@ -6,10 +6,19 @@
     <description>Recent content in Posts on logycoconut`s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 02 Jan 2020 21:03:09 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jan 2020 15:07:32 +0800</lastBuildDate>
     
 	<atom:link href="https://logycoco.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>一个应用集</title>
+      <link>https://logycoco.xyz/2020/009_necessary_software/</link>
+      <pubDate>Tue, 14 Jan 2020 15:07:32 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/009_necessary_software/</guid>
+      <description>记录实用又好看的软件 桌面软件 Navicat Premiun 12 连接各大数据库 SwitchHosts! 配置Host信息 需要以管理员身份运行 XShell 我通常是用来连接到Linux主机上配置各种环境 和XF</description>
+    </item>
     
     <item>
       <title>Spring Security折腾小记🐵</title>

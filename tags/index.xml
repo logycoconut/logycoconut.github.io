@@ -6,10 +6,19 @@
     <description>Recent content in Tags on logycoconut`s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 14 Jan 2020 15:07:32 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 02 Feb 2020 20:56:41 +0800</lastBuildDate>
     
 	<atom:link href="https://logycoco.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SpringBoot</title>
+      <link>https://logycoco.xyz/tags/springboot/</link>
+      <pubDate>Sun, 02 Feb 2020 20:56:41 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/tags/springboot/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>software</title>
@@ -21,7 +30,7 @@
     </item>
     
     <item>
-      <title>spring security</title>
+      <title>Spring Security</title>
       <link>https://logycoco.xyz/tags/spring-security/</link>
       <pubDate>Thu, 02 Jan 2020 21:03:09 +0800</pubDate>
       

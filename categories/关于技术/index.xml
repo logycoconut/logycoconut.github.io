@@ -6,10 +6,19 @@
     <description>Recent content in 关于技术 on logycoconut`s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 02 Jan 2020 21:03:09 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 02 Feb 2020 20:56:41 +0800</lastBuildDate>
     
 	<atom:link href="https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Zuul的鉴权以及微服务的跨域问题</title>
+      <link>https://logycoco.xyz/2020/010_spring_boot_gateway/</link>
+      <pubDate>Sun, 02 Feb 2020 20:56:41 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/010_spring_boot_gateway/</guid>
+      <description>SpringCloud采用了Zuul作为微服务的网口 Zuul网关为全部微服务提供唯一入口, 避免直接暴露接口, 后台服务更加安全 对每个请求鉴权 处</description>
+    </item>
     
     <item>
       <title>Spring Security折腾小记🐵</title>
@@ -17,7 +26,7 @@
       <pubDate>Thu, 02 Jan 2020 21:03:09 +0800</pubDate>
       
       <guid>https://logycoco.xyz/2020/008_spring_security_notes/</guid>
-      <description>使用Spring Security过程中遇到的问题 web.xml配置 &amp;lt;!--指定spring-security配置文件的路径--&amp;gt;</description>
+      <description>使用Spring Security过程中遇到的问题 Web.xml配置 &amp;lt;!--指定spring-security配置文件的路径--&amp;gt;</description>
     </item>
     
     <item>

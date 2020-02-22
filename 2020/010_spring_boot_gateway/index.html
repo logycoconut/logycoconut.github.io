@@ -57,7 +57,7 @@
     "datePublished": "2020-02-02 20:56:41 \x2b0800 CST",
     "dateModified" : "2020-02-02 20:56:41 \x2b0800 CST",
     "url" : "https:\/\/logycoco.xyz\/2020\/010_spring_boot_gateway\/",
-    "wordCount" : "590",
+    "wordCount" : "764",
     "keywords" : [ "SpringBoot", "logycoconut`s blog"]
 }
 </script>
@@ -135,7 +135,7 @@
                         <a href="https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/"> 关于技术 </a>
                         
                 </span>
-                <span class="post-word-count">, 590 words</span>
+                <span class="post-word-count">, 764 words</span>
         </div>
     </header>
 
@@ -147,7 +147,12 @@
       <nav id="TableOfContents">
   <ul>
     <li><a href="#heading">跨域请求处理</a></li>
-    <li><a href="#heading1">请求鉴权</a></li>
+    <li><a href="#heading1">请求鉴权</a>
+      <ul>
+        <li><a href="#-zuulfilter">继承 ZuulFilter</a></li>
+        <li><a href="#zuul">Zuul配置中的一处坑</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
     </div>
@@ -242,6 +247,7 @@ public class CorsConfig {
 }
 </code></pre><hr>
 <h2 id="heading1">请求鉴权</h2>
+<h3 id="-zuulfilter">继承 ZuulFilter</h3>
 <p>原理就是对于每个经过网关的请求都进行过滤</p>
 <p>编写Component继承 <code>ZuulFilter</code> 并实现接口方法</p>
 <pre><code>@Component
@@ -283,6 +289,13 @@ public class ExampleFilter extends ZuulFilter {
         return null;
     }
 }
+</code></pre><h3 id="zuul">Zuul配置中的一处坑</h3>
+<p>在鉴权服务中, 我们通常使用jwt来实现客户端的无状态登录, 所以需要向客户端中设置cookie信息</p>
+<p>但是zuul内部有默认的过滤器, 会将请求和响应头信息过滤, 不允许设置敏感信息 ( 比如set-cookie )</p>
+<p><strong>解决方案:</strong></p>
+<p>在application.yml中配置zuul,</p>
+<pre><code>zuul:
+  sensitive-headers:  # 配置禁止使用的头信息, 设置为null代表不禁止任何头信息
 </code></pre>
     </div>
 

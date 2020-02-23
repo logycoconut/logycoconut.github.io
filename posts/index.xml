@@ -6,10 +6,19 @@
     <description>Recent content in Posts on logycoconut`s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 02 Feb 2020 20:56:41 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 21 Feb 2020 22:18:22 +0800</lastBuildDate>
     
 	<atom:link href="https://logycoco.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>如何实现无状态登录</title>
+      <link>https://logycoco.xyz/2020/011_token_rsa/</link>
+      <pubDate>Fri, 21 Feb 2020 22:18:22 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/011_token_rsa/</guid>
+      <description>有状态和无状态 什么是有状态 服务器需要记录每次会话的用户信息, 从而识别用户信息, 根据用户身份对请求处理, 例如说tomcat的session 用户</description>
+    </item>
     
     <item>
       <title>Zuul的鉴权以及微服务的跨域问题</title>

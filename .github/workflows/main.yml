@@ -1,0 +1,12 @@
+name: deploy_blog
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: SSH Commands
+      uses: appleboy/ssh-action@v0.0.2

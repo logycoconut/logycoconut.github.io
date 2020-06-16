@@ -6,10 +6,19 @@
     <description>Recent content in Posts on logycoconut`s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 21 Feb 2020 22:18:22 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2020 23:08:13 +0800</lastBuildDate>
     
 	<atom:link href="https://logycoco.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>记一次黑苹果安装过程</title>
+      <link>https://logycoco.xyz/2020/012_hackintoshinstall/</link>
+      <pubDate>Sun, 14 Jun 2020 23:08:13 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/012_hackintoshinstall/</guid>
+      <description>B360M-i5-9600K-RX580 微星B360M迫击炮 i5-9600K RX580 macOS 10.15.5 Hackintosh 黑苹果驱动CLOVER Github项目下载：https://github.com/logycoconut/B</description>
+    </item>
     
     <item>
       <title>如何实现无状态登录</title>

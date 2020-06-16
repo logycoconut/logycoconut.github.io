@@ -46,7 +46,7 @@
     "articleSection" : "posts",
     "name" : "Spring Security折腾小记🐵",
     "headline" : "Spring Security折腾小记🐵",
-    "description" : "使用Spring Security过程中遇到的问题 Web.xml配置 \x26lt;!--指定spring-security配置文件的路径--\x26gt;",
+    "description" : "使用Spring Security过程中遇到的问题 Web.xml配置 \u0026lt;!--指定spring-security配置文件的路径--\u0026gt;",
     "inLanguage" : "zh-cn",
     "author" : "logycoconut",
     "creator" : "logycoconut",
@@ -54,8 +54,8 @@
     "accountablePerson" : "logycoconut",
     "copyrightHolder" : "logycoconut",
     "copyrightYear" : "2020",
-    "datePublished": "2020-01-02 21:03:09 \x2b0800 CST",
-    "dateModified" : "2020-01-02 21:03:09 \x2b0800 CST",
+    "datePublished": "2020-01-02 21:03:09 \u002b0800 CST",
+    "dateModified" : "2020-01-02 21:03:09 \u002b0800 CST",
     "url" : "https:\/\/logycoco.xyz\/2020\/008_spring_security_notes\/",
     "wordCount" : "736",
     "keywords" : [ "Spring Security", "logycoconut`s blog"]
@@ -146,10 +146,10 @@
     <div class="post-toc-content always-active">
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#webxml">Web.xml配置</a></li>
-    <li><a href="#springsecurityxml">Spring-Security.xml配置</a></li>
-    <li><a href="#userdetailsservice">UserDetailsService接口</a></li>
-    <li><a href="#heading">方法权限控制</a></li>
+    <li><a href="#webxml配置"><strong>Web.xml配置</strong></a></li>
+    <li><a href="#spring-securityxml配置"><strong>Spring-Security.xml配置</strong></a></li>
+    <li><a href="#userdetailsservice接口"><strong>UserDetailsService接口</strong></a></li>
+    <li><a href="#方法权限控制"><strong>方法权限控制</strong></a></li>
   </ul>
 </nav>
     </div>
@@ -202,7 +202,7 @@
           <blockquote>
 <p>使用Spring Security过程中遇到的问题</p>
 </blockquote>
-<h2 id="webxml"><strong>Web.xml配置</strong></h2>
+<h2 id="webxml配置"><strong>Web.xml配置</strong></h2>
 <pre><code>&lt;!--指定spring-security配置文件的路径--&gt;
 &lt;context-param&gt;
     &lt;param-name&gt;contextConfigLocation&lt;/param-name&gt;
@@ -223,7 +223,7 @@
 &lt;listener&gt;
     &lt;listener-class&gt;org.springframework.web.context.ContextLoaderListener&lt;/listener-class&gt;
 &lt;/listener&gt;
-</code></pre><h2 id="springsecurityxml"><strong>Spring-Security.xml配置</strong></h2>
+</code></pre><h2 id="spring-securityxml配置"><strong>Spring-Security.xml配置</strong></h2>
 <pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;
        xmlns:security=&quot;http://www.springframework.org/schema/security&quot;
@@ -277,7 +277,7 @@
     &lt;bean id=&quot;passwordEncoder&quot; class=&quot;org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder&quot;/&gt;
 
 &lt;/beans&gt;
-</code></pre><h2 id="userdetailsservice"><strong>UserDetailsService接口</strong></h2>
+</code></pre><h2 id="userdetailsservice接口"><strong>UserDetailsService接口</strong></h2>
 <blockquote>
 <p>Spring Security框架已经为我们写好了用户认证的流程，我们只需编写继承自UserDetailsService的用户服务层，并重写loadUserByUsername方法即可</p>
 </blockquote>
@@ -307,7 +307,7 @@ public class UserService implements IUserService {
         return list;
     }
  }
-</code></pre><h2 id="heading"><strong>方法权限控制</strong></h2>
+</code></pre><h2 id="方法权限控制"><strong>方法权限控制</strong></h2>
 <pre><code>// JSR-250
 @RolesAllowed(&quot;ROLE_USER&quot;)表示访问对应方法时所应该具有的角色
 @PermitAll表示允许所有的角色进行访问，也就是说不进行权限控制 

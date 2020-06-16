@@ -54,8 +54,8 @@
     "accountablePerson" : "logycoconut",
     "copyrightHolder" : "logycoconut",
     "copyrightYear" : "2020",
-    "datePublished": "2020-02-02 20:56:41 \x2b0800 CST",
-    "dateModified" : "2020-02-02 20:56:41 \x2b0800 CST",
+    "datePublished": "2020-02-02 20:56:41 \u002b0800 CST",
+    "dateModified" : "2020-02-02 20:56:41 \u002b0800 CST",
     "url" : "https:\/\/logycoco.xyz\/2020\/010_spring_boot_gateway\/",
     "wordCount" : "759",
     "keywords" : [ "SpringBoot", "logycoconut`s blog"]
@@ -146,11 +146,11 @@
     <div class="post-toc-content always-active">
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#heading">跨域请求处理</a></li>
-    <li><a href="#heading1">请求鉴权</a>
+    <li><a href="#跨域请求处理">跨域请求处理</a></li>
+    <li><a href="#请求鉴权">请求鉴权</a>
       <ul>
-        <li><a href="#-zuulfilter">继承 ZuulFilter</a></li>
-        <li><a href="#zuul">Zuul配置中的一处坑</a></li>
+        <li><a href="#继承-zuulfilter">继承 ZuulFilter</a></li>
+        <li><a href="#zuul配置中的一处坑">Zuul配置中的一处坑</a></li>
       </ul>
     </li>
   </ul>
@@ -210,7 +210,7 @@
 <li>处理跨域请求</li>
 </ul>
 </blockquote>
-<h2 id="heading">跨域请求处理</h2>
+<h2 id="跨域请求处理">跨域请求处理</h2>
 <p>关于跨域问题, 现在一般都采用CORS方案(一个W3C标准)解决, 需要服务器和浏览器同时支持,但是开发者只需要关心服务器实现即可, 其他的都由浏览器完成</p>
 <p>浏览器会在请求中加上一些头信息，例如Origin, 我们需要以此判断是否允许其跨域，然后在响应头中加入一些信息</p>
 <p>SpringMVC内部实现了CORS的跨域过滤器 <code>CorsFilter</code> , 我们可以直接用, 编写代码将其注入到容器中即可</p>
@@ -246,8 +246,8 @@ public class CorsConfig {
 
 }
 </code></pre><hr>
-<h2 id="heading1">请求鉴权</h2>
-<h3 id="-zuulfilter">继承 ZuulFilter</h3>
+<h2 id="请求鉴权">请求鉴权</h2>
+<h3 id="继承-zuulfilter">继承 ZuulFilter</h3>
 <p>原理就是对于每个经过网关的请求都进行过滤</p>
 <p>编写Component继承 <code>ZuulFilter</code> 并实现接口方法</p>
 <pre><code>@Component
@@ -289,7 +289,7 @@ public class ExampleFilter extends ZuulFilter {
         return null;
     }
 }
-</code></pre><h3 id="zuul">Zuul配置中的一处坑</h3>
+</code></pre><h3 id="zuul配置中的一处坑">Zuul配置中的一处坑</h3>
 <p>在鉴权服务中, 我们通常使用jwt来实现客户端的无状态登录, 所以需要向客户端中设置cookie信息</p>
 <p>但是zuul内部有默认的过滤器, 会将请求和响应头信息过滤, 不允许设置敏感信息 ( 比如set-cookie )</p>
 <p><strong>解决方案:</strong></p>

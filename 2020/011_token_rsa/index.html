@@ -54,8 +54,8 @@
     "accountablePerson" : "logycoconut",
     "copyrightHolder" : "logycoconut",
     "copyrightYear" : "2020",
-    "datePublished": "2020-02-21 22:18:22 \x2b0800 CST",
-    "dateModified" : "2020-02-21 22:18:22 \x2b0800 CST",
+    "datePublished": "2020-02-21 22:18:22 \u002b0800 CST",
+    "dateModified" : "2020-02-21 22:18:22 \u002b0800 CST",
     "url" : "https:\/\/logycoco.xyz\/2020\/011_token_rsa\/",
     "wordCount" : "959",
     "keywords" : [ "login", "logycoconut`s blog"]
@@ -146,18 +146,18 @@
     <div class="post-toc-content always-active">
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#heading">有状态和无状态</a>
+    <li><a href="#有状态和无状态">有状态和无状态</a>
       <ul>
-        <li><a href="#heading1">什么是有状态</a></li>
-        <li><a href="#heading2">什么是无状态</a></li>
+        <li><a href="#什么是有状态">什么是有状态</a></li>
+        <li><a href="#什么是无状态">什么是无状态</a></li>
       </ul>
     </li>
-    <li><a href="#heading3">实现无状态</a>
+    <li><a href="#实现无状态">实现无状态</a>
       <ul>
         <li><a href="#jwt">JWT</a></li>
         <li><a href="#rsa">RSA</a></li>
-        <li><a href="#rsa1">结合RSA的鉴权</a></li>
-        <li><a href="#java">Java实现</a></li>
+        <li><a href="#结合rsa的鉴权">结合RSA的鉴权</a></li>
+        <li><a href="#java实现">Java实现</a></li>
       </ul>
     </li>
   </ul>
@@ -211,18 +211,18 @@
           
           
 
-          <h2 id="heading">有状态和无状态</h2>
-<h3 id="heading1">什么是有状态</h3>
+          <h2 id="有状态和无状态">有状态和无状态</h2>
+<h3 id="什么是有状态">什么是有状态</h3>
 <p>服务器需要记录每次会话的用户信息, 从而识别用户信息, 根据用户身份对请求处理, 例如说tomcat的session</p>
 <p>用户登陆后, 服务器将用户信息保存在session中, 然后返回用户一个cookie, cookie中记录了session的id</p>
 <p>在用户下次请求时, 我们就可以根据session的id找到对应的用户信息, 这样就实现了用户的登录验证</p>
 <p>如果存在很多用户, 那么服务器就需要保存大量session数据, 给服务器带来很大的压力</p>
-<h3 id="heading2">什么是无状态</h3>
+<h3 id="什么是无状态">什么是无状态</h3>
 <p>有状态服务依赖于服务器, 多次请求必须请求同一台服务器, 这不符合微服务集群的思想</p>
 <p>REST风格的一个重要规范即是服务的无状态性</p>
 <p>服务器不需要保存任何客户端用户信息</p>
 <p>客户端的每次请求必须都具备自描述信息, 这样服务器才能通过这些信息识别请求所属</p>
-<h2 id="heading3">实现无状态</h2>
+<h2 id="实现无状态">实现无状态</h2>
 <ul>
 <li>用户登录</li>
 <li>服务器返回token信息, 放在cookie中</li>
@@ -248,7 +248,7 @@
 <li>私钥加密, 私钥和公钥可以解密</li>
 <li>公钥加密, 私钥可以解密</li>
 </ul>
-<h3 id="rsa1">结合RSA的鉴权</h3>
+<h3 id="结合rsa的鉴权">结合RSA的鉴权</h3>
 <ul>
 <li>客户端发送登录请求, 请求通过网关发送给授权中心</li>
 <li>授权中心验证用户名密码之后下发私钥加密后的token</li>
@@ -256,7 +256,7 @@
 <li>被信任的微服务中都存放着公钥, 通过公钥解析token, 对请求进行处理</li>
 </ul>
 <p><img src="https://www.logycoco.xyz/images/2020/02/21/zPBt4p1VbUXWeMT.png" alt="请求流程"></p>
-<h3 id="java">Java实现</h3>
+<h3 id="java实现">Java实现</h3>
 <ul>
 <li>引入maven</li>
 </ul>

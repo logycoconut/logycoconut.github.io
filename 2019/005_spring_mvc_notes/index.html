@@ -54,8 +54,8 @@
     "accountablePerson" : "logycoconut",
     "copyrightHolder" : "logycoconut",
     "copyrightYear" : "2019",
-    "datePublished": "2019-10-06 18:53:39 \x2b0800 CST",
-    "dateModified" : "2019-10-06 18:53:39 \x2b0800 CST",
+    "datePublished": "2019-10-06 18:53:39 \u002b0800 CST",
+    "dateModified" : "2019-10-06 18:53:39 \u002b0800 CST",
     "url" : "https:\/\/logycoco.xyz\/2019\/005_spring_mvc_notes\/",
     "wordCount" : "1211",
     "keywords" : [ "SpringMVC", "logycoconut`s blog"]
@@ -146,14 +146,14 @@
     <div class="post-toc-content always-active">
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#heading">基本注解</a></li>
-    <li><a href="#webxml">web.xml文件示例</a></li>
-    <li><a href="#springmvcxml">spring-mvc.xml文件示例</a></li>
-    <li><a href="#heading1">拓展功能</a>
+    <li><a href="#基本注解"><strong>基本注解</strong></a></li>
+    <li><a href="#webxml文件示例"><strong>web.xml文件示例</strong></a></li>
+    <li><a href="#spring-mvcxml文件示例"><strong>spring-mvc.xml文件示例</strong></a></li>
+    <li><a href="#拓展功能"><strong>拓展功能</strong></a>
       <ul>
-        <li><a href="#heading2">异常处理</a></li>
-        <li><a href="#heading3">拦截器</a></li>
-        <li><a href="#heading4">文件上传</a></li>
+        <li><a href="#异常处理"><strong>异常处理</strong></a></li>
+        <li><a href="#拦截器"><strong>拦截器</strong></a></li>
+        <li><a href="#文件上传"><strong>文件上传</strong></a></li>
       </ul>
     </li>
   </ul>
@@ -208,7 +208,7 @@
           <blockquote>
 <p>忘记的时候翻一翻</p>
 </blockquote>
-<h2 id="heading"><strong>基本注解</strong></h2>
+<h2 id="基本注解"><strong>基本注解</strong></h2>
 <p><code>@Controller</code>
 定义一个Controller控制器</p>
 <p><code>@RequestMapping</code>
@@ -223,7 +223,7 @@
 在Controller的方法执行之前执行</p>
 <p><code>@CookieValue</code>、<code>@SessionAttribute</code>
 获取Cookie、Session的参数</p>
-<h2 id="webxml"><strong>web.xml文件示例</strong></h2>
+<h2 id="webxml文件示例"><strong>web.xml文件示例</strong></h2>
 <pre><code>&lt;!DOCTYPE web-app PUBLIC
  &quot;-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN&quot;
  &quot;http://java.sun.com/dtd/web-app_2_3.dtd&quot; &gt;
@@ -276,7 +276,7 @@
 
 &lt;/web-app&gt;
 
-</code></pre><h2 id="springmvcxml"><strong>spring-mvc.xml文件示例</strong></h2>
+</code></pre><h2 id="spring-mvcxml文件示例"><strong>spring-mvc.xml文件示例</strong></h2>
 <pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;
        xmlns:mvc=&quot;http://www.springframework.org/schema/mvc&quot;
@@ -337,8 +337,8 @@
     &lt;!--HiddenHttpMethodFilter--&gt;
 
 &lt;/beans&gt;
-</code></pre><h2 id="heading1"><strong>拓展功能</strong></h2>
-<h3 id="heading2"><strong>异常处理</strong></h3>
+</code></pre><h2 id="拓展功能"><strong>拓展功能</strong></h2>
+<h3 id="异常处理"><strong>异常处理</strong></h3>
 <blockquote>
 <p>需要实现HandlerExceptionResolver接口，并且在spring容器中声明</p>
 </blockquote>
@@ -360,7 +360,7 @@
         return mv;
     }
 }
-</code></pre><h3 id="heading3"><strong>拦截器</strong></h3>
+</code></pre><h3 id="拦截器"><strong>拦截器</strong></h3>
 <blockquote>
 <p>需要实现HandlerExceptionResolver接口，并且在spring容器中声明</p>
 </blockquote>
@@ -386,7 +386,7 @@
 
     }
 }
-</code></pre><h3 id="heading4"><strong>文件上传</strong></h3>
+</code></pre><h3 id="文件上传"><strong>文件上传</strong></h3>
 <blockquote>
 <p>需要在spring容器中声明文件解析器对象，并且在html文件中编写相对应的代码</p>
 </blockquote>

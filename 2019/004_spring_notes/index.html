@@ -54,8 +54,8 @@
     "accountablePerson" : "logycoconut",
     "copyrightHolder" : "logycoconut",
     "copyrightYear" : "2019",
-    "datePublished": "2019-10-02 20:03:16 \x2b0800 CST",
-    "dateModified" : "2019-10-02 20:03:16 \x2b0800 CST",
+    "datePublished": "2019-10-02 20:03:16 \u002b0800 CST",
+    "dateModified" : "2019-10-02 20:03:16 \u002b0800 CST",
     "url" : "https:\/\/logycoco.xyz\/2019\/004_spring_notes\/",
     "wordCount" : "1906",
     "keywords" : [ "Spring", "logycoconut`s blog"]
@@ -146,17 +146,17 @@
     <div class="post-toc-content always-active">
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#xml">XML配置</a>
+    <li><a href="#xml配置"><strong>XML配置</strong></a>
       <ul>
-        <li><a href="#ioc">IOC容器</a></li>
-        <li><a href="#di">DI依赖注入</a></li>
-        <li><a href="#aop">AOP面向切面</a></li>
-        <li><a href="#spring">Spring事务</a></li>
+        <li><a href="#ioc容器"><strong>IOC容器</strong></a></li>
+        <li><a href="#di依赖注入"><strong>DI依赖注入</strong></a></li>
+        <li><a href="#aop面向切面"><strong>AOP面向切面</strong></a></li>
+        <li><a href="#spring事务"><strong>Spring事务</strong></a></li>
       </ul>
     </li>
-    <li><a href="#heading3">注解配置</a>
+    <li><a href="#注解配置"><strong>注解配置</strong></a>
       <ul>
-        <li><a href="#joinpoint">JoinPoint类型的几个方法</a></li>
+        <li><a href="#joinpoint类型的几个方法">JoinPoint类型的几个方法</a></li>
       </ul>
     </li>
   </ul>
@@ -211,8 +211,8 @@
           <blockquote>
 <p>忘记的时候翻一翻</p>
 </blockquote>
-<h2 id="xml"><strong>XML配置</strong></h2>
-<h3 id="ioc"><strong>IOC容器</strong></h3>
+<h2 id="xml配置"><strong>XML配置</strong></h2>
+<h3 id="ioc容器"><strong>IOC容器</strong></h3>
 <p><em>使用bean标签，除了id和class属性之外没有其他属性和标签时，采用的就是默认构造函数创建bean对象
 如果类中没有默认构造函数，则无法创建</em></p>
 <ul>
@@ -231,14 +231,14 @@
 </ul>
 <pre><code>&lt;bean id=&quot;accountService&quot; class=&quot;com.hall.factory.StaticFactory&quot; factory-method=&quot;getExampleService&quot;&gt;&lt;/bean&gt;
 </code></pre><hr>
-<h3 id="di"><strong>DI依赖注入</strong></h3>
-<h4 id="heading"><strong>能注入的数据类型</strong></h4>
+<h3 id="di依赖注入"><strong>DI依赖注入</strong></h3>
+<h4 id="能注入的数据类型"><strong>能注入的数据类型</strong></h4>
 <ul>
 <li>基本类型和String类型</li>
 <li>其他的bean类型（在配置文件中或者注解配置过的bean）</li>
 <li>复杂类型/集合类型</li>
 </ul>
-<h4 id="heading1"><strong>注入方式</strong></h4>
+<h4 id="注入方式"><strong>注入方式</strong></h4>
 <ul>
 <li>使用构造函数提供
 使用constructor-arg标签</li>
@@ -262,8 +262,8 @@
 <li>使用注解提供</li>
 </ul>
 <hr>
-<h3 id="aop"><strong>AOP面向切面</strong></h3>
-<h4 id="aop1"><strong>配置AOP</strong></h4>
+<h3 id="aop面向切面"><strong>AOP面向切面</strong></h3>
+<h4 id="配置aop"><strong>配置AOP</strong></h4>
 <pre><code>&lt;!--开始aop的配置--&gt;
 &lt;aop:config&gt;
     &lt;!--配置切面,指定通知类的bean的id--&gt;
@@ -272,7 +272,7 @@
         &lt;aop:before method=&quot;printLog&quot; pointcut=&quot;execution(* com.hall.service.impl.*.*(..))&quot;&gt;&lt;/aop:before&gt;
     &lt;/aop:aspect&gt;
 &lt;/aop:config&gt;
-</code></pre><h4 id="heading2"><strong>切入点表达式</strong></h4>
+</code></pre><h4 id="切入点表达式"><strong>切入点表达式</strong></h4>
 <ul>
 <li><strong>表达式</strong> 访问修饰符 返回值 全类名.方法名(参数类别)</li>
 <li><strong>标准的表达式写法</strong> <code> public void com.hall.service.impl.ExampleService.saveExample()</code></li>
@@ -294,7 +294,7 @@
 <li><strong>实际开发中切入点表达式的通常写法</strong> 切到业务层实现类下的所有方法</li>
 </ul>
 <hr>
-<h3 id="spring"><strong>Spring事务</strong></h3>
+<h3 id="spring事务"><strong>Spring事务</strong></h3>
 <ul>
 <li>配置事务管理器</li>
 <li>配置事务的通知</li>
@@ -327,7 +327,7 @@
     &lt;aop:advisor advice-ref=&quot;txAdvice&quot; pointcut-ref=&quot;pt&quot; &gt;&lt;/aop:advisor&gt;
 &lt;/aop:config&gt;
 </code></pre><hr>
-<h2 id="heading3"><strong>注解配置</strong></h2>
+<h2 id="注解配置"><strong>注解配置</strong></h2>
 <ul>
 <li><strong>用于创建对象的</strong></li>
 </ul>
@@ -396,7 +396,7 @@ public Object aroundAdvice(ProceedingJoinPoint joinPoint) {
         System.out.println(&quot;最终通知&quot;);
     }
 }
-</code></pre><h3 id="joinpoint">JoinPoint类型的几个方法</h3>
+</code></pre><h3 id="joinpoint类型的几个方法">JoinPoint类型的几个方法</h3>
 <p><code>Object[] getArgs()</code>：返回执行目标方法时的参数</p>
 <p><code>Signature getSignature()</code>：返回被增强的方法的相关信息。</p>
 <p><code>Object getTarget()</code>：返回被织入advice的目标对象</p>

@@ -57,7 +57,7 @@
     "datePublished": "2020-06-14 23:08:13 \u002b0800 CST",
     "dateModified" : "2020-06-14 23:08:13 \u002b0800 CST",
     "url" : "https:\/\/logycoco.xyz\/2020\/012_hackintoshinstall\/",
-    "wordCount" : "764",
+    "wordCount" : "898",
     "keywords" : [ "黑苹果", "logycoconut`s blog"]
 }
 </script>
@@ -135,7 +135,7 @@
                         <a href="https://logycoco.xyz/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/"> 黑苹果 </a>
                         
                 </span>
-                <span class="post-word-count">, 764 words</span>
+                <span class="post-word-count">, 898 words</span>
         </div>
     </header>
 
@@ -155,6 +155,12 @@
     </li>
     <li><a href="#win10--黑苹果分区">Win10 + 黑苹果分区</a></li>
     <li><a href="#2k显示器开启hidpi">2K显示器开启HIDPI</a></li>
+    <li><a href="#关机后会自动重启的一个坑">关机后会自动重启的一个坑</a>
+      <ul>
+        <li><a href="#问题描述">问题描述</a></li>
+        <li><a href="#解决办法">解决办法</a></li>
+      </ul>
+    </li>
     <li><a href="#参考链接">参考链接</a></li>
   </ul>
 </nav>
@@ -209,8 +215,8 @@
 
           <h1 id="b360m-i5-9600k-rx580">B360M-i5-9600K-RX580</h1>
 <p>微星B360M迫击炮 i5-9600K RX580 macOS 10.15.5 Hackintosh 黑苹果驱动CLOVER</p>
-<p>Github项目下载：https://github.com/logycoconut/B360M-i5-9600K-RX580/blob/master/README.md</p>
-<p>文章地址：https://logycoco.xyz/2020/012_hackintoshinstall/</p>
+<p>Github项目下载：<a href="https://github.com/logycoconut/B360M-i5-9600K-RX580/blob/master/README.md">https://github.com/logycoconut/B360M-i5-9600K-RX580/blob/master/README.md</a></p>
+<p>文章地址：<a href="https://logycoco.xyz/2020/012_hackintoshinstall/">https://logycoco.xyz/2020/012_hackintoshinstall/</a></p>
 <p>镜像地址：macOS Catalina 10.15.5 <a href="https://blog.daliansky.net/macOS-Catalina-10.15.5-19F96-Release-version-with-Clover-5118-original-image-Double-EFI-Version-UEFI-and-MBR.html#more">黑果小兵的镜像</a></p>
 <p>EFI文件维护列表：<a href="https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html">黑果小兵的博客</a></p>
 <h2 id="先介绍配置">先介绍配置</h2>
@@ -305,13 +311,18 @@
 <h3 id="开启硬解码">开启硬解码</h3>
 <p><img src="https://raw.githubusercontent.com/logycoconut/B360M-i5-9600K-RX580/master/images/2.png" alt="开启硬解码"></p>
 <h2 id="win10--黑苹果分区">Win10 + 黑苹果分区</h2>
-<p>采用GPT分区表，ESP分区要分出三百兆的空间，在用DiskGenius对空盘分区时候，会提示分配多大的ESP分区，Windows选择NTFS格式，macOS选择HFS格式。需要注意点的就是要macOS可以读取NTFS格式，所以说不需要额外分出一个文件交换区
-<a href="https://www.itpwd.com/247.html"> 单硬盘安装黑苹果 </a></p>
+<p>采用GPT分区表，ESP分区要分出三百兆的空间，在用DiskGenius对空盘分区时候，会提示分配多大的ESP分区，Windows选择NTFS格式，macOS选择HFS格式。需要注意点的就是要macOS可以读取NTFS格式，所以说不需要额外分出一个文件交换区</p>
+<p><a href="https://www.itpwd.com/247.html"> 单硬盘安装黑苹果 </a></p>
 <h2 id="2k显示器开启hidpi">2K显示器开启HIDPI</h2>
 <p>首先通过脚本为低分辨率屏幕开启HIDPI，然后通过RDM软件便捷的切换带有⚡️后缀的可以渲染HiDPI的分辨率</p>
-<p><a href="https://github.com/xzhih/one-key-hidpi/blob/master/README-zh.md">一键开启HIDPI脚本</a>
-<a href="https://github.com/avibrazil/RDM">RDM</a></p>
+<p><a href="https://github.com/xzhih/one-key-hidpi/blob/master/README-zh.md">一键开启HIDPI脚本</a></p>
+<p><a href="https://github.com/avibrazil/RDM">RDM</a></p>
 <p><em><strong>预算如果足够的话还是推荐一步到位买4K屏幕</strong></em></p>
+<h2 id="关机后会自动重启的一个坑">关机后会自动重启的一个坑</h2>
+<h3 id="问题描述">问题描述</h3>
+<p>刚装的时候是没有这个问题的，但是在使用一段时间后发现macOS在关机后（风扇灯已经熄灭）会再次开机，关机流程变成了<code>关机 -&gt; 重启 -&gt; 关机</code>，这样才能真正关机</p>
+<h3 id="解决办法">解决办法</h3>
+<p>关闭BIOS中的 <code>SETTINGS \ 高级 \ 唤醒事件设置 \ USB设备从S3/S4/S5唤醒</code>即可解决</p>
 <h2 id="参考链接">参考链接</h2>
 <ul>
 <li><a href="https://www.bilibili.com/video/BV1fE411W7ei">【黑苹果】史上最全，教你在Windows下无损安装MacOS+解决报错|安装前中后一站式教学</a></li>

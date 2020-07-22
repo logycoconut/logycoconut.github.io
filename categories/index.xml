@@ -6,10 +6,19 @@
     <description>Recent content in Categories on logycoconut`s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 14 Jun 2020 23:08:13 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2020 21:53:43 +0800</lastBuildDate>
     
 	<atom:link href="https://logycoco.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>关于技术</title>
+      <link>https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Tue, 21 Jul 2020 21:53:43 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>黑苹果</title>
@@ -17,15 +26,6 @@
       <pubDate>Sun, 14 Jun 2020 23:08:13 +0800</pubDate>
       
       <guid>https://logycoco.xyz/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>关于技术</title>
-      <link>https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/</link>
-      <pubDate>Fri, 21 Feb 2020 22:18:22 +0800</pubDate>
-      
-      <guid>https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/</guid>
       <description></description>
     </item>
     

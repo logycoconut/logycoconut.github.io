@@ -6,10 +6,19 @@
     <description>Recent content in 关于技术 on logycoconut`s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 21 Feb 2020 22:18:22 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2020 21:53:43 +0800</lastBuildDate>
     
 	<atom:link href="https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SpringMVC的参数验证中BindingResult的使用</title>
+      <link>https://logycoco.xyz/2020/014_spring_bindingresult/</link>
+      <pubDate>Tue, 21 Jul 2020 21:53:43 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/014_spring_bindingresult/</guid>
+      <description>在不需要统一处理异常时使用 代码示例 创建实体类 @Data public class User { @NotNull(message = &amp;quot;用户名不能为空&amp;quot;) private String name; @NotEmpty(message = &amp;quot;密码不能是空值&amp;qu</description>
+    </item>
     
     <item>
       <title>如何实现无状态登录</title>

@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="https://logycoco.xyz/2020/012_hackintoshinstall/" />
-  <link rel="next" href="https://logycoco.xyz/2020/015_spring_handlerinterceptoradapter/" />
-  <link rel="canonical" href="https://logycoco.xyz/2020/014_spring_bindingresult/" />
+  <link rel="prev" href="https://logycoco.xyz/2020/014_spring_bindingresult/" />
+  
+  <link rel="canonical" href="https://logycoco.xyz/2020/015_spring_handlerinterceptoradapter/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           SpringMVC的参数验证中BindingResult的使用 | logycoconut`s blog
+           SpringBoot实现自己的拦截器 | logycoconut`s blog
        
   </title>
-  <meta name="title" content="SpringMVC的参数验证中BindingResult的使用 | logycoconut`s blog">
+  <meta name="title" content="SpringBoot实现自己的拦截器 | logycoconut`s blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,9 +44,9 @@
          "@id": "https:\/\/logycoco.xyz\/"
     },
     "articleSection" : "posts",
-    "name" : "SpringMVC的参数验证中BindingResult的使用",
-    "headline" : "SpringMVC的参数验证中BindingResult的使用",
-    "description" : "在不需要统一处理异常时使用 代码示例 创建实体类 @Data public class User { @NotNull(message = \u0026quot;用户名不能为空\u0026quot;) private String name; @NotEmpty(message = \u0026quot;密码不能是空值\u0026qu",
+    "name" : "SpringBoot实现自己的拦截器",
+    "headline" : "SpringBoot实现自己的拦截器",
+    "description" : "在Web开发中，我们经常需要对请求拦截并做一些动作，比如日志记录、权限检测或者性能检测等 HandlerInterceptor SpringMVC中提供了HandlerInter",
     "inLanguage" : "zh-cn",
     "author" : "logycoconut",
     "creator" : "logycoconut",
@@ -54,11 +54,11 @@
     "accountablePerson" : "logycoconut",
     "copyrightHolder" : "logycoconut",
     "copyrightYear" : "2020",
-    "datePublished": "2020-07-21 21:53:43 \u002b0800 CST",
-    "dateModified" : "2020-07-21 21:53:43 \u002b0800 CST",
-    "url" : "https:\/\/logycoco.xyz\/2020\/014_spring_bindingresult\/",
-    "wordCount" : "330",
-    "keywords" : [ "SpringMVC", "logycoconut`s blog"]
+    "datePublished": "2020-08-12 21:14:02 \u002b0800 CST",
+    "dateModified" : "2020-08-12 21:14:02 \u002b0800 CST",
+    "url" : "https:\/\/logycoco.xyz\/2020\/015_spring_handlerinterceptoradapter\/",
+    "wordCount" : "579",
+    "keywords" : [ "SpringBoot", "logycoconut`s blog"]
 }
 </script>
 
@@ -123,11 +123,11 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">SpringMVC的参数验证中BindingResult的使用</h1>
+        <h1 class="post-title" itemprop="name headline">SpringBoot实现自己的拦截器</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://logycoco.xyz/" rel="author">logycoconut</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2020-07-21 itemprop="datePublished">July 21, 2020</time>
+                on <time datetime=2020-08-12 itemprop="datePublished">August 12, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -135,7 +135,7 @@
                         <a href="https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/"> 关于技术 </a>
                         
                 </span>
-                <span class="post-word-count">, 330 words</span>
+                <span class="post-word-count">, 579 words</span>
         </div>
     </header>
 
@@ -146,18 +146,10 @@
     <div class="post-toc-content always-active">
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#代码示例">代码示例</a>
-      <ul>
-        <li><a href="#创建实体类">创建实体类</a></li>
-        <li><a href="#编写web层代码">编写WEB层代码</a></li>
-      </ul>
-    </li>
-    <li><a href="#结果对比">结果对比</a>
-      <ul>
-        <li><a href="#-参数中有bindingresult">① 参数中有BindingResult</a></li>
-        <li><a href="#-参数中没有bindingresult">② 参数中没有BindingResult</a></li>
-      </ul>
-    </li>
+    <li><a href="#handlerinterceptor">HandlerInterceptor</a></li>
+    <li><a href="#handlerinterceptoradapter">HandlerInterceptorAdapter</a></li>
+    <li><a href="#权限检测场景">权限检测场景</a></li>
+    <li><a href="#还有最重要的一步">还有最重要的一步</a></li>
   </ul>
 </nav>
     </div>
@@ -195,8 +187,6 @@
         
 
         
-            
-        
 
         
         
@@ -210,53 +200,76 @@
           
 
           <blockquote>
-<p>在不需要统一处理异常时使用</p>
+<p>在Web开发中，我们经常需要对请求拦截并做一些动作，比如日志记录、权限检测或者性能检测等</p>
 </blockquote>
-<h2 id="代码示例">代码示例</h2>
-<h3 id="创建实体类">创建实体类</h3>
-<pre><code>@Data
-public class User {
-    @NotNull(message = &quot;用户名不能为空&quot;)
-    private String name;
-    @NotEmpty(message = &quot;密码不能是空值&quot;)
-    private String password;
+<h2 id="handlerinterceptor">HandlerInterceptor</h2>
+<p>SpringMVC中提供了<code>HandlerInterceptor</code>接口, 我们来大致看一下它的源码 ( <strong>省略参数和异常以方便阅读</strong> )</p>
+<pre><code>public interface HandlerInterceptor {
+    // 请求处理之前调用, 当此方法返回true时才执行后续代码, 否则流程中断
+    default boolean preHandle() { return true; }
+
+    // 请求处理之后调用
+    default void postHandle() { }  
+    
+    // 请求完成之后调用, 一般用于资源的清理
+    default void afterCompletion() { }
 }
-</code></pre><h3 id="编写web层代码">编写WEB层代码</h3>
-<pre><code>@Slf4j
-@RestController
-@RequestMapping(&quot;user&quot;)
-public class UserController {
+</code></pre><h2 id="handlerinterceptoradapter">HandlerInterceptorAdapter</h2>
+<p>有时候我们只需要在请求前拦截, 也就是只需要实现<code>preHandle</code>方法, 对于之后流程并不关心, 但是<code>HandlerInterceptor</code>接口需要我们同时实现三个接口, 所以Spring为我们提供了<code>HandlerInterceptorAdapter</code>类, 我们可以选择只复写需要的方法</p>
+<p><strong>我们来看看源码 ( 省略参数和异常以方便阅读 )</strong></p>
+<pre><code>public abstract class HandlerInterceptorAdapter implements AsyncHandlerInterceptor {
 
-    @GetMapping(&quot;login1&quot;)
-    public String login1(@Valid User user, BindingResult result) {
-        if (result.hasErrors()) {
-            result.getAllErrors()
-                    .forEach(error -&gt; log.info(error.getDefaultMessage()));
+	@Override
+	public boolean preHandle() { return true; }
+
+	@Override
+	public void postHandle() {}
+
+	@Override
+	public void afterCompletion() {}
+
+	@Override
+	public void afterConcurrentHandlingStarted(){}
+
+}
+</code></pre><h2 id="权限检测场景">权限检测场景</h2>
+<p>项目中有些接口需要对请求方进行登录检测, 检测通过之后才能访问
+所以我们可能需要写一个登录的拦截器, 在请求处理之前进行检测</p>
+<pre><code>// 伪代码，主要是为了演示
+public class LoginInterceptor extends HandlerInterceptorAdapter {
+
+    @Override
+    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+        String cookieValue = CookieUtils.getCookieValue(request, cookieName);
+
+        try {
+            // 用公钥解析cookie中携带的token信息
+            JwtUtils.parseToken(configuration.getPublicKey(), cookieValue);
+            return true;
+        } catch (Exception e) {
+            throw new CommonException(CodeStatus.FORBIDDEN);
         }
-        return &quot;登录成功&quot;;
-    }
-
-    @GetMapping(&quot;login2&quot;)
-    public String login2(@Valid User user) {
-        return &quot;登录成功&quot;;
     }
     
 }
-</code></pre><h2 id="结果对比">结果对比</h2>
-<h3 id="-参数中有bindingresult">① 参数中有BindingResult</h3>
-<h4 id="返回结果">返回结果：</h4>
-<p><img src="https://i.loli.net/2020/07/22/yJE6iKFXaMrlwkp.png" alt="yJE6iKFXaMrlwkp"></p>
-<h4 id="控制台信息">控制台信息：</h4>
-<p><img src="https://i.loli.net/2020/07/22/tGa2AP9plj8zhmM.png" alt="tGa2AP9plj8zhmM"></p>
-<p>异常并没有被捕获，我们在web层中获取了参数验证错误信息并在控制台打印了出来</p>
-<hr>
-<h3 id="-参数中没有bindingresult">② 参数中没有BindingResult</h3>
-<h4 id="返回结果-1">返回结果：</h4>
-<p><img src="https://i.loli.net/2020/07/22/jtQ5w7zX1vLVRlZ.png" alt="jtQ5w7zX1vLVRlZ"></p>
-<h4 id="控制台信息-1">控制台信息：</h4>
-<p><img src="https://i.loli.net/2020/07/22/NJ1xmvYwZXDIioM.png" alt="NJ1xmvYwZXDIioM"></p>
-<p>抛出参数校验异常，框架为我们返回了一段信息，平时我们可以通过捕获全局异常的方式将校验异常包装到我们自定义的异常中，取出错误信息并与错误代码一起返回</p>
+</code></pre><hr>
+<h2 id="还有最重要的一步">还有最重要的一步</h2>
+<p>当然是将我们的拦截器交由给Spring管理, 不然不会生效</p>
+<pre><code>@Configuration
+public class WebConfiguration implements WebMvcConfigurer {
 
+    @Bean
+    public LoginInterceptor loginInterceptor() {
+        return new LoginInterceptor();
+    }
+
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+        registry.addInterceptor(loginInterceptor()).addPathPatterns(&quot;/**&quot;);
+    }
+}
+
+</code></pre>
     </div>
 
     <div class="post-copyright">
@@ -270,7 +283,7 @@ public class UserController {
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://logycoco.xyz/2020/014_spring_bindingresult/>https://logycoco.xyz/2020/014_spring_bindingresult/</span>
+                    <a href=https://logycoco.xyz/2020/015_spring_handlerinterceptoradapter/>https://logycoco.xyz/2020/015_spring_handlerinterceptoradapter/</span>
             </p>
             
              
@@ -286,8 +299,8 @@ public class UserController {
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="https://logycoco.xyz/tags/springmvc/">
-                    #SpringMVC</a></span>
+            <span class="tag"><a href="https://logycoco.xyz/tags/springboot/">
+                    #SpringBoot</a></span>
             
             </section>
         
@@ -299,10 +312,8 @@ public class UserController {
 
     <div class="post-nav">
         
-        <a href="https://logycoco.xyz/2020/012_hackintoshinstall/" class="prev" rel="prev" title="记一次黑苹果安装过程"><i class="iconfont icon-left"></i>&nbsp;记一次黑苹果安装过程</a>
+        <a href="https://logycoco.xyz/2020/014_spring_bindingresult/" class="prev" rel="prev" title="SpringMVC的参数验证中BindingResult的使用"><i class="iconfont icon-left"></i>&nbsp;SpringMVC的参数验证中BindingResult的使用</a>
          
-        
-        <a href="https://logycoco.xyz/2020/015_spring_handlerinterceptoradapter/" class="next" rel="next" title="SpringBoot实现自己的拦截器">SpringBoot实现自己的拦截器&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -312,7 +323,7 @@ public class UserController {
         
               
               
-              <span id="/2020/014_spring_bindingresult/" class="leancloud_visitors" data-flag-title="SpringMVC的参数验证中BindingResult的使用">
+              <span id="/2020/015_spring_handlerinterceptoradapter/" class="leancloud_visitors" data-flag-title="SpringBoot实现自己的拦截器">
                   <span class="post-meta-item-text">访问量 </span>
                   <span class="leancloud-visitors-count"></span>
                   <p></p>
@@ -370,9 +381,8 @@ public class UserController {
 
 
     
-     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
-      
-     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
     
   
 

@@ -12,8 +12,7 @@ jobs:
         uses: fifsky/ssh-action@master
         with:
           command: |
-            pwd
-            # ./deploy.sh
+            ./deploy.sh
           host: ${{ secrets.HOST }}
           user: root        
           pass: ${{ secrets.PASS }}

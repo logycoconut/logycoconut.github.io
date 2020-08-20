@@ -1,6 +1,6 @@
 name: deploy_blog
 
-on: [push]
+on: push
 
 jobs:
   build:
@@ -8,11 +8,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: SSH Commands
-      uses: appleboy/ssh-action@v0.0.2
-      with:
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
-        port: ${{ secrets.PORT }}
-        script: whoami
+      - name: ssh-command
+        uses: fifsky/ssh-action@master
+        with:
+          command: |
+            ./deploy.sh
+          host: ${{ secrets.HOST }}
+          user: root        
+          pass: ${{ secrets.PASS }}

@@ -2,9 +2,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
+      <loc>https://logycoco.xyz/tags/async/</loc>
+      
+      <lastmod>2020-08-18T22:25:31+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
       <loc>https://logycoco.xyz/categories/</loc>
       
-      <lastmod>2020-08-12T21:14:02+08:00</lastmod>
+      <lastmod>2020-08-18T22:25:31+08:00</lastmod>
       
       
       
@@ -14,7 +24,7 @@
     <url>
       <loc>https://logycoco.xyz/</loc>
       
-      <lastmod>2020-08-12T21:14:02+08:00</lastmod>
+      <lastmod>2020-08-18T22:25:31+08:00</lastmod>
       
       
       
@@ -24,7 +34,7 @@
     <url>
       <loc>https://logycoco.xyz/posts/</loc>
       
-      <lastmod>2020-08-12T21:14:02+08:00</lastmod>
+      <lastmod>2020-08-18T22:25:31+08:00</lastmod>
       
       
       
@@ -34,7 +44,7 @@
     <url>
       <loc>https://logycoco.xyz/tags/springboot/</loc>
       
-      <lastmod>2020-08-12T21:14:02+08:00</lastmod>
+      <lastmod>2020-08-18T22:25:31+08:00</lastmod>
       
       
       
@@ -42,9 +52,9 @@
     </url>
   
     <url>
-      <loc>https://logycoco.xyz/2020/015_spring_handlerinterceptoradapter/</loc>
+      <loc>https://logycoco.xyz/2020/016_springboot_async/</loc>
       
-      <lastmod>2020-08-12T21:14:02+08:00</lastmod>
+      <lastmod>2020-08-18T22:25:31+08:00</lastmod>
       
       
       
@@ -54,7 +64,7 @@
     <url>
       <loc>https://logycoco.xyz/tags/</loc>
       
-      <lastmod>2020-08-12T21:14:02+08:00</lastmod>
+      <lastmod>2020-08-18T22:25:31+08:00</lastmod>
       
       
       
@@ -63,6 +73,16 @@
   
     <url>
       <loc>https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/</loc>
+      
+      <lastmod>2020-08-18T22:25:31+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://logycoco.xyz/2020/015_spring_handlerinterceptoradapter/</loc>
       
       <lastmod>2020-08-12T21:14:02+08:00</lastmod>
       
@@ -85,6 +105,16 @@
       <loc>https://logycoco.xyz/2020/014_spring_bindingresult/</loc>
       
       <lastmod>2020-07-21T21:53:43+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://logycoco.xyz/2020/013_spring_handlermethodargumentresolver/</loc>
+      
+      <lastmod>2020-06-30T22:47:48+08:00</lastmod>
       
       
       

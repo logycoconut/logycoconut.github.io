@@ -6,10 +6,19 @@
     <description>Recent content in SpringBoot on logycoconut`s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 12 Aug 2020 21:14:02 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2020 22:25:31 +0800</lastBuildDate>
     
 	<atom:link href="https://logycoco.xyz/tags/springboot/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SpringBoot中定时任务的异步执行</title>
+      <link>https://logycoco.xyz/2020/016_springboot_async/</link>
+      <pubDate>Tue, 18 Aug 2020 22:25:31 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/016_springboot_async/</guid>
+      <description>Spring的定时任务默认是单线程串行执行的, 那假设第一个任务比较耗时长, 直到超过任务二的设定时间之后才完成, 那么就会造成任务二不能及时完成</description>
+    </item>
     
     <item>
       <title>SpringBoot实现自己的拦截器</title>

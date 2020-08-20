@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>SpringMVC之HandlerMethodArgumentResolver实现数据绑定</title>
+      <link>https://logycoco.xyz/2020/013_spring_handlermethodargumentresolver/</link>
+      <pubDate>Tue, 30 Jun 2020 22:47:48 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/013_spring_handlermethodargumentresolver/</guid>
+      <description>更优雅的将传入的信息转化成自定义的实体 SpringMVC数据绑定 先贴一段代码 ( 需要Lombok包 ) // User实体类 @Data @AllArgsConstructor public class User { String name; String password; } // UserController</description>
+    </item>
+    
+    <item>
       <title>SpringMVC配置笔记</title>
       <link>https://logycoco.xyz/2019/005_spring_mvc_notes/</link>
       <pubDate>Sun, 06 Oct 2019 18:53:39 +0800</pubDate>

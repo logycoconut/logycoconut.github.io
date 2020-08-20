@@ -5,13 +5,13 @@
     <description>Recent content in logycoconut`s blog on logycoconut`s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 12 Aug 2020 21:14:02 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2020 22:25:31 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Posts</title>
       <link>https://logycoco.xyz/posts/</link>
-      <pubDate>Wed, 12 Aug 2020 21:14:02 +0800</pubDate>
+      <pubDate>Tue, 18 Aug 2020 22:25:31 +0800</pubDate>
       
       <guid>https://logycoco.xyz/posts/</guid>
       <description></description>
@@ -23,9 +23,7 @@
       <pubDate>Fri, 19 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://logycoco.xyz/about/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;contact-me&#34;&gt;Contact Me&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;contact-me&#34;&gt;Contact Me&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Mail: &lt;a href=&#34;mailto:logycoconut@foxmail.com&#34;&gt;logycoconut@foxmail.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/logycoconut&#34;&gt;logycoconut&lt;/a&gt;&lt;/li&gt;

@@ -6,10 +6,28 @@
     <description>Recent content in Tags on logycoconut`s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 18 Aug 2020 22:25:31 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2020 00:11:56 +0800</lastBuildDate>
     
 	<atom:link href="https://logycoco.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SpringBoot</title>
+      <link>https://logycoco.xyz/tags/springboot/</link>
+      <pubDate>Thu, 27 Aug 2020 00:11:56 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/tags/springboot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>高并发</title>
+      <link>https://logycoco.xyz/tags/%E9%AB%98%E5%B9%B6%E5%8F%91/</link>
+      <pubDate>Thu, 27 Aug 2020 00:11:56 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/tags/%E9%AB%98%E5%B9%B6%E5%8F%91/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Async</title>
@@ -17,15 +35,6 @@
       <pubDate>Tue, 18 Aug 2020 22:25:31 +0800</pubDate>
       
       <guid>https://logycoco.xyz/tags/async/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SpringBoot</title>
-      <link>https://logycoco.xyz/tags/springboot/</link>
-      <pubDate>Tue, 18 Aug 2020 22:25:31 +0800</pubDate>
-      
-      <guid>https://logycoco.xyz/tags/springboot/</guid>
       <description></description>
     </item>
     

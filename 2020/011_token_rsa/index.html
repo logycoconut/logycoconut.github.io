@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="logycoconut">
+  
+  
+  
+  <link rel="prev" href="https://logycoco.xyz/2020/010_spring_boot_gateway/" />
+  <link rel="next" href="https://logycoco.xyz/2020/012_hackintoshinstall/" />
+  <link rel="canonical" href="https://logycoco.xyz/2020/011_token_rsa/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           如何实现无状态登录 | logycoconut`s blog
+       
+  </title>
+  <meta name="title" content="如何实现无状态登录 | logycoconut`s blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https:\/\/logycoco.xyz\/"
+    },
+    "articleSection" : "posts",
+    "name" : "如何实现无状态登录",
+    "headline" : "如何实现无状态登录",
+    "description" : "有状态和无状态 什么是有状态 服务器需要记录每次会话的用户信息, 从而识别用户信息, 根据用户身份对请求处理, 例如说tomcat的session 用户",
+    "inLanguage" : "zh-cn",
+    "author" : "logycoconut",
+    "creator" : "logycoconut",
+    "publisher": "logycoconut",
+    "accountablePerson" : "logycoconut",
+    "copyrightHolder" : "logycoconut",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-02-21 22:18:22 \u002b0800 \u002b0800",
+    "dateModified" : "2020-02-21 22:18:22 \u002b0800 \u002b0800",
+    "url" : "https:\/\/logycoco.xyz\/2020\/011_token_rsa\/",
+    "wordCount" : "959",
+    "keywords" : [ "login", "logycoconut`s blog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	&nbsp;<a href="https://logycoco.xyz/"> 🎈 bakc to home </a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+        <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://logycoco.xyz/">logycoconut`s blog</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">如何实现无状态登录</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="https://logycoco.xyz/" rel="author">logycoconut</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2020-02-21 itemprop="datePublished">February 21, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/"> 关于技术 </a>
+                        
+                </span>
+                <span class="post-word-count">, 959 words</span>
+        </div>
+    </header>
+
+    
+        <div class="post-toc" id="post-toc">
+    <h2 class="post-toc-title"></h2>
+    
+    <div class="post-toc-content always-active">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#有状态和无状态">有状态和无状态</a>
+      <ul>
+        <li><a href="#什么是有状态">什么是有状态</a></li>
+        <li><a href="#什么是无状态">什么是无状态</a></li>
+      </ul>
+    </li>
+    <li><a href="#实现无状态">实现无状态</a>
+      <ul>
+        <li><a href="#jwt">JWT</a></li>
+        <li><a href="#rsa">RSA</a></li>
+        <li><a href="#结合rsa的鉴权">结合RSA的鉴权</a></li>
+        <li><a href="#java实现">Java实现</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+  </div>
+  <script type="text/javascript">
+    window.onload = function () {
+      var fix = $('.post-toc');
+      var end = $('.post-comment');
+      var fixTop = fix.offset().top, fixHeight = fix.height();
+      var endTop, miss;
+      var offsetTop = fix[0].offsetTop;
+      $(window).scroll(function () {
+        var docTop = Math.max(document.body.scrollTop, document.documentElement.scrollTop);
+        if (end.length > 0) {
+          endTop = end.offset().top;
+          miss = endTop - docTop - fixHeight;
+        }
+        if (fixTop < docTop) {
+          fix.css({ 'position': 'fixed' });
+          if ((end.length > 0) && (endTop < (docTop + fixHeight))) {
+            fix.css({ top: miss });
+          } else {
+            fix.css({ top: 0 });
+          }
+        } else {
+          fix.css({ 'position': 'absolute' });
+          fix.css({ top: offsetTop });
+        }
+      })
+    }
+  </script> 
+    
+
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h2 id="有状态和无状态">有状态和无状态</h2>
+<h3 id="什么是有状态">什么是有状态</h3>
+<p>服务器需要记录每次会话的用户信息, 从而识别用户信息, 根据用户身份对请求处理, 例如说tomcat的session</p>
+<p>用户登陆后, 服务器将用户信息保存在session中, 然后返回用户一个cookie, cookie中记录了session的id</p>
+<p>在用户下次请求时, 我们就可以根据session的id找到对应的用户信息, 这样就实现了用户的登录验证</p>
+<p>如果存在很多用户, 那么服务器就需要保存大量session数据, 给服务器带来很大的压力</p>
+<h3 id="什么是无状态">什么是无状态</h3>
+<p>有状态服务依赖于服务器, 多次请求必须请求同一台服务器, 这不符合微服务集群的思想</p>
+<p>REST风格的一个重要规范即是服务的无状态性</p>
+<p>服务器不需要保存任何客户端用户信息</p>
+<p>客户端的每次请求必须都具备自描述信息, 这样服务器才能通过这些信息识别请求所属</p>
+<h2 id="实现无状态">实现无状态</h2>
+<ul>
+<li>用户登录</li>
+<li>服务器返回token信息, 放在cookie中</li>
+<li>之后的每次请求都携带token信息</li>
+<li>服务器解析token判断请求是否有效 ( 是否过期? 是否被篡改? )</li>
+</ul>
+<p>可以看出, 在无状态登录过程中, token至关重要</p>
+<p>所以我们需要学习token的生成以及加密</p>
+<h3 id="jwt">JWT</h3>
+<p>JWT的全称是Json Web Token, 是JSON风格轻量级的授权和身份认证规范，可实现无状态、分布式的Web应用授权</p>
+<p><em><a href="https://jwt.io/">官网</a>可以在线调试JWT</em></p>
+<ul>
+<li>包含三部分数据, <code>Header</code>, <code>Payload</code>, <code>Signature</code></li>
+<li><code>Header:</code> 描述该JWT最基本的信息, 例如类型以及签名所用的算法</li>
+<li><code>Payload:</code> 存放有效信息的地方, 采用base64编码, 不要放敏感信息</li>
+<li><code>Signature:</code> 前两部分组合, 然后通过声明的加密方式加盐生成</li>
+</ul>
+<h3 id="rsa">RSA</h3>
+<p>RAS, 是一种非对称加密算法</p>
+<ul>
+<li>根据一串密文同时生成私钥和公钥</li>
+<li>私钥隐秘保存, 公钥下发给信任的客户端</li>
+<li>私钥加密, 私钥和公钥可以解密</li>
+<li>公钥加密, 私钥可以解密</li>
+</ul>
+<h3 id="结合rsa的鉴权">结合RSA的鉴权</h3>
+<ul>
+<li>客户端发送登录请求, 请求通过网关发送给授权中心</li>
+<li>授权中心验证用户名密码之后下发私钥加密后的token</li>
+<li>之后客户端的每次请求都携带着token</li>
+<li>被信任的微服务中都存放着公钥, 通过公钥解析token, 对请求进行处理</li>
+</ul>
+<p><img src="https://www.logycoco.xyz/images/2020/02/21/zPBt4p1VbUXWeMT.png" alt="请求流程"></p>
+<h3 id="java实现">Java实现</h3>
+<ul>
+<li>引入maven</li>
+</ul>
+<pre><code>&lt;dependency&gt;
+    &lt;groupId&gt;io.jsonwebtoken&lt;/groupId&gt;
+    &lt;artifactId&gt;jjwt&lt;/artifactId&gt;
+    &lt;version&gt;0.9.0&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre><ul>
+<li>编写工具类</li>
+</ul>
+<pre><code>/**
+ * 假设token中存放着用户id以及用户名
+ */
+public class JwtUtils {
+    /**
+     * 私钥加密token
+     * @param userInfo  载荷中的数据
+     */
+    public static String generateToken(UserInfo userInfo, PrivateKey privateKey, int expireMinutes) throws Exception {
+        return Jwts.builder()
+                .claim(&quot;id&quot;, userInfo.getId())
+                .claim(&quot;username&quot;, userInfo.getUsername())
+                .setExpiration(DateTime.now().plusMinutes(expireMinutes).toDate())
+                .signWith(SignatureAlgorithm.RS256, privateKey)
+                .compact();
+    }
+
+    /**
+     * 公钥解析token
+     */
+    private static Jws&lt;Claims&gt; parserToken(String token, PublicKey publicKey) {
+        return Jwts.parser().setSigningKey(publicKey).parseClaimsJws(token);
+    }
+
+    /**
+     * 获取token中的用户信息
+     */
+    public static UserInfo getInfoFromToken(String token, PublicKey publicKey) throws Exception {
+        Jws&lt;Claims&gt; claimsJws = parserToken(token, publicKey);
+        Claims body = claimsJws.getBody();
+        return new UserInfo(
+                ObjectUtils.toLong(body.get(&quot;id&quot;)),
+                ObjectUtils.toString(body.get(&quot;username&quot;))
+        );
+    }
+
+}
+</code></pre>
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>logycoconut </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=https://logycoco.xyz/2020/011_token_rsa/>https://logycoco.xyz/2020/011_token_rsa/</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://logycoco.xyz/tags/login/">
+                    #login</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="https://logycoco.xyz/">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="https://logycoco.xyz/2020/010_spring_boot_gateway/" class="prev" rel="prev" title="Zuul的鉴权以及微服务的跨域问题"><i class="iconfont icon-left"></i>&nbsp;Zuul的鉴权以及微服务的跨域问题</a>
+         
+        
+        <a href="https://logycoco.xyz/2020/012_hackintoshinstall/" class="next" rel="next" title="记一次黑苹果安装过程">记一次黑苹果安装过程&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    
+
+    <div class="post-comment">
+        
+              
+              
+              <span id="/2020/011_token_rsa/" class="leancloud_visitors" data-flag-title="如何实现无状态登录">
+                  <span class="post-meta-item-text">访问量 </span>
+                  <span class="leancloud-visitors-count"></span>
+                  <p></p>
+              </span>
+              <div id="vcomments"></div>
+              <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+              <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+              <script type="text/javascript">
+                  new Valine({
+                      el: '#vcomments' ,
+                      appId: 'StEymzkNLSKQUScNukHRuQVx-gzGzoHsz',
+                      appKey: 'pL74IWizdQgqxiD9bHivwzQJ',
+                      notify:  true ,
+                      verify:  true ,
+                      avatar:'retro',
+                      placeholder: '说点什么吧...',
+                      visitor:  true 
+                  });
+              </script>
+        
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2018 - 2020</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://logycoco.xyz/">logycoconut</a> | </span> 
+         
+
+         
+            <a href="http://www.beian.miit.gov.cn/" target="_blank" rel="external nofollow">浙ICP备19046357号 </a> |
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+     </div>
+  </body>
+</html>

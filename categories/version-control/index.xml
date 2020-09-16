@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>version control on logycoconut`s blog</title>
+    <link>https://logycoco.xyz/categories/version-control/</link>
+    <description>Recent content in version control on logycoconut`s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 22 Dec 2019 13:16:58 +0800</lastBuildDate><atom:link href="https://logycoco.xyz/categories/version-control/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>优雅地使用Git</title>
+      <link>https://logycoco.xyz/2019/007_use_git_gracefully/</link>
+      <pubDate>Sun, 22 Dec 2019 13:16:58 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2019/007_use_git_gracefully/</guid>
+      <description>Git教程 Git思维导图 gitmoji使用 emoji不能随意的使用，在gitmoji官网中就有着不同emoji对应着的不同释义 提交格式 git commit -m</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>高并发 on logycoconut`s blog</title>
+    <link>https://logycoco.xyz/tags/%E9%AB%98%E5%B9%B6%E5%8F%91/</link>
+    <description>Recent content in 高并发 on logycoconut`s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 27 Aug 2020 00:11:56 +0800</lastBuildDate><atom:link href="https://logycoco.xyz/tags/%E9%AB%98%E5%B9%B6%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>设计一个秒杀系统</title>
+      <link>https://logycoco.xyz/2020/017_seckill_system_design/</link>
+      <pubDate>Thu, 27 Aug 2020 00:11:56 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/017_seckill_system_design/</guid>
+      <description>基于秒杀场景的Java高并发实现 对秒杀场景的方案设计 仓库地址: https://github.com/logycoconut/springboot-seckill 技术体系 前端: Bootstrap + jQuery 后端: SpringBoot2 + MyBatisPlus + MySQL 中间件技术: Redis + RabbitMQ + JWT 秒杀场景以及解决方</description>
+    </item>
+    
+  </channel>
+</rss>

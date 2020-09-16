@@ -1,0 +1,37 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>logycoconut`s blog on logycoconut`s blog</title>
+    <link>https://logycoco.xyz/</link>
+    <description>Recent content in logycoconut`s blog on logycoconut`s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 27 Aug 2020 00:11:56 +0800</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Posts</title>
+      <link>https://logycoco.xyz/posts/</link>
+      <pubDate>Thu, 27 Aug 2020 00:11:56 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>logycoconut</title>
+      <link>https://logycoco.xyz/about/</link>
+      <pubDate>Fri, 19 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://logycoco.xyz/about/</guid>
+      <description>&lt;h2 id=&#34;contact-me&#34;&gt;Contact Me&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Mail: &lt;a href=&#34;mailto:logycoconut@foxmail.com&#34;&gt;logycoconut@foxmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/logycoconut&#34;&gt;logycoconut&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;contributions-in-the-last-year&#34;&gt;Contributions in the last year&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://ghchart.rshah.org/logycoconut&#34; alt=&#34;ghchart&#34; title=&#34;ghchart&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

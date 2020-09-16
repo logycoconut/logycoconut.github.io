@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on logycoconut`s blog</title>
+    <link>https://logycoco.xyz/posts/</link>
+    <description>Recent content in Posts on logycoconut`s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 27 Aug 2020 00:11:56 +0800</lastBuildDate><atom:link href="https://logycoco.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>设计一个秒杀系统</title>
+      <link>https://logycoco.xyz/2020/017_seckill_system_design/</link>
+      <pubDate>Thu, 27 Aug 2020 00:11:56 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/017_seckill_system_design/</guid>
+      <description>基于秒杀场景的Java高并发实现 对秒杀场景的方案设计 仓库地址: https://github.com/logycoconut/springboot-seckill 技术体系 前端: Bootstrap + jQuery 后端: SpringBoot2 + MyBatisPlus + MySQL 中间件技术: Redis + RabbitMQ + JWT 秒杀场景以及解决方</description>
+    </item>
+    
+    <item>
+      <title>SpringBoot中定时任务的异步执行</title>
+      <link>https://logycoco.xyz/2020/016_springboot_async/</link>
+      <pubDate>Tue, 18 Aug 2020 22:25:31 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/016_springboot_async/</guid>
+      <description>Spring的定时任务默认是单线程串行执行的, 那假设第一个任务比较耗时长, 直到超过任务二的设定时间之后才完成, 那么就会造成任务二不能及时完成</description>
+    </item>
+    
+    <item>
+      <title>SpringBoot实现自己的拦截器</title>
+      <link>https://logycoco.xyz/2020/015_spring_handlerinterceptoradapter/</link>
+      <pubDate>Wed, 12 Aug 2020 21:14:02 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/015_spring_handlerinterceptoradapter/</guid>
+      <description>在Web开发中，我们经常需要对请求拦截并做一些动作，比如日志记录、权限检测或者性能检测等 HandlerInterceptor SpringMVC中提供了HandlerInter</description>
+    </item>
+    
+    <item>
+      <title>SpringMVC的参数验证中BindingResult的使用</title>
+      <link>https://logycoco.xyz/2020/014_spring_bindingresult/</link>
+      <pubDate>Tue, 21 Jul 2020 21:53:43 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/014_spring_bindingresult/</guid>
+      <description>在不需要统一处理异常时使用 代码示例 创建实体类 @Data public class User { @NotNull(message = &amp;quot;用户名不能为空&amp;quot;) private String name; @NotEmpty(message = &amp;quot;密码不能是空值&amp;qu</description>
+    </item>
+    
+    <item>
+      <title>SpringMVC之HandlerMethodArgumentResolver实现数据绑定</title>
+      <link>https://logycoco.xyz/2020/013_spring_handlermethodargumentresolver/</link>
+      <pubDate>Tue, 30 Jun 2020 22:47:48 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/013_spring_handlermethodargumentresolver/</guid>
+      <description>更优雅的将传入的信息转化成自定义的实体 SpringMVC数据绑定 先贴一段代码 ( 需要Lombok包 ) // User实体类 @Data @AllArgsConstructor public class User { String name; String password; } // UserController</description>
+    </item>
+    
+    <item>
+      <title>记一次黑苹果安装过程</title>
+      <link>https://logycoco.xyz/2020/012_hackintoshinstall/</link>
+      <pubDate>Sun, 14 Jun 2020 23:08:13 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/012_hackintoshinstall/</guid>
+      <description>B360M-i5-9600K-RX580 微星B360M迫击炮 i5-9600K RX580 macOS 10.15.5 Hackintosh 黑苹果驱动CLOVER Github项目下载：https://github.com/logycoconut/B</description>
+    </item>
+    
+    <item>
+      <title>如何实现无状态登录</title>
+      <link>https://logycoco.xyz/2020/011_token_rsa/</link>
+      <pubDate>Fri, 21 Feb 2020 22:18:22 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/011_token_rsa/</guid>
+      <description>有状态和无状态 什么是有状态 服务器需要记录每次会话的用户信息, 从而识别用户信息, 根据用户身份对请求处理, 例如说tomcat的session 用户</description>
+    </item>
+    
+    <item>
+      <title>Zuul的鉴权以及微服务的跨域问题</title>
+      <link>https://logycoco.xyz/2020/010_spring_boot_gateway/</link>
+      <pubDate>Sun, 02 Feb 2020 20:56:41 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/010_spring_boot_gateway/</guid>
+      <description>SpringCloud采用了Zuul作为微服务的网口 Zuul网关为全部微服务提供唯一入口, 避免直接暴露接口, 后台服务更加安全 对每个请求鉴权 处</description>
+    </item>
+    
+    <item>
+      <title>一个应用集</title>
+      <link>https://logycoco.xyz/2020/009_necessary_software/</link>
+      <pubDate>Tue, 14 Jan 2020 15:07:32 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/009_necessary_software/</guid>
+      <description>记录实用又好看的软件 桌面软件 Navicat Premiun 12 连接各大数据库 Another Redis DeskTop Manager 顾名思义, 为替代Redis DeskTop Manager而生 下载地址 SwitchHosts! 配置Host信息 需要以管理员</description>
+    </item>
+    
+    <item>
+      <title>Spring Security折腾小记🐵</title>
+      <link>https://logycoco.xyz/2020/008_spring_security_notes/</link>
+      <pubDate>Thu, 02 Jan 2020 21:03:09 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/008_spring_security_notes/</guid>
+      <description>使用Spring Security过程中遇到的问题 Web.xml配置 &amp;lt;!--指定spring-security配置文件的路径--&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>优雅地使用Git</title>
+      <link>https://logycoco.xyz/2019/007_use_git_gracefully/</link>
+      <pubDate>Sun, 22 Dec 2019 13:16:58 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2019/007_use_git_gracefully/</guid>
+      <description>Git教程 Git思维导图 gitmoji使用 emoji不能随意的使用，在gitmoji官网中就有着不同emoji对应着的不同释义 提交格式 git commit -m</description>
+    </item>
+    
+    <item>
+      <title>Oracle基础入门笔记</title>
+      <link>https://logycoco.xyz/2019/006_oracle_notes/</link>
+      <pubDate>Wed, 18 Dec 2019 16:42:46 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2019/006_oracle_notes/</guid>
+      <description>源自IT黑马的一份Oracle笔记，还挺详细的，很适合Oracle的入门 基本操作 表空间、用户、表 创建表空间 create tablespace oraclets datafile &#39;c:\itheima.dbf&#39; size 100m autoextend on next 10m; 删除表空间 drop</description>
+    </item>
+    
+    <item>
+      <title>SpringMVC配置笔记</title>
+      <link>https://logycoco.xyz/2019/005_spring_mvc_notes/</link>
+      <pubDate>Sun, 06 Oct 2019 18:53:39 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2019/005_spring_mvc_notes/</guid>
+      <description>忘记的时候翻一翻 基本注解 @Controller 定义一个Controller控制器 @RequestMapping 映射URL到控制器类 @RequestParam、@RequestBody 获取请</description>
+    </item>
+    
+    <item>
+      <title>Spring配置笔记</title>
+      <link>https://logycoco.xyz/2019/004_spring_notes/</link>
+      <pubDate>Wed, 02 Oct 2019 20:03:16 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2019/004_spring_notes/</guid>
+      <description>忘记的时候翻一翻 XML配置 IOC容器 使用bean标签，除了id和class属性之外没有其他属性和标签时，采用的就是默认构造函数创建bean对</description>
+    </item>
+    
+    <item>
+      <title>Maven兼容性问题</title>
+      <link>https://logycoco.xyz/2019/003_maven_compatibility_issue/</link>
+      <pubDate>Wed, 11 Sep 2019 21:44:10 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2019/003_maven_compatibility_issue/</guid>
+      <description>问题背景 在idea集成Maven开发时，新建项目后出现 Unable to import maven project: See logs for details 的问题，百思不得其解，打开idea的log日志后发现有如下报错（日志</description>
+    </item>
+    
+    <item>
+      <title>远程连接MySQL配置</title>
+      <link>https://logycoco.xyz/2019/002_mysql_remote_access/</link>
+      <pubDate>Fri, 02 Aug 2019 23:29:30 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2019/002_mysql_remote_access/</guid>
+      <description>问题背景 开发环境与数据库不在一台机器上，需要远程访问数据库进行数据的增删改查。在安装完MySQL，确定开启远程连接权限的情况下，SQLyog</description>
+    </item>
+    
+    <item>
+      <title>使用Hugo搭建个人博客并部署到Github仓库中</title>
+      <link>https://logycoco.xyz/2019/001_hugo_blog_build/</link>
+      <pubDate>Thu, 01 Aug 2019 21:20:11 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2019/001_hugo_blog_build/</guid>
+      <description>Hugo安装 在Hugo的官方Github仓库中下载对应的安装包（建议下载extended版本的） 将zip文件解压后放在自己想放的位置，然后将</description>
+    </item>
+    
+  </channel>
+</rss>

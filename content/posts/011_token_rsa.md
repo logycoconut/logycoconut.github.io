@@ -1,0 +1,128 @@
+---
+title: "如何实现无状态登录"
+date: 2020-02-21T22:18:22+08:00
+draft: false
+categories: ["关于技术"]
+tags: ["login"]
+---
+
+## 有状态和无状态
+
+### 什么是有状态
+
+服务器需要记录每次会话的用户信息, 从而识别用户信息, 根据用户身份对请求处理, 例如说tomcat的session
+
+用户登陆后, 服务器将用户信息保存在session中, 然后返回用户一个cookie, cookie中记录了session的id
+
+在用户下次请求时, 我们就可以根据session的id找到对应的用户信息, 这样就实现了用户的登录验证
+
+如果存在很多用户, 那么服务器就需要保存大量session数据, 给服务器带来很大的压力
+
+### 什么是无状态
+
+有状态服务依赖于服务器, 多次请求必须请求同一台服务器, 这不符合微服务集群的思想
+
+REST风格的一个重要规范即是服务的无状态性
+
+服务器不需要保存任何客户端用户信息
+
+客户端的每次请求必须都具备自描述信息, 这样服务器才能通过这些信息识别请求所属
+
+## 实现无状态
+
+* 用户登录
+* 服务器返回token信息, 放在cookie中
+* 之后的每次请求都携带token信息
+* 服务器解析token判断请求是否有效 ( 是否过期? 是否被篡改? )
+
+可以看出, 在无状态登录过程中, token至关重要
+
+所以我们需要学习token的生成以及加密
+
+### JWT
+
+JWT的全称是Json Web Token, 是JSON风格轻量级的授权和身份认证规范，可实现无状态、分布式的Web应用授权 
+
+*[官网](https://jwt.io/)可以在线调试JWT*
+
+* 包含三部分数据, `Header`, `Payload`, `Signature`
+* `Header:` 描述该JWT最基本的信息, 例如类型以及签名所用的算法
+* `Payload:` 存放有效信息的地方, 采用base64编码, 不要放敏感信息
+* `Signature:` 前两部分组合, 然后通过声明的加密方式加盐生成
+
+
+### RSA
+
+RAS, 是一种非对称加密算法
+
+* 根据一串密文同时生成私钥和公钥
+* 私钥隐秘保存, 公钥下发给信任的客户端
+* 私钥加密, 私钥和公钥可以解密
+* 公钥加密, 私钥可以解密
+
+### 结合RSA的鉴权
+
+* 客户端发送登录请求, 请求通过网关发送给授权中心
+* 授权中心验证用户名密码之后下发私钥加密后的token
+* 之后客户端的每次请求都携带着token
+* 被信任的微服务中都存放着公钥, 通过公钥解析token, 对请求进行处理
+
+![请求流程](https://www.logycoco.xyz/images/2020/02/21/zPBt4p1VbUXWeMT.png)
+
+### Java实现
+
+* 引入maven
+
+```
+<dependency>
+    <groupId>io.jsonwebtoken</groupId>
+    <artifactId>jjwt</artifactId>
+    <version>0.9.0</version>
+</dependency>
+```
+
+* 编写工具类
+
+```
+/**
+ * 假设token中存放着用户id以及用户名
+ */
+public class JwtUtils {
+    /**
+     * 私钥加密token
+     * @param userInfo  载荷中的数据
+     */
+    public static String generateToken(UserInfo userInfo, PrivateKey privateKey, int expireMinutes) throws Exception {
+        return Jwts.builder()
+                .claim("id", userInfo.getId())
+                .claim("username", userInfo.getUsername())
+                .setExpiration(DateTime.now().plusMinutes(expireMinutes).toDate())
+                .signWith(SignatureAlgorithm.RS256, privateKey)
+                .compact();
+    }
+
+    /**
+     * 公钥解析token
+     */
+    private static Jws<Claims> parserToken(String token, PublicKey publicKey) {
+        return Jwts.parser().setSigningKey(publicKey).parseClaimsJws(token);
+    }
+
+    /**
+     * 获取token中的用户信息
+     */
+    public static UserInfo getInfoFromToken(String token, PublicKey publicKey) throws Exception {
+        Jws<Claims> claimsJws = parserToken(token, publicKey);
+        Claims body = claimsJws.getBody();
+        return new UserInfo(
+                ObjectUtils.toLong(body.get("id")),
+                ObjectUtils.toString(body.get("username"))
+        );
+    }
+
+}
+```
+
+
+
+

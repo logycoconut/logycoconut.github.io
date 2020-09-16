@@ -1,0 +1,50 @@
+---
+title: "使用Hugo搭建个人博客并部署到Github仓库中"
+date: 2019-08-01T21:20:11+08:00
+draft: false
+categories: ["折腾博客"]
+tags: ["Hugo","Blog"]
+---
+
+## Hugo安装
+
+- 在Hugo的[官方Github仓库](https://github.com/gohugoio/hugo/releases
+)中下载对应的安装包（建议下载extended版本的）
+- 将zip文件解压后放在自己想放的位置，然后将hugo.exe所在的目录添加到 Windows 的系统环境变量的 PATH 中即可
+- 在终端中输入 `hugo` 并回车，查看是否配置成功
+
+## Hugo使用
+
+- 在终端中切换目录至你想放置博客目录的位置，输入 `hugo new site BLOG` 
+ ( *BLOG就是博客的根目录名字* )
+- 在[Hugo主题官网](https://themes.gohugo.io/)中下载喜欢的主题,以m10c为例，在博客根目录输入 `git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c` 完成下载
+( *Hugo默认没有主题，必须安装主题后才能使用* ) 
+![themes文件夹中多了一个主题](https://i.loli.net/2019/08/02/5d43f7e8b8c9f89663.png)
+- 在终端中输入 `hugo server -t m10c --buildDrafts` 启动服务
+![访问本地1313端口](https://i.loli.net/2019/08/02/5d43f80f763c862373.png)
+- 在根目录输入 `hugo new posts/xxxx.md` 在posts创建一篇新的博客
+![博客默认开头](https://i.loli.net/2019/08/02/5d43f8257bbf165069.png)
+- 现在启动服务器即可看到新增的那篇文章
+
+## 部署至GitHub仓库
+
+- 在个人GitHub新增一个名为 `NAME.github.io` 的仓库，NAME更换为自己的昵称小写![image.png](https://i.loli.net/2019/08/02/5d43f834c390d56402.png)
+- 在根目录输入 `hugo --theme=m10c --baseUrl="https://NAME.github.io/"  --buildDrafts` ，目录下会生成public文件夹
+- cd到public文件夹中，输入 `git init` 将public文件夹初始化为一个git仓库
+- 输入 `git add .`将所有改变提交到暂存区，输入 `git commit -m "注释"` 将改变提交到仓库
+- 输入 `git remote add origin git@github.com:logycoconut/logycoconut.github.io.git` ，使得本地仓库与远端仓库关联
+- 输入 `git push -u origin master` 推到远端的仓库中
+
+## 转用LeaveIt主题啦
+
+> 用了一段时间的m10c之后就转了LeaveIt，真的是太好看了，但是有些细节地方还是可以优化一下的。
+以下两个大神的博客对于LeaveIt主题的优化都有很详细的说明
+
+- [Mogeko的教程](https://mogeko.me/categories/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%BA%8C%E4%B8%89%E4%BA%8B/)
+- [Wyane的教程](https://huaien.co/tags/%E5%8D%9A%E5%AE%A2%E7%A8%8B%E5%BA%8F/)
+
+## *参考资料*
+
+- [B站CodeSheep教程](https://www.bilibili.com/video/av51574688?t=870)
+- [Git远程仓库教程](https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416)
+

@@ -32,3 +32,10 @@ jobs:
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
         local_path: './public/*'
         remote_path: '/usr/env/apache-tomcat-8.5.47/webapps/ROOT/'
+
+    - name: deploy file to server
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      with:
+        ftp-server: ftp://ftp.samkirkland.com/
+        ftp-username: myFtpUserName
+        ftp-password: ${{ secrets.FTP_PASSWORD }}

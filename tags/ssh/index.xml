@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ssh on logycoconut`s blog</title>
+    <link>https://logycoco.xyz/tags/ssh/</link>
+    <description>Recent content in ssh on logycoconut`s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 21 Sep 2020 13:23:26 +0800</lastBuildDate><atom:link href="https://logycoco.xyz/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>通过密钥登陆服务器</title>
+      <link>https://logycoco.xyz/2020/018_ssh_key/</link>
+      <pubDate>Mon, 21 Sep 2020 13:23:26 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/018_ssh_key/</guid>
+      <description>在使用Github Action自动化部署博客时，需要用到密钥来登录服务器，在这里记录一下具体步骤和其中踩过的一些坑 生成密钥对 在 root/.s</description>
+    </item>
+    
+  </channel>
+</rss>

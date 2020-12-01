@@ -9,4 +9,5 @@ date = "2019-07-19"
 *  GitHub: [logycoconut](https://github.com/logycoconut)
 
 ## Contributions in the last year
+
 ![ghchart](https://ghchart.rshah.org/logycoconut "ghchart")

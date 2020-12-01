@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="https://logycoco.xyz/2020/017_seckill_system_design/" />
-  <link rel="next" href="https://logycoco.xyz/2020/019_java8_stream_groupby/" />
-  <link rel="canonical" href="https://logycoco.xyz/2020/018_ssh_key/" />
+  <link rel="prev" href="https://logycoco.xyz/2020/018_ssh_key/" />
+  
+  <link rel="canonical" href="https://logycoco.xyz/2020/019_java8_stream_groupby/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           通过密钥登陆服务器 | logycoconut`s blog
+           Java8 Stream多字段分组求和groupingBy | logycoconut`s blog
        
   </title>
-  <meta name="title" content="通过密钥登陆服务器 | logycoconut`s blog">
+  <meta name="title" content="Java8 Stream多字段分组求和groupingBy | logycoconut`s blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,9 +44,9 @@
          "@id": "https:\/\/logycoco.xyz\/"
     },
     "articleSection" : "posts",
-    "name" : "通过密钥登陆服务器",
-    "headline" : "通过密钥登陆服务器",
-    "description" : "在使用Github Action自动化部署博客时，需要用到密钥来登录服务器，在这里记录一下具体步骤和其中踩过的一些坑 生成密钥对 在 root\/.s",
+    "name" : "Java8 Stream多字段分组求和groupingBy",
+    "headline" : "Java8 Stream多字段分组求和groupingBy",
+    "description" : "对流中的数据进行分组求和 实例 Collectors.groupingBy 最重要的一个参数 Function\u0026lt;? super T,? extends K\u0026gt; classifier ，它代表了map的key List\u0026lt;String\u0026gt; items = Arrays.asList(\u0026#34;apple\u0026#34;, \u0026#34;apple\u0026#34;, \u0026#34;banana\u0026#34;, \u0026#34;apple\u0026#34;, \u0026#34;orange\u0026#34;, \u0026#34;banana\u0026#34;, \u0026#34;papaya\u0026#34;); Map\u0026lt;String, Long\u0026gt; result = items .stream() .collect(Collectors.groupingBy(Function.identity(), Collectors.counting())); System.out.println(result); \/\/ 运行结果 {papaya=1, orange=1, banana=2, apple=3} 比",
     "inLanguage" : "zh-cn",
     "author" : "logycoconut",
     "creator" : "logycoconut",
@@ -54,11 +54,11 @@
     "accountablePerson" : "logycoconut",
     "copyrightHolder" : "logycoconut",
     "copyrightYear" : "2020",
-    "datePublished": "2020-09-21 13:23:26 \u002b0800 \u002b0800",
-    "dateModified" : "2020-09-21 13:23:26 \u002b0800 \u002b0800",
-    "url" : "https:\/\/logycoco.xyz\/2020\/018_ssh_key\/",
-    "wordCount" : "297",
-    "keywords" : [ "ssh", "logycoconut`s blog"]
+    "datePublished": "2020-12-01 10:33:55 \u002b0800 \u002b0800",
+    "dateModified" : "2020-12-01 10:33:55 \u002b0800 \u002b0800",
+    "url" : "https:\/\/logycoco.xyz\/2020\/019_java8_stream_groupby\/",
+    "wordCount" : "253",
+    "keywords" : [ "Java8","Stream", "logycoconut`s blog"]
 }
 </script>
 
@@ -123,11 +123,11 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">通过密钥登陆服务器</h1>
+        <h1 class="post-title" itemprop="name headline">Java8 Stream多字段分组求和groupingBy</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://logycoco.xyz/" rel="author">logycoconut</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2020-09-21 itemprop="datePublished">September 21, 2020</time>
+                on <time datetime=2020-12-01 itemprop="datePublished">December 1, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -135,7 +135,7 @@
                         <a href="https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/"> 关于技术 </a>
                         
                 </span>
-                <span class="post-word-count">, 297 words</span>
+                <span class="post-word-count">, 253 words</span>
         </div>
     </header>
 
@@ -146,9 +146,8 @@
     <div class="post-toc-content always-active">
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#生成密钥对">生成密钥对</a></li>
-    <li><a href="#在服务器上安装公钥">在服务器上安装公钥</a></li>
-    <li><a href="#保证文件权限">保证文件权限</a></li>
+    <li><a href="#实例">实例</a></li>
+    <li><a href="#参考资料">参考资料</a></li>
   </ul>
 </nav>
     </div>
@@ -199,30 +198,41 @@
           
 
           <blockquote>
-<p>在使用Github Action自动化部署博客时，需要用到密钥来登录服务器，在这里记录一下具体步骤和其中踩过的一些坑</p>
+<p>对流中的数据进行分组求和</p>
 </blockquote>
-<h2 id="生成密钥对">生成密钥对</h2>
-<p>在 <code>root/.ssh</code>目录中生成公私钥</p>
-<pre><code>[root@CentOSAli ~]# ssh-keygen
-Generating public/private rsa key pair.
-Enter file in which to save the key (/root/.ssh/id_rsa):
-Created directory '/root/.ssh'.
-Enter passphrase (empty for no passphrase):
-Enter same passphrase again:
-Your identification has been saved in /root/.ssh/id_rsa.
-Your public key has been saved in /root/.ssh/id_rsa.pub.
-</code></pre><ul>
-<li><em>新旧生成方式带来的问题</em></li>
-</ul>
-<p><code>ssh-keygen</code> 新式的生成方式，id_rsa的开头会变成<code>BEGIN OPENSSH PRIVATE KEY</code>，而不是 <code>BEGIN RSA PRIVATE KEY</code> ，在多数软件还不支持OPENSSH格式的KEY的情况下，我们可以使用 <code>ssh-keygen -m PEM -t rsa -b 4096 -C &quot;your_email@example.com&quot;</code> 来继续生成PEM格式的KEY</p>
-<h2 id="在服务器上安装公钥">在服务器上安装公钥</h2>
-<p>很重要的一步，之前一直卡在这里，尝试了很多可能发现是没有安装</p>
-<pre><code>[root@CentOSAli ~]# cd .ssh
-[root@CentOSAli .ssh]# cat id_rsa.pub &gt;&gt; authorized_keys
-</code></pre><h2 id="保证文件权限">保证文件权限</h2>
-<pre><code>[root@CentOSAli .ssh]# chmod 600 authorized_keys
-[root@CentOSAli .ssh]# chmod 700 ~/.ssh
-</code></pre>
+<h2 id="实例">实例</h2>
+<p><code>Collectors.groupingBy</code> 最重要的一个参数 <code>Function&lt;? super T,? extends K&gt; classifier</code> ，它代表了map的key</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">List<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> items <span style="color:#f92672">=</span> Arrays<span style="color:#f92672">.</span><span style="color:#a6e22e">asList</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;apple&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;apple&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;banana&#34;</span><span style="color:#f92672">,</span>
+        <span style="color:#e6db74">&#34;apple&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;orange&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;banana&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;papaya&#34;</span><span style="color:#f92672">);</span>
+
+Map<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">,</span> Long<span style="color:#f92672">&gt;</span> result <span style="color:#f92672">=</span> items
+        <span style="color:#f92672">.</span><span style="color:#a6e22e">stream</span><span style="color:#f92672">()</span>
+        <span style="color:#f92672">.</span><span style="color:#a6e22e">collect</span><span style="color:#f92672">(</span>Collectors<span style="color:#f92672">.</span><span style="color:#a6e22e">groupingBy</span><span style="color:#f92672">(</span>Function<span style="color:#f92672">.</span><span style="color:#a6e22e">identity</span><span style="color:#f92672">(),</span>
+                Collectors<span style="color:#f92672">.</span><span style="color:#a6e22e">counting</span><span style="color:#f92672">()));</span>
+
+System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>result<span style="color:#f92672">);</span>
+
+<span style="color:#75715e">// 运行结果
+</span><span style="color:#75715e"></span><span style="color:#f92672">{</span>papaya<span style="color:#f92672">=</span>1<span style="color:#f92672">,</span> orange<span style="color:#f92672">=</span>1<span style="color:#f92672">,</span> banana<span style="color:#f92672">=</span>2<span style="color:#f92672">,</span> apple<span style="color:#f92672">=</span>3<span style="color:#f92672">}</span>
+</code></pre></div><p>比如说我们有A、B、C三个仓库，每个仓库都有货品的库存（比如桌子、凳子、数据线），现在我们需要统计所有货品的库存，我们就需要对三个仓库都进行统计</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#75715e">// 伪代码，不可用于生产环境
+</span><span style="color:#75715e"></span>List<span style="color:#f92672">&lt;</span>Goods<span style="color:#f92672">&gt;</span> goodslist <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ArrayList<span style="color:#f92672">&lt;&gt;();</span>
+
+Map<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">,</span> Long<span style="color:#f92672">&gt;</span> map <span style="color:#f92672">=</span> items<span style="color:#f92672">.</span><span style="color:#a6e22e">stream</span><span style="color:#f92672">()</span>
+    <span style="color:#f92672">.</span><span style="color:#a6e22e">collect</span><span style="color:#f92672">(</span>Collectors<span style="color:#f92672">.</span><span style="color:#a6e22e">groupingBy</span><span style="color:#f92672">(</span>Goods<span style="color:#f92672">::</span>getName<span style="color:#f92672">,</span>
+                                   Collectors<span style="color:#f92672">.</span><span style="color:#a6e22e">summingInt</span><span style="color:#f92672">(</span>good <span style="color:#f92672">-&gt;</span> Goods<span style="color:#f92672">::</span>getStock<span style="color:#f92672">)));</span>
+System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>map<span style="color:#f92672">);</span>
+
+<span style="color:#75715e">// 运行结果
+</span><span style="color:#75715e"></span><span style="color:#f92672">{</span>
+    <span style="color:#e6db74">&#34;桌子&#34;</span><span style="color:#f92672">:</span> 23<span style="color:#f92672">,</span>
+    <span style="color:#e6db74">&#34;椅子&#34;</span><span style="color:#f92672">:</span> 46<span style="color:#f92672">,</span>
+    <span style="color:#e6db74">&#34;数据线&#34;</span><span style="color:#f92672">:</span> 46
+<span style="color:#f92672">}</span>
+</code></pre></div><h2 id="参考资料">参考资料</h2>
+<p><a href="https://www.jianshu.com/p/dd5121c8fa89">Java8 Stream多字段分组求和groupingBy</a></p>
+<p><a href="https://blog.csdn.net/neweastsun/article/details/89504811">介绍 Java 8 groupingBy Collector</a></p>
+
     </div>
 
     <div class="post-copyright">
@@ -236,7 +246,7 @@ Your public key has been saved in /root/.ssh/id_rsa.pub.
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://logycoco.xyz/2020/018_ssh_key/>https://logycoco.xyz/2020/018_ssh_key/</span>
+                    <a href=https://logycoco.xyz/2020/019_java8_stream_groupby/>https://logycoco.xyz/2020/019_java8_stream_groupby/</span>
             </p>
             
              
@@ -252,8 +262,11 @@ Your public key has been saved in /root/.ssh/id_rsa.pub.
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="https://logycoco.xyz/tags/ssh/">
-                    #ssh</a></span>
+            <span class="tag"><a href="https://logycoco.xyz/tags/java8/">
+                    #Java8</a></span>
+            
+            <span class="tag"><a href="https://logycoco.xyz/tags/stream/">
+                    #Stream</a></span>
             
             </section>
         
@@ -265,10 +278,8 @@ Your public key has been saved in /root/.ssh/id_rsa.pub.
 
     <div class="post-nav">
         
-        <a href="https://logycoco.xyz/2020/017_seckill_system_design/" class="prev" rel="prev" title="设计一个秒杀系统"><i class="iconfont icon-left"></i>&nbsp;设计一个秒杀系统</a>
+        <a href="https://logycoco.xyz/2020/018_ssh_key/" class="prev" rel="prev" title="通过密钥登陆服务器"><i class="iconfont icon-left"></i>&nbsp;通过密钥登陆服务器</a>
          
-        
-        <a href="https://logycoco.xyz/2020/019_java8_stream_groupby/" class="next" rel="next" title="Java8 Stream多字段分组求和groupingBy">Java8 Stream多字段分组求和groupingBy&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -278,7 +289,7 @@ Your public key has been saved in /root/.ssh/id_rsa.pub.
         
               
               
-              <span id="/2020/018_ssh_key/" class="leancloud_visitors" data-flag-title="通过密钥登陆服务器">
+              <span id="/2020/019_java8_stream_groupby/" class="leancloud_visitors" data-flag-title="Java8 Stream多字段分组求和groupingBy">
                   <span class="post-meta-item-text">访问量 </span>
                   <span class="leancloud-visitors-count"></span>
                   <p></p>

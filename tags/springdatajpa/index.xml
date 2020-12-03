@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SpringDataJpa on logycoconut`s blog</title>
+    <link>https://logycoco.xyz/tags/springdatajpa/</link>
+    <description>Recent content in SpringDataJpa on logycoconut`s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 03 Dec 2020 13:59:11 +0800</lastBuildDate><atom:link href="https://logycoco.xyz/tags/springdatajpa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Auditing及其事件详解</title>
+      <link>https://logycoco.xyz/2020/020_springdatajpa_auditing/</link>
+      <pubDate>Thu, 03 Dec 2020 13:59:11 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/020_springdatajpa_auditing/</guid>
+      <description>我们在实际开发中，对表中记录经常需要记录是谁创建的、谁最后修改过、修改时间是什么时候。 Auditing意为审计，是Jpa为我们提供的以上功能</description>
+    </item>
+    
+  </channel>
+</rss>

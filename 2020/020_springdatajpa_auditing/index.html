@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="logycoconut">
+  
+  
+  
+  <link rel="prev" href="https://logycoco.xyz/2020/019_java8_stream_groupby/" />
+  
+  <link rel="canonical" href="https://logycoco.xyz/2020/020_springdatajpa_auditing/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           Auditing及其事件详解 | logycoconut`s blog
+       
+  </title>
+  <meta name="title" content="Auditing及其事件详解 | logycoconut`s blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https:\/\/logycoco.xyz\/"
+    },
+    "articleSection" : "posts",
+    "name" : "Auditing及其事件详解",
+    "headline" : "Auditing及其事件详解",
+    "description" : "我们在实际开发中，对表中记录经常需要记录是谁创建的、谁最后修改过、修改时间是什么时候。 Auditing意为审计，是Jpa为我们提供的以上功能",
+    "inLanguage" : "zh-cn",
+    "author" : "logycoconut",
+    "creator" : "logycoconut",
+    "publisher": "logycoconut",
+    "accountablePerson" : "logycoconut",
+    "copyrightHolder" : "logycoconut",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-12-03 13:59:11 \u002b0800 \u002b0800",
+    "dateModified" : "2020-12-03 13:59:11 \u002b0800 \u002b0800",
+    "url" : "https:\/\/logycoco.xyz\/2020\/020_springdatajpa_auditing\/",
+    "wordCount" : "527",
+    "keywords" : [ "SpringDataJpa", "logycoconut`s blog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	&nbsp;<a href="https://logycoco.xyz/"> 🎈 bakc to home </a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+        <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://logycoco.xyz/">logycoconut`s blog</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Auditing及其事件详解</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="https://logycoco.xyz/" rel="author">logycoconut</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2020-12-03 itemprop="datePublished">December 3, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/"> 关于技术 </a>
+                        
+                </span>
+                <span class="post-word-count">, 527 words</span>
+        </div>
+    </header>
+
+    
+        <div class="post-toc" id="post-toc">
+    <h2 class="post-toc-title"></h2>
+    
+    <div class="post-toc-content always-active">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#基本实现">基本实现</a>
+      <ul>
+        <li><a href="#四个注解">四个注解</a></li>
+        <li><a href="#代码示例">代码示例</a></li>
+        <li><a href="#扩展成entity基类">扩展成Entity基类</a></li>
+      </ul>
+    </li>
+    <li><a href="#listener扩展">Listener扩展</a>
+      <ul>
+        <li><a href="#callbacks注解方式">Callbacks注解方式</a></li>
+        <li><a href="#代码示例-1">代码示例</a></li>
+        <li><a href="#jpa的乐观锁实现-version">Jpa的乐观锁实现 <code>@Version</code> </a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+  </div>
+  <script type="text/javascript">
+    window.onload = function () {
+      var fix = $('.post-toc');
+      var end = $('.post-comment');
+      var fixTop = fix.offset().top, fixHeight = fix.height();
+      var endTop, miss;
+      var offsetTop = fix[0].offsetTop;
+      $(window).scroll(function () {
+        var docTop = Math.max(document.body.scrollTop, document.documentElement.scrollTop);
+        if (end.length > 0) {
+          endTop = end.offset().top;
+          miss = endTop - docTop - fixHeight;
+        }
+        if (fixTop < docTop) {
+          fix.css({ 'position': 'fixed' });
+          if ((end.length > 0) && (endTop < (docTop + fixHeight))) {
+            fix.css({ top: miss });
+          } else {
+            fix.css({ top: 0 });
+          }
+        } else {
+          fix.css({ 'position': 'absolute' });
+          fix.css({ top: offsetTop });
+        }
+      })
+    }
+  </script> 
+    
+
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <blockquote>
+<p>我们在实际开发中，对表中记录经常需要记录是谁创建的、谁最后修改过、修改时间是什么时候。
+Auditing意为审计，是Jpa为我们提供的以上功能实现</p>
+</blockquote>
+<h2 id="基本实现">基本实现</h2>
+<h3 id="四个注解">四个注解</h3>
+<ul>
+<li><code>@CreatedDate</code></li>
+<li><code>@LastModifiedDate</code></li>
+<li><code>@CreatedBy</code></li>
+<li><code>@LastModifiedBy</code></li>
+</ul>
+<h3 id="代码示例">代码示例</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#75715e">// 实体类
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">@Data</span>
+<span style="color:#a6e22e">@Entity</span>
+<span style="color:#a6e22e">@EntityListeners</span><span style="color:#f92672">(</span>AuditingEntityListener<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">)</span>  <span style="color:#75715e">// 表明需要审计功能
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Employee</span> <span style="color:#f92672">{</span>
+
+    <span style="color:#a6e22e">@Id</span>
+    <span style="color:#a6e22e">@GeneratedValue</span><span style="color:#f92672">(</span>strategy <span style="color:#f92672">=</span> GenerationType<span style="color:#f92672">.</span><span style="color:#a6e22e">IDENTITY</span><span style="color:#f92672">)</span>
+    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">long</span> id<span style="color:#f92672">;</span>
+    <span style="color:#66d9ef">private</span> String name<span style="color:#f92672">;</span>
+    <span style="color:#66d9ef">private</span> String code<span style="color:#f92672">;</span>
+
+    <span style="color:#75715e">// 以下是JPA支持自动修改的注解
+</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">@CreatedDate</span>
+    <span style="color:#66d9ef">private</span> Date createTime<span style="color:#f92672">;</span>
+    <span style="color:#a6e22e">@LastModifiedDate</span>
+    <span style="color:#66d9ef">private</span> Date lastModifiedTime<span style="color:#f92672">;</span>
+    <span style="color:#a6e22e">@CreatedBy</span>
+    <span style="color:#66d9ef">private</span> String createUser<span style="color:#f92672">;</span>
+    <span style="color:#a6e22e">@LastModifiedBy</span>
+    <span style="color:#66d9ef">private</span> String lastModifiedUser<span style="color:#f92672">;</span>
+
+<span style="color:#f92672">}</span>
+
+<span style="color:#75715e">// 实现自己的AuditorAware
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyAuditorAware</span> <span style="color:#66d9ef">implements</span> AuditorAware<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> <span style="color:#f92672">{</span>
+
+    <span style="color:#a6e22e">@Override</span>
+    <span style="color:#66d9ef">public</span> Optional<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">getCurrentAuditor</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+        <span style="color:#66d9ef">return</span> Optional<span style="color:#f92672">.</span><span style="color:#a6e22e">of</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;hall&#34;</span><span style="color:#f92672">);</span>
+    <span style="color:#f92672">}</span>
+
+<span style="color:#f92672">}</span>
+
+<span style="color:#75715e">// 开启JPA的审计功能
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">@SpringBootApplication</span>
+<span style="color:#a6e22e">@EnableJpaAuditing</span>
+<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">DemoApplication</span> <span style="color:#f92672">{</span>
+
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+        SpringApplication<span style="color:#f92672">.</span><span style="color:#a6e22e">run</span><span style="color:#f92672">(</span>DemoApplication<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">,</span> args<span style="color:#f92672">);</span>
+    <span style="color:#f92672">}</span>
+
+    <span style="color:#75715e">// 注入自己实现的AuditorAware类
+</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">@Bean</span>
+    <span style="color:#66d9ef">public</span> AuditorAware<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">auditorProvider</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> MyAuditorAware<span style="color:#f92672">();</span>
+    <span style="color:#f92672">}</span>
+
+<span style="color:#f92672">}</span>
+</code></pre></div><h3 id="扩展成entity基类">扩展成Entity基类</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#a6e22e">@Data</span>
+<span style="color:#a6e22e">@MappedSuperclass</span>
+<span style="color:#a6e22e">@EntityListeners</span><span style="color:#f92672">(</span>AuditingEntityListener<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">)</span>
+<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AbstractAuditable</span> <span style="color:#f92672">{</span>
+
+    <span style="color:#a6e22e">@CreatedDate</span>
+    <span style="color:#66d9ef">private</span> Date createTime<span style="color:#f92672">;</span>
+    <span style="color:#a6e22e">@LastModifiedDate</span>
+    <span style="color:#66d9ef">private</span> Date lastModifiedTime<span style="color:#f92672">;</span>
+    <span style="color:#a6e22e">@CreatedBy</span>
+    <span style="color:#66d9ef">private</span> String createUser<span style="color:#f92672">;</span>
+    <span style="color:#a6e22e">@LastModifiedBy</span>
+    <span style="color:#66d9ef">private</span> String lastModifiedUser<span style="color:#f92672">;</span>
+
+<span style="color:#f92672">}</span>
+</code></pre></div><h2 id="listener扩展">Listener扩展</h2>
+<h3 id="callbacks注解方式">Callbacks注解方式</h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>@PrePersist</td>
+<td>新增之前</td>
+</tr>
+<tr>
+<td>@PostPersist</td>
+<td>新增之后</td>
+</tr>
+<tr>
+<td>@PreUpdate</td>
+<td>更新之前</td>
+</tr>
+<tr>
+<td>@PostUpdate</td>
+<td>更新之后</td>
+</tr>
+<tr>
+<td>@PreRemove</td>
+<td>删除之前</td>
+</tr>
+<tr>
+<td>@PostRemove</td>
+<td>删除之后</td>
+</tr>
+<tr>
+<td>@PostLoad</td>
+<td>加载之后</td>
+</tr>
+</tbody>
+</table>
+<p>需要注意的是，这些方法都是同步机制，一旦报错将会影响所有底层代码执行。实际工作中实现这些方法的时候，方法体里面开启异步线程或者消息队列来异步处理</p>
+<h3 id="代码示例-1">代码示例</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#75715e">// 实体类
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">@Data</span>
+<span style="color:#a6e22e">@Entity</span>
+<span style="color:#a6e22e">@EntityListeners</span><span style="color:#f92672">(</span>EmployeeAuditListener<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">)</span>
+<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Employee</span> <span style="color:#66d9ef">extends</span> AbstractAuditable <span style="color:#f92672">{</span>
+
+    <span style="color:#a6e22e">@Id</span>
+    <span style="color:#a6e22e">@GeneratedValue</span><span style="color:#f92672">(</span>strategy <span style="color:#f92672">=</span> GenerationType<span style="color:#f92672">.</span><span style="color:#a6e22e">IDENTITY</span><span style="color:#f92672">)</span>
+    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">long</span> id<span style="color:#f92672">;</span>
+    <span style="color:#66d9ef">private</span> String name<span style="color:#f92672">;</span>
+    <span style="color:#66d9ef">private</span> String code<span style="color:#f92672">;</span>
+
+
+<span style="color:#f92672">}</span>
+
+<span style="color:#75715e">// 自定义Listener
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">@Slf4j</span>
+<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">EmployeeAuditListener</span> <span style="color:#f92672">{</span>
+
+    <span style="color:#a6e22e">@PostPersist</span>
+    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">postPersist</span><span style="color:#f92672">(</span>Employee employee<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+        log<span style="color:#f92672">.</span><span style="color:#a6e22e">info</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;新增啦，{}&#34;</span><span style="color:#f92672">,</span> employee<span style="color:#f92672">);</span>
+    <span style="color:#f92672">}</span>
+
+<span style="color:#f92672">}</span>
+</code></pre></div><h3 id="jpa的乐观锁实现-version">Jpa的乐观锁实现 <code>@Version</code> </h3>
+<p>只需要在字段上加上Version注解</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#a6e22e">@Version</span>
+<span style="color:#66d9ef">private</span> Long version<span style="color:#f92672">;</span>
+</code></pre></div>
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>logycoconut </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=https://logycoco.xyz/2020/020_springdatajpa_auditing/>https://logycoco.xyz/2020/020_springdatajpa_auditing/</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://logycoco.xyz/tags/springdatajpa/">
+                    #SpringDataJpa</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="https://logycoco.xyz/">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="https://logycoco.xyz/2020/019_java8_stream_groupby/" class="prev" rel="prev" title="Java8 Stream多字段分组求和groupingBy"><i class="iconfont icon-left"></i>&nbsp;Java8 Stream多字段分组求和groupingBy</a>
+         
+        
+    </div>
+
+    
+
+    <div class="post-comment">
+        
+              
+              
+              <span id="/2020/020_springdatajpa_auditing/" class="leancloud_visitors" data-flag-title="Auditing及其事件详解">
+                  <span class="post-meta-item-text">访问量 </span>
+                  <span class="leancloud-visitors-count"></span>
+                  <p></p>
+              </span>
+              <div id="vcomments"></div>
+              <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+              <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+              <script type="text/javascript">
+                  new Valine({
+                      el: '#vcomments' ,
+                      appId: 'StEymzkNLSKQUScNukHRuQVx-gzGzoHsz',
+                      appKey: 'pL74IWizdQgqxiD9bHivwzQJ',
+                      notify:  true ,
+                      verify:  true ,
+                      avatar:'retro',
+                      placeholder: '说点什么吧...',
+                      visitor:  true 
+                  });
+              </script>
+        
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2018 - 2020</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://logycoco.xyz/">logycoconut</a> | </span> 
+         
+
+         
+            <a href="http://www.beian.miit.gov.cn/" target="_blank" rel="external nofollow">浙ICP备19046357号 </a> |
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+     </div>
+  </body>
+</html>

@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="logycoconut">
+  
+  
+  
+  <link rel="prev" href="https://logycoco.xyz/2020/020_springdatajpa_auditing/" />
+  
+  <link rel="canonical" href="https://logycoco.xyz/2020/021_springdatajpa_transactional/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           Spring中事务的处理 | logycoconut`s blog
+       
+  </title>
+  <meta name="title" content="Spring中事务的处理 | logycoconut`s blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https:\/\/logycoco.xyz\/"
+    },
+    "articleSection" : "posts",
+    "name" : "Spring中事务的处理",
+    "headline" : "Spring中事务的处理",
+    "description" : "注解式事务 @Transactional 源码 @Target({ElementType.TYPE, ElementType.METHOD}) @Retention(RetentionPolicy.RUNTIME) @Inherited @Documented public @interface Transactional { @AliasFor(\u0026#34;transactionManager\u0026#34;) String value() default \u0026#34;\u0026#34;; @AliasFor(\u0026#34;value\u0026#34;) String transactionManager() default \u0026#34;\u0026#34;; Propagation propagation() default Propagation.REQUIRED; Isolation isolation() default Isolation.DEFAULT; int timeout() default -1; boolean readOnly() default false; Class\u0026lt;? extends Throwable\u0026gt;[] rollbackFor() default {}; String[] rollbackForClassName() default {}; Class\u0026lt;? extends Throwable\u0026gt;[] noRollbackFor() default {}; String[] noRollbackForClassName() default {}; } 常用参数说明",
+    "inLanguage" : "zh-cn",
+    "author" : "logycoconut",
+    "creator" : "logycoconut",
+    "publisher": "logycoconut",
+    "accountablePerson" : "logycoconut",
+    "copyrightHolder" : "logycoconut",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-12-03 14:21:11 \u002b0800 \u002b0800",
+    "dateModified" : "2020-12-03 14:21:11 \u002b0800 \u002b0800",
+    "url" : "https:\/\/logycoco.xyz\/2020\/021_springdatajpa_transactional\/",
+    "wordCount" : "752",
+    "keywords" : [ "SpringDataJpa","Spring", "logycoconut`s blog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	&nbsp;<a href="https://logycoco.xyz/"> 🎈 bakc to home </a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+        <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://logycoco.xyz/">logycoconut`s blog</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Spring中事务的处理</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="https://logycoco.xyz/" rel="author">logycoconut</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2020-12-03 itemprop="datePublished">December 3, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/"> 关于技术 </a>
+                        
+                </span>
+                <span class="post-word-count">, 752 words</span>
+        </div>
+    </header>
+
+    
+        <div class="post-toc" id="post-toc">
+    <h2 class="post-toc-title"></h2>
+    
+    <div class="post-toc-content always-active">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#注解式事务">注解式事务</a>
+      <ul>
+        <li><a href="#transactional-源码"><code>@Transactional</code> 源码</a></li>
+        <li><a href="#常用参数说明">常用参数说明</a></li>
+        <li><a href="#propagation的值"><code>propagation</code> 的值</a></li>
+      </ul>
+    </li>
+    <li><a href="#声明式事务">声明式事务</a></li>
+  </ul>
+</nav>
+    </div>
+  </div>
+  <script type="text/javascript">
+    window.onload = function () {
+      var fix = $('.post-toc');
+      var end = $('.post-comment');
+      var fixTop = fix.offset().top, fixHeight = fix.height();
+      var endTop, miss;
+      var offsetTop = fix[0].offsetTop;
+      $(window).scroll(function () {
+        var docTop = Math.max(document.body.scrollTop, document.documentElement.scrollTop);
+        if (end.length > 0) {
+          endTop = end.offset().top;
+          miss = endTop - docTop - fixHeight;
+        }
+        if (fixTop < docTop) {
+          fix.css({ 'position': 'fixed' });
+          if ((end.length > 0) && (endTop < (docTop + fixHeight))) {
+            fix.css({ top: miss });
+          } else {
+            fix.css({ top: 0 });
+          }
+        } else {
+          fix.css({ 'position': 'absolute' });
+          fix.css({ top: offsetTop });
+        }
+      })
+    }
+  </script> 
+    
+
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <h2 id="注解式事务">注解式事务</h2>
+<h3 id="transactional-源码"><code>@Transactional</code> 源码</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#a6e22e">@Target</span><span style="color:#f92672">({</span>ElementType<span style="color:#f92672">.</span><span style="color:#a6e22e">TYPE</span><span style="color:#f92672">,</span> ElementType<span style="color:#f92672">.</span><span style="color:#a6e22e">METHOD</span><span style="color:#f92672">})</span>
+<span style="color:#a6e22e">@Retention</span><span style="color:#f92672">(</span>RetentionPolicy<span style="color:#f92672">.</span><span style="color:#a6e22e">RUNTIME</span><span style="color:#f92672">)</span>
+<span style="color:#a6e22e">@Inherited</span>
+<span style="color:#a6e22e">@Documented</span>
+<span style="color:#66d9ef">public</span> <span style="color:#a6e22e">@interface</span> Transactional <span style="color:#f92672">{</span>
+    <span style="color:#a6e22e">@AliasFor</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;transactionManager&#34;</span><span style="color:#f92672">)</span>
+    String <span style="color:#a6e22e">value</span><span style="color:#f92672">()</span> <span style="color:#66d9ef">default</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">;</span>
+
+    <span style="color:#a6e22e">@AliasFor</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;value&#34;</span><span style="color:#f92672">)</span>
+    String <span style="color:#a6e22e">transactionManager</span><span style="color:#f92672">()</span> <span style="color:#66d9ef">default</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">;</span>
+
+    Propagation <span style="color:#a6e22e">propagation</span><span style="color:#f92672">()</span> <span style="color:#66d9ef">default</span> Propagation<span style="color:#f92672">.</span><span style="color:#a6e22e">REQUIRED</span><span style="color:#f92672">;</span>
+
+    Isolation <span style="color:#a6e22e">isolation</span><span style="color:#f92672">()</span> <span style="color:#66d9ef">default</span> Isolation<span style="color:#f92672">.</span><span style="color:#a6e22e">DEFAULT</span><span style="color:#f92672">;</span>
+
+    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">timeout</span><span style="color:#f92672">()</span> <span style="color:#66d9ef">default</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">;</span>
+
+    <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">readOnly</span><span style="color:#f92672">()</span> <span style="color:#66d9ef">default</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">;</span>
+
+    Class<span style="color:#f92672">&lt;?</span> <span style="color:#66d9ef">extends</span> Throwable<span style="color:#f92672">&gt;[]</span> <span style="color:#a6e22e">rollbackFor</span><span style="color:#f92672">()</span> <span style="color:#66d9ef">default</span> <span style="color:#f92672">{};</span>
+
+    String<span style="color:#f92672">[]</span> <span style="color:#a6e22e">rollbackForClassName</span><span style="color:#f92672">()</span> <span style="color:#66d9ef">default</span> <span style="color:#f92672">{};</span>
+
+    Class<span style="color:#f92672">&lt;?</span> <span style="color:#66d9ef">extends</span> Throwable<span style="color:#f92672">&gt;[]</span> <span style="color:#a6e22e">noRollbackFor</span><span style="color:#f92672">()</span> <span style="color:#66d9ef">default</span> <span style="color:#f92672">{};</span>
+
+    String<span style="color:#f92672">[]</span> <span style="color:#a6e22e">noRollbackForClassName</span><span style="color:#f92672">()</span> <span style="color:#66d9ef">default</span> <span style="color:#f92672">{};</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><h3 id="常用参数说明">常用参数说明</h3>
+<table>
+<thead>
+<tr>
+<th>参数名称</th>
+<th>功能描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>readOnly</td>
+<td>设置当前事务是否为只读事务</td>
+</tr>
+<tr>
+<td>rollbackFor</td>
+<td>设置需要进行回滚的异常类数组</td>
+</tr>
+<tr>
+<td>rollbackForClassName</td>
+<td>设置需要进行回滚的异常类名称数组</td>
+</tr>
+<tr>
+<td>noRollbackFor</td>
+<td>设置不需要进行回滚的异常类数组</td>
+</tr>
+<tr>
+<td>noRollbackForClassName</td>
+<td>设置不需要进行回滚的异常类名称数组</td>
+</tr>
+<tr>
+<td>propagation</td>
+<td>设置事务的传播行为</td>
+</tr>
+<tr>
+<td>isolation</td>
+<td>设置底层数据库的事务隔离级别，通常使用数据库的默认隔离级别</td>
+</tr>
+<tr>
+<td>timeout</td>
+<td>设置事务的超时秒数，默认为-1，表示永不超时</td>
+</tr>
+<tr>
+<td>transactionManager</td>
+<td>指定transactionManager，当有多个datasource时</td>
+</tr>
+</tbody>
+</table>
+<h3 id="propagation的值"><code>propagation</code> 的值</h3>
+<ul>
+<li>REQUIRED：如果当前存在事务，则加入该事务；如果当前没有事务，则创建一个新的事务</li>
+<li>SUPPORTS：如果当前存在事务，则加入该事务；如果当前没有事务，则以非事务的方式继续运行</li>
+<li>MANDATORY：如果当前存在事务，则加入该事务；如果当前没有事务，则抛出异常</li>
+<li>REQUIRED_NEW：创建一个新事务，如果当前存在事务，则把当前事务挂起</li>
+<li>NOT_SUPPORTED：以非事务方式运行，如果当前存在事务，则把当前事务挂起</li>
+<li>NEVER：以非事务方式运行，如果当前存在事务，则抛出异常</li>
+<li>NESTED：如果当前存在事务，则创建一个事务作为当前事务的嵌套事务来运行；如果当前没有事务，则该取值等价于REQUIRED</li>
+</ul>
+<h2 id="声明式事务">声明式事务</h2>
+<blockquote>
+<p>又叫隐式事务，或者叫ASPECTJ事务</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#a6e22e">@Configuration</span>
+<span style="color:#a6e22e">@EnableTransactionManagement</span>
+<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AspectJTransactionConfig</span> <span style="color:#f92672">{</span>
+
+    <span style="color:#75715e">/**
+</span><span style="color:#75715e">     * 表示com.example.demo.service包下的所有类的所有方法
+</span><span style="color:#75715e">     */</span>
+    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String TRANSACTION_EXECUTION <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;execution (* com.example.demo.service.*.*(..))&#34;</span><span style="color:#f92672">;</span>
+
+    <span style="color:#a6e22e">@Autowired</span>
+    <span style="color:#66d9ef">private</span> PlatformTransactionManager transactionManager<span style="color:#f92672">;</span>
+
+    <span style="color:#a6e22e">@Bean</span>
+    <span style="color:#66d9ef">public</span> DefaultPointcutAdvisor <span style="color:#a6e22e">defaultPointcutAdvisor</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+        <span style="color:#75715e">// 1. 配置切入点表达式
+</span><span style="color:#75715e"></span>        AspectJExpressionPointcut pointcut <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> AspectJExpressionPointcut<span style="color:#f92672">();</span>
+        pointcut<span style="color:#f92672">.</span><span style="color:#a6e22e">setExpression</span><span style="color:#f92672">(</span>TRANSACTION_EXECUTION<span style="color:#f92672">);</span>
+
+        <span style="color:#75715e">// 2. 配置事务通知
+</span><span style="color:#75715e"></span>        NameMatchTransactionAttributeSource attributes <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> NameMatchTransactionAttributeSource<span style="color:#f92672">();</span>
+
+        <span style="color:#75715e">// 2.1 配置事务传播属性
+</span><span style="color:#75715e"></span>        RuleBasedTransactionAttribute readOnlyTx <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> RuleBasedTransactionAttribute<span style="color:#f92672">();</span>
+        readOnlyTx<span style="color:#f92672">.</span><span style="color:#a6e22e">setReadOnly</span><span style="color:#f92672">(</span><span style="color:#66d9ef">true</span><span style="color:#f92672">);</span>
+        readOnlyTx<span style="color:#f92672">.</span><span style="color:#a6e22e">setPropagationBehavior</span><span style="color:#f92672">(</span>TransactionDefinition<span style="color:#f92672">.</span><span style="color:#a6e22e">PROPAGATION_NOT_SUPPORTED</span><span style="color:#f92672">);</span>
+
+        RuleBasedTransactionAttribute requiredTx <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> RuleBasedTransactionAttribute<span style="color:#f92672">();</span>
+        requiredTx<span style="color:#f92672">.</span><span style="color:#a6e22e">setRollbackRules</span><span style="color:#f92672">(</span>Collections<span style="color:#f92672">.</span><span style="color:#a6e22e">singletonList</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> RollbackRuleAttribute<span style="color:#f92672">(</span>Exception<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">)));</span>
+        requiredTx<span style="color:#f92672">.</span><span style="color:#a6e22e">setPropagationBehavior</span><span style="color:#f92672">(</span>TransactionDefinition<span style="color:#f92672">.</span><span style="color:#a6e22e">PROPAGATION_REQUIRED</span><span style="color:#f92672">);</span>
+        requiredTx<span style="color:#f92672">.</span><span style="color:#a6e22e">setTimeout</span><span style="color:#f92672">(</span>5<span style="color:#f92672">);</span>
+
+        Map<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">,</span> TransactionAttribute<span style="color:#f92672">&gt;</span> txMap <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> HashMap<span style="color:#f92672">&lt;&gt;();</span>
+        txMap<span style="color:#f92672">.</span><span style="color:#a6e22e">put</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;add*&#34;</span><span style="color:#f92672">,</span> requiredTx<span style="color:#f92672">);</span>
+        txMap<span style="color:#f92672">.</span><span style="color:#a6e22e">put</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;save*&#34;</span><span style="color:#f92672">,</span> requiredTx<span style="color:#f92672">);</span>
+        txMap<span style="color:#f92672">.</span><span style="color:#a6e22e">put</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;insert*&#34;</span><span style="color:#f92672">,</span> requiredTx<span style="color:#f92672">);</span>
+        txMap<span style="color:#f92672">.</span><span style="color:#a6e22e">put</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;update*&#34;</span><span style="color:#f92672">,</span> requiredTx<span style="color:#f92672">);</span>
+        txMap<span style="color:#f92672">.</span><span style="color:#a6e22e">put</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;delete*&#34;</span><span style="color:#f92672">,</span> requiredTx<span style="color:#f92672">);</span>
+        txMap<span style="color:#f92672">.</span><span style="color:#a6e22e">put</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;get*&#34;</span><span style="color:#f92672">,</span> readOnlyTx<span style="color:#f92672">);</span>
+        txMap<span style="color:#f92672">.</span><span style="color:#a6e22e">put</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;query*&#34;</span><span style="color:#f92672">,</span> readOnlyTx<span style="color:#f92672">);</span>
+        attributes<span style="color:#f92672">.</span><span style="color:#a6e22e">setNameMap</span><span style="color:#f92672">(</span>txMap<span style="color:#f92672">);</span>
+
+        TransactionInterceptor txAdvice <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> TransactionInterceptor<span style="color:#f92672">();</span>
+        txAdvice<span style="color:#f92672">.</span><span style="color:#a6e22e">setTransactionManager</span><span style="color:#f92672">(</span>transactionManager<span style="color:#f92672">);</span>
+        txAdvice<span style="color:#f92672">.</span><span style="color:#a6e22e">setTransactionAttributeSource</span><span style="color:#f92672">(</span>attributes<span style="color:#f92672">);</span>
+
+        <span style="color:#75715e">// 3. 配置advisor
+</span><span style="color:#75715e"></span>        DefaultPointcutAdvisor advisor <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> DefaultPointcutAdvisor<span style="color:#f92672">();</span>
+        advisor<span style="color:#f92672">.</span><span style="color:#a6e22e">setPointcut</span><span style="color:#f92672">(</span>pointcut<span style="color:#f92672">);</span>
+        advisor<span style="color:#f92672">.</span><span style="color:#a6e22e">setAdvice</span><span style="color:#f92672">(</span>txAdvice<span style="color:#f92672">);</span>
+
+        <span style="color:#66d9ef">return</span> advisor<span style="color:#f92672">;</span>
+    <span style="color:#f92672">}</span>
+
+<span style="color:#f92672">}</span>
+</code></pre></div>
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>logycoconut </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=https://logycoco.xyz/2020/021_springdatajpa_transactional/>https://logycoco.xyz/2020/021_springdatajpa_transactional/</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://logycoco.xyz/tags/springdatajpa/">
+                    #SpringDataJpa</a></span>
+            
+            <span class="tag"><a href="https://logycoco.xyz/tags/spring/">
+                    #Spring</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="https://logycoco.xyz/">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="https://logycoco.xyz/2020/020_springdatajpa_auditing/" class="prev" rel="prev" title="Auditing及其事件详解"><i class="iconfont icon-left"></i>&nbsp;Auditing及其事件详解</a>
+         
+        
+    </div>
+
+    
+
+    <div class="post-comment">
+        
+              
+              
+              <span id="/2020/021_springdatajpa_transactional/" class="leancloud_visitors" data-flag-title="Spring中事务的处理">
+                  <span class="post-meta-item-text">访问量 </span>
+                  <span class="leancloud-visitors-count"></span>
+                  <p></p>
+              </span>
+              <div id="vcomments"></div>
+              <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+              <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+              <script type="text/javascript">
+                  new Valine({
+                      el: '#vcomments' ,
+                      appId: 'StEymzkNLSKQUScNukHRuQVx-gzGzoHsz',
+                      appKey: 'pL74IWizdQgqxiD9bHivwzQJ',
+                      notify:  true ,
+                      verify:  true ,
+                      avatar:'retro',
+                      placeholder: '说点什么吧...',
+                      visitor:  true 
+                  });
+              </script>
+        
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2018 - 2020</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://logycoco.xyz/">logycoconut</a> | </span> 
+         
+
+         
+            <a href="http://www.beian.miit.gov.cn/" target="_blank" rel="external nofollow">浙ICP备19046357号 </a> |
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+     </div>
+  </body>
+</html>

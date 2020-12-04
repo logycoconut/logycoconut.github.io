@@ -6,11 +6,20 @@
     <description>Recent content in Tags on logycoconut`s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 03 Dec 2020 13:59:11 +0800</lastBuildDate><atom:link href="https://logycoco.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Dec 2020 14:21:11 +0800</lastBuildDate><atom:link href="https://logycoco.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring</title>
+      <link>https://logycoco.xyz/tags/spring/</link>
+      <pubDate>Thu, 03 Dec 2020 14:21:11 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/tags/spring/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>SpringDataJpa</title>
       <link>https://logycoco.xyz/tags/springdatajpa/</link>
-      <pubDate>Thu, 03 Dec 2020 13:59:11 +0800</pubDate>
+      <pubDate>Thu, 03 Dec 2020 14:21:11 +0800</pubDate>
       
       <guid>https://logycoco.xyz/tags/springdatajpa/</guid>
       <description></description>
@@ -130,15 +139,6 @@
       <pubDate>Wed, 18 Dec 2019 16:42:46 +0800</pubDate>
       
       <guid>https://logycoco.xyz/tags/oracle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Spring</title>
-      <link>https://logycoco.xyz/tags/spring/</link>
-      <pubDate>Wed, 02 Oct 2019 20:03:16 +0800</pubDate>
-      
-      <guid>https://logycoco.xyz/tags/spring/</guid>
       <description></description>
     </item>
     

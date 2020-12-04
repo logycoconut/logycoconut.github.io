@@ -6,7 +6,16 @@
     <description>Recent content in SpringDataJpa on logycoconut`s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 03 Dec 2020 13:59:11 +0800</lastBuildDate><atom:link href="https://logycoco.xyz/tags/springdatajpa/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Dec 2020 14:21:11 +0800</lastBuildDate><atom:link href="https://logycoco.xyz/tags/springdatajpa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring中事务的处理</title>
+      <link>https://logycoco.xyz/2020/021_springdatajpa_transactional/</link>
+      <pubDate>Thu, 03 Dec 2020 14:21:11 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/021_springdatajpa_transactional/</guid>
+      <description>注解式事务 @Transactional 源码 @Target({ElementType.TYPE, ElementType.METHOD}) @Retention(RetentionPolicy.RUNTIME) @Inherited @Documented public @interface Transactional { @AliasFor(&amp;#34;transactionManager&amp;#34;) String value() default &amp;#34;&amp;#34;; @AliasFor(&amp;#34;value&amp;#34;) String transactionManager() default &amp;#34;&amp;#34;; Propagation propagation() default Propagation.REQUIRED; Isolation isolation() default Isolation.DEFAULT; int timeout() default -1; boolean readOnly() default false; Class&amp;lt;? extends Throwable&amp;gt;[] rollbackFor() default {}; String[] rollbackForClassName() default {}; Class&amp;lt;? extends Throwable&amp;gt;[] noRollbackFor() default {}; String[] noRollbackForClassName() default {}; } 常用参数说明</description>
+    </item>
+    
     <item>
       <title>Auditing及其事件详解</title>
       <link>https://logycoco.xyz/2020/020_springdatajpa_auditing/</link>

@@ -16,7 +16,6 @@ tags: ["SpringCloud"]
 - 别人的文章再好也不如自己手打一遍代码
 - 要是有人看了我的文章真的学到东西，那就没有白写
 
-
 ## Spring Cloud 常用组件
 
 Spring Cloud 虽然已经很强大，但是它不提供所有的实现，不同厂商都可以给出自己的解决方案
@@ -31,7 +30,7 @@ Spring Cloud Netflix目前来说应该还是最流行的，但是随着Spring Cl
 
 ## 文章列表
 
-- [ ] Spring Cloud 之 Eureka实现服务注册和发现
+- [ ] [Spring Cloud 之 Eureka实现服务注册和发现](/2020/023_spring_cloud_notes_eureka/)
 - [ ] Spring Cloud 之 OpenFeign的服务调用
 - [ ] Spring Cloud 之 熔断器Hystrix
 - [ ] Spring Cloud 之 服务网关Zuul

@@ -1,7 +1,7 @@
 ---
 title: "Spring Cloud 之 Eureka实现服务注册和发现"
 date: 2020-12-22T21:27:30+08:00
-draft: true
+draft: false
 categories: ["关于技术"]
 tags: ["SpringCloud"]
 ---
@@ -89,8 +89,6 @@ public class EurekaProviderApplication {
 }
 ```
 
-`@EnableEurekaServer` 表明启动一个注册中心节点
-
 2. 新建 application.yml
 
 ```yml
@@ -123,4 +121,72 @@ public class ProviderController {
 
 ### 创建服务服务消费者
 
-未完待续....
+1. 给启动文件加上注解并注入RestTemplate
+
+```Java
+@EnableEurekaClient
+@SpringBootApplication
+public class EurekaConsumerApplication {
+    
+    public static void main(String[] args) {
+        SpringApplication.run(EurekaConsumerApplication.class, args);
+    }
+
+    /**
+     * 启用负载均衡
+     */
+    @LoadBalanced
+    @Bean
+    public RestTemplate restTemplate() {
+        return new RestTemplate();
+    }
+
+}
+```
+
+2. 新建 application.yml
+
+```yml
+server:
+  port: 10012
+spring:
+  application:
+    name: eureka-consumer
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10010/eureka/
+```
+
+3. 创建一个简单的接口来模拟消费服务
+
+```Java
+@RestController
+@RequestMapping("user")
+public class ConsumerController {
+
+    @Autowired
+    private RestTemplate restTemplate;
+
+    private static final String APPLICATION_NAME = "eureka-provider";
+
+    @GetMapping("consume")
+    public String consume() {
+        String providerUrl = "http://" + APPLICATION_NAME + "/user/info";
+        return this.restTemplate.getForObject(providerUrl, String.class);
+    }
+
+}
+```
+
+4. 请求consume方法可以看到成功返回数据
+
+5. 我们可以provider服务的方法中加入打印日志，并同时启动两个provider服务，查看控制台信息，验证负载均衡功能
+
+![GXPeplQ4VS79CTW](https://i.loli.net/2020/12/24/GXPeplQ4VS79CTW.png)
+
+![oDFIB4sjkuTezyL](https://i.loli.net/2020/12/24/oDFIB4sjkuTezyL.png)
+
+## Eureka实现高可用
+
+未完待续...

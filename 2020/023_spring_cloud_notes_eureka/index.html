@@ -57,7 +57,7 @@
     "datePublished": "2020-12-22 21:27:30 \u002b0800 \u002b0800",
     "dateModified" : "2020-12-22 21:27:30 \u002b0800 \u002b0800",
     "url" : "https:\/\/logycoco.xyz\/2020\/023_spring_cloud_notes_eureka\/",
-    "wordCount" : "753",
+    "wordCount" : "1100",
     "keywords" : [ "SpringCloud", "logycoconut`s blog"]
 }
 </script>
@@ -135,7 +135,7 @@
                         <a href="https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/"> 关于技术 </a>
                         
                 </span>
-                <span class="post-word-count">, 753 words</span>
+                <span class="post-word-count">, 1100 words</span>
         </div>
     </header>
 
@@ -154,7 +154,13 @@
         <li><a href="#创建服务服务消费者">创建服务服务消费者</a></li>
       </ul>
     </li>
-    <li><a href="#eureka实现高可用">Eureka实现高可用</a></li>
+    <li><a href="#eureka实现高可用">Eureka实现高可用</a>
+      <ul>
+        <li><a href="#修改注册中心配置">修改注册中心配置</a></li>
+        <li><a href="#修改服务提供者和消费者的配置">修改服务提供者和消费者的配置</a></li>
+      </ul>
+    </li>
+    <li><a href="#相关源码地址">相关源码地址</a></li>
   </ul>
 </nav>
     </div>
@@ -318,7 +324,7 @@
     <span style="color:#f92672">}</span>
 
     <span style="color:#75715e">/**
-</span><span style="color:#75715e">     * 启用负载均衡
+</span><span style="color:#75715e">     * 启用负载均衡, 使得 RestTemplate 可以直接通过服务名找到对应的IP地址
 </span><span style="color:#75715e">     */</span>
     <span style="color:#a6e22e">@LoadBalanced</span>
     <span style="color:#a6e22e">@Bean</span>
@@ -369,7 +375,49 @@
 <p><img src="https://i.loli.net/2020/12/24/GXPeplQ4VS79CTW.png" alt="GXPeplQ4VS79CTW"></p>
 <p><img src="https://i.loli.net/2020/12/24/oDFIB4sjkuTezyL.png" alt="oDFIB4sjkuTezyL"></p>
 <h2 id="eureka实现高可用">Eureka实现高可用</h2>
-<p>未完待续&hellip;</p>
+<p>实现高可用的关建就是运行多台Eureka服务器并让他们相互注册，并让其他服务都注册到这些注册中心</p>
+<h3 id="修改注册中心配置">修改注册中心配置</h3>
+<pre><code>spring:
+  profiles: eureka-registry1
+  application:
+    name: eureka-registry1
+server:
+  port: 10010
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:10009/eureka  # 注册到 eureka-registry2 上
+
+---
+
+spring:
+  profiles: eureka-registry2
+  application:
+    name: eureka-registry2
+server:
+  port: 10009
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:10010/eureka  # 注册到 eureka-registry1 上
+</code></pre><p>在idea的Services栏中复制一份注册中心的启动配置</p>
+<p><img src="https://i.loli.net/2020/12/25/6xjV4yhogvaYmHL.png" alt="微信截图_20201225113543.png"></p>
+<p>修改profiles参数</p>
+<p><img src="https://i.loli.net/2020/12/25/qZGuwPynCVR1mbM.png" alt="微信截图_20201225113610.png"></p>
+<h3 id="修改服务提供者和消费者的配置">修改服务提供者和消费者的配置</h3>
+<p>就是在client服务中添加所有的server地址, 但是要注意的是client1配置server1, server2，client2配置server2, server1</p>
+<p>client会优先从第一个开始找，找到能连通的就从那里同步数据，找不到会继续找一直到最后。如果前面的server挂掉了，就找后面的server， 这样才能达到高可用的目的</p>
+<pre><code>eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10010/eureka, http://localhost:10009/eureka
+</code></pre><h2 id="相关源码地址">相关源码地址</h2>
+<p>仅供参考</p>
+<p><a href="https://github.com/logycoconut/Spring-Cloud-Notes/tree/master/eureka">https://github.com/logycoconut/Spring-Cloud-Notes/tree/master/eureka</a></p>
 
     </div>
 

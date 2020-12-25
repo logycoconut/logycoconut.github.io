@@ -6,7 +6,16 @@
     <description>Recent content in 关于技术 on logycoconut`s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 22 Dec 2020 21:27:30 +0800</lastBuildDate><atom:link href="https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Dec 2020 13:28:54 +0800</lastBuildDate><atom:link href="https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Cloud 之 OpenFeign的使用</title>
+      <link>https://logycoco.xyz/2020/024_spring_cloud_notes_feign/</link>
+      <pubDate>Fri, 25 Dec 2020 13:28:54 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/024_spring_cloud_notes_feign/</guid>
+      <description>我们知道 RestTemplate 可以通过 url 甚至服务名进行消费，但是如果对于服务提供者的每一个服务都需要写上这么一段代码，不仅麻烦还很容易产生混乱，所以本文将要介绍</description>
+    </item>
+    
     <item>
       <title>Spring Cloud 之 Eureka实现服务注册和发现</title>
       <link>https://logycoco.xyz/2020/023_spring_cloud_notes_eureka/</link>

@@ -133,7 +133,7 @@ public class EurekaConsumerApplication {
     }
 
     /**
-     * 启用负载均衡
+     * 启用负载均衡, 使得 RestTemplate 可以直接通过服务名找到对应的IP地址
      */
     @LoadBalanced
     @Bean
@@ -189,4 +189,62 @@ public class ConsumerController {
 
 ## Eureka实现高可用
 
-未完待续...
+实现高可用的关建就是运行多台Eureka服务器并让他们相互注册，并让其他服务都注册到这些注册中心
+
+### 修改注册中心配置
+
+```
+spring:
+  profiles: eureka-registry1
+  application:
+    name: eureka-registry1
+server:
+  port: 10010
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:10009/eureka  # 注册到 eureka-registry2 上
+
+---
+
+spring:
+  profiles: eureka-registry2
+  application:
+    name: eureka-registry2
+server:
+  port: 10009
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:10010/eureka  # 注册到 eureka-registry1 上
+```
+
+在idea的Services栏中复制一份注册中心的启动配置
+
+![微信截图_20201225113543.png](https://i.loli.net/2020/12/25/6xjV4yhogvaYmHL.png)
+
+修改profiles参数
+
+![微信截图_20201225113610.png](https://i.loli.net/2020/12/25/qZGuwPynCVR1mbM.png)
+
+### 修改服务提供者和消费者的配置
+
+就是在client服务中添加所有的server地址, 但是要注意的是client1配置server1, server2，client2配置server2, server1
+
+client会优先从第一个开始找，找到能连通的就从那里同步数据，找不到会继续找一直到最后。如果前面的server挂掉了，就找后面的server， 这样才能达到高可用的目的
+```
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10010/eureka, http://localhost:10009/eureka
+```
+
+## 相关源码地址
+
+仅供参考
+
+https://github.com/logycoconut/Spring-Cloud-Notes/tree/master/eureka

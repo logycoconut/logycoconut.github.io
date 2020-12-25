@@ -31,7 +31,7 @@ Spring Cloud Netflix目前来说应该还是最流行的，但是随着Spring Cl
 ## 文章列表
 
 - [x] [Spring Cloud 之 Eureka实现服务注册和发现](/2020/023_spring_cloud_notes_eureka/)
-- [ ] Spring Cloud 之 OpenFeign的使用
+- [x] [Spring Cloud 之 OpenFeign的使用](/2020/023_spring_cloud_notes_feign/)
 - [ ] Spring Cloud 之 熔断器Hystrix
 - [ ] Spring Cloud 之 服务网关Zuul
 - [ ] Spring Cloud 之 分布式配置中心Spring Cloud Config 

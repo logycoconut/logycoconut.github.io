@@ -57,7 +57,7 @@
     "datePublished": "2020-12-25 13:28:54 \u002b0800 \u002b0800",
     "dateModified" : "2020-12-25 13:28:54 \u002b0800 \u002b0800",
     "url" : "https:\/\/logycoco.xyz\/2020\/024_spring_cloud_notes_feign\/",
-    "wordCount" : "367",
+    "wordCount" : "433",
     "keywords" : [ "SpringCloud", "logycoconut`s blog"]
 }
 </script>
@@ -135,7 +135,7 @@
                         <a href="https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/"> 关于技术 </a>
                         
                 </span>
-                <span class="post-word-count">, 367 words</span>
+                <span class="post-word-count">, 433 words</span>
         </div>
     </header>
 
@@ -211,8 +211,7 @@
 <h3 id="在服务提供服务中增加一个api模块">在服务提供服务中增加一个Api模块</h3>
 <p>里面放置公用的部分，比如说entity、api接口等</p>
 <p>一般都是由服务提供方编写，毕竟服务提供方最熟悉自己的接口</p>
-<pre><code>@RequestMapping(&quot;user&quot;)
-public interface ProviderApi {
+<pre><code>public interface ProviderApi {
 
     /**
      * 提供服务模拟
@@ -227,10 +226,11 @@ public interface ProviderApi {
 <p>在 Application 上增加 @EnableFeignClients 注解开启 Feign 支持</p>
 </li>
 <li>
-<p>增加 UserClient</p>
+<p>增加 UserClient，我们可以看到注解中有服务提供方的 application name， 以及请求地址的前缀</p>
 </li>
 </ol>
-<pre><code>@FeignClient(value = &quot;feign-provider&quot;)
+<p>前缀和 @GetMapping 中的值结合起来就是服务提供方的请求路径</p>
+<pre><code>@FeignClient(value = &quot;feign-provider&quot;, path = &quot;user&quot;)
 public interface ProviderClient extends ProviderApi { }
 </code></pre><ol start="3">
 <li>现在我们可以在服务中消费<code>feign-provider</code>的服务啦</li>

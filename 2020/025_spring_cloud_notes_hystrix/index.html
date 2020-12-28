@@ -57,7 +57,7 @@
     "datePublished": "2020-12-28 16:25:28 \u002b0800 \u002b0800",
     "dateModified" : "2020-12-28 16:25:28 \u002b0800 \u002b0800",
     "url" : "https:\/\/logycoco.xyz\/2020\/025_spring_cloud_notes_hystrix\/",
-    "wordCount" : "285",
+    "wordCount" : "381",
     "keywords" : [ "SpringCloud", "logycoconut`s blog"]
 }
 </script>
@@ -135,7 +135,7 @@
                         <a href="https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/"> 关于技术 </a>
                         
                 </span>
-                <span class="post-word-count">, 285 words</span>
+                <span class="post-word-count">, 381 words</span>
         </div>
     </header>
 
@@ -147,6 +147,7 @@
       <nav id="TableOfContents">
   <ul>
     <li><a href="#在feign上使用熔断器">在Feign上使用熔断器</a></li>
+    <li><a href="#相关源码地址">相关源码地址</a></li>
   </ul>
 </nav>
     </div>
@@ -204,10 +205,30 @@
 <p>Hystix应运而生，它可以在服务提供方故障的时候，隔离远程服务，快速响应结果，防止出现级联失败</p>
 <h2 id="在feign上使用熔断器">在Feign上使用熔断器</h2>
 <p>在不使用 Feign 的前提下也是可以使用 Hystrix 的，需要的可以自行了解，本文介绍的是 Feign 和 Hystrix 结合使用的情况</p>
+<ol>
+<li>开启 hystrix 配置</li>
+</ol>
 <pre><code>feign:
   hystrix:
     enabled: true
-</code></pre><p>未完待续&hellip;</p>
+</code></pre><ol start="2">
+<li>为 client 指定一个失败回调的类</li>
+</ol>
+<pre><code>@FeignClient(value = &quot;feign-provider&quot;, path = &quot;user&quot;, fallback = ProviderClientFallback.class)
+public interface ProviderClient extends ProviderApi { }
+</code></pre><ol start="3">
+<li>当发生服务熔断或者降级的情况时，会返回回调类中相同签名的方法的值</li>
+</ol>
+<pre><code>@Component
+public class ProviderClientFallback implements ProviderClient {
+    @Override
+    public String info() {
+        return &quot;调用失败&quot;;
+    }
+}
+</code></pre><h2 id="相关源码地址">相关源码地址</h2>
+<p>仅供参考</p>
+<p><a href="https://github.com/logycoconut/Spring-Cloud-Notes/tree/master/feign">https://github.com/logycoconut/Spring-Cloud-Notes/tree/master/feign</a></p>
 
     </div>
 

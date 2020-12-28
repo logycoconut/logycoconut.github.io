@@ -20,7 +20,6 @@ tags: ["SpringCloud"]
 
 一般都是由服务提供方编写，毕竟服务提供方最熟悉自己的接口
 ```
-@RequestMapping("user")
 public interface ProviderApi {
 
     /**
@@ -36,10 +35,12 @@ public interface ProviderApi {
 
 1. 在 Application 上增加 @EnableFeignClients 注解开启 Feign 支持
 
-2. 增加 UserClient
+2. 增加 UserClient，我们可以看到注解中有服务提供方的 application name， 以及请求地址的前缀
+
+前缀和 @GetMapping 中的值结合起来就是服务提供方的请求路径
 
 ```
-@FeignClient(value = "feign-provider")
+@FeignClient(value = "feign-provider", path = "user")
 public interface ProviderClient extends ProviderApi { }
 ```
 

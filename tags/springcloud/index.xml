@@ -6,7 +6,16 @@
     <description>Recent content in SpringCloud on logycoconut`s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 25 Dec 2020 13:28:54 +0800</lastBuildDate><atom:link href="https://logycoco.xyz/tags/springcloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Dec 2020 16:25:28 +0800</lastBuildDate><atom:link href="https://logycoco.xyz/tags/springcloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Cloud 之 熔断器Hystrix</title>
+      <link>https://logycoco.xyz/2020/025_spring_cloud_notes_hystrix/</link>
+      <pubDate>Mon, 28 Dec 2020 16:25:28 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/025_spring_cloud_notes_hystrix/</guid>
+      <description>在微服务架构中，通常会使用 Feign 来进行服务间的相互调用，一个请求，可能需要调用多个微服务接口才能实现，会形成非常复杂的调用链路 我们假设以下场景，</description>
+    </item>
+    
     <item>
       <title>Spring Cloud 之 OpenFeign的使用</title>
       <link>https://logycoco.xyz/2020/024_spring_cloud_notes_feign/</link>

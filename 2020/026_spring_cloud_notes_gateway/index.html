@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="https://logycoco.xyz/2020/024_spring_cloud_notes_feign/" />
-  <link rel="next" href="https://logycoco.xyz/2020/026_spring_cloud_notes_gateway/" />
-  <link rel="canonical" href="https://logycoco.xyz/2020/025_spring_cloud_notes_hystrix/" />
+  <link rel="prev" href="https://logycoco.xyz/2020/025_spring_cloud_notes_hystrix/" />
+  
+  <link rel="canonical" href="https://logycoco.xyz/2020/026_spring_cloud_notes_gateway/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           Spring Cloud 之 熔断器Hystrix | logycoconut`s blog
+           Spring Cloud 之 微服务网关 Gateway | logycoconut`s blog
        
   </title>
-  <meta name="title" content="Spring Cloud 之 熔断器Hystrix | logycoconut`s blog">
+  <meta name="title" content="Spring Cloud 之 微服务网关 Gateway | logycoconut`s blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,9 +44,9 @@
          "@id": "https:\/\/logycoco.xyz\/"
     },
     "articleSection" : "posts",
-    "name" : "Spring Cloud 之 熔断器Hystrix",
-    "headline" : "Spring Cloud 之 熔断器Hystrix",
-    "description" : "在微服务架构中，通常会使用 Feign 来进行服务间的相互调用，一个请求，可能需要调用多个微服务接口才能实现，会形成非常复杂的调用链路 我们假设以下场景，",
+    "name" : "Spring Cloud 之 微服务网关 Gateway",
+    "headline" : "Spring Cloud 之 微服务网关 Gateway",
+    "description" : "Spring Cloud Gateway 作为 Spring Cloud 生态系统中的网关，比 Netflix 的 Zuul 组件更加适合 Spring Cloud体系 为什么要用网关 网关是介于客户端和服务器之间的一层，外部请求会先经过网关这",
     "inLanguage" : "zh-cn",
     "author" : "logycoconut",
     "creator" : "logycoconut",
@@ -54,10 +54,10 @@
     "accountablePerson" : "logycoconut",
     "copyrightHolder" : "logycoconut",
     "copyrightYear" : "2020",
-    "datePublished": "2020-12-28 16:25:28 \u002b0800 \u002b0800",
-    "dateModified" : "2020-12-28 16:25:28 \u002b0800 \u002b0800",
-    "url" : "https:\/\/logycoco.xyz\/2020\/025_spring_cloud_notes_hystrix\/",
-    "wordCount" : "381",
+    "datePublished": "2020-12-29 11:03:06 \u002b0800 \u002b0800",
+    "dateModified" : "2020-12-29 11:03:06 \u002b0800 \u002b0800",
+    "url" : "https:\/\/logycoco.xyz\/2020\/026_spring_cloud_notes_gateway\/",
+    "wordCount" : "938",
     "keywords" : [ "SpringCloud", "logycoconut`s blog"]
 }
 </script>
@@ -123,11 +123,11 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">Spring Cloud 之 熔断器Hystrix</h1>
+        <h1 class="post-title" itemprop="name headline">Spring Cloud 之 微服务网关 Gateway</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://logycoco.xyz/" rel="author">logycoconut</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2020-12-28 itemprop="datePublished">December 28, 2020</time>
+                on <time datetime=2020-12-29 itemprop="datePublished">December 29, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -135,7 +135,7 @@
                         <a href="https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/"> 关于技术 </a>
                         
                 </span>
-                <span class="post-word-count">, 381 words</span>
+                <span class="post-word-count">, 938 words</span>
         </div>
     </header>
 
@@ -146,8 +146,19 @@
     <div class="post-toc-content always-active">
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#在feign上使用熔断器">在Feign上使用熔断器</a></li>
-    <li><a href="#相关源码地址">相关源码地址</a></li>
+    <li><a href="#为什么要用网关">为什么要用网关</a></li>
+    <li><a href="#快速上手">快速上手</a>
+      <ul>
+        <li><a href="#添加依赖">添加依赖</a></li>
+        <li><a href="#相关代码">相关代码</a></li>
+        <li><a href="#测试">测试</a></li>
+      </ul>
+    </li>
+    <li><a href="#路由规则匹配">路由规则匹配</a>
+      <ul>
+        <li><a href="#简单实现">简单实现</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
     </div>
@@ -198,37 +209,87 @@
           
 
           <blockquote>
-<p>在微服务架构中，通常会使用 Feign 来进行服务间的相互调用，一个请求，可能需要调用多个微服务接口才能实现，会形成非常复杂的调用链路</p>
-<p>我们假设以下场景，如果服务提供方突然宕机或者出现网络问题，那消费方就会迟迟收不到回应，处理的线程得不到释放，随着请求的增加，服务器的资源也会逐渐耗尽，导致服务瘫痪</p>
-<p>因为服务间的依赖性，整个微服务体系就会发生雪崩</p>
+<p>Spring Cloud Gateway 作为 Spring Cloud 生态系统中的网关，比 Netflix 的 Zuul 组件更加适合 Spring Cloud体系</p>
 </blockquote>
-<p>Hystix应运而生，它可以在服务提供方故障的时候，隔离远程服务，快速响应结果，防止出现级联失败</p>
-<h2 id="在feign上使用熔断器">在Feign上使用熔断器</h2>
-<p>在不使用 Feign 的前提下也是可以使用 Hystrix 的，需要的可以自行了解，本文介绍的是 Feign 和 Hystrix 结合使用的情况</p>
-<ol>
-<li>开启 hystrix 配置</li>
-</ol>
-<pre><code>feign:
-  hystrix:
-    enabled: true
-</code></pre><ol start="2">
-<li>为 client 指定一个失败回调的类</li>
-</ol>
-<pre><code>@FeignClient(value = &quot;feign-provider&quot;, path = &quot;user&quot;, fallback = ProviderClientFallback.class)
-public interface ProviderClient extends ProviderApi { }
-</code></pre><ol start="3">
-<li>当发生服务熔断或者降级的情况时，会返回回调类中相同签名的方法的值</li>
-</ol>
-<pre><code>@Component
-public class ProviderClientFallback implements ProviderClient {
-    @Override
-    public String info() {
-        return &quot;调用失败&quot;;
+<h2 id="为什么要用网关">为什么要用网关</h2>
+<p>网关是介于客户端和服务器之间的一层，外部请求会先经过网关这一层再转发到其他功能模块中</p>
+<p>所以，我们可以在网关上进行鉴权、监控等操作，让业务模块更加专注于业务</p>
+<ul>
+<li>只将网关对外暴露，隐藏微服务真实地址，保护微服务</li>
+<li>在网关中进行鉴权操作，无须在业务代码中鉴权</li>
+<li>避免了客户端和微服务直接接触 （ 在微服务变更时，重构难度会变大 ）</li>
+</ul>
+<h2 id="快速上手">快速上手</h2>
+<h3 id="添加依赖">添加依赖</h3>
+<p>网关本质上也是一个微服务，也需要在注册中心注册</p>
+<pre><code>&lt;dependencies&gt;
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt;
+        &lt;artifactId&gt;spring-cloud-starter-netflix-eureka-client&lt;/artifactId&gt;
+    &lt;/dependency&gt;
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt;
+        &lt;artifactId&gt;spring-cloud-starter-gateway&lt;/artifactId&gt;
+    &lt;/dependency&gt;
+&lt;/dependencies&gt;
+</code></pre><h3 id="相关代码">相关代码</h3>
+<p>启动类代码</p>
+<pre><code>@SpringBootApplication
+@EnableDiscoveryClient
+public class GatewayApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(GatewayApplication.class, args);
     }
 }
-</code></pre><h2 id="相关源码地址">相关源码地址</h2>
-<p>仅供参考</p>
-<p><a href="https://github.com/logycoconut/Spring-Cloud-Notes/tree/master/feign">https://github.com/logycoconut/Spring-Cloud-Notes/tree/master/feign</a></p>
+</code></pre><p>application.yml 配置</p>
+<pre><code>server:
+  port: 10011
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true  # 是否要通过服务中心自动根据 serviceId 创建路由
+          lower-case-service-id: false  #是否将服务id转换为小写
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10010/eureka/
+logging:
+  level:
+    org.springframework.cloud.gateway: debug
+</code></pre><h3 id="测试">测试</h3>
+<h4 id="是否正确代理">是否正确代理</h4>
+<p>网关转发的语法为<code>网关地址:端口/服务中心注册serviceId/具体的url</code></p>
+<p>我们通过访问 http://localhost:10011/feign-provider/user/info 发现可以得到正确结果</p>
+<h4 id="负载均衡">负载均衡</h4>
+<p>复制一份 provider 的启动配置并且对返回值进行适当的修改，我们可以看到不同的结果是交替出现的</p>
+<h2 id="路由规则匹配">路由规则匹配</h2>
+<p>我们现在知道了 gateway 自动根据 serviceId 创建路由的方式，但是怎么自定义路由规则呢</p>
+<p>我们需要先清楚三个概念</p>
+<ul>
+<li>Route（路由）：这是网关的基本构建块。它由一个 ID，一个目标 URI，一组断言和一组过滤器定义。如果断言为真，则路由匹配。</li>
+<li>Predicate（断言）：这是一个 Java 8 的 Predicate。输入类型是一个 ServerWebExchange。我们可以使用它来匹配来自 HTTP 请求的任何内容，例如 headers 或参数。</li>
+<li>Filter（过滤器）：这是org.springframework.cloud.gateway.filter.GatewayFilter的实例，我们可以使用它修改请求和响应。</li>
+</ul>
+<h3 id="简单实现">简单实现</h3>
+<pre><code>server:
+  port: 10011
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      routes:
+        - id: provider-service  # 路由的唯一Id
+          uri: https://github.com/  # 目标服务地址
+          predicates:  # 路由条件，接受一个输入参数，返回一个布尔值结果
+            - Path=/logycoconut
+</code></pre><p>上述配置的意思是：配置了一个名为<code>provider-service</code>的规则，当访问地址<code>http://localhost:10011/logycoconut</code>时会自动转发到地址<code>https://github.com/logycoconut</code></p>
+<p>这是路由匹配规则的一种，还有其他的可以参照文档，包括通过时间、Cookie、请求方式、请求参数等匹配</p>
+<p><a href="https://cloud.spring.io/spring-cloud-gateway/reference/html/#gateway-request-predicates-factories">路由规则</a></p>
 
     </div>
 
@@ -243,7 +304,7 @@ public class ProviderClientFallback implements ProviderClient {
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://logycoco.xyz/2020/025_spring_cloud_notes_hystrix/>https://logycoco.xyz/2020/025_spring_cloud_notes_hystrix/</span>
+                    <a href=https://logycoco.xyz/2020/026_spring_cloud_notes_gateway/>https://logycoco.xyz/2020/026_spring_cloud_notes_gateway/</span>
             </p>
             
              
@@ -272,10 +333,8 @@ public class ProviderClientFallback implements ProviderClient {
 
     <div class="post-nav">
         
-        <a href="https://logycoco.xyz/2020/024_spring_cloud_notes_feign/" class="prev" rel="prev" title="Spring Cloud 之 OpenFeign的使用"><i class="iconfont icon-left"></i>&nbsp;Spring Cloud 之 OpenFeign的使用</a>
+        <a href="https://logycoco.xyz/2020/025_spring_cloud_notes_hystrix/" class="prev" rel="prev" title="Spring Cloud 之 熔断器Hystrix"><i class="iconfont icon-left"></i>&nbsp;Spring Cloud 之 熔断器Hystrix</a>
          
-        
-        <a href="https://logycoco.xyz/2020/026_spring_cloud_notes_gateway/" class="next" rel="next" title="Spring Cloud 之 微服务网关 Gateway">Spring Cloud 之 微服务网关 Gateway&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -285,7 +344,7 @@ public class ProviderClientFallback implements ProviderClient {
         
               
               
-              <span id="/2020/025_spring_cloud_notes_hystrix/" class="leancloud_visitors" data-flag-title="Spring Cloud 之 熔断器Hystrix">
+              <span id="/2020/026_spring_cloud_notes_gateway/" class="leancloud_visitors" data-flag-title="Spring Cloud 之 微服务网关 Gateway">
                   <span class="post-meta-item-text">访问量 </span>
                   <span class="leancloud-visitors-count"></span>
                   <p></p>

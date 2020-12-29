@@ -13,7 +13,7 @@
       <pubDate>Tue, 29 Dec 2020 11:03:06 +0800</pubDate>
       
       <guid>https://logycoco.xyz/2020/026_spring_cloud_notes_gateway/</guid>
-      <description>Spring Cloud Gateway 作为 Spring Cloud 生态系统中的网关，比 Netflix 的 Zuul 组件更加适合 Spring Cloud体系 为什么要用网关 网关是介于客户端和服务器之间的一层，外部请求会先经过网关这</description>
+      <description>Spring Cloud Gateway 作为 Spring Cloud 生态系统中的网关，比 Netflix 的 Zuul 组件更加适合 Spring Cloud体系 大家一定要多看官方文档啊！！文档比我详细多了，本文只是一些简单的应用 为什</description>
     </item>
     
     <item>

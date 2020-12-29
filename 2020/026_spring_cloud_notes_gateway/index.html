@@ -46,7 +46,7 @@
     "articleSection" : "posts",
     "name" : "Spring Cloud 之 微服务网关 Gateway",
     "headline" : "Spring Cloud 之 微服务网关 Gateway",
-    "description" : "Spring Cloud Gateway 作为 Spring Cloud 生态系统中的网关，比 Netflix 的 Zuul 组件更加适合 Spring Cloud体系 为什么要用网关 网关是介于客户端和服务器之间的一层，外部请求会先经过网关这",
+    "description" : "Spring Cloud Gateway 作为 Spring Cloud 生态系统中的网关，比 Netflix 的 Zuul 组件更加适合 Spring Cloud体系 大家一定要多看官方文档啊！！文档比我详细多了，本文只是一些简单的应用 为什",
     "inLanguage" : "zh-cn",
     "author" : "logycoconut",
     "creator" : "logycoconut",
@@ -57,7 +57,7 @@
     "datePublished": "2020-12-29 11:03:06 \u002b0800 \u002b0800",
     "dateModified" : "2020-12-29 11:03:06 \u002b0800 \u002b0800",
     "url" : "https:\/\/logycoco.xyz\/2020\/026_spring_cloud_notes_gateway\/",
-    "wordCount" : "938",
+    "wordCount" : "1302",
     "keywords" : [ "SpringCloud", "logycoconut`s blog"]
 }
 </script>
@@ -135,7 +135,7 @@
                         <a href="https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/"> 关于技术 </a>
                         
                 </span>
-                <span class="post-word-count">, 938 words</span>
+                <span class="post-word-count">, 1302 words</span>
         </div>
     </header>
 
@@ -159,6 +159,12 @@
         <li><a href="#简单实现">简单实现</a></li>
       </ul>
     </li>
+    <li><a href="#gateway-中的-filter">Gateway 中的 Filter</a>
+      <ul>
+        <li><a href="#简单实现-1">简单实现</a></li>
+      </ul>
+    </li>
+    <li><a href="#参考资料">参考资料</a></li>
   </ul>
 </nav>
     </div>
@@ -210,6 +216,7 @@
 
           <blockquote>
 <p>Spring Cloud Gateway 作为 Spring Cloud 生态系统中的网关，比 Netflix 的 Zuul 组件更加适合 Spring Cloud体系</p>
+<p>大家一定要多看官方文档啊！！文档比我详细多了，本文只是一些简单的应用</p>
 </blockquote>
 <h2 id="为什么要用网关">为什么要用网关</h2>
 <p>网关是介于客户端和服务器之间的一层，外部请求会先经过网关这一层再转发到其他功能模块中</p>
@@ -252,7 +259,7 @@ spring:
       discovery:
         locator:
           enabled: true  # 是否要通过服务中心自动根据 serviceId 创建路由
-          lower-case-service-id: false  #是否将服务id转换为小写
+          lower-case-service-id: true  #是否将服务id转换为小写
 eureka:
   client:
     service-url:
@@ -264,16 +271,18 @@ logging:
 <h4 id="是否正确代理">是否正确代理</h4>
 <p>网关转发的语法为<code>网关地址:端口/服务中心注册serviceId/具体的url</code></p>
 <p>我们通过访问 http://localhost:10011/feign-provider/user/info 发现可以得到正确结果</p>
+<p><em>feign-provider 是之前文章中创建的一个服务提供方</em></p>
 <h4 id="负载均衡">负载均衡</h4>
 <p>复制一份 provider 的启动配置并且对返回值进行适当的修改，我们可以看到不同的结果是交替出现的</p>
 <h2 id="路由规则匹配">路由规则匹配</h2>
 <p>我们现在知道了 gateway 自动根据 serviceId 创建路由的方式，但是怎么自定义路由规则呢</p>
 <p>我们需要先清楚三个概念</p>
 <ul>
-<li>Route（路由）：这是网关的基本构建块。它由一个 ID，一个目标 URI，一组断言和一组过滤器定义。如果断言为真，则路由匹配。</li>
+<li>Route（路由）：它由一个 ID，一个目标 URI，一组断言和一组过滤器定义。如果断言为真，则路由匹配。</li>
 <li>Predicate（断言）：这是一个 Java 8 的 Predicate。输入类型是一个 ServerWebExchange。我们可以使用它来匹配来自 HTTP 请求的任何内容，例如 headers 或参数。</li>
-<li>Filter（过滤器）：这是org.springframework.cloud.gateway.filter.GatewayFilter的实例，我们可以使用它修改请求和响应。</li>
+<li>Filter（过滤器）：GatewayFilter的实例，我们可以使用它修改请求和响应。</li>
 </ul>
+<p><em><a href="https://cloud.spring.io/spring-cloud-gateway/reference/html/#glossary">上述概念原文地址</a>，我是可耻的搬运工</em></p>
 <h3 id="简单实现">简单实现</h3>
 <pre><code>server:
   port: 10011
@@ -289,7 +298,51 @@ spring:
             - Path=/logycoconut
 </code></pre><p>上述配置的意思是：配置了一个名为<code>provider-service</code>的规则，当访问地址<code>http://localhost:10011/logycoconut</code>时会自动转发到地址<code>https://github.com/logycoconut</code></p>
 <p>这是路由匹配规则的一种，还有其他的可以参照文档，包括通过时间、Cookie、请求方式、请求参数等匹配</p>
-<p><a href="https://cloud.spring.io/spring-cloud-gateway/reference/html/#gateway-request-predicates-factories">路由规则</a></p>
+<p><a href="https://cloud.spring.io/spring-cloud-gateway/reference/html/#gateway-request-predicates-factories">路由规则拓展</a></p>
+<h2 id="gateway-中的-filter">Gateway 中的 Filter</h2>
+<h3 id="简单实现-1">简单实现</h3>
+<h4 id="更改网关的配置文件">更改网关的配置文件</h4>
+<pre><code>server:
+  port: 10011
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: false  # 是否要通过服务中心自动根据 serviceId 创建路由
+          lower-case-service-id: false  #是否将服务id转换为小写
+      routes:
+        - id: provider-service  # 路由的唯一Id
+          uri: lb://feign-provider  # 目标服务地址
+          predicates:  # 路由条件，接受一个输入参数，返回一个布尔值结果
+            - Path=/user/info
+          filters:
+            - AddRequestParameter=name, zhangsan
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10010/eureka/
+logging:
+  level:
+    org.springframework.cloud.gateway: debug
+</code></pre><p>上述配置的意思是：将符合路径<code>/user/info</code>的请求都添加了<code>name=zhangsan</code>的请求参数</p>
+<p><code>lb://feign-provider</code>是Gateway Global Filter的一种运用，如果 URL 中具有 lb，就使用负载均衡客户端将 URL 解析成实际的地址加端口</p>
+<h4 id="修改-provider-服务验证请求">修改 provider 服务验证请求</h4>
+<pre><code>@RestController
+@RequestMapping(&quot;user&quot;)
+public class ProviderController {
+
+    @GetMapping(&quot;info&quot;)
+    public String info(String name) {
+        return &quot;我叫张三，今年二十三&quot; + name;
+    }
+}
+</code></pre><h2 id="参考资料">参考资料</h2>
+<p><a href="https://cloud.spring.io/spring-cloud-gateway/reference/html/">Spring Cloud Gateway官方文档</a></p>
+<p><a href="https://www.jianshu.com/p/5e40bbc95eb9">spring cloud gateway 2 深入了解 - filter</a>  常用网关过滤器和全局过滤器介绍</p>
+<p><a href="https://www.haoyizebo.com/posts/1e919f7d/">Spring Cloud Gateway 过滤器</a>  自定义过滤器</p>
 
     </div>
 

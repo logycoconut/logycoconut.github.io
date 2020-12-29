@@ -7,6 +7,8 @@ tags: ["SpringCloud"]
 ---
 
 > Spring Cloud Gateway 作为 Spring Cloud 生态系统中的网关，比 Netflix 的 Zuul 组件更加适合 Spring Cloud体系
+>
+> 大家一定要多看官方文档啊！！文档比我详细多了，本文只是一些简单的应用
 
 ## 为什么要用网关
 
@@ -63,7 +65,7 @@ spring:
       discovery:
         locator:
           enabled: true  # 是否要通过服务中心自动根据 serviceId 创建路由
-          lower-case-service-id: false  #是否将服务id转换为小写
+          lower-case-service-id: true  #是否将服务id转换为小写
 eureka:
   client:
     service-url:
@@ -81,6 +83,8 @@ logging:
 
 我们通过访问 http://localhost:10011/feign-provider/user/info 发现可以得到正确结果
 
+*feign-provider 是之前文章中创建的一个服务提供方*
+
 #### 负载均衡
 
 复制一份 provider 的启动配置并且对返回值进行适当的修改，我们可以看到不同的结果是交替出现的
@@ -91,9 +95,11 @@ logging:
 
 我们需要先清楚三个概念
 
-- Route（路由）：这是网关的基本构建块。它由一个 ID，一个目标 URI，一组断言和一组过滤器定义。如果断言为真，则路由匹配。
+- Route（路由）：它由一个 ID，一个目标 URI，一组断言和一组过滤器定义。如果断言为真，则路由匹配。
 - Predicate（断言）：这是一个 Java 8 的 Predicate。输入类型是一个 ServerWebExchange。我们可以使用它来匹配来自 HTTP 请求的任何内容，例如 headers 或参数。
-- Filter（过滤器）：这是org.springframework.cloud.gateway.filter.GatewayFilter的实例，我们可以使用它修改请求和响应。
+- Filter（过滤器）：GatewayFilter的实例，我们可以使用它修改请求和响应。
+
+*[上述概念原文地址](https://cloud.spring.io/spring-cloud-gateway/reference/html/#glossary)，我是可耻的搬运工*
 
 ### 简单实现
 
@@ -116,4 +122,64 @@ spring:
 
 这是路由匹配规则的一种，还有其他的可以参照文档，包括通过时间、Cookie、请求方式、请求参数等匹配
 
-[路由规则](https://cloud.spring.io/spring-cloud-gateway/reference/html/#gateway-request-predicates-factories)
+[路由规则拓展](https://cloud.spring.io/spring-cloud-gateway/reference/html/#gateway-request-predicates-factories)
+
+## Gateway 中的 Filter
+
+### 简单实现
+
+#### 更改网关的配置文件
+
+```
+server:
+  port: 10011
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: false  # 是否要通过服务中心自动根据 serviceId 创建路由
+          lower-case-service-id: false  #是否将服务id转换为小写
+      routes:
+        - id: provider-service  # 路由的唯一Id
+          uri: lb://feign-provider  # 目标服务地址
+          predicates:  # 路由条件，接受一个输入参数，返回一个布尔值结果
+            - Path=/user/info
+          filters:
+            - AddRequestParameter=name, zhangsan
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10010/eureka/
+logging:
+  level:
+    org.springframework.cloud.gateway: debug
+```
+
+上述配置的意思是：将符合路径`/user/info`的请求都添加了`name=zhangsan`的请求参数
+
+`lb://feign-provider`是Gateway Global Filter的一种运用，如果 URL 中具有 lb，就使用负载均衡客户端将 URL 解析成实际的地址加端口
+
+#### 修改 provider 服务验证请求
+
+```
+@RestController
+@RequestMapping("user")
+public class ProviderController {
+
+    @GetMapping("info")
+    public String info(String name) {
+        return "我叫张三，今年二十三" + name;
+    }
+}
+```
+
+## 参考资料
+
+[Spring Cloud Gateway官方文档](https://cloud.spring.io/spring-cloud-gateway/reference/html/)
+
+[spring cloud gateway 2 深入了解 - filter](https://www.jianshu.com/p/5e40bbc95eb9)  常用网关过滤器和全局过滤器介绍
+
+[Spring Cloud Gateway 过滤器](https://www.haoyizebo.com/posts/1e919f7d/)  自定义过滤器

@@ -34,8 +34,7 @@ Spring Cloud Netflix目前来说应该还是最流行的，但是随着Spring Cl
 - [x] [Spring Cloud 之 OpenFeign的使用](/2020/024_spring_cloud_notes_feign/)
 - [x] [Spring Cloud 之 熔断器Hystrix](/2020/025_spring_cloud_notes_hystrix/)
 - [x] [Spring Cloud 之 微服务网关Gateway](/2020/026_spring_cloud_notes_gateway/)
-- [ ] Spring Cloud 之 分布式配置中心Spring Cloud Config 
+- [x] [Spring Cloud 之 分布式配置中心Spring Cloud Config](/2020/027_spring_cloud_notes_config/)
 - [ ] Spring Cloud 之 Spring Cloud Stream
 - [ ] Spring Cloud 之 服务追踪 Sleuth
-- [ ] Spring Cloud 之 分布式配置中心Spring Cloud Config 
 - [ ] 待添加...

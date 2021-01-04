@@ -6,7 +6,16 @@
     <description>Recent content in SpringCloud on logycoconut`s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 29 Dec 2020 11:03:06 +0800</lastBuildDate><atom:link href="https://logycoco.xyz/tags/springcloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Dec 2020 13:07:23 +0800</lastBuildDate><atom:link href="https://logycoco.xyz/tags/springcloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Cloud 之 配置中心 Spring Cloud Config </title>
+      <link>https://logycoco.xyz/2020/027_spring_cloud_notes_config/</link>
+      <pubDate>Thu, 31 Dec 2020 13:07:23 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2020/027_spring_cloud_notes_config/</guid>
+      <description>对于一些简单的应用，我们一般都是直接把配置信息写在 application.yml 中，复杂点的就分成dev、prod之类，但是这样做有两个缺点，一是当我们修改了配置之后，</description>
+    </item>
+    
     <item>
       <title>Spring Cloud 之 微服务网关 Gateway</title>
       <link>https://logycoco.xyz/2020/026_spring_cloud_notes_gateway/</link>

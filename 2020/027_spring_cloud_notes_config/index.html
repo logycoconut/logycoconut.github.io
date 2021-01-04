@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="https://logycoco.xyz/2020/021_springdatajpa_transactional/" />
-  <link rel="next" href="https://logycoco.xyz/2020/023_spring_cloud_notes_eureka/" />
-  <link rel="canonical" href="https://logycoco.xyz/2020/022_spring_cloud_notes_01/" />
+  <link rel="prev" href="https://logycoco.xyz/2020/026_spring_cloud_notes_gateway/" />
+  
+  <link rel="canonical" href="https://logycoco.xyz/2020/027_spring_cloud_notes_config/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           如果你也在学习Spring Cloud | logycoconut`s blog
+           Spring Cloud 之 配置中心 Spring Cloud Config  | logycoconut`s blog
        
   </title>
-  <meta name="title" content="如果你也在学习Spring Cloud | logycoconut`s blog">
+  <meta name="title" content="Spring Cloud 之 配置中心 Spring Cloud Config  | logycoconut`s blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,9 +44,9 @@
          "@id": "https:\/\/logycoco.xyz\/"
     },
     "articleSection" : "posts",
-    "name" : "如果你也在学习Spring Cloud",
-    "headline" : "如果你也在学习Spring Cloud",
-    "description" : "之前学习过Spring Cloud的部分组件，但是最近发现Spring Cloud大家族又多了几个实现； 以前学习的过程中没有认识到笔记的重要性，",
+    "name" : "Spring Cloud 之 配置中心 Spring Cloud Config ",
+    "headline" : "Spring Cloud 之 配置中心 Spring Cloud Config ",
+    "description" : "对于一些简单的应用，我们一般都是直接把配置信息写在 application.yml 中，复杂点的就分成dev、prod之类，但是这样做有两个缺点，一是当我们修改了配置之后，",
     "inLanguage" : "zh-cn",
     "author" : "logycoconut",
     "creator" : "logycoconut",
@@ -54,10 +54,10 @@
     "accountablePerson" : "logycoconut",
     "copyrightHolder" : "logycoconut",
     "copyrightYear" : "2020",
-    "datePublished": "2020-12-16 12:31:17 \u002b0800 \u002b0800",
-    "dateModified" : "2020-12-16 12:31:17 \u002b0800 \u002b0800",
-    "url" : "https:\/\/logycoco.xyz\/2020\/022_spring_cloud_notes_01\/",
-    "wordCount" : "427",
+    "datePublished": "2020-12-31 13:07:23 \u002b0800 \u002b0800",
+    "dateModified" : "2020-12-31 13:07:23 \u002b0800 \u002b0800",
+    "url" : "https:\/\/logycoco.xyz\/2020\/027_spring_cloud_notes_config\/",
+    "wordCount" : "751",
     "keywords" : [ "SpringCloud", "logycoconut`s blog"]
 }
 </script>
@@ -123,11 +123,11 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">如果你也在学习Spring Cloud</h1>
+        <h1 class="post-title" itemprop="name headline">Spring Cloud 之 配置中心 Spring Cloud Config </h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://logycoco.xyz/" rel="author">logycoconut</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2020-12-16 itemprop="datePublished">December 16, 2020</time>
+                on <time datetime=2020-12-31 itemprop="datePublished">December 31, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -135,7 +135,7 @@
                         <a href="https://logycoco.xyz/categories/%E5%85%B3%E4%BA%8E%E6%8A%80%E6%9C%AF/"> 关于技术 </a>
                         
                 </span>
-                <span class="post-word-count">, 427 words</span>
+                <span class="post-word-count">, 751 words</span>
         </div>
     </header>
 
@@ -146,9 +146,10 @@
     <div class="post-toc-content always-active">
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#为什么要写cloud系列笔记">为什么要写Cloud系列笔记</a></li>
-    <li><a href="#spring-cloud-常用组件">Spring Cloud 常用组件</a></li>
-    <li><a href="#文章列表">文章列表</a></li>
+    <li><a href="#构建配置中心从本地读取配置">构建配置中心，从本地读取配置</a></li>
+    <li><a href="#构建-config-client">构建 Config Client</a></li>
+    <li><a href="#构建配置中心从git仓库中读取配置">构建配置中心，从Git仓库中读取配置</a></li>
+    <li><a href="#将配置中心注册到eureka">将配置中心注册到Eureka</a></li>
   </ul>
 </nav>
     </div>
@@ -201,32 +202,134 @@
           
 
           <blockquote>
-<p>之前学习过Spring Cloud的部分组件，但是最近发现Spring Cloud大家族又多了几个实现；</p>
-<p>以前学习的过程中没有认识到笔记的重要性，这次正好在巩固的基础上输出文章</p>
+<p>对于一些简单的应用，我们一般都是直接把配置信息写在 application.yml 中，复杂点的就分成dev、prod之类，但是这样做有两个缺点，一是当我们修改了配置之后，必须要重启服务才能使服务生效，二则是随着应用和配置信息的增多，我们很容易在修改配置信息的过程中混乱</p>
+<p>为了实现对配置文件的实时更新和统一管理，我们需要一个配置中心，用来存放和发放配置信息</p>
 </blockquote>
-<h2 id="为什么要写cloud系列笔记">为什么要写Cloud系列笔记</h2>
-<ul>
-<li>巩固知识点，有些组件太久不用就会忘掉怎么实现</li>
-<li>别人的文章再好也不如自己手打一遍代码</li>
-<li>要是有人看了我的文章真的学到东西，那就没有白写</li>
-</ul>
-<h2 id="spring-cloud-常用组件">Spring Cloud 常用组件</h2>
-<p>Spring Cloud 虽然已经很强大，但是它不提供所有的实现，不同厂商都可以给出自己的解决方案</p>
-<p>Spring Cloud Netflix目前来说应该还是最流行的，但是随着Spring Cloud Alibaba的孵化，有点没落的趋势</p>
-<p><img src="https://i.loli.net/2020/12/17/laFts15ygPXwQRU.png" alt="laFts15ygPXwQRU"></p>
-<p>我们可以看到Spring Cloud Alibaba是相当强大，提供了相当多的组件</p>
-<p>在本系列文章中，会选择表中优秀的组件介绍并实现demo</p>
-<h2 id="文章列表">文章列表</h2>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> <a href="/2020/023_spring_cloud_notes_eureka/">Spring Cloud 之 Eureka实现服务注册和发现</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="/2020/024_spring_cloud_notes_feign/">Spring Cloud 之 OpenFeign的使用</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="/2020/025_spring_cloud_notes_hystrix/">Spring Cloud 之 熔断器Hystrix</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="/2020/026_spring_cloud_notes_gateway/">Spring Cloud 之 微服务网关Gateway</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="/2020/027_spring_cloud_notes_config/">Spring Cloud 之 分布式配置中心Spring Cloud Config</a></li>
-<li><input disabled="" type="checkbox"> Spring Cloud 之 Spring Cloud Stream</li>
-<li><input disabled="" type="checkbox"> Spring Cloud 之 服务追踪 Sleuth</li>
-<li><input disabled="" type="checkbox"> 待添加&hellip;</li>
-</ul>
+<h2 id="构建配置中心从本地读取配置">构建配置中心，从本地读取配置</h2>
+<p>新建一个 SpringBoot 项目，并导入依赖</p>
+<pre><code>&lt;dependency&gt;
+    &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-cloud-config-server&lt;/artifactId&gt;
+&lt;/dependency&gt;
+</code></pre><p>使用 @EnableConfigServer 开启配置服务器</p>
+<pre><code>@EnableConfigServer
+@SpringBootApplication
+public class ConfigServerApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(ConfigServerApplication.class, args);
+    }
+}
+</code></pre><p>通过配置 spring.profile.active=native 来使配置中心从本地读取配置，读取的路径为 classpath 下的 shared 目录</p>
+<pre><code>server:
+  port: 10013
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/shared
+</code></pre><p>在 resources 目录下新建 shared 文件夹，在 shared 文件夹下新建一个 config-client-dev.yml 文件</p>
+<pre><code>user:
+  username: zhangsan
+server:
+  port: 8989
+</code></pre><h2 id="构建-config-client">构建 Config Client</h2>
+<p>新建一个 SpringBoot 项目，并导入依赖</p>
+<pre><code>&lt;dependency&gt;
+    &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-cloud-starter-config&lt;/artifactId&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+    &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-boot-starter-web&lt;/artifactId&gt;
+&lt;/dependency&gt;
+</code></pre><p>在 resources 目录下新建 bootstrap.yml 文件</p>
+<p><em>bootstrap 由父 ApplicationContext 加载，比 applicaton 优先加载</em></p>
+<p><em>boostrap 里面的属性不能被覆盖</em></p>
+<pre><code>spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      uri: http://localhost:10013
+  profiles:
+    active: dev
+</code></pre><p>写一个测试接口，通过 @Value 注入配置中的信息，就像配置文件在本地一样，该怎么用就怎么用</p>
+<pre><code>@SpringBootApplication
+@RestController
+public class ConfigClientApplication {
+
+    @Value(&quot;${user.username}&quot;)
+    private String username;
+
+    @GetMapping(&quot;/&quot;)
+    public String home() {
+        return username;
+    }
+    
+    public static void main(String[] args) {
+        SpringApplication.run(ConfigClientApplication.class, args);
+    }
+}
+</code></pre><p>启动服务，我们可以发现 client 服务的端口是 我们随意编写的 8989，访问 localhost:8989，可以得到结果 <code>zhangsan</code></p>
+<p>可见 config-client 成功地从 config-server 应用的 shared 目录 读取到 配置文件 config-client-dev.yml 中的 user.username 变量</p>
+<h2 id="构建配置中心从git仓库中读取配置">构建配置中心，从Git仓库中读取配置</h2>
+<p>修改 config server 的配置文件 application.yml</p>
+<p>仔细观察可以发现就是将配置文件路径换成 git 仓库</p>
+<pre><code>server:
+  port: 10013
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/logycoconut/config-example
+</code></pre><p>上面是最简单的一种方式，这个仓库是公开仓库，配置信息不需要任何其他信息就可以读取到</p>
+<p>但是，如果仓库是私有的话就得加入用户名密码等配置信息，相关信息如下表</p>
+<table>
+<thead>
+<tr>
+<th>配置</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>spring.cloud.config.server.git.uri</td>
+<td>git仓库地址</td>
+</tr>
+<tr>
+<td>spring.cloud.config.server.git.username</td>
+<td>访问仓库的用户名</td>
+</tr>
+<tr>
+<td>spring.cloud.config.server.git.password</td>
+<td>访问仓库的用户密码</td>
+</tr>
+<tr>
+<td>spring.cloud.config.server.git.search-paths</td>
+<td>仓库路径</td>
+</tr>
+<tr>
+<td>spring.cloud.config.server.git.basedir</td>
+<td>本地仓库路径</td>
+</tr>
+<tr>
+<td>spring.cloud.config.label</td>
+<td>仓库的分支</td>
+</tr>
+</tbody>
+</table>
+<p>将我们的配置信息上传到仓库中，重启服务测试结果
+<img src="https://i.loli.net/2021/01/04/c1uxoH8veXEUR6K.png" alt="c1uxoH8veXEUR6K"></p>
+<h2 id="将配置中心注册到eureka">将配置中心注册到Eureka</h2>
+<p>未完待续&hellip;</p>
 
     </div>
 
@@ -241,7 +344,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://logycoco.xyz/2020/022_spring_cloud_notes_01/>https://logycoco.xyz/2020/022_spring_cloud_notes_01/</span>
+                    <a href=https://logycoco.xyz/2020/027_spring_cloud_notes_config/>https://logycoco.xyz/2020/027_spring_cloud_notes_config/</span>
             </p>
             
              
@@ -270,10 +373,8 @@
 
     <div class="post-nav">
         
-        <a href="https://logycoco.xyz/2020/021_springdatajpa_transactional/" class="prev" rel="prev" title="Spring中事务的处理"><i class="iconfont icon-left"></i>&nbsp;Spring中事务的处理</a>
+        <a href="https://logycoco.xyz/2020/026_spring_cloud_notes_gateway/" class="prev" rel="prev" title="Spring Cloud 之 微服务网关 Gateway"><i class="iconfont icon-left"></i>&nbsp;Spring Cloud 之 微服务网关 Gateway</a>
          
-        
-        <a href="https://logycoco.xyz/2020/023_spring_cloud_notes_eureka/" class="next" rel="next" title="Spring Cloud 之 Eureka实现服务注册和发现">Spring Cloud 之 Eureka实现服务注册和发现&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -283,7 +384,7 @@
         
               
               
-              <span id="/2020/022_spring_cloud_notes_01/" class="leancloud_visitors" data-flag-title="如果你也在学习Spring Cloud">
+              <span id="/2020/027_spring_cloud_notes_config/" class="leancloud_visitors" data-flag-title="Spring Cloud 之 配置中心 Spring Cloud Config ">
                   <span class="post-meta-item-text">访问量 </span>
                   <span class="leancloud-visitors-count"></span>
                   <p></p>

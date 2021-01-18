@@ -6,7 +6,16 @@
     <description>Recent content in SpringCloud on logycoconut`s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 31 Dec 2020 13:07:23 +0800</lastBuildDate><atom:link href="https://logycoco.xyz/tags/springcloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Jan 2021 14:40:00 +0800</lastBuildDate><atom:link href="https://logycoco.xyz/tags/springcloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Cloud 之 Spring Cloud Stream </title>
+      <link>https://logycoco.xyz/2021/028_spring_cloud_notes_stream/</link>
+      <pubDate>Sat, 16 Jan 2021 14:40:00 +0800</pubDate>
+      
+      <guid>https://logycoco.xyz/2021/028_spring_cloud_notes_stream/</guid>
+      <description>Spring Cloud Stream 是 Spring Cloud 体系中的消息中间件组件，它集成了 kafka 和 rabbitMQ 它屏蔽掉了底层不同消息中间件之间的差异，降低了学习成本和维护成本 (就像我们用 ORM 框架来取代直</description>
+    </item>
+    
     <item>
       <title>Spring Cloud 之 配置中心 Spring Cloud Config </title>
       <link>https://logycoco.xyz/2020/027_spring_cloud_notes_config/</link>
@@ -58,7 +67,7 @@
       <pubDate>Wed, 16 Dec 2020 12:31:17 +0800</pubDate>
       
       <guid>https://logycoco.xyz/2020/022_spring_cloud_notes_01/</guid>
-      <description>之前学习过Spring Cloud的部分组件，但是最近发现Spring Cloud大家族又多了几个实现； 以前学习的过程中没有认识到笔记的重要性，</description>
+      <description>之前学习过Spring Cloud的部分组件，但是最近发现Spring Cloud大家族又多了几个实现 以前学习的过程中没有认识到笔记的重要性，这</description>
     </item>
     
   </channel>

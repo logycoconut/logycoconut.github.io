@@ -176,6 +176,12 @@ public class ProviderController {
 }
 ```
 
+## 相关源码地址
+
+仅供参考
+
+https://github.com/logycoconut/Spring-Cloud-Notes/tree/master/gateway
+
 ## 参考资料
 
 [Spring Cloud Gateway官方文档](https://cloud.spring.io/spring-cloud-gateway/reference/html/)

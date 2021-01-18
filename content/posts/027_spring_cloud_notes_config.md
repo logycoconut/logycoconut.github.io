@@ -324,3 +324,9 @@ eureka:
 ```
 
 ok，重启服务试试是不是和之前一样呢
+
+## 相关源码地址
+
+仅供参考
+
+https://github.com/logycoconut/Spring-Cloud-Notes/tree/master/config

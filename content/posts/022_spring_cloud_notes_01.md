@@ -6,7 +6,7 @@ categories: ["关于技术"]
 tags: ["SpringCloud"]
 ---
 
-> 之前学习过Spring Cloud的部分组件，但是最近发现Spring Cloud大家族又多了几个实现；
+> 之前学习过Spring Cloud的部分组件，但是最近发现Spring Cloud大家族又多了几个实现
 >
 > 以前学习的过程中没有认识到笔记的重要性，这次正好在巩固的基础上输出文章
 
@@ -35,6 +35,6 @@ Spring Cloud Netflix目前来说应该还是最流行的，但是随着Spring Cl
 - [x] [Spring Cloud 之 熔断器Hystrix](/2020/025_spring_cloud_notes_hystrix/)
 - [x] [Spring Cloud 之 微服务网关Gateway](/2020/026_spring_cloud_notes_gateway/)
 - [x] [Spring Cloud 之 分布式配置中心Spring Cloud Config](/2020/027_spring_cloud_notes_config/)
-- [ ] Spring Cloud 之 Spring Cloud Stream
-- [ ] Spring Cloud 之 服务追踪 Sleuth
+- [x] [Spring Cloud 之 Spring Cloud Stream](/2021/028_spring_cloud_notes_stream/)
+- [ ] Spring Cloud 之 服务认证授权 Spring Cloud OAuth 2.0
 - [ ] 待添加...

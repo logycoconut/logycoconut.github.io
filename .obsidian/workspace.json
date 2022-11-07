@@ -1,0 +1,146 @@
+{
+  "main": {
+    "id": "f56708867f7d6eb4",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b3fc38dfc7da30d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "170026c40fc8b05e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/program/01_java/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f0aa35c024c17b15",
+    "type": "split",
+    "children": [
+      {
+        "id": "c65be39da4b31782",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8f682e7ec7ba4574",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bdbdcbc466196552",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "49813a896445e999",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6e149d68010dd5c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2b26903d4ccb216",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a49a7caae831cfd5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "src/program/01_java/README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5b0ac34d77f8cb3c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "src/program/01_java/README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3a67fe72c8cb4b00",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1d4808f1a90aa10b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "src/program/01_java/README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "170026c40fc8b05e",
+  "lastOpenFiles": [
+    "src/program/01_java/java_base.md",
+    "src/README.md",
+    "README.md"
+  ]
+}

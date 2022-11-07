@@ -25,6 +25,9 @@ export default hopeTheme({
   darkmode: "toggle",
   backToTop: true,
 
+  // 自定义排序
+  sidebarSorter: ["readme", "file-number"],
+
   locales: {
     "/": {
       // 导航栏组件

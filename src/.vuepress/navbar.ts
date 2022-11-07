@@ -6,7 +6,7 @@ export const zhNavbar = navbar([
     link: "/"
   },
   {
-    text: "Demo",
-    link: "/demo/",
+    text: "Program",
+    link: "/program/",
   },
 ]);

@@ -1,0 +1,40 @@
+---
+title: "优雅地使用Git"
+date: 2019-12-22T13:16:58+08:00
+draft: false
+categories: ["version control"]
+tags: ["git"]
+---
+
+## Git教程
+
+[Git思维导图](https://www.processon.com/view/link/5c6e2755e4b03334b523ffc3#map)
+
+## gitmoji使用
+
+> emoji不能随意的使用，在gitmoji官网中就有着不同emoji对应着的不同释义
+
+### 提交格式
+
+`git commit -m ':emojicode: gitmoji演示'`
+
+### 常用的几个moji表情
+
+| emoji  | emoji代码 |  说明  |
+| :----:| :-----:   | :----:  |
+|  🎨   | `art`    		    |   改进代码结构/代码格式     |
+|  🐛	| `bug`  			 |    修复bug               |
+|  ⚡️   | `zap`  			 |    提升性能               |
+|  🔥   | `fire` 			  |   移除代码或文件          |
+|  📝   | `memo`   			 |   写文档                 |
+|  ✅   | `ite_check_mark`	|   增加测试   	           |
+|  🔒   | `lock`          	 |  修复安全问题  			  |
+|  💩   | `hankey`           |  编写需要改进的错误代码		|
+
+## 参考链接
+
+[gitmoji文档](https://gitmoji.carloscuesta.me/)
+
+[一个老哥整理的中文翻译](https://www.wenjunjiang.win/2016/11/22/gitmoji%E7%9A%84%E4%BD%BF%E7%94%A8/)
+
+[高质量的 Git 中文教程](https://github.com/geeeeeeeeek/git-recipes/wiki)

@@ -8,5 +8,9 @@ export const zhNavbar = navbar([
   {
     text: "Program",
     link: "/program/",
+  },  
+  {
+    text: "日常",
+    link: "/daliy/",
   },
 ]);

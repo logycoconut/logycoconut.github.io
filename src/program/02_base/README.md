@@ -2,5 +2,4 @@
 title: 计算机基础
 index: false
 collapsable: true
-order: 2
 ---

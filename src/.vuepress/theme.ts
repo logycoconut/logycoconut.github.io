@@ -26,7 +26,7 @@ export default hopeTheme({
   backToTop: true,
 
   // 自定义排序
-  sidebarSorter: ["readme", "file-number"],
+  sidebarSorter: ["readme", "order", "file-number"],
 
   locales: {
     "/": {

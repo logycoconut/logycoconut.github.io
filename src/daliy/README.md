@@ -1,4 +1,3 @@
 ---
-title: 日常
-link: true
+index: false
 ---

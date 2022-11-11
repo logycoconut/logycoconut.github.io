@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/daliy/语雀迁移.md",
+                "file": "src/daliy/221024 知识库迁移.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e0f8ffb99a11922",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/daliy/221024 知识库迁移.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/daliy/语雀迁移.md",
+                "file": "src/daliy/221024 知识库迁移.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/daliy/语雀迁移.md",
+                "file": "src/daliy/221024 知识库迁移.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/daliy/语雀迁移.md"
+                "file": "src/daliy/221024 知识库迁移.md"
               }
             }
           },
@@ -135,6 +148,14 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "f28cdf6d19adead7",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
@@ -147,15 +168,15 @@
   },
   "active": "148a27d1068e86f4",
   "lastOpenFiles": [
-    "src/daliy/220820 阅读3.0Web版搭建.md",
-    "src/daliy/语雀迁移.md",
     "src/daliy/220926 囚徒健身笔记.md",
+    "src/daliy/220820 阅读3.0Web版搭建.md",
+    "src/daliy/221111 自用软件备份.md",
+    "src/daliy/221024 知识库迁移.md",
     "src/daliy/README.md",
     "src/toSortOut/007_use_git_gracefully.md",
     "src/toSortOut/012_hackintoshInstall.md",
     "src/toSortOut/011_token_rsa.md",
     "src/toSortOut/001_hugo_blog_build.md",
-    "src/program/01_java/java_base.md",
-    "src/demo/page.md"
+    "src/program/01_java/java_base.md"
   ]
 }

@@ -21,6 +21,71 @@
             }
           },
           {
+            "id": "18b6b345d3686f6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/daliy/221114 健身计划.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "38e49c2d6abfa371",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/开发工具/221115 IDEA 设置.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e6e740a62e1c447f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/开发工具/211003 Git.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "388ee84464ac6de4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/开发工具/211003 Git.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2ab263c2a9f13f9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/开发工具/211002 Docker.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2e0f8ffb99a11922",
             "type": "leaf",
             "state": {
@@ -33,7 +98,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -100,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/daliy/220820 阅读3.0Web版搭建.md",
+                "file": "src/开发工具/211002 Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/daliy/220820 阅读3.0Web版搭建.md"
+                "file": "src/开发工具/211002 Docker.md"
               }
             }
           },
@@ -152,15 +218,15 @@
   },
   "active": "148a27d1068e86f4",
   "lastOpenFiles": [
-    "src/daliy/220926 囚徒健身笔记.md",
-    "src/daliy/221111 自用软件备份.md",
-    "src/daliy/221024 知识库迁移.md",
+    "src/开发工具/未命名 1.md",
+    "src/开发工具/211002 Docker.md",
+    "src/开发工具/211003 Git.md",
+    "src/开发工具/221115 IDEA 设置.md",
+    "src/daliy/221114 健身计划.md",
+    "src/read/20221115 文章专栏.md",
+    "src/未命名 1.md",
+    "src/未命名.md",
     "src/daliy/README.md",
-    "src/daliy/220820 阅读3.0Web版搭建.md",
-    "src/toSortOut/010_spring_boot_gateway.md",
-    "src/toSortOut/002_mysql_remote_access.md",
-    "src/program/01_java/java_base.md",
-    "src/program/01_java/README.md",
-    "src/toSortOut/007_use_git_gracefully.md"
+    "src/daliy/221024 知识库迁移.md"
   ]
 }

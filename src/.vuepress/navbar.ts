@@ -13,4 +13,9 @@ export const zhNavbar = navbar([
     text: "日常",
     link: "/daliy/",
   },
+  {
+    text: "另外",
+    icon: "info",
+    children: ["/开发工具/readme.md"],
+  },
 ]);

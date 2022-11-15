@@ -6,4 +6,6 @@ export const zhSidebar = sidebar({
 
     "/daliy/": "structure", 
 
+    "/开发工具/": "structure", 
+
 });

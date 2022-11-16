@@ -1,6 +1,7 @@
 ---
 title: Dockerfile常用指令介绍与示例
-date updated: 2022-11-16 00:05
+date updated: 2022-11-16 23:13
+index: false
 ---
 
 ```
@@ -114,7 +115,7 @@ RUN apk upgrade && \\
 
   **ADD指令与CPOY指令对比**
 
-  - ADD 的优点：在执行 <src 为 tar 压缩文件，压缩格式为 gzip, bzip2 以及 xz 的情况下，会自动复制并解压到 <dest>
+  - ADD 的优点：在执行 `<src>` 为 tar 压缩文件，压缩格式为 gzip, bzip2 以及 xz 的情况下，会自动复制并解压到 `<dest>`
 
 - ADD 的缺点：在不解压的前提下，无法复制 tar 压缩文件。会令镜像构建缓存失效，从而可能会令镜像构建变得比较缓慢。具体是否使用，可以根据是否需要自动解压来决定。
 
@@ -131,7 +132,7 @@ root@caa46eb11ab6:/# echo $VERSION
 0.1
 ```
 
-**ARG指令**
+### ARG指令
 
 `ARG` 与`ENV` 作用一致，作用域不同
 

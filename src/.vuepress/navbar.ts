@@ -8,14 +8,19 @@ export const zhNavbar = navbar([
   {
     text: "Program",
     link: "/program/",
-  },  
+  },
   {
     text: "日常",
     link: "/daliy/",
   },
   {
     text: "另外",
-    icon: "info",
-    children: ["/开发工具/readme.md"],
+    children: [
+      {
+        text: "开发工具",
+        icon: "info",
+        children: ["/开发工具/"],
+      },
+    ],
   },
 ]);

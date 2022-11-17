@@ -4,116 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8b3fc38dfc7da30d",
+        "id": "e11326b8666db536",
         "type": "tabs",
         "children": [
           {
-            "id": "170026c40fc8b05e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/daliy/220820 阅读3.0Web版搭建.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "18b6b345d3686f6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/daliy/221114 健身计划.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "38e49c2d6abfa371",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/开发工具/221115 IDEA 设置.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6e740a62e1c447f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/开发工具/211003 Git.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "388ee84464ac6de4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/开发工具/211003 Git.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ab263c2a9f13f9c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "b0abef87fd45e411",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "d9894fbe418bbf03",
+            "id": "cc77ac01a73aef00",
             "type": "leaf",
             "state": {
               "type": "diff-view",
               "state": {
-                "file": ".obsidian/plugins/remotely-save/styles.css",
+                "file": "2022-11-17.md",
                 "staged": false
               }
             }
-          },
-          {
-            "id": "2e0f8ffb99a11922",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/daliy/221024 知识库迁移.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -227,17 +132,17 @@
     "direction": "horizontal",
     "width": 245.5
   },
-  "active": "d9894fbe418bbf03",
+  "active": "cc77ac01a73aef00",
   "lastOpenFiles": [
+    "2022-11-17.md",
+    "README.md",
+    "src/template/template.md",
+    "src/未命名.md",
     "src/开发工具/211003 Git.md",
     "src/开发工具/02 Docker/README.md",
     "src/开发工具/02 Docker/210606 Dockerfile常用指令介绍与示例.md",
     "src/开发工具/02 Docker/211002 Docker.md",
     "src/开发工具/Docker/211002 Docker.md",
-    "src/program/01_java/README.md",
-    "src/program/README.md",
-    "src/开发工具/未命名 1.md",
-    "src/开发工具/221115 IDEA 设置.md",
-    "src/daliy/221114 健身计划.md"
+    "src/program/01_java/README.md"
   ]
 }

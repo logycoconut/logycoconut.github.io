@@ -1,3 +1,4 @@
 {
-  "attachmentFolderPath": "node_modules"
+  "attachmentFolderPath": "node_modules",
+  "promptDelete": false
 }

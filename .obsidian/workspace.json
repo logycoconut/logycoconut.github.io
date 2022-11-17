@@ -92,12 +92,10 @@
             "id": "d9894fbe418bbf03",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "src/开发工具/211003 Git.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": ".obsidian/plugins/remotely-save/styles.css",
+                "staged": false
               }
             }
           },
@@ -182,7 +180,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/开发工具/211003 Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,9 +201,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/开发工具/211003 Git.md"
-              }
+              "state": {}
             }
           },
           {
@@ -232,10 +227,10 @@
     "direction": "horizontal",
     "width": 245.5
   },
-  "active": "148a27d1068e86f4",
+  "active": "d9894fbe418bbf03",
   "lastOpenFiles": [
-    "src/开发工具/02 Docker/README.md",
     "src/开发工具/211003 Git.md",
+    "src/开发工具/02 Docker/README.md",
     "src/开发工具/02 Docker/210606 Dockerfile常用指令介绍与示例.md",
     "src/开发工具/02 Docker/211002 Docker.md",
     "src/开发工具/Docker/211002 Docker.md",

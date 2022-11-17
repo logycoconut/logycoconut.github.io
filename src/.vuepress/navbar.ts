@@ -16,11 +16,7 @@ export const zhNavbar = navbar([
   {
     text: "另外",
     children: [
-      {
-        text: "开发工具",
-        icon: "info",
-        children: ["/开发工具/"],
-      },
+      "/开发工具/",
     ],
   },
 ]);

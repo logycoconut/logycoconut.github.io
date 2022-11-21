@@ -11,8 +11,13 @@
             "id": "cc77ac01a73aef00",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "src/01_daliy/221117_Obsidian同步方案.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/01_daliy/221117_Obsidian同步方案.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -103,7 +109,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/01_daliy/221117_Obsidian同步方案.md"
+              }
             }
           },
           {
@@ -129,17 +137,17 @@
     "direction": "horizontal",
     "width": 245.5
   },
-  "active": "49813a896445e999",
+  "active": "cc77ac01a73aef00",
   "lastOpenFiles": [
-    "src/开发工具/221115 IDEA 设置.md",
+    "src/01_daliy/221114_健身计划.md",
+    "src/01_daliy/221117_Obsidian同步方案.md",
+    "src/01_daliy/221024_知识库迁移.md",
+    "src/01_daliy/221111_自用软件备份.md",
+    "src/01_daliy/README.md",
+    "src/01_daliy/220820_阅读3.0Web版搭建.md",
+    "src/01_daliy/220926_囚徒健身笔记.md",
     "src/read/20221115 文章专栏.md",
-    "src/01 daliy/221024 知识库迁移.md",
-    "src/01 daliy/221111 自用软件备份.md",
-    "src/01 daliy/221114 健身计划.md",
-    "2022-11-17.md",
-    "README.md",
-    "src/template/template.md",
-    "src/未命名.md",
-    "src/开发工具/211003 Git.md"
+    "src/开发工具/221115 IDEA 设置.md",
+    "src/01 daliy/221024 知识库迁移.md"
   ]
 }

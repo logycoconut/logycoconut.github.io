@@ -3,6 +3,7 @@ import { navbar } from "vuepress-theme-hope";
 export const zhNavbar = navbar([
   {
     text: "主页",
+    icon: "zhuye",
     link: "/"
   },
   {
@@ -17,13 +18,14 @@ export const zhNavbar = navbar([
   },
   {
     text: "另外",
-    icon: "others",
+    icon: "gengduo1",
     children: [
       "/03_tools/",
     ],
   },
   {
     text: "网站导航",
+    icon: "daohang",
     link: "/02_program/",
   },
 ]);

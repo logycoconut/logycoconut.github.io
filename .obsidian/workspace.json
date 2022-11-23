@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e11326b8666db536",
+        "id": "e9a10705d8fa6846",
         "type": "tabs",
         "children": [
           {
-            "id": "cc77ac01a73aef00",
+            "id": "16fafe94171db326",
             "type": "leaf",
             "state": {
               "type": "diff-view",
@@ -132,7 +132,7 @@
     "direction": "horizontal",
     "width": 245.5
   },
-  "active": "cc77ac01a73aef00",
+  "active": "148a27d1068e86f4",
   "lastOpenFiles": [
     "src/01_daliy/221117_Obsidian同步方案.md",
     "src/01_daliy/220820_阅读3.0Web版搭建.md",

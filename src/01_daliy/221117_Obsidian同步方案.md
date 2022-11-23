@@ -1,9 +1,10 @@
 ---
 title: Obsidian多端同步方案
+tag: Obsidian
 ---
 
 ```
-目前采用「Obsidian Git」插件进行同步
+目前采用 Obsidian Git 插件进行同步
 ```
 
 ## 目标
@@ -16,7 +17,7 @@ title: Obsidian多端同步方案
 
 ### 一、 ~~Remotely Save 插件（放弃）~~
 
-很方便的插件，但是不支持过滤指定文件夹功能（我没找到😢），只适合纯文档型的仓库
+很方便的插件，但是不支持过滤指定文件夹功能（ps: 我没找到😢），只适合纯文档型的仓库
 
 ### 二、~~webdav同步（不太方便，未实现）~~
 
@@ -32,4 +33,4 @@ title: Obsidian多端同步方案
 
 1. 安装 `Obsidian Git` 插件，将 Obsidian 仓库作为 Git 仓库管理
 
-2. 配合 `Github Actions` 每次提交时部署到 `Github Pages` (之后会同步 `Gitee Pages` )
+2. 配合 `Github Actions` 每次提交时部署到 `Github Pages` (之后可能会同步 `Gitee Pages` )

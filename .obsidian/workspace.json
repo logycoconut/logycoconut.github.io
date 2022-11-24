@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/01_daliy/01_文档工具/221024_个人知识库、博客搭建.md",
+                "file": "src/01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/01_daliy/01_文档工具/221111_Obsidian插件.md",
+                "file": "src/01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/01_daliy/01_文档工具/221024_个人知识库、博客搭建.md",
+                "file": "src/01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/01_daliy/01_文档工具/221024_个人知识库、博客搭建.md"
+                "file": "src/01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md"
               }
             }
           },
@@ -166,11 +166,11 @@
   "active": "148a27d1068e86f4",
   "lastOpenFiles": [
     "src/01_daliy/01_文档工具/221117_Obsidian同步方案.md",
-    "src/01_daliy/01_文档工具/221111_Obsidian插件.md",
+    "src/01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
+    "src/01_daliy/01_文档工具/README.md",
     "src/01_daliy/01_文档工具/221024_个人知识库、博客搭建.md",
     "src/01_daliy/221111_自用软件备份.md",
     "src/01_daliy/README.md",
-    "src/01_daliy/01_文档工具/README.md",
     "src/01_daliy/220820_阅读3.0Web版搭建.md",
     "src/toSortOut/014_spring_bindingResult.md",
     "src/01_daliy/221114_健身计划.md",

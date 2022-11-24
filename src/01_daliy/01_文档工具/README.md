@@ -1,5 +1,5 @@
 ---
 title: 文档工具
 index: false
-order: 1
+icon: exe-knowledge-base-primary
 ---

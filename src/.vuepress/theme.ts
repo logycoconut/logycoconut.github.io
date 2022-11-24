@@ -21,7 +21,7 @@ export default hopeTheme({
   breadcrumb: false,
 
   // 外观配置
-  iconAssets: "//at.alicdn.com/t/c/font_3777794_pt70kvb6py.css",
+  iconAssets: "//at.alicdn.com/t/c/font_3777794_r1g9tc0kwb.css",
   darkmode: "toggle",
   backToTop: true,
 

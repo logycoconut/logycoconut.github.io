@@ -3,7 +3,7 @@
   "emphasis": "_",
   "rule": "-",
   "createHeaderIfNotPresent": true,
-  "newHeaderTemplate": "\ndate created: \"{{date:YYYY-MM-DD HH:mm}}\" \n",
+  "newHeaderTemplate": "\ntitle: \nindex: false\ndate created: \"{{date:YYYY-MM-DD HH:mm}}\" \n",
   "updateHeader": false,
   "updateHeaderTemplate": "\ndate updated: \"{{date:YYYY-MM-DD HH:mm}}\" \n",
   "listItemIndent": "one",

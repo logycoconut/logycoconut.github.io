@@ -4,5 +4,6 @@
   "obsidian-git",
   "cm-editor-syntax-highlight-obsidian",
   "markdown-prettifier",
-  "url-into-selection"
+  "url-into-selection",
+  "obsidian-vimrc-support"
 ]

@@ -19,7 +19,10 @@ export default defineUserConfig({
   plugins: [
     // 本地搜索：默认情况下，该插件会将页面标题和小标题作为搜索索引。
     searchPlugin({
-
+      // 最大推荐个数
+      maxSuggestions: 8,
+      // 热键支持
+      hotKeys: ["commond", "k"],
     }),
   ],
 });

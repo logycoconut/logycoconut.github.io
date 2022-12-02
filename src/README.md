@@ -16,6 +16,3 @@ features:
 copyright: false
 footer: MIT Licensed | Copyright © 2019-present logycoconut
 ---
-
-
-- [知识库迁移](/01_daliy/221024%20知识库迁移.md)

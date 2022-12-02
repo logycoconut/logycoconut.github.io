@@ -1,4 +1,9 @@
 {
   "attachmentFolderPath": "node_modules",
-  "promptDelete": false
+  "promptDelete": false,
+  "newFileLocation": "root",
+  "newLinkFormat": "absolute",
+  "userIgnoreFilters": [
+    "node_modules/"
+  ]
 }

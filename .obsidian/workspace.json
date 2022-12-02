@@ -39,7 +39,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/01_daliy/02_健身计划/221114_健身计划.md",
+                "file": "src/02_program/06_distribution/README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3d1455fd4c129b16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/02_program/07_read/README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/01_daliy/221201_个人设备.md",
+                "file": "src/01_daliy/221111_自用软件、插件.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -136,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -203,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/01_daliy/221201_个人设备.md",
+                "file": "src/02_program/07_read/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/01_daliy/221201_个人设备.md"
+                "file": "src/02_program/07_read/README.md"
               }
             }
           },
@@ -253,17 +266,17 @@
     "direction": "horizontal",
     "width": 245.5
   },
-  "active": "993a2e64744e4607",
+  "active": "3d1455fd4c129b16",
   "lastOpenFiles": [
-    "src/01_daliy/221111_自用软件备份.md",
-    "src/01_daliy/221201_个人设备.md",
-    "src/03_tools/221115 IDEA 设置.md",
-    "src/01_daliy/02_健身计划/未命名.md",
-    "src/01_daliy/02_健身计划/221126_健康饮食.md",
+    "src/02_program/06_distribution/README.md",
+    "src/02_program/07_read/20221115 文章专栏.md",
+    "src/README.md",
+    "src/01_daliy/README.md",
+    "src/01_daliy/221201_个人设备推荐.md",
     "src/01_daliy/02_健身计划/221114_健身计划.md",
     "src/01_daliy/02_健身计划/220926_囚徒健身笔记.md",
-    "src/01_daliy/README.md",
-    "src/01_daliy/220820_阅读3.0Web版搭建.md",
-    "src/01_daliy/01_文档工具/README.md"
+    "src/01_daliy/221111_自用软件、插件.md",
+    "src/03_tools/221115 IDEA 设置.md",
+    "src/01_daliy/02_健身计划/未命名.md"
   ]
 }

@@ -1,8 +1,9 @@
 {
   "accentColor": "",
   "cssTheme": "Minimal",
-  "theme": "moonstone",
+  "theme": "system",
   "enabledCssSnippets": [
     "obsidian"
-  ]
+  ],
+  "translucency": true
 }

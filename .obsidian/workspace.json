@@ -4,152 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ff154b30671b9177",
+        "id": "c3559bbdd7918bcb",
         "type": "tabs",
         "children": [
           {
-            "id": "ee86076c5705106b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "08f99f7403c86e0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/01_daliy/02_健身计划/220926_囚徒健身笔记.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "366d0525ec7a6de9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/02_program/06_distribution/README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d1455fd4c129b16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/02_program/07_read/README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2a49832e165e100e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/01_daliy/02_健身计划/221126_健康饮食.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6d787fe16e039a4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/03_tools/221115 IDEA 设置.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "993a2e64744e4607",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/01_daliy/221111_自用软件、插件.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7f8c63262e21a14f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/01_daliy/02_健身计划/220926_囚徒健身笔记.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4638c874045d505",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/01_daliy/02_健身计划/220926_囚徒健身笔记.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d274003db55bd6b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/01_daliy/01_文档工具/README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2dfe7b1fd3a113ba",
+            "id": "995f18f55bb389d7",
             "type": "leaf",
             "state": {
               "type": "diff-view",
               "state": {
-                "file": ".obsidian/workspace.json",
+                "file": ".obsidian/plugins/dangerzone-writing-plugin/main.js",
                 "staged": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -168,7 +37,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "黑苹果",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -216,7 +85,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/02_program/07_read/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,9 +106,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/02_program/07_read/README.md"
-              }
+              "state": {}
             }
           },
           {
@@ -264,19 +130,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 360.5
   },
-  "active": "3d1455fd4c129b16",
+  "active": "995f18f55bb389d7",
   "lastOpenFiles": [
-    "src/02_program/06_distribution/README.md",
-    "src/02_program/07_read/20221115 文章专栏.md",
-    "src/README.md",
-    "src/01_daliy/README.md",
+    "src/04_single_page/221203_网站导航.md",
+    "Excalidraw/Drawing 2022-12-03 18.35.39.excalidraw.md",
     "src/01_daliy/221201_个人设备推荐.md",
-    "src/01_daliy/02_健身计划/221114_健身计划.md",
-    "src/01_daliy/02_健身计划/220926_囚徒健身笔记.md",
-    "src/01_daliy/221111_自用软件、插件.md",
-    "src/03_tools/221115 IDEA 设置.md",
-    "src/01_daliy/02_健身计划/未命名.md"
+    "src/01_daliy/01_文档工具/README.md",
+    "src/01_daliy/01_文档工具/221024_个人知识库、博客搭建.md",
+    "01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
+    "2022-12-03.md",
+    "src/01_daliy/README.md",
+    "README.md",
+    "src/README.md"
   ]
 }

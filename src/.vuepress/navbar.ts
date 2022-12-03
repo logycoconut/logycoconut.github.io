@@ -26,6 +26,6 @@ export const zhNavbar = navbar([
   {
     text: "网站导航",
     icon: "daohang",
-    link: "/02_program/",
+    link: "/04_single_page/221203_网站导航.md",
   },
 ]);

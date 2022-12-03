@@ -4,18 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c3559bbdd7918bcb",
+        "id": "512040e74a9faff8",
         "type": "tabs",
         "children": [
           {
-            "id": "995f18f55bb389d7",
+            "id": "7e607ac46806879f",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/plugins/dangerzone-writing-plugin/main.js",
-                "staged": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -132,7 +129,7 @@
     "direction": "horizontal",
     "width": 360.5
   },
-  "active": "995f18f55bb389d7",
+  "active": "148a27d1068e86f4",
   "lastOpenFiles": [
     "src/04_single_page/221203_网站导航.md",
     "Excalidraw/Drawing 2022-12-03 18.35.39.excalidraw.md",

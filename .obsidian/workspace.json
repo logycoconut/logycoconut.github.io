@@ -11,8 +11,13 @@
             "id": "7e607ac46806879f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "src/01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -103,7 +109,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md"
+              }
             }
           },
           {
@@ -129,17 +137,17 @@
     "direction": "horizontal",
     "width": 360.5
   },
-  "active": "148a27d1068e86f4",
+  "active": "7e607ac46806879f",
   "lastOpenFiles": [
+    "src/01_daliy/02_健身计划/220926_囚徒健身笔记.md",
+    "01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
+    "daliy/220926 囚徒健身笔记.md",
     "src/04_single_page/221203_网站导航.md",
     "Excalidraw/Drawing 2022-12-03 18.35.39.excalidraw.md",
     "src/01_daliy/221201_个人设备推荐.md",
     "src/01_daliy/01_文档工具/README.md",
     "src/01_daliy/01_文档工具/221024_个人知识库、博客搭建.md",
-    "01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
     "2022-12-03.md",
-    "src/01_daliy/README.md",
-    "README.md",
-    "src/README.md"
+    "src/01_daliy/README.md"
   ]
 }

@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "512040e74a9faff8",
+        "id": "da0abddea40e44a0",
         "type": "tabs",
         "children": [
           {
-            "id": "7e607ac46806879f",
+            "id": "ebd349e8c12a9592",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -87,7 +82,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,9 +103,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md"
-              }
+              "state": {}
             }
           },
           {
@@ -137,17 +129,17 @@
     "direction": "horizontal",
     "width": 360.5
   },
-  "active": "7e607ac46806879f",
+  "active": "ebd349e8c12a9592",
   "lastOpenFiles": [
+    "src/01_daliy/README.md",
+    "src/01_daliy/221204_剪辑工具.md",
+    "src/01_daliy/221111_自用软件、插件.md",
+    "src/01_daliy/221201_个人设备推荐.md",
+    "src/01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
     "src/01_daliy/02_健身计划/220926_囚徒健身笔记.md",
     "01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
     "daliy/220926 囚徒健身笔记.md",
     "src/04_single_page/221203_网站导航.md",
-    "Excalidraw/Drawing 2022-12-03 18.35.39.excalidraw.md",
-    "src/01_daliy/221201_个人设备推荐.md",
-    "src/01_daliy/01_文档工具/README.md",
-    "src/01_daliy/01_文档工具/221024_个人知识库、博客搭建.md",
-    "2022-12-03.md",
-    "src/01_daliy/README.md"
+    "Excalidraw/Drawing 2022-12-03 18.35.39.excalidraw.md"
   ]
 }

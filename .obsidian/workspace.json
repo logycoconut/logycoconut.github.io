@@ -11,11 +11,43 @@
             "id": "ebd349e8c12a9592",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "src/02_program/07_read/README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e68b847eafd7bc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/02_program/07_read/221115 文章专栏.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "94496373ca4570dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/_input/221205_程序员学习网站.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/_input/221205_程序员学习网站.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -103,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/_input/221205_程序员学习网站.md"
+              }
             }
           },
           {
@@ -129,17 +164,17 @@
     "direction": "horizontal",
     "width": 360.5
   },
-  "active": "ebd349e8c12a9592",
+  "active": "148a27d1068e86f4",
   "lastOpenFiles": [
+    "src/02_program/08_learn/221204_个人学习方法.md",
+    "src/_input/221205_程序员学习网站.md",
     "src/01_daliy/README.md",
-    "src/01_daliy/221204_剪辑工具.md",
+    "src/02_program/08_learn/221129_程序员晋升方式.md",
     "src/01_daliy/221111_自用软件、插件.md",
     "src/01_daliy/221201_个人设备推荐.md",
-    "src/01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
-    "src/01_daliy/02_健身计划/220926_囚徒健身笔记.md",
-    "01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
-    "daliy/220926 囚徒健身笔记.md",
-    "src/04_single_page/221203_网站导航.md",
-    "Excalidraw/Drawing 2022-12-03 18.35.39.excalidraw.md"
+    "src/01_daliy/221204_剪辑工具.md",
+    "src/02_program/07_read/221115 文章专栏.md",
+    "src/02_program/08_learn/README.md",
+    "src/02_program/07_read/README.md"
   ]
 }

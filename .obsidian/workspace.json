@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/_input/221205_程序员学习网站.md",
+                "file": "src/02_program/07_read/README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/_input/221205_程序员学习网站.md",
+                "file": "src/02_program/07_read/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/_input/221205_程序员学习网站.md"
+                "file": "src/02_program/07_read/README.md"
               }
             }
           },
@@ -164,17 +164,17 @@
     "direction": "horizontal",
     "width": 360.5
   },
-  "active": "148a27d1068e86f4",
+  "active": "94496373ca4570dd",
   "lastOpenFiles": [
+    "src/02_program/08_learn/README.md",
+    "src/02_program/08_learn/221205_程序员学习网站.md",
     "src/02_program/08_learn/221204_个人学习方法.md",
-    "src/_input/221205_程序员学习网站.md",
+    "src/02_program/07_read/README.md",
+    "src/_input/Drawing 2022-12-07 00.12.22.excalidraw.md",
     "src/01_daliy/README.md",
     "src/02_program/08_learn/221129_程序员晋升方式.md",
     "src/01_daliy/221111_自用软件、插件.md",
     "src/01_daliy/221201_个人设备推荐.md",
-    "src/01_daliy/221204_剪辑工具.md",
-    "src/02_program/07_read/221115 文章专栏.md",
-    "src/02_program/08_learn/README.md",
-    "src/02_program/07_read/README.md"
+    "src/01_daliy/221204_剪辑工具.md"
   ]
 }

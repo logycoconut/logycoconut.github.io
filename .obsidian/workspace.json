@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/02_program/07_read/221115 文章专栏.md",
+                "file": "src/02_program/08_learn/221205_程序员学习网站.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "94496373ca4570dd",
+            "id": "9c998af6774b0529",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/02_program/07_read/README.md",
+                "file": "src/_input/20221210_有时间要多陪陪父母.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -109,18 +109,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5b0ac34d77f8cb3c",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "src/02_program/07_read/README.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "3a67fe72c8cb4b00",
             "type": "leaf",
             "state": {
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/02_program/07_read/README.md"
+                "file": "src/_input/20221210_有时间要多陪陪父母.md"
               }
             }
           },
@@ -148,33 +136,25 @@
               "type": "git-view",
               "state": {}
             }
-          },
-          {
-            "id": "f28cdf6d19adead7",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 360.5
   },
-  "active": "94496373ca4570dd",
+  "active": "9c998af6774b0529",
   "lastOpenFiles": [
-    "src/02_program/08_learn/README.md",
     "src/02_program/08_learn/221205_程序员学习网站.md",
-    "src/02_program/08_learn/221204_个人学习方法.md",
+    "Excalidraw/Drawing 2022-12-08 00.18.08.excalidraw.md",
+    "src/02_program/07_read/221115 文章专栏.md",
     "src/02_program/07_read/README.md",
+    "src/02_program/08_learn/README.md",
+    "src/02_program/08_learn/221204_个人学习方法.md",
     "src/_input/Drawing 2022-12-07 00.12.22.excalidraw.md",
     "src/01_daliy/README.md",
     "src/02_program/08_learn/221129_程序员晋升方式.md",
-    "src/01_daliy/221111_自用软件、插件.md",
-    "src/01_daliy/221201_个人设备推荐.md",
-    "src/01_daliy/221204_剪辑工具.md"
+    "src/01_daliy/221111_自用软件、插件.md"
   ]
 }

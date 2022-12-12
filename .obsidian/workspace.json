@@ -50,12 +50,10 @@
             "id": "18040d4937de7808",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "src/_input/20221210_有时间要多陪陪父母.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "src/.vuepress/theme.ts",
+                "staged": false
               }
             }
           }
@@ -137,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/_input/20221210_有时间要多陪陪父母.md"
-              }
+              "state": {}
             }
           },
           {
@@ -156,7 +152,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/_input/20221210_有时间要多陪陪父母.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,8 +164,9 @@
     "direction": "horizontal",
     "width": 360.5
   },
-  "active": "148a27d1068e86f4",
+  "active": "18040d4937de7808",
   "lastOpenFiles": [
+    "src/_input/20221210_有时间要多陪陪父母.md",
     "src/01_daliy/221111_自用软件、插件.md",
     "src/01_daliy/02_铁子注意身体/221126_健康饮食.md",
     "src/01_daliy/02_铁子注意身体/221114_健身计划.md",
@@ -179,7 +175,6 @@
     "src/01_daliy/01_文档工具/221117_Obsidian同步方案.md",
     "src/01_daliy/01_文档工具/README.md",
     "src/01_daliy/01_文档工具/221024_个人知识库、博客搭建.md",
-    "src/_input/20221210_有时间要多陪陪父母.md",
     "src/02_program/08_learn/221205_程序员学习网站.md"
   ]
 }

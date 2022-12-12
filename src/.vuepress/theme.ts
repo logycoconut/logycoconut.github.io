@@ -52,6 +52,8 @@ export default hopeTheme({
     blog: {
       // 自动摘要
       autoExcerpt: true,
+      // 筛选出博客
+      filter: (page) => Boolean(page.filePathRelative?.includes("_input")) && !page.frontmatter.home,
     },
 
     // 评论配置

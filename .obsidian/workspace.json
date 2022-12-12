@@ -39,6 +39,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "src/01_daliy/01_文档工具/README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "18040d4937de7808",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "src/_input/20221210_有时间要多陪陪父母.md",
                 "mode": "source",
                 "backlinks": false,
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 206.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -136,6 +149,18 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "c93f6592d3904e29",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "src/_input/20221210_有时间要多陪陪父母.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -144,17 +169,17 @@
     "direction": "horizontal",
     "width": 360.5
   },
-  "active": "9c998af6774b0529",
+  "active": "148a27d1068e86f4",
   "lastOpenFiles": [
-    "src/02_program/08_learn/221205_程序员学习网站.md",
-    "Excalidraw/Drawing 2022-12-08 00.18.08.excalidraw.md",
-    "src/02_program/07_read/221115 文章专栏.md",
-    "src/02_program/07_read/README.md",
-    "src/02_program/08_learn/README.md",
-    "src/02_program/08_learn/221204_个人学习方法.md",
-    "src/_input/Drawing 2022-12-07 00.12.22.excalidraw.md",
-    "src/01_daliy/README.md",
-    "src/02_program/08_learn/221129_程序员晋升方式.md",
-    "src/01_daliy/221111_自用软件、插件.md"
+    "src/01_daliy/221111_自用软件、插件.md",
+    "src/01_daliy/02_铁子注意身体/221126_健康饮食.md",
+    "src/01_daliy/02_铁子注意身体/221114_健身计划.md",
+    "src/01_daliy/02_铁子注意身体/220926_囚徒健身笔记.md",
+    "src/01_daliy/02_铁子注意身体/README.md",
+    "src/01_daliy/01_文档工具/221117_Obsidian同步方案.md",
+    "src/01_daliy/01_文档工具/README.md",
+    "src/01_daliy/01_文档工具/221024_个人知识库、博客搭建.md",
+    "src/_input/20221210_有时间要多陪陪父母.md",
+    "src/02_program/08_learn/221205_程序员学习网站.md"
   ]
 }

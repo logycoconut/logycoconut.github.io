@@ -48,3 +48,7 @@ tag: Obsidian
 | Markdown prettifier      | 将md文件格式化为标准格式     |
 | Obsidian Git             | 使用Git管理Obsidian仓库 |
 | Paste URL into Selection | 改善超链接             |
+
+## 参考链接
+
+- [vuepress-theme-hopeg官方文档](https://vuepress-theme-hope.github.io/v2/zh/guide/)

@@ -15,13 +15,13 @@ export default hopeTheme({
   logo: "/logo.svg",
 
   // 纯净模式
-  pure: true,
+  // pure: true,
 
   // 是否全局启用路径导航
   breadcrumb: false,
 
   // 外观配置
-  iconAssets: "//at.alicdn.com/t/c/font_3777794_b6mp30xk3zl.css",
+  iconAssets: "//at.alicdn.com/t/c/font_3777794_jza0oxku0pf.css",
   darkmode: "toggle",
   backToTop: true,
 
@@ -53,7 +53,7 @@ export default hopeTheme({
       // 自动摘要
       autoExcerpt: true,
       // 筛选出博客
-      filter: (page) => Boolean(page.filePathRelative?.includes("_input")) && !page.frontmatter.home,
+      filter: (page) => Boolean(page.filePathRelative?.startsWith("blog")) && !page.frontmatter.home,
     },
 
     // 评论配置

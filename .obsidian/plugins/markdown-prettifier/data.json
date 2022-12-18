@@ -3,7 +3,7 @@
   "emphasis": "_",
   "rule": "-",
   "createHeaderIfNotPresent": true,
-  "newHeaderTemplate": "\ntitle: todo\nindex: false\n",
+  "newHeaderTemplate": "\ntitle: todo\nindex: false\ndate: {{date:YYYY-MM-DD}}",
   "updateHeader": false,
   "updateHeaderTemplate": "\ndate updated: \"{{date:YYYY-MM-DD HH:mm}}\" \n",
   "listItemIndent": "one",

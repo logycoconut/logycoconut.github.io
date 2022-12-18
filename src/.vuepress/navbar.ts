@@ -21,12 +21,12 @@ export const zhNavbar = navbar([
     icon: "gengduo1",
     children: [
       "/03_tools/",
-      {
-        text: "博客",
-        icon: "blog1",
-        link: "/article/",
-      }
     ],
+  },
+  {
+    text: "博客",
+    icon: "blog1",
+    link: "/article/",
   },
   {
     text: "网站导航",

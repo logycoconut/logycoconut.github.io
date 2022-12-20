@@ -1,0 +1,1 @@
+import{_ as t}from"./_plugin-vue_export-helper.cdc0426e.js";import{o,c as n,a as e}from"./app.aea103ba.js";const _={},c=e("p",null,"个人知识库记录",-1),s=e("p",null,"“ 不要把时间花在工具身上 ”",-1),r=[c,s];function l(a,i){return o(),n("div",null,r)}const m=t(_,[["render",l],["__file","index.html.vue"]]);export{m as default};

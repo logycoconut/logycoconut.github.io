@@ -51,4 +51,4 @@ tag: Obsidian
 
 ## 参考链接
 
-- [vuepress-theme-hopeg官方文档](https://vuepress-theme-hope.github.io/v2/zh/guide/)
+- [vuepress-theme-hope官方文档](https://vuepress-theme-hope.github.io/v2/zh/guide/)

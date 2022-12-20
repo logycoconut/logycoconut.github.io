@@ -16,3 +16,7 @@ features:
 copyright: false
 footer: MIT Licensed | Copyright © 2019-present logycoconut
 ---
+
+个人知识库记录
+
+“ 不要把时间花在工具身上 ”

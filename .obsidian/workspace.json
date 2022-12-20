@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c75445069d937967",
+        "id": "787183a3268de3e0",
         "type": "tabs",
         "children": [
           {
-            "id": "62ea528f49e378cc",
+            "id": "26e6bd2e8eed32a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/blog/190801_Hugo搭建个人博客.md",
+                "file": "src/blog/221220_「重新认识GTD」读后感.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,10 +39,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "父母",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -66,8 +66,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -98,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/blog/190801_Hugo搭建个人博客.md"
+                "file": "src/blog/221220_「重新认识GTD」读后感.md"
               }
             }
           },
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/blog/190801_Hugo搭建个人博客.md",
+                "file": "src/blog/221220_「重新认识GTD」读后感.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,17 +128,17 @@
     "direction": "horizontal",
     "width": 360.5
   },
-  "active": "62ea528f49e378cc",
+  "active": "148a27d1068e86f4",
   "lastOpenFiles": [
-    "src/blog/221210_有时间要多陪陪父母.md",
-    "src/blog/221228_怎么逼自己成为一个上进的人.md",
+    "src/04_single_page/221203_网站导航.md",
+    "src/blog/221220_「重新认识GTD」读后感.md",
+    "src/blog/221218_怎么逼自己成为一个上进的人.md",
     "src/blog/200614_记一次黑苹果安装过程.md",
+    "src/blog/221210_有时间要多陪陪父母.md",
     "src/blog/190801_Hugo搭建个人博客.md",
-    "src/_post/009_necessary_software.md",
-    "src/_post/008_spring_security_notes.md",
-    "src/_post/007_use_git_gracefully.md",
-    "src/_post/011_token_rsa.md",
-    "src/_post/016_springboot_async.md",
-    "src/_post/017_seckill_system_design.md"
+    "src/02_program/08_learn/221205_程序员学习网站.md",
+    "src/01_daliy/02_铁子注意身体/221114_健身计划.md",
+    "src/_post/021_springdatajpa_transactional.md",
+    "src/_post/018_ssh_key.md"
   ]
 }

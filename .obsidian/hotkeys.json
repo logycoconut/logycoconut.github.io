@@ -7,14 +7,7 @@
       "key": "S"
     }
   ],
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "1"
-    }
-  ],
+  "app:toggle-left-sidebar": [],
   "obsidian-git:open-git-view": [
     {
       "modifiers": [
@@ -29,6 +22,14 @@
         "Mod"
       ],
       "key": "2"
+    }
+  ],
+  "file-explorer:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "1"
     }
   ]
 }

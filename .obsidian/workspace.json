@@ -4,18 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "6733806f4b731a42",
+        "id": "558386bede4c8101",
         "type": "tabs",
         "children": [
           {
-            "id": "a91579cfb729c232",
+            "id": "eae9702654d6d774",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -37,7 +34,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#高并发",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -91,22 +88,6 @@
             }
           },
           {
-            "id": "1d4808f1a90aa10b",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "148a27d1068e86f4",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
             "id": "c93f6592d3904e29",
             "type": "leaf",
             "state": {
@@ -116,6 +97,14 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "be552bffe11b7e5f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
         "currentTab": 2
@@ -124,17 +113,17 @@
     "direction": "horizontal",
     "width": 360.5
   },
-  "active": "a91579cfb729c232",
+  "active": "be552bffe11b7e5f",
   "lastOpenFiles": [
-    "src/04_single_page/221203_网站导航.md",
+    "src/blog/221223_感染奥密克戎之后.md",
     "src/blog/221220_「重新认识GTD」读后感.md",
-    "src/blog/221218_怎么逼自己成为一个上进的人.md",
-    "src/blog/200614_记一次黑苹果安装过程.md",
-    "src/blog/221210_有时间要多陪陪父母.md",
-    "src/blog/190801_Hugo搭建个人博客.md",
+    "src/_post/017_seckill_system_design.md",
     "src/02_program/08_learn/221205_程序员学习网站.md",
-    "src/01_daliy/02_铁子注意身体/221114_健身计划.md",
-    "src/_post/021_springdatajpa_transactional.md",
-    "src/_post/018_ssh_key.md"
+    "src/02_program/08_learn/221204_个人学习方法.md",
+    "src/04_single_page/221203_网站导航.md",
+    "src/blog/200614_记一次黑苹果安装过程.md",
+    "src/blog/190801_Hugo搭建个人博客.md",
+    "src/blog/221218_怎么逼自己成为一个上进的人.md",
+    "src/blog/221210_有时间要多陪陪父母.md"
   ]
 }

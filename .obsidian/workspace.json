@@ -4,20 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "b3e7e8f0586cdf64",
+        "id": "781feafeabd1c4a7",
         "type": "tabs",
         "children": [
           {
-            "id": "9e893cab55864f52",
+            "id": "f33ac1ecd8a9c3ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/blog/221225_2022年终总结.md",
+                "file": "src/03_tools/221115 IDEA 设置.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
+            }
+          },
+          {
+            "id": "23a6a6c17b894d62",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -98,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/blog/221225_2022年终总结.md",
+                "file": "src/03_tools/221115 IDEA 设置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/blog/221225_2022年终总结.md"
+                "file": "src/03_tools/221115 IDEA 设置.md"
               }
             }
           }
@@ -140,17 +148,17 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "be552bffe11b7e5f",
+  "active": "f33ac1ecd8a9c3ec",
   "lastOpenFiles": [
+    "src/04_single_page/221203_网站导航.md",
+    "src/blog/190801_Hugo搭建个人博客.md",
+    "src/blog/221225_2022年终总结.md",
     "src/blog/221223_感染奥密克戎之后.md",
     "src/blog/221218_怎么逼自己成为一个上进的人.md",
-    "src/blog/221225_2022年终总结.md",
     "src/01_daliy/221111_自用软件、插件.md",
     "src/_post/010_spring_boot_gateway.md",
     "src/_post/019_java8_stream_groupby.md",
     "src/blog/221220_「重新认识GTD」读后感.md",
-    "未命名.canvas",
-    "src/_post/017_seckill_system_design.md",
-    "src/02_program/08_learn/221205_程序员学习网站.md"
+    "未命名.canvas"
   ]
 }

@@ -1,3 +1,4 @@
 {
-  "format": "YYYYMMDD_"
+  "format": "YYMMDD_",
+  "folder": "src/blog"
 }

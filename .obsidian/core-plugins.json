@@ -3,16 +3,17 @@
   "global-search",
   "switcher",
   "graph",
+  "canvas",
   "outgoing-link",
   "tag-pane",
   "page-preview",
-  "daily-notes",
-  "templates",
   "note-composer",
   "command-palette",
   "editor-status",
   "starred",
+  "zk-prefixer",
   "outline",
   "word-count",
-  "file-recovery"
+  "file-recovery",
+  "sync"
 ]

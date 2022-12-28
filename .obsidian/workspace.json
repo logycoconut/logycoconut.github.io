@@ -28,7 +28,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +107,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/03_tools/221115 IDEA 设置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +125,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/03_tools/221115 IDEA 设置.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -148,17 +146,17 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "f33ac1ecd8a9c3ec",
+  "active": "be552bffe11b7e5f",
   "lastOpenFiles": [
-    "src/04_single_page/221203_网站导航.md",
-    "src/blog/190801_Hugo搭建个人博客.md",
-    "src/blog/221225_2022年终总结.md",
-    "src/blog/221223_感染奥密克戎之后.md",
-    "src/blog/221218_怎么逼自己成为一个上进的人.md",
-    "src/01_daliy/221111_自用软件、插件.md",
-    "src/_post/010_spring_boot_gateway.md",
-    "src/_post/019_java8_stream_groupby.md",
-    "src/blog/221220_「重新认识GTD」读后感.md",
-    "未命名.canvas"
+    "未命名.canvas",
+    "src/02_program/03_database/README.md",
+    "src/01_daliy/01_文档工具/README.md",
+    "src/01_daliy/01_文档工具/221117_Obsidian同步方案.md",
+    "src/01_daliy/02_铁子注意身体/221114_健身计划.md",
+    "src/01_daliy/02_铁子注意身体/221126_健康饮食.md",
+    "src/01_daliy/02_铁子注意身体/220926_囚徒健身笔记.md",
+    "src/01_daliy/221201_个人设备推荐.md",
+    "src/01_daliy/221204_剪辑工具.md",
+    "src/01_daliy/221217_新冠生存指南.md"
   ]
 }

@@ -4,32 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "781feafeabd1c4a7",
+        "id": "3144a0394e57533d",
         "type": "tabs",
         "children": [
           {
-            "id": "f33ac1ecd8a9c3ec",
+            "id": "29eb6d957c3159ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/03_tools/221115 IDEA 设置.md",
+                "file": "src/blog/230111_toggl_track.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
-          },
-          {
-            "id": "23a6a6c17b894d62",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,6 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/blog/230111_toggl_track.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/blog/230111_toggl_track.md"
+              }
             }
           }
         ],
@@ -146,17 +140,17 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "be552bffe11b7e5f",
+  "active": "29eb6d957c3159ce",
   "lastOpenFiles": [
-    "未命名.canvas",
-    "src/02_program/03_database/README.md",
-    "src/01_daliy/01_文档工具/README.md",
-    "src/01_daliy/01_文档工具/221117_Obsidian同步方案.md",
-    "src/01_daliy/02_铁子注意身体/221114_健身计划.md",
-    "src/01_daliy/02_铁子注意身体/221126_健康饮食.md",
-    "src/01_daliy/02_铁子注意身体/220926_囚徒健身笔记.md",
-    "src/01_daliy/221201_个人设备推荐.md",
+    "src/blog/230108_记第一次滑雪.md",
+    "src/blog/230111_toggl_track.md",
+    "src/blog/221225_2022年终总结.md",
+    "Excalidraw/Drawing 2023-01-11 23.23.53.excalidraw.md",
     "src/01_daliy/221204_剪辑工具.md",
-    "src/01_daliy/221217_新冠生存指南.md"
+    "src/01_daliy/221201_个人设备推荐.md",
+    "src/01_daliy/221111_自用软件、插件.md",
+    "src/01_daliy/01_文档工具/221117_Obsidian同步方案.md",
+    "src/03_tools/221115 IDEA 设置.md",
+    "未命名.canvas"
   ]
 }

@@ -1,0 +1,1 @@
+import{_ as t}from"./_plugin-vue_export-helper.cdc0426e.js";import{o as _,c as e}from"./app.ba4eec26.js";const c={};function o(r,a){return _(),e("div")}const s=t(c,[["render",o],["__file","230111_toggl_track.html.vue"]]);export{s as default};

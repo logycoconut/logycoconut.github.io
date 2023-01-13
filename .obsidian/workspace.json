@@ -13,26 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/01_daliy/02_铁子注意身体/221114_健身计划.md",
+                "file": "src/blog/230111_toggl_track_推荐.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
-          },
-          {
-            "id": "ff4045adb8ab9641",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "src/blog/230108_记第一次滑雪.md",
-                "staged": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,6 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/blog/230111_toggl_track_推荐.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/blog/230111_toggl_track_推荐.md"
+              }
             }
           }
         ],
@@ -149,17 +140,17 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "ff4045adb8ab9641",
+  "active": "129f280fd77aaa35",
   "lastOpenFiles": [
-    "src/blog/230111_toggl_track_推荐.md",
-    "src/blog/230108_记第一次滑雪.md",
     "src/blog/230113_智能插座带来的幸福感.md",
-    "src/blog/221225_2022年终总结.md",
+    "src/blog/230111_toggl_track_推荐.md",
     "src/01_daliy/02_铁子注意身体/221114_健身计划.md",
+    "src/blog/221218_怎么逼自己成为一个上进的人.md",
+    "src/blog/221210_有时间要多陪陪父母.md",
+    "src/blog/221220_「重新认识GTD」读后感.md",
+    "src/blog/230108_记第一次滑雪.md",
+    "src/blog/221225_2022年终总结.md",
     "Excalidraw/Drawing 2023-01-11 23.23.53.excalidraw.md",
-    "src/01_daliy/221204_剪辑工具.md",
-    "src/01_daliy/221201_个人设备推荐.md",
-    "src/01_daliy/221111_自用软件、插件.md",
-    "src/01_daliy/01_文档工具/221117_Obsidian同步方案.md"
+    "src/01_daliy/221204_剪辑工具.md"
   ]
 }

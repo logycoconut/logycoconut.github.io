@@ -4,23 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "3144a0394e57533d",
+        "id": "13252119e25f4e78",
         "type": "tabs",
         "children": [
           {
-            "id": "29eb6d957c3159ce",
+            "id": "129f280fd77aaa35",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/blog/230111_toggl_track.md",
+                "file": "src/01_daliy/02_铁子注意身体/221114_健身计划.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "ff4045adb8ab9641",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "src/blog/230108_记第一次滑雪.md",
+                "staged": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "软件",
+                "query": "健身",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -98,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/blog/230111_toggl_track.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,9 +128,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/blog/230111_toggl_track.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -140,17 +149,17 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "29eb6d957c3159ce",
+  "active": "ff4045adb8ab9641",
   "lastOpenFiles": [
+    "src/blog/230111_toggl_track_推荐.md",
     "src/blog/230108_记第一次滑雪.md",
-    "src/blog/230111_toggl_track.md",
+    "src/blog/230113_智能插座带来的幸福感.md",
     "src/blog/221225_2022年终总结.md",
+    "src/01_daliy/02_铁子注意身体/221114_健身计划.md",
     "Excalidraw/Drawing 2023-01-11 23.23.53.excalidraw.md",
     "src/01_daliy/221204_剪辑工具.md",
     "src/01_daliy/221201_个人设备推荐.md",
     "src/01_daliy/221111_自用软件、插件.md",
-    "src/01_daliy/01_文档工具/221117_Obsidian同步方案.md",
-    "src/03_tools/221115 IDEA 设置.md",
-    "未命名.canvas"
+    "src/01_daliy/01_文档工具/221117_Obsidian同步方案.md"
   ]
 }

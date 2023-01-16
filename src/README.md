@@ -2,8 +2,8 @@
 home: true
 icon: home
 title: 主页
-heroText: Hello World
-tagline: logycoconut的个人知识库
+heroText: logycoconut
+tagline: “我想离开浪浪山”
 actions:
   # - text: 使用指南 💡
   #   link: /demo/
@@ -17,6 +17,7 @@ copyright: false
 footer: MIT Licensed | Copyright © 2019-present logycoconut
 ---
 
-个人知识库记录
+这里是logycoconut的个人知识库记录
 
-“ 不要把时间花在工具身上 ”
+个人频道：
+[bilibili](https://space.bilibili.com/16727759/dynamic)

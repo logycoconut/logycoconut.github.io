@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "13252119e25f4e78",
+        "id": "ade588d1f5456a20",
         "type": "tabs",
         "children": [
           {
-            "id": "129f280fd77aaa35",
+            "id": "0ab995ae7ef28f0b",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "src/04_single_page/221203_网站导航.md",
-                "staged": false
+                "file": "src/01_daliy/221204_FinalCutPro.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -37,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "健身",
+                "query": "fina cut",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -96,6 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/01_daliy/221204_FinalCutPro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/01_daliy/221204_FinalCutPro.md"
+              }
             }
           }
         ],
@@ -135,17 +140,17 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "129f280fd77aaa35",
+  "active": "0ab995ae7ef28f0b",
   "lastOpenFiles": [
+    "src/README.md",
+    "README.md",
+    "src/01_daliy/221204_FinalCutPro.md",
     "src/04_single_page/221203_网站导航.md",
+    "onemac.app.md",
     "src/blog/230111_toggl_track_推荐.md",
     "src/blog/230113_智能插座带来的幸福感.md",
     "src/01_daliy/02_铁子注意身体/221114_健身计划.md",
     "src/blog/221218_怎么逼自己成为一个上进的人.md",
-    "src/blog/221210_有时间要多陪陪父母.md",
-    "src/blog/221220_「重新认识GTD」读后感.md",
-    "src/blog/230108_记第一次滑雪.md",
-    "src/blog/221225_2022年终总结.md",
-    "Excalidraw/Drawing 2023-01-11 23.23.53.excalidraw.md"
+    "src/blog/221210_有时间要多陪陪父母.md"
   ]
 }

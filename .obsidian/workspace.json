@@ -13,26 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/01_daliy/221204_FinalCutPro.md",
+                "file": "src/04_single_page/221203_网站导航.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eee99d526a59435a",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -51,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fina cut",
+                "query": "Mac",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -78,8 +66,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,6 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/04_single_page/221203_网站导航.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/04_single_page/221203_网站导航.md"
+              }
             }
           }
         ],
@@ -149,7 +139,7 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "eee99d526a59435a",
+  "active": "0ab995ae7ef28f0b",
   "lastOpenFiles": [
     "src/01_daliy/221204_FinalCutPro.md",
     "src/01_daliy/230117_美丽废物.md",

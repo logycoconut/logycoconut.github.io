@@ -31,5 +31,14 @@
       ],
       "key": "1"
     }
-  ]
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "/"
+    }
+  ],
+  "editor:toggle-comments": []
 }

@@ -27,15 +27,15 @@ tag: Obsidian
 
 阿里云OSS、腾讯云COS之间可以任意选择一个
 
-我目前使用的是腾讯云的[COS服务](https://console.cloud.tencent.com/cos) （新用户可以送50G半年 之后续费价格也不贵）
+我目前使用的是腾讯云的[COS服务][]（新用户可以送50G半年 之后续费价格也不贵）
 
 通过「PicGo」以及「 Obsidian Image Auto Upload Plugin」插件可以实现无缝贴图到Obsidian里面
 
 ### 图标管理
 
-> 具体配置参考 [vuepress-theme-hope 图标支持](https://vuepress-theme-hope.github.io/v2/zh/guide/interface/icon.html)
+> 具体配置参考 [vuepress-theme-hope 图标支持][]
 
-使用 [iconfont](https://www.iconfont.cn/manage/index) 管理网站的图标（资源管理 - 我的项目）
+使用 [iconfont][] 管理网站的图标（资源管理 - 我的项目）
 
 可以在 iconfont 上寻找好看的图标并生成相应的 css 文件引入即可
 
@@ -51,4 +51,14 @@ tag: Obsidian
 
 ## 参考链接
 
-- [vuepress-theme-hope官方文档](https://vuepress-theme-hope.github.io/v2/zh/guide/)
+- [vuepress-theme-hope官方文档][]
+
+​​<!-- +++++++++ 下面是引用式链接 +++++++++ -->
+
+[vuepress-theme-hope官方文档]: https://vuepress-theme-hope.github.io/v2/zh/guide
+
+[iconfont]: https://www.iconfont.cn/manage/index
+
+[vuepress-theme-hope 图标支持]: https://vuepress-theme-hope.github.io/v2/zh/guide/interface/icon.html
+
+[COS服务]: https://console.cloud.tencent.com/cos

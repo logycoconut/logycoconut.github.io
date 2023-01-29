@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ade588d1f5456a20",
+        "id": "dab6bcb5f598b0d5",
         "type": "tabs",
         "children": [
           {
-            "id": "0ab995ae7ef28f0b",
+            "id": "1faf73a1f6239274",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/04_single_page/221203_网站导航.md",
-                "mode": "source",
+                "file": "src/01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Mac",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -66,7 +66,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -97,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/04_single_page/221203_网站导航.md",
+                "file": "src/01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/04_single_page/221203_网站导航.md"
+                "file": "src/01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md"
               }
             }
           }
@@ -139,17 +140,17 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "0ab995ae7ef28f0b",
+  "active": "1faf73a1f6239274",
   "lastOpenFiles": [
-    "src/01_daliy/221204_FinalCutPro.md",
-    "src/01_daliy/230117_美丽废物.md",
-    "src/01_daliy/221201_个人设备推荐.md",
-    "src/01_daliy/221126_生成独一无二的头像.md",
-    "src/README.md",
-    "README.md",
+    "src/01_daliy/221111_自用软件、插件.md",
     "src/04_single_page/221203_网站导航.md",
-    "onemac.app.md",
-    "src/blog/230111_toggl_track_推荐.md",
-    "src/blog/230113_智能插座带来的幸福感.md"
+    "src/01_daliy/230117_美丽废物.md",
+    "介绍.md",
+    "[].md",
+    "src/01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
+    "src/01_daliy/01_文档工具/221024_个人知识库、博客搭建.md",
+    "src/01_daliy/01_文档工具/221117_Obsidian同步方案.md",
+    "src/01_daliy/01_文档工具/230129_Markdown语法.md",
+    "src/01_daliy/221201_个人设备推荐.md"
   ]
 }

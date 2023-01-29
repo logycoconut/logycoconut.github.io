@@ -1,0 +1,7 @@
+import{_ as n,Y as d,Z as i,$ as e,a0 as t,a1 as s,a2 as r,I as l}from"./framework-beff9ad1.js";const c={},o=r(`<h3 id="引用式链接" tabindex="-1"><a class="header-anchor" href="#引用式链接" aria-hidden="true">#</a> 引用式链接</h3><p>之前是这么写链接的</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>这是一个 [链接](链接地址)
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>但是还有一种更加优雅的方式</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>这是一个 [链接id][]
+
+[链接id](链接地址)
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>亦或者</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>这是一个 [链接别名][链接id]
+[链接id](链接地址)
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="参考链接" tabindex="-1"><a class="header-anchor" href="#参考链接" aria-hidden="true">#</a> 参考链接</h2>`,8),u={href:"https://client.sspai.com/post/77513",target:"_blank",rel:"noopener noreferrer"},v=e("p",null,"​​",-1);function _(m,h){const a=l("ExternalLinkIcon");return d(),i("div",null,[o,e("ul",null,[e("li",null,[e("a",u,[t("在 Markdown 中使用引用式链接和脚注"),s(a)])])]),v])}const x=n(c,[["render",_],["__file","230129_Markdown语法.html.vue"]]);export{x as default};

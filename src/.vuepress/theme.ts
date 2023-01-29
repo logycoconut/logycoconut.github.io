@@ -26,7 +26,7 @@ export default hopeTheme({
   backToTop: true,
 
   // 自定义排序
-  sidebarSorter: ["readme", "order", "file-number"],
+  sidebarSorter: ["readme", "order", "filename"],
 
   locales: {
     "/": {
@@ -51,7 +51,7 @@ export default hopeTheme({
 
     blog: {
       // 自动摘要
-      autoExcerpt: true,
+      excerpt: true,
       // 筛选出博客
       filter: (page) => Boolean(page.filePathRelative?.startsWith("blog")) && !page.frontmatter.home,
     },
@@ -66,9 +66,11 @@ export default hopeTheme({
     },
 
     // 组件库
-    components: ["Badge", "BiliBili", "VideoPlayer", "YouTube"],
+    components: {
+      components: ["Badge", "BiliBili", "VideoPlayer", "YouTube"],
+    },
 
-    // Disable features you don't want here
+    // Disable features you don’t want here
     mdEnhance: {
       align: true,
       attrs: true,
@@ -77,11 +79,11 @@ export default hopeTheme({
       container: true,
       demo: true,
       echarts: true,
+      figure: true,
       flowchart: true,
       gfm: true,
-      imageLazyload: true,
-      imageTitle: true,
-      imageSize: true,
+      imgLazyload: true,
+      imgSize: true,
       include: true,
       katex: true,
       mark: true,
@@ -94,13 +96,13 @@ export default hopeTheme({
       },
       stylize: [
         {
-          matcher: "Recommanded",
+          matcher: "Recommended",
           replacer: ({ tag }) => {
             if (tag === "em")
               return {
                 tag: "Badge",
                 attrs: { type: "tip" },
-                content: "Recommanded",
+                content: "Recommended",
               };
           },
         },
@@ -108,9 +110,65 @@ export default hopeTheme({
       sub: true,
       sup: true,
       tabs: true,
-      vpre: true,
+      vPre: true,
       vuePlayground: true,
     },
 
+    pwa: {
+      favicon: "/favicon.ico",
+      cacheHTML: true,
+      cachePic: true,
+      appendBase: true,
+      apple: {
+        icon: "/assets/icon/apple-icon-152.png",
+        statusBarColor: "black",
+      },
+      msTile: {
+        image: "/assets/icon/ms-icon-144.png",
+        color: "#ffffff",
+      },
+      manifest: {
+        icons: [
+          {
+            src: "/assets/icon/chrome-mask-512.png",
+            sizes: "512x512",
+            purpose: "maskable",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-mask-192.png",
+            sizes: "192x192",
+            purpose: "maskable",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-512.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+        ],
+        shortcuts: [
+          {
+            name: "Demo",
+            short_name: "Demo",
+            url: "/demo/",
+            icons: [
+              {
+                src: "/assets/icon/guide-maskable.png",
+                sizes: "192x192",
+                purpose: "maskable",
+                type: "image/png",
+              },
+            ],
+          },
+        ],
+      },
+    },
+    
   },
 });

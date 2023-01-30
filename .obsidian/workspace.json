@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/01_daliy/230117_美丽废物.md",
+                "file": "src/01_daliy/02_铁子注意身体/README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,13 +21,15 @@
             }
           },
           {
-            "id": "c18ef8c934f7d2c0",
+            "id": "802ede517bff3064",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/community-plugins.json",
-                "staged": false
+                "file": "src/01_daliy/03_个人环境备份/README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -110,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/01_daliy/03_个人环境备份/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +131,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/01_daliy/03_个人环境备份/README.md"
+              }
             }
           }
         ],
@@ -149,17 +154,17 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "c18ef8c934f7d2c0",
+  "active": "802ede517bff3064",
   "lastOpenFiles": [
-    "src/01_daliy/230130_RSS 订阅管理.md",
-    "src/blog/230130_重返 RSS.md",
+    "src/01_daliy/02_铁子注意身体/README.md",
+    "src/01_daliy/03_个人环境备份/README.md",
+    "src/01_daliy/221201_个人设备推荐.md",
+    "src/01_daliy/03_个人环境备份/221111_自用软件、插件.md",
+    "src/01_daliy/03_个人环境备份/230130_RSS 订阅管理.md",
     "src/01_daliy/230117_美丽废物.md",
+    "src/blog/230130_重返 RSS.md",
     "src/01_daliy/README.md",
     "src/01_daliy/220820_阅读3.0Web版搭建.md",
-    "src/blog/230130_更好地使用清单工具.md",
-    "src/blog/230113_智能插座带来的幸福感.md",
-    "src/blog/230201_.md",
-    "Excalidraw/Drawing 2023-01-30 18.10.52.excalidraw.md",
-    "src/blog/230111_toggl_track_推荐.md"
+    "src/blog/230130_更好地使用清单工具.md"
   ]
 }

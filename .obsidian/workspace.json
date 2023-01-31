@@ -4,37 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "2da7d0dd25aac692",
+        "id": "e2c8a90fb1ace3cb",
         "type": "tabs",
         "children": [
           {
-            "id": "1493fe46cc1be31d",
+            "id": "bae01db507341a71",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/01_daliy/03_个人环境备份/221111_MacOS 软件.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e5e57f330522ba3d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/01_daliy/03_个人环境备份/README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +93,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/01_daliy/03_个人环境备份/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,9 +111,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/01_daliy/03_个人环境备份/README.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -154,17 +132,17 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "be552bffe11b7e5f",
+  "active": "bae01db507341a71",
   "lastOpenFiles": [
-    "src/01_daliy/03_个人环境备份/230131_好玩的Docker项目.md",
-    "src/01_daliy/03_个人环境备份/230130_RSS 订阅管理.md",
-    "src/01_daliy/03_个人环境备份/221111_Chrome 插件、油猴脚本.md",
-    "src/01_daliy/03_个人环境备份/221111_MacOS 软件.md",
+    "src/template/template.md",
     "src/01_daliy/03_个人环境备份/README.md",
-    "src/01_daliy/02_铁子注意身体/README.md",
-    "src/blog/221210_有时间要多陪陪父母.md",
-    "src/01_daliy/221126_生成独一无二的头像.md",
-    "src/01_daliy/220820_阅读3.0Web版搭建.md",
-    "[].md"
+    "src/01_daliy/03_个人环境备份/221111_MacOS 软件.md",
+    "src/blog/230130_重返 RSS.md",
+    "src/01_daliy/221204_FinalCutPro.md",
+    "src/01_daliy/221201_个人设备推荐.md",
+    "src/01_daliy/04_有点东西但是不多/230117_美丽废物.md",
+    "src/01_daliy/04_有点东西但是不多/221126_生成独一无二的头像.md",
+    "src/01_daliy/04_有点东西但是不多/220820_阅读3.0Web版搭建.md",
+    "src/01_daliy/02_铁子注意身体/README.md"
   ]
 }

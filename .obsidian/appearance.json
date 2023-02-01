@@ -5,6 +5,7 @@
   "enabledCssSnippets": [
     "obsidian"
   ],
-  "translucency": false,
-  "baseFontSize": 18
+  "translucency": true,
+  "baseFontSize": 18,
+  "baseFontSizeAction": false
 }

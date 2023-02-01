@@ -11,8 +11,11 @@
             "id": "bae01db507341a71",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/workspace.json",
+                "staged": false
+              }
             }
           }
         ]
@@ -134,15 +137,15 @@
   },
   "active": "bae01db507341a71",
   "lastOpenFiles": [
-    "src/template/template.md",
-    "src/01_daliy/03_个人环境备份/README.md",
-    "src/01_daliy/03_个人环境备份/221111_MacOS 软件.md",
+    "src/blog/230201_.md",
+    "src/01_daliy/02_铁子注意身体/221114_健身计划.md",
+    "src/01_daliy/02_铁子注意身体/221126_健康饮食.md",
+    "src/01_daliy/02_铁子注意身体/220926_囚徒健身笔记.md",
+    "src/01_daliy/02_铁子注意身体/README.md",
     "src/blog/230130_重返 RSS.md",
-    "src/01_daliy/221204_FinalCutPro.md",
-    "src/01_daliy/221201_个人设备推荐.md",
+    "src/04_single_page/221203_网站导航.md",
+    "src/01_daliy/03_个人环境备份/230130_RSS 订阅管理.md",
     "src/01_daliy/04_有点东西但是不多/230117_美丽废物.md",
-    "src/01_daliy/04_有点东西但是不多/221126_生成独一无二的头像.md",
-    "src/01_daliy/04_有点东西但是不多/220820_阅读3.0Web版搭建.md",
-    "src/01_daliy/02_铁子注意身体/README.md"
+    "src/01_daliy/04_有点东西但是不多/221126_生成独一无二的头像.md"
   ]
 }

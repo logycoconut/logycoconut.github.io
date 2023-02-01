@@ -11,5 +11,7 @@
   "showFrontmatter": false,
   "showLineNumber": false,
   "vimMode": false,
-  "useTab": false
+  "useTab": false,
+  "defaultViewMode": "source",
+  "livePreview": false
 }

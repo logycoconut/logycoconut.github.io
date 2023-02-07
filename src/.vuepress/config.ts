@@ -33,9 +33,9 @@ export default defineUserConfig({
   plugins: [
     // https://docsearch.algolia.com/
     docsearchPlugin({
-      "appId": "",
-      "apiKey": "",
-      "indexName": "",
+      appId: "JAPRDFN6CA",
+      apiKey: "b711a29fa0b2f24741f3e2429cde7186",
+      indexName: "logycoconutio",
       locales: {
         "/": {
           placeholder: "搜索文档",

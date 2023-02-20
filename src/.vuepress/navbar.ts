@@ -16,13 +16,13 @@ export const zhNavbar = navbar([
     icon: "ziyuan",
     link: "/02_program/",
   },
-  {
-    text: "另外",
-    icon: "gengduo1",
-    children: [
-      "/03_tools/",
-    ],
-  },
+  // {
+  //   text: "另外",
+  //   icon: "gengduo1",
+  //   children: [
+  //     "/03_tools/",
+  //   ],
+  // },
   {
     text: "博客",
     icon: "blog1",

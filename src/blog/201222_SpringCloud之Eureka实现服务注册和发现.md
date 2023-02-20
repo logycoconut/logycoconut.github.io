@@ -2,15 +2,15 @@
 title: "Spring Cloud 之 Eureka实现服务注册和发现"
 date: 2020-12-22T21:27:30+08:00
 draft: false
-categories: ["关于技术"]
-tags: ["SpringCloud"]
+category: ["关于技术"]
+tag: ["SpringCloud"]
 ---
 
 > 如果我们要去租房，我们可能首先要去找中介，中介手上有很多房源，我们能在中介这里找到自己需要的房源
 >
 > 而微服务体系中，也存在这么一个中介，就是服务注册与发现中心，它为服务的提供者和服务的消费者提供一个交流的平台，Provider可以在注册中心注册供其他服务使用，Consumer可以在注册中心中寻找自己需要的服务
 >
-> Eureka是Netflix开发的服务发现组件，Spring Cloud将它集成在其子项目spring-cloud-netflix中，以实现Spring Cloud的服务发现功能
+> Eureka 是 Netflix 开发的服务发现组件，Spring Cloud 将它集成在其子项目spring-cloud-netflix中，以实现 Spring Cloud 的服务发现功能
 
 ## 简单实现
 
@@ -73,7 +73,7 @@ eureka:
       defaultZone: http://localhost:10010/eureka/  # 注册中心的访问地址
 ```
 
-3. 运行 Application.java 文件，并访问 http://localhost:10010 （没有任何后缀）
+3. 运行 Application.java 文件，并访问 <http://localhost:10010> （没有任何后缀）
 
 ### 创建服务提供者
 
@@ -103,7 +103,7 @@ eureka:
       defaultZone: http://localhost:10010/eureka
 ```
 
-3. 运行 Application.java 文件，并查看 http://localhost:10010 是否有提供商的注册信息
+3. 运行 Application.java 文件，并查看 <http://localhost:10010> 是否有提供商的注册信息
 
 4. 创建一个简单的接口来模拟我们提供的服务
 
@@ -236,6 +236,7 @@ eureka:
 就是在client服务中添加所有的server地址, 但是要注意的是client1配置server1, server2，client2配置server2, server1
 
 client会优先从第一个开始找，找到能连通的就从那里同步数据，找不到会继续找一直到最后。如果前面的server挂掉了，就找后面的server， 这样才能达到高可用的目的
+
 ```
 eureka:
   client:
@@ -247,4 +248,4 @@ eureka:
 
 仅供参考
 
-https://github.com/logycoconut/Spring-Cloud-Notes/tree/master/eureka
+<https://github.com/logycoconut/Spring-Cloud-Notes/tree/master/eureka>

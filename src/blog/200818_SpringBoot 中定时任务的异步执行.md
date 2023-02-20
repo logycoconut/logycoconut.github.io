@@ -1,12 +1,12 @@
 ---
-title: "SpringBoot中定时任务的异步执行"
+title: "SpringBoot 中定时任务的异步执行"
 date: 2020-08-18T22:25:31+08:00
 draft: false
-categories: ["关于技术"]
-tags: ["SpringBoot", "Async"]
+category: ["关于技术"]
+tag: ["SpringBoot", "Async"]
 ---
 
-> Spring的定时任务默认是单线程串行执行的, 那假设第一个任务比较耗时长, 直到超过任务二的设定时间之后才完成, 那么就会造成任务二不能及时完成, 进而造成其他问题
+> Spring 的定时任务默认是单线程串行执行的, 那假设第一个任务比较耗时长, 直到超过任务二的设定时间之后才完成, 那么就会造成任务二不能及时完成, 进而造成其他问题
 
 ## 先来说说定时任务
 
@@ -42,7 +42,7 @@ public class ScheduledService {
 
 ![image.png](https://i.loli.net/2020/08/20/36FeR7hJVqcsmlf.png)
 
-*注 : cron表达式的配置非常灵活, 但是刚接触的话会产生困惑, 可以用工具生成*
+_注 : cron表达式的配置非常灵活, 但是刚接触的话会产生困惑, 可以用工具生成_
 
 [在线生成cron表达式](https://www.bejson.com/othertools/cron/)
 

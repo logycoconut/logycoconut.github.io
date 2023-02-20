@@ -1,19 +1,19 @@
 ---
-title: "Spring Cloud 之 配置中心 Spring Cloud Config "
+title: Spring Cloud 之配置中心 Spring Cloud Config
 date: 2020-12-31T13:07:23+08:00
 draft: false
-categories: ["关于技术"]
-tags: ["SpringCloud"]
+category: ["关于技术"]
+tag: ["SpringCloud"]
 ---
 
 > 对于一些简单的应用，我们一般都是直接把配置信息写在 application.yml 中，复杂点的就分成dev、prod之类，但是这样做有两个缺点，一是当我们修改了配置之后，必须要重启服务才能使服务生效，二则是随着应用和配置信息的增多，我们很容易在修改配置信息的过程中混乱
 >
 > 为了实现对配置文件的实时更新和统一管理，我们需要一个配置中心，用来存放和发放配置信息
 
-
 ## 构建配置中心，从本地读取配置
 
 1、新建一个 SpringBoot 项目，并导入依赖
+
 ```
 <dependency>
     <groupId>org.springframework.cloud</groupId>
@@ -22,6 +22,7 @@ tags: ["SpringCloud"]
 ```
 
 2、使用 @EnableConfigServer 开启配置服务器
+
 ```
 @EnableConfigServer
 @SpringBootApplication
@@ -33,6 +34,7 @@ public class ConfigServerApplication {
 ```
 
 3、通过配置 spring.profile.active=native 来使配置中心从本地读取配置，读取的路径为 classpath 下的 shared 目录
+
 ```
 server:
   port: 10013
@@ -49,6 +51,7 @@ spring:
 ```
 
 4、在 resources 目录下新建 shared 文件夹，在 shared 文件夹下新建一个 config-client-dev.yml 文件
+
 ```
 user:
   username: zhangsan
@@ -56,9 +59,10 @@ server:
   port: 8989
 ```
 
-## 构建 Config Client 
+## 构建 Config Client
 
 1、新建一个 SpringBoot 项目，并导入依赖
+
 ```
 <dependency>
     <groupId>org.springframework.cloud</groupId>
@@ -72,9 +76,10 @@ server:
 
 2、在 resources 目录下新建 bootstrap.yml 文件
 
-*bootstrap 由父 ApplicationContext 加载，比 applicaton 优先加载*
+_bootstrap 由父 ApplicationContext 加载，比 applicaton 优先加载_
 
-*boostrap 里面的属性不能被覆盖*
+_boostrap 里面的属性不能被覆盖_
+
 ```
 spring:
   application:
@@ -87,6 +92,7 @@ spring:
 ```
 
 3、写一个测试接口，通过 @Value 注入配置中的信息，就像配置文件在本地一样，该怎么用就怎么用
+
 ```
 @SpringBootApplication
 @RestController
@@ -109,7 +115,6 @@ public class ConfigClientApplication {
 4、启动服务，我们可以发现 client 服务的端口是 我们随意编写的 8989，访问 localhost:8989，可以得到结果 `zhangsan`
 
 可见 config-client 成功地从 config-server 应用的 shared 目录 读取到 配置文件 config-client-dev.yml 中的 user.username 变量
-
 
 ## 构建配置中心，从Git仓库中读取配置
 
@@ -134,14 +139,14 @@ spring:
 
 但是，如果仓库是私有的话就得加入用户名密码等配置信息，相关信息如下表
 
-| 配置 | 解释 |
-|  ---  | ---  |
-| spring.cloud.config.server.git.uri | git仓库地址 |
-| spring.cloud.config.server.git.username | 访问仓库的用户名 |
-| spring.cloud.config.server.git.password | 访问仓库的用户密码 |
-| spring.cloud.config.server.git.search-paths | 仓库路径 |
-| spring.cloud.config.server.git.basedir | 本地仓库路径 |
-| spring.cloud.config.label | 仓库的分支 |
+| 配置                                          | 解释        |
+| ------------------------------------------- | --------- |
+| spring.cloud.config.server.git.uri          | git仓库地址   |
+| spring.cloud.config.server.git.username     | 访问仓库的用户名  |
+| spring.cloud.config.server.git.password     | 访问仓库的用户密码 |
+| spring.cloud.config.server.git.search-paths | 仓库路径      |
+| spring.cloud.config.server.git.basedir      | 本地仓库路径    |
+| spring.cloud.config.label                   | 仓库的分支     |
 
 2、将我们的配置信息上传到仓库中，重启服务测试结果
 ![c1uxoH8veXEUR6K](https://i.loli.net/2021/01/04/c1uxoH8veXEUR6K.png)
@@ -153,6 +158,7 @@ spring:
 所以我们来修改 config-client 项目以达到刷新的效果
 
 1、引入 spring-boot-starter-actuator 包
+
 ```
 <dependency>
     <groupId>org.springframework.boot</groupId>
@@ -161,6 +167,7 @@ spring:
 ```
 
 2、增加相关配置
+
 ```
 management:
   endpoint:
@@ -173,6 +180,7 @@ management:
 ```
 
 3、在需要读取配置的类上增加 @RefreshScope 注解
+
 ```
 @SpringBootApplication
 @RestController
@@ -193,7 +201,7 @@ public class ConfigClientApplication {
 }
 ```
 
-4、最后一步，我们修改一下放在仓库中的配置文件，并向 http://127.0.0.1:8989/actuator/refresh 发送一个 POST 请求，这个接口就是用来触发加载新配置的
+4、最后一步，我们修改一下放在仓库中的配置文件，并向 <http://127.0.0.1:8989/actuator/refresh> 发送一个 POST 请求，这个接口就是用来触发加载新配置的
 
 ![zOAYjbc6EW4qRfo](https://i.loli.net/2021/01/06/zOAYjbc6EW4qRfo.png)
 
@@ -216,6 +224,7 @@ public class ConfigClientApplication {
 我是通过 docker 快速搭了一个
 
 2、在 client 引入依赖
+
 ```
 <dependency>
    <groupId>org.springframework.cloud</groupId>
@@ -224,6 +233,7 @@ public class ConfigClientApplication {
 ```
 
 3、增加 RabbitMQ 相关配置
+
 ```
 spring:
   rabbitmq:
@@ -254,6 +264,7 @@ spring:
 2、配置 Config 服务端
 
 加入 Eureka 依赖
+
 ```
 <dependency>
     <groupId>org.springframework.cloud</groupId>
@@ -262,6 +273,7 @@ spring:
 ```
 
 加入配置
+
 ```
 eureka:
   client:
@@ -270,6 +282,7 @@ eureka:
 ```
 
 启动类增加 @EnableEurekaClient 注解
+
 ```
 @EnableEurekaClient
 @EnableConfigServer
@@ -284,6 +297,7 @@ public class ConfigServerApplication {
 3、配置 Config 客户端
 
 前三步和 Config 服务端类似，现在我们的 client 配置文件是这样的
+
 ```
 spring:
   application:
@@ -315,6 +329,7 @@ eureka:
 接入注册中心后，配置客户端和配置服务端不应该再通过固定的 http 地址通信了，而是应该通过服务名
 
 改造 spring.cloud.config 配置
+
 ```
   cloud:
     config:
@@ -329,4 +344,4 @@ ok，重启服务试试是不是和之前一样呢
 
 仅供参考
 
-https://github.com/logycoconut/Spring-Cloud-Notes/tree/master/config
+<https://github.com/logycoconut/Spring-Cloud-Notes/tree/master/config>

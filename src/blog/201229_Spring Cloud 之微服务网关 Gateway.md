@@ -1,9 +1,9 @@
 ---
-title: "Spring Cloud 之 微服务网关 Gateway"
+title: Spring Cloud 之微服务网关 Gateway
 date: 2020-12-29T11:03:06+08:00
 draft: false
-categories: ["关于技术"]
-tags: ["SpringCloud"]
+category: ["关于技术"]
+tag: ["SpringCloud"]
 ---
 
 > Spring Cloud Gateway 作为 Spring Cloud 生态系统中的网关，比 Netflix 的 Zuul 组件更加适合 Spring Cloud体系
@@ -54,6 +54,7 @@ public class GatewayApplication {
 ```
 
 application.yml 配置
+
 ```
 server:
   port: 10011
@@ -81,9 +82,9 @@ logging:
 
 网关转发的语法为`网关地址:端口/服务中心注册serviceId/具体的url`
 
-我们通过访问 http://localhost:10011/feign-provider/user/info 发现可以得到正确结果
+我们通过访问 <http://localhost:10011/feign-provider/user/info> 发现可以得到正确结果
 
-*feign-provider 是之前文章中创建的一个服务提供方*
+_feign-provider 是之前文章中创建的一个服务提供方_
 
 #### 负载均衡
 
@@ -99,7 +100,7 @@ logging:
 - Predicate（断言）：这是一个 Java 8 的 Predicate。输入类型是一个 ServerWebExchange。我们可以使用它来匹配来自 HTTP 请求的任何内容，例如 headers 或参数。
 - Filter（过滤器）：GatewayFilter的实例，我们可以使用它修改请求和响应。
 
-*[上述概念原文地址](https://cloud.spring.io/spring-cloud-gateway/reference/html/#glossary)，我是可耻的搬运工*
+_[上述概念原文地址](https://cloud.spring.io/spring-cloud-gateway/reference/html/#glossary)，我是可耻的搬运工_
 
 ### 简单实现
 
@@ -180,7 +181,7 @@ public class ProviderController {
 
 仅供参考
 
-https://github.com/logycoconut/Spring-Cloud-Notes/tree/master/gateway
+<https://github.com/logycoconut/Spring-Cloud-Notes/tree/master/gateway>
 
 ## 参考资料
 

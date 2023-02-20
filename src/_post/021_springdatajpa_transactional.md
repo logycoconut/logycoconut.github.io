@@ -42,17 +42,17 @@ public @interface Transactional {
 
 ### 常用参数说明
 
-| 参数名称 | 功能描述 |
-| --- | --- |
-| readOnly | 设置当前事务是否为只读事务 |
-| rollbackFor | 设置需要进行回滚的异常类数组 |
-| rollbackForClassName | 设置需要进行回滚的异常类名称数组 |
-| noRollbackFor | 设置不需要进行回滚的异常类数组 |
-| noRollbackForClassName | 设置不需要进行回滚的异常类名称数组 |
-| propagation | 设置事务的传播行为 |
-| isolation | 设置底层数据库的事务隔离级别，通常使用数据库的默认隔离级别 |
-| timeout | 设置事务的超时秒数，默认为-1，表示永不超时 |
-| transactionManager | 指定transactionManager，当有多个datasource时 |
+| 参数名称                   | 功能描述                                 |
+| ---------------------- | ------------------------------------ |
+| readOnly               | 设置当前事务是否为只读事务                        |
+| rollbackFor            | 设置需要进行回滚的异常类数组                       |
+| rollbackForClassName   | 设置需要进行回滚的异常类名称数组                     |
+| noRollbackFor          | 设置不需要进行回滚的异常类数组                      |
+| noRollbackForClassName | 设置不需要进行回滚的异常类名称数组                    |
+| propagation            | 设置事务的传播行为                            |
+| isolation              | 设置底层数据库的事务隔离级别，通常使用数据库的默认隔离级别        |
+| timeout                | 设置事务的超时秒数，默认为-1，表示永不超时               |
+| transactionManager     | 指定transactionManager，当有多个datasource时 |
 
 ### `propagation` 的值
 
@@ -63,7 +63,6 @@ public @interface Transactional {
 - NOT_SUPPORTED：以非事务方式运行，如果当前存在事务，则把当前事务挂起
 - NEVER：以非事务方式运行，如果当前存在事务，则抛出异常
 - NESTED：如果当前存在事务，则创建一个事务作为当前事务的嵌套事务来运行；如果当前没有事务，则该取值等价于REQUIRED
-
 
 ## 声明式事务
 

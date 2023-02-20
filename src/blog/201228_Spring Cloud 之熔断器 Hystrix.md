@@ -1,9 +1,9 @@
 ---
-title: "Spring Cloud 之 熔断器Hystrix"
+title: Spring Cloud 之熔断器 Hystrix
 date: 2020-12-28T16:25:28+08:00
 draft: false
-categories: ["关于技术"]
-tags: ["SpringCloud"]
+category: ["关于技术"]
+tag: ["SpringCloud"]
 ---
 
 > 在微服务架构中，通常会使用 Feign 来进行服务间的相互调用，一个请求，可能需要调用多个微服务接口才能实现，会形成非常复杂的调用链路
@@ -12,13 +12,13 @@ tags: ["SpringCloud"]
 >
 > 因为服务间的依赖性，整个微服务体系就会发生雪崩
 
-Hystix应运而生，它可以在服务提供方故障的时候，隔离远程服务，快速响应结果，防止出现级联失败
+Hystix 应运而生，它可以在服务提供方故障的时候，隔离远程服务，快速响应结果，防止出现级联失败
 
-## 在Feign上使用熔断器
+## 在 Feign 上使用熔断器
 
 在不使用 Feign 的前提下也是可以使用 Hystrix 的，需要的可以自行了解，本文介绍的是 Feign 和 Hystrix 结合使用的情况
 
-1. 开启 hystrix 配置
+1. 开启 Hystrix 配置
 
 ```
 feign:
@@ -44,8 +44,9 @@ public class ProviderClientFallback implements ProviderClient {
     }
 }
 ```
+
 ## 相关源码地址
 
 仅供参考
 
-https://github.com/logycoconut/Spring-Cloud-Notes/tree/master/feign
+<https://github.com/logycoconut/Spring-Cloud-Notes/tree/master/feign>

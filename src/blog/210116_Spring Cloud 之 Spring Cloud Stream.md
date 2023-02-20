@@ -1,9 +1,9 @@
 ---
-title: "Spring Cloud 之 Spring Cloud Stream "
+title: Spring Cloud 之 Spring Cloud Stream
 date: 2021-01-16T14:40:00+08:00
 draft: false
-categories: ["关于技术"]
-tags: ["SpringCloud"]
+category: ["关于技术"]
+tag: ["SpringCloud"]
 ---
 
 > Spring Cloud Stream 是 Spring Cloud 体系中的消息中间件组件，它集成了 kafka 和 rabbitMQ
@@ -14,9 +14,10 @@ tags: ["SpringCloud"]
 
 编写代码之前我们需要搭建一个 rabbitMQ 环境，这里不再累述
 
-### 构建消息生产者 stream-producer 
+### 构建消息生产者 stream-producer
 
 1. 引入依赖
+
 ```
 <dependency>
     <groupId>org.springframework.cloud</groupId>
@@ -25,6 +26,7 @@ tags: ["SpringCloud"]
 ```
 
 2. 创建启动类
+
 ```
 @SpringBootApplication
 public class StreamProducerApplication {
@@ -35,6 +37,7 @@ public class StreamProducerApplication {
 ```
 
 3. 配置文件
+
 ```
 server:
   port: 10011
@@ -59,6 +62,7 @@ eureka:
 ```
 
 4. 编写发送消息的类
+
 ```
 @Component
 @EnableBinding(Source.class)
@@ -74,9 +78,10 @@ public class MessageProducer {
 }
 ```
 
-### 构建消息消费者 stream-consumer 
+### 构建消息消费者 stream-consumer
 
 1. 引入依赖
+
 ```
 <dependency>
     <groupId>org.springframework.cloud</groupId>
@@ -85,6 +90,7 @@ public class MessageProducer {
 ```
 
 2. 创建启动类
+
 ```
 @SpringBootApplication
 public class StreamConsumerApplication {
@@ -95,6 +101,7 @@ public class StreamConsumerApplication {
 ```
 
 3. 配置文件
+
 ```
 server:
   port: 10012
@@ -119,6 +126,7 @@ eureka:
 ```
 
 4. 编写消费消息的类
+
 ```
 @Component
 @EnableBinding(Sink.class)
@@ -155,11 +163,13 @@ public class MessageProducerTest {
 ```
 
 消费者这边我们可以看到控制台成功打印消息
-![m4ziAH8wjDrLn3p](https://i.loli.net/2021/01/18/m4ziAH8wjDrLn3p.png)
+
+![](https://i.loli.net/2021/01/18/m4ziAH8wjDrLn3p.png)
 
 ## 高级部分
 
 现在我们对 stream-consumer 的配置文件进行修改
+
 ```
 server:
   port: 10012
@@ -202,6 +212,7 @@ eureka:
 `spring.cloud.stream.bindings` 中可以声明多个 channel （通道），如上面这个配置文件中，就声明一个 input 消息接收通道，绑定了 rabbit 的 stream.message 交换机。这就意味着 input 通道可以接收 rabbit 中推到 stream.message 交换机的信息
 
 **需要注意的是**，这个 input 可不是乱写的，观察我们上面的代码，消费消息类的 receive 方法上的 @StreamListener(Sink.INPUT) 注解
+
 ```
 public interface Sink {
     String INPUT = "input";
@@ -210,19 +221,21 @@ public interface Sink {
     SubscribableChannel input();
 }
 ```
+
 也就是说，这个 input 就是 org.springframework.cloud.stream.messaging.Sink 中的 @Input("input") 注解的 value 值
 
 好了，现在我们清楚了，标注了 @StreamListener(Sink.INPUT) 的这个方法就是用来监听 input 绑定的 remote_rabbit 的 stream.message 交换机的信息的（觉得绕的多读几遍哈哈）
 
-*消息生产者的 output 也同理，具体可以查看 org.springframework.cloud.stream.messaging.Source 的源码*
+_消息生产者的 output 也同理，具体可以查看 org.springframework.cloud.stream.messaging.Source 的源码_
 
-*这也是 SpringBoot 的约定大于配置思想的体现*
+_这也是 SpringBoot 的约定大于配置思想的体现_
 
 ### 自定义消息通道
 
 根据上面的思想，我们可以仿照官方来编写自己的消息通道
 
 1. 自定义消息接收通道
+
 ```
 public interface MySink {
     String MY_INPUT = "my_input";
@@ -233,6 +246,7 @@ public interface MySink {
 ```
 
 2. 增加配置
+
 ```
   cloud:
     stream:
@@ -248,6 +262,7 @@ public interface MySink {
 3. 改造 MessageConsumer 类
 
 在 @EnableBinding 中增加 MySink.class
+
 ```
 @Component
 @EnableBinding({Sink.class, MySink.class})
@@ -269,9 +284,12 @@ public class MessageConsumer {
 
 4. 重启项目，并打开 rabbitmq 的可视化界面
 
-    - 发布一条消息
+   - 发布一条消息
+
 ![qei2asorGvERSM1](https://i.loli.net/2021/01/18/qei2asorGvERSM1.png)
-    - 结果如下
+
+- 结果如下
+
 ![1AG7PzVvjs3lhIe](https://i.loli.net/2021/01/18/1AG7PzVvjs3lhIe.png)
 
 ### 消息分组
@@ -279,6 +297,7 @@ public class MessageConsumer {
 在微服务体系下，我们的服务有可能不是一个实例，但是对于消息我们只需要消费一次，而不是让所有的实例都消费。
 
 Spring Cloud Stream 的解决方案是设置 group， 只要把这些实例的 group 设为同一个，那就只有一个实例消费消息，避免重复消费。这是因为如果设置了 group，那么 exchange 流向的 queue 名称就会成为 group 的名称，否则就是随机字符串
+
 ```
   cloud:
     stream:
@@ -299,6 +318,7 @@ Spring Cloud Stream 的解决方案是设置 group， 只要把这些实例的 g
 我们假设需要在消息消费后发送一条信息到日志服务
 
 1. 定义消息通道
+
 ```
 // 消息接收通道
 public interface LogSink {
@@ -318,6 +338,7 @@ public interface LogSource {
 ```
 
 2. 改造 MessageConsumer 类
+
 ```
 @Component
 @EnableBinding({Sink.class, MySink.class, LogSource.class, LogSink.class})
@@ -349,6 +370,7 @@ public class MessageConsumer {
 ```
 
 3. 增加配置
+
 ```
   cloud:
     stream:
@@ -365,10 +387,10 @@ public class MessageConsumer {
 
 ### 其他
 
-Spring Cloud Stream 中还有消费分区、消息降级等概念，篇幅有限，就不做展开啦(*^▽^*)
+Spring Cloud Stream 中还有消费分区、消息降级等概念，篇幅有限，就不做展开啦(_^▽^_)
 
 ## 相关源码地址
 
 仅供参考
 
-https://github.com/logycoconut/Spring-Cloud-Notes/tree/master/stream
+<https://github.com/logycoconut/Spring-Cloud-Notes/tree/master/stream>

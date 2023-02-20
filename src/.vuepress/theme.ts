@@ -41,6 +41,8 @@ export default hopeTheme({
       metaLocales: {
         editLink: "在 GitHub 上编辑此页",
       },
+      // 是否展示贡献者
+      contributors :  false,
     },
   },
 

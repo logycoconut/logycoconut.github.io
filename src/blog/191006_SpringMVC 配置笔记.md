@@ -1,11 +1,12 @@
 ---
-title: "SpringMVC配置笔记"
+title: SpringMVC 配置笔记
 date: 2019-10-06T18:53:39+08:00
 draft: false
-categories: ["关于技术"]
-tags: ["SpringMVC"]
+category: ["关于技术"]
+tag: ["SpringMVC"]
 ---
->忘记的时候翻一翻
+
+> 忘记的时候翻一翻
 
 ## **基本注解**
 
@@ -29,7 +30,6 @@ tags: ["SpringMVC"]
 
 `@CookieValue`、`@SessionAttribute`
 获取Cookie、Session的参数
-
 
 ## **web.xml文件示例**
 
@@ -242,4 +242,3 @@ public String fileupload(HttpServletRequest request, MultipartFile upload) throw
     <input type="submit" value="提交">
 </form>
 ```
-

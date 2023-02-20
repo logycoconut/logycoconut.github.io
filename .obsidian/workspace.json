@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/_post/013_spring_handlerMethodArgumentResolver.md",
+                "file": "src/template/template.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/_post/013_spring_handlerMethodArgumentResolver.md",
+                "file": "src/template/template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/_post/013_spring_handlerMethodArgumentResolver.md"
+                "file": "src/template/template.md"
               }
             }
           }
@@ -158,15 +158,15 @@
   },
   "active": "8483e582f4016175",
   "lastOpenFiles": [
+    "src/blog/200827_设计一个秒杀系统.md",
+    "src/blog/201203_Spring中事务的处理.md",
+    "src/blog/200102_Spring Security 折腾小记.md",
+    "src/blog/200221_如何实现无状态登录.md",
+    "src/blog/200630_SpringMVC 之 HandlerMethodArgumentResolver 实现数据绑定.md",
+    "src/blog/200812_SpringBoot实现自己的拦截器.md",
+    "src/blog/191006_SpringMVC 配置笔记.md",
     "src/blog/200818_SpringBoot 中定时任务的异步执行.md",
-    "src/_post/021_springdatajpa_transactional.md",
     "src/blog/201216_如果你也在学习Spring Cloud.md",
-    "src/blog/210116_Spring Cloud 之 Spring Cloud Stream.md",
-    "src/blog/201231_Spring Cloud 之配置中心 Spring Cloud Config.md",
-    "src/blog/201229_Spring Cloud 之微服务网关 Gateway.md",
-    "src/blog/191222_优雅地使用Git.md",
-    "src/blog/201228_Spring Cloud 之熔断器 Hystrix.md",
-    "src/blog/201225_Spring Cloud 之 OpenFeign的使用.md",
-    "src/blog/201222_SpringCloud之Eureka实现服务注册和发现.md"
+    "src/blog/210116_Spring Cloud 之 Spring Cloud Stream.md"
   ]
 }

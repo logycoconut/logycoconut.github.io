@@ -1,12 +1,12 @@
 ---
-title: "SpringBoot实现自己的拦截器"
+title: SpringBoot实现自己的拦截器
 date: 2020-08-12T21:14:02+08:00
 draft: false
-categories: ["关于技术"]
-tags: ["SpringBoot"]
+category: ["关于技术"]
+tag: ["SpringBoot"]
 ---
 
-> 在Web开发中，我们经常需要对请求拦截并做一些动作，比如日志记录、权限检测或者性能检测等
+> 在 Web 开发中，我们经常需要对请求拦截并做一些动作，比如日志记录、权限检测或者性能检测等
 
 ## HandlerInterceptor
 
@@ -74,8 +74,6 @@ public class LoginInterceptor extends HandlerInterceptorAdapter {
 }
 ```
 
----
-
 ## 还有最重要的一步
 
 当然是将我们的拦截器交由给Spring管理, 不然不会生效
@@ -96,4 +94,3 @@ public class WebConfiguration implements WebMvcConfigurer {
 }
 
 ```
-

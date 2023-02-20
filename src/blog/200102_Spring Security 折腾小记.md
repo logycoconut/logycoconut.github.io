@@ -1,9 +1,9 @@
 ---
-title: "Spring Security折腾小记🐵"
+title: "Spring Security 折腾小记🐵"
 date: 2020-01-02T21:03:09+08:00
 draft: false
-categories: ["关于技术"]
-tags: ["Spring Security"]
+category: ["关于技术"]
+tag: ["Spring Security"]
 ---
 
 > 使用Spring Security过程中遇到的问题

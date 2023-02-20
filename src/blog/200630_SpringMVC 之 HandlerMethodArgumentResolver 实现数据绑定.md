@@ -1,9 +1,9 @@
 ---
-title: "SpringMVC之HandlerMethodArgumentResolver实现数据绑定"
+title: "SpringMVC 之 HandlerMethodArgumentResolver 实现数据绑定"
 date: 2020-06-30T22:47:48+08:00
 draft: false
-categories: ["关于技术"]
-tags: ["SpringMVC"]
+category: ["关于技术"]
+tag: ["SpringMVC"]
 ---
 
 > 更优雅的将传入的信息转化成自定义的实体
@@ -92,8 +92,10 @@ public void getUser(@UserAnno User user) {
 
 这样会获得和上述一样的效果
 
-### 将解析器添加到WebConfig 
+### 将解析器添加到WebConfig
+
 **不然SpringMVC不知道这个解析器, 导致参数处理不生效**
+
 ```
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
@@ -108,4 +110,3 @@ public class WebConfig implements WebMvcConfigurer {
         argumentResolvers.add(userArgumentResolver());
     }
 ```
-

@@ -46,6 +46,9 @@ export default hopeTheme({
     },
   },
 
+  // 开发服务器启用完整功能与热更新
+  hotReload: true,
+
   // 页面信息
   pageInfo: ["Author", "Date", "Category", "Tag", "ReadingTime"],
 

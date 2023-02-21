@@ -1,7 +1,7 @@
 ---
-title: Dockerfile常用指令介绍与示例
-date updated: 2022-11-16 23:13
-index: false
+title: Dockerfile 常用指令介绍与示例
+date: 2021-06-06
+tag: [Docker]
 ---
 
 ```
@@ -41,7 +41,16 @@ CMD ["java", "Hello"]
 
 ## 指令作用
 
-![](https://knowledge-img-1304942245.cos.ap-shanghai.myqcloud.com/20221116000420.png)
+| 指令名        | 说明             |
+| ---------- | -------------- |
+| FROM       | 指定基础镜像         |
+| MAINTAINER | 指定维护者信息        |
+| RUN        | 想在容器里执行什么命令    |
+| ADD        | 给容器一点启动资金      |
+| WORKDIR    | 指定当前工作目录，类似 CD |
+| VOLUME     | 设置卷，挂载主机目录     |
+| EXPOSE     | 打开             |
+| CMD        | 容器启动后要干的事情     |
 
 ### 上下文路径
 
@@ -88,7 +97,7 @@ RUN apk upgrade && \\
 
 `CMD` 命令类似于 `RUN`，不同点在于运行的时间点
 
-- `CMD` 在docker run 时运行。
+- `CMD` 在docker run 时运行
 - `RUN` 是在 docker build 时运行
 
 `CMD` 命令有三种形式
@@ -99,27 +108,27 @@ RUN apk upgrade && \\
 
 - `CMD ["param1","param2"]` (作为 _ENTRYPOINT 的默认参数_)
 
-- CPOY
+### COPY、ADD
 
-  _ADD 指令和 COPY 的使用格式一致（同样需求下，官方推荐使用 COPY）_
+_ADD 指令和 COPY 的使用格式一致（同样需求下，官方推荐使用 COPY）_
 
-  `COPY` 命令有两种形式
+`COPY` 命令有两种形式
 
-  - `COPY [--chown=<user>:<group>] <src>... <dest>`
-  - `COPY [--chown=<user>:<group>] ["<src>",... "<dest>"]`
+- `COPY [--chown=<user>:<group>] <src>... <dest>`
+- `COPY [--chown=<user>:<group>] ["<src>",... "<dest>"]`
 
-  **注意：**
+**注意：**
 
-  1. source路径必须在构建的上下文之内。不能使用 `COPY ../a/b`的形式，因为docker构建的第一步是将上下文路径发送到docker引擎
-  2. 如果source是目录，则会复制目录的全部内容，包括文件系统元数据
+1. source路径必须在构建的上下文之内。不能使用 `COPY ../a/b`的形式，因为docker构建的第一步是将上下文路径发送到docker引擎
+2. 如果source是目录，则会复制目录的全部内容，包括文件系统元数据
 
-  **ADD指令与CPOY指令对比**
+**ADD指令与CPOY指令对比**
 
-  - ADD 的优点：在执行 `<src>` 为 tar 压缩文件，压缩格式为 gzip, bzip2 以及 xz 的情况下，会自动复制并解压到 `<dest>`
+- ADD 的优点：在执行 `<src>` 为 tar 压缩文件，压缩格式为 gzip, bzip2 以及 xz 的情况下，会自动复制并解压到 `<dest>`
 
 - ADD 的缺点：在不解压的前提下，无法复制 tar 压缩文件。会令镜像构建缓存失效，从而可能会令镜像构建变得比较缓慢。具体是否使用，可以根据是否需要自动解压来决定。
 
-### ENV、ARG
+### ENV
 
 设置环境变量, `ENV <key1>=<value1> <key2>=<value2>...`
 
@@ -132,7 +141,7 @@ root@caa46eb11ab6:/# echo $VERSION
 0.1
 ```
 
-### ARG指令
+### ARG
 
 `ARG` 与`ENV` 作用一致，作用域不同
 

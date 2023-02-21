@@ -1,6 +1,7 @@
 ---
-title: Docker入门
+title: 基础教程
 date: 2021-05-17
+tag: [Docker]
 ---
 
 ```
@@ -13,15 +14,15 @@ date: 2021-05-17
 
 在 `Docker daemon configuration file` 中写入
 
-`{"registry-mirrors":["<http://hub-mirror.c.163.com>"]}`
+`{"registry-mirrors":["http://hub-mirror.c.163.com"]}`
 
 ```bash
 # docker 官方中国区镜像
-<https://registry.docker-cn.com>
+https://registry.docker-cn.com
 # 网易镜像
-<http://hub-mirror.c.163.com>
+http://hub-mirror.c.163.com
 # 阿里云镜像（专属加速）
-<https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors>
+https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors
 ```
 
 ### 容器使用
@@ -122,14 +123,6 @@ docker image prune -a
 # 删除所有未被使用的容器
 docker container prune -a
 ```
-
-### Dockerfile
-
-[Dockerfile常用指令介绍与示例](https://www.notion.so/Dockerfile-3bbb4f977a9c491ab43eb27123b599f3)
-
-- Docker Compose
-
-  [Docker Compose定义及示例](https://www.notion.so/Docker-Compose-376c8ad03c684bf8b32649228d8ff09e)
 
 ## 常用镜像安装
 

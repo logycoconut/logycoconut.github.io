@@ -76,3 +76,41 @@ root)学习路线(
 - Netty
 - 微服务
 - 架构设计（分布式、高可用、高并发）
+
+## 程序员学习网站
+
+| 名称                       | 简介                                 |
+| ------------------------ | ---------------------------------- |
+| [JavaGuide][]            | Java 学习+面试指南基础知识                   |
+| [bugstack 虫洞栈][]         | Java 技能树，涵盖大部分Java技术栈              |
+| [互联网 Java 工程师进阶知识完全扫盲][] | 涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识      |
+| [互联网公司常用框架源码赏析][]        | 涵盖 Spring、Mybatis、Netty、Dubbo等热门框架 |
+| [JVM 底层原理最全知识总结][]       |                                    |
+
+**值得一提**的是，「互联网 Java 工程师进阶知识完全扫盲」、「互联网公司常用框架源码赏析」、「JVM 底层原理最全知识总结」是由 Doocs 技术社区总结发布的，该社区还有一些值得一看的项目，有兴趣的也可以看下，[跳转](https://doocs.github.io/#/README_CN?id=项目)
+
+## 文章专栏
+
+[极客时间程序员精进之路][]
+
+[面试造火箭 - Java3y][]
+
+[阿里巴巴 - 技术人生][]
+
+​​<!-- +++++++++ 下面是引用式链接 +++++++++ -->
+
+[JavaGuide]: https://javaguide.cn
+
+[bugstack 虫洞栈]: https://bugstack.cn
+
+[互联网 Java 工程师进阶知识完全扫盲]: https://doocs.gitee.io/advanced-java
+
+[互联网公司常用框架源码赏析]: https://doocs.github.io/source-code-hunter
+
+[JVM 底层原理最全知识总结]: https://doocs.gitee.io/jvm
+
+[极客时间程序员精进之路]: https://www.zhihu.com/column/c_1045311763629350912
+
+[面试造火箭 - Java3y]: https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzU4NzA3MTc5Mg==&scene=1&album_id=1657204970858872832&count=3#wechat_redirect
+
+[阿里巴巴 - 技术人生]: https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4NzU0MDIzOQ==&action=getalbum&album_id=2058854698228482051&scene=173&subscene=3&sessionid=undefined&enterid=1633072103&from_msgid=2247494519&from_itemidx=1&count=3&nolastread=1#wechat_redirect

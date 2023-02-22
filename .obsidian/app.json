@@ -6,12 +6,13 @@
   "userIgnoreFilters": [
     "node_modules/"
   ],
-  "readableLineLength": true,
+  "readableLineLength": false,
   "strictLineBreaks": false,
   "showFrontmatter": false,
   "showLineNumber": false,
   "vimMode": false,
   "useTab": false,
   "defaultViewMode": "source",
-  "livePreview": false
+  "livePreview": false,
+  "spellcheck": true
 }

@@ -25,11 +25,23 @@ tag: Obsidian
 
 ### 图床选择
 
-阿里云OSS、腾讯云COS之间可以任意选择一个
+**通过「PicGo」以及「 Obsidian Image Auto Upload Plugin」插件可以实现无缝贴图到 Obsidian 里面**
 
-我目前使用的是腾讯云的[COS服务][]（新用户可以送50G半年 之后续费价格也不贵）
+---
 
-通过「PicGo」以及「 Obsidian Image Auto Upload Plugin」插件可以实现无缝贴图到Obsidian里面
+_更新于 23.02.23_
+
+迁移到 Github 图库
+
+也很方便，而且搭配免费 CDN 后加载也挺快
+
+[jsdelivr -  A free CDN for open source projects][]
+
+---
+
+阿里云 OSS、腾讯云 COS 之间可以任意选择一个
+
+我目前使用的是腾讯云的[COS 服务][]（新用户可以送50G 半年之后续费价格也不贵）
 
 ### 图标管理
 
@@ -41,13 +53,13 @@ tag: Obsidian
 
 ## Obsidian 插件
 
-| 插件名                      | 备注                |
-| :----------------------- | :---------------- |
-| Advanced Tables          | 格式化Mardown表格格式    |
-| Image auto upload Plugin | 配合PicGo可以实现无缝粘贴图片 |
-| Markdown prettifier      | 将md文件格式化为标准格式     |
-| Obsidian Git             | 使用Git管理Obsidian仓库 |
-| Paste URL into Selection | 改善超链接             |
+| 插件名                      | 备注                    |
+| :----------------------- | :-------------------- |
+| Advanced Tables          | 格式化 Mardown 表格格式      |
+| Image auto upload Plugin | 配合 PicGo 可以实现无缝粘贴图片   |
+| Markdown prettifier      | 将 md 文件格式化为标准格式       |
+| Obsidian Git             | 使用 Git 管理 Obsidian 仓库 |
+| Paste URL into Selection | 改善超链接                 |
 
 ## 参考链接
 
@@ -62,3 +74,5 @@ tag: Obsidian
 [vuepress-theme-hope 图标支持]: https://vuepress-theme-hope.github.io/v2/zh/guide/interface/icon.html
 
 [COS服务]: https://console.cloud.tencent.com/cos
+
+[jsdelivr -  A free CDN for open source projects]: https://www.jsdelivr.com/?docs=gh

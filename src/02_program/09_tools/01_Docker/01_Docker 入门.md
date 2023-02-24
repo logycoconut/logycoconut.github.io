@@ -65,9 +65,7 @@ docker image build -t alpine-python3:1 .
 
 ### 导出、加载镜像
 
-#### 导出镜像
-
-![](https://knowledge-img-1304942245.cos.ap-shanghai.myqcloud.com/20221115235236.png)
+![](https://cdn.jsdelivr.net/gh/logycoconut/pic-repo/tools/docker/%E5%AF%BC%E5%87%BA%E9%95%9C%E5%83%8F.png)
 
 ```bash
 # 导出 alpine-python3:1 镜像到当前目录
@@ -76,7 +74,7 @@ docker save -o alpine-py3.tar alpine-python3:1
 
 #### 加载镜像
 
-![](https://knowledge-img-1304942245.cos.ap-shanghai.myqcloud.com/20221115235335.png)
+![](https://cdn.jsdelivr.net/gh/logycoconut/pic-repo/tools/docker/%E5%8A%A0%E8%BD%BD%E9%95%9C%E5%83%8F.png)
 
 ```bash
 # 加载当前目录的 tar 包
@@ -87,29 +85,29 @@ docker load -i alpine-py3.tar
 
 - 创建自己的仓库
 
-![](https://knowledge-img-1304942245.cos.ap-shanghai.myqcloud.com/20221115235502.png)
+![](https://cdn.jsdelivr.net/gh/logycoconut/pic-repo/tools/docker/%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93.png)
 
 - 查看现有的镜像
 
-![](https://knowledge-img-1304942245.cos.ap-shanghai.myqcloud.com/20221115235535.png)
+![](https://cdn.jsdelivr.net/gh/logycoconut/pic-repo/tools/docker/%E6%9F%A5%E7%9C%8B%E7%8E%B0%E6%9C%89%E7%9A%84%E9%95%9C%E5%83%8F.png)
 
 - 为 `alpine-python3`打个标签
 
 `docker tag alpine-python3:1 logycoconut/test:0.1`
 
-![](https://knowledge-img-1304942245.cos.ap-shanghai.myqcloud.com/20221115235622.png)
+![](https://cdn.jsdelivr.net/gh/logycoconut/pic-repo/tools/docker/%E6%89%93%E6%A0%87%E7%AD%BE.png)
 
 - 推到远程仓库
 
 `docker push logycoconut/test:0.1`
 
-![](https://knowledge-img-1304942245.cos.ap-shanghai.myqcloud.com/20221115235703.png)
+![](https://cdn.jsdelivr.net/gh/logycoconut/pic-repo/tools/docker/%E6%8E%A8%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93.png)
 
 - 现在任何人都可以下载你上传的镜像了
 
 `docker pull logycoconut/test:0.1`
 
-![](https://knowledge-img-1304942245.cos.ap-shanghai.myqcloud.com/20221115235714.png)
+![](https://cdn.jsdelivr.net/gh/logycoconut/pic-repo/tools/docker/20221115235714.png)
 
 ### 清理镜像
 

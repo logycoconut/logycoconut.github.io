@@ -8,44 +8,96 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0b0f7756bc9958ad",
+            "id": "e01e8c9927e23633",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/02_program/00_todo/接口鉴权问题.md",
+                "file": "src/00_inbox/直播/主流直播架构分析，产品设计与技术选型.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": true
+                "source": false
               }
             }
           },
           {
-            "id": "bee53bc89ff7e80e",
+            "id": "1fb73409fe459fd4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/02_program/00_todo/线上GC.md",
+                "file": "src/00_inbox/211119 本地缓存框架 Caffeine.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": true
+                "source": false
               }
             }
           },
           {
-            "id": "051645bd928b431e",
+            "id": "0e394d9ae188a336",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/00_inbox/MySQL/MySQL 中的松散索引和紧凑索引.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54c260e95afb23ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/00_inbox/MySQL/MySQL Explain 字段说明.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "85efcbccaddaeef3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/00_inbox/MySQL/MySQL 的锁.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e18266e674a58adf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/00_inbox/Redis/分布式锁实现方式以及选型的分析.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2c2ca5d94d0ca94",
             "type": "leaf",
             "state": {
               "type": "diff-view",
               "state": {
-                "file": ".obsidian/appearance.json",
+                "file": ".obsidian/workspace.json",
                 "staged": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -96,7 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.5
+    "width": 395.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -123,6 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/00_inbox/Redis/分布式锁实现方式以及选型的分析.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +194,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/00_inbox/Redis/分布式锁实现方式以及选型的分析.md"
+              }
             }
           }
         ],
@@ -163,20 +218,33 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "051645bd928b431e",
+  "active": "e18266e674a58adf",
   "lastOpenFiles": [
-    "src/02_program/00_todo/主流直播架构分析，产品设计与技术选型.md",
-    "src/02_program/00_todo/线上GC.md",
-    "src/02_program/00_todo/接口鉴权问题.md",
-    "src/02_program/00_todo/MQ/RocketMQ 刷盘机制流程图.excalidraw.md",
+    "src/00_inbox/MySQL/MySQL 的锁.md",
+    "src/00_inbox/Redis/分布式锁实现方式以及选型的分析.md",
+    "src/00_inbox/Redis",
+    "src/00_inbox/MySQL/MySQL Explain 字段说明.md",
+    "src/00_inbox/MySQL/MySQL 中的松散索引和紧凑索引.md",
+    "src/00_inbox/211119 本地缓存框架 Caffeine.md",
+    "src/00_inbox/延迟服务.md",
+    "src/00_inbox/线上GC.md",
+    "src/00_inbox/MySQL",
+    "src/00_inbox/MySQL/MySQL 中的 distinct 和 group by 哪个效率更高.md",
+    "src/00_inbox/直播/主流直播架构分析，产品设计与技术选型.md",
+    "src/00_inbox",
+    "src/00_inbox/直播/直播架构.excalidraw.md",
+    "src/03_single_page/221203_网站导航.md",
+    "src/00_inbox/接口鉴权问题.md",
+    "src/00_inbox/直播",
+    "src/00_inbox/211209 如何设计一个电商库存的秒杀.md",
+    "src/00_inbox/MQ/RocketMQ 刷盘机制流程图.excalidraw.md",
     "src/01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
     "01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
-    "src/02_program/00_todo/MQ/如何保证线上 MQ 消息不丢失.md",
-    "src/02_program/00_todo/数据库攻略.md",
+    "src/00_inbox/MQ/如何保证线上 MQ 消息不丢失.md",
+    "src/00_inbox/数据库攻略.md",
     "src/02_program/01_java/02_集合/02_ConcurrentHashMap 实现线程安全.md",
-    "src/02_program/00_todo/211209 如何设计一个电商库存的秒杀.md",
     "src/02_program/00_todo/RocketMQ 刷盘机制流程图.canvas",
-    "src/02_program/00_todo/211018 IO.md",
+    "src/00_inbox/211018 IO.md",
     "src/01_daliy/01_文档工具/README.md",
     "src/01_daliy/01_文档工具/221117_Obsidian同步方案.md"
   ]

@@ -13,6 +13,6 @@
   "vimMode": false,
   "useTab": false,
   "defaultViewMode": "source",
-  "livePreview": false,
+  "livePreview": true,
   "spellcheck": true
 }

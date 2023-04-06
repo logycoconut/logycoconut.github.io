@@ -25,7 +25,6 @@
     }
   ],
   "editor:toggle-comments": [],
-  "outline:open": [],
   "workspace:goto-tab-1": [],
   "app:toggle-left-sidebar": [
     {
@@ -44,5 +43,13 @@
     }
   ],
   "workspace:goto-tab-2": [],
-  "workspace:goto-last-tab": []
+  "workspace:goto-last-tab": [],
+  "outline:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "3"
+    }
+  ]
 }

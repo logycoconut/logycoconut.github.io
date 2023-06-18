@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e346aae88652be6d",
+        "id": "63f99a7636a255cd",
         "type": "tabs",
         "children": [
           {
-            "id": "b87cf5d652b49195",
+            "id": "ce1f27a261f118c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/00_inbox/Redis/分布式锁实现方式以及选型的分析.md",
+                "file": "src/00_inbox/AWS/AWS Lambda 入门.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,59 +21,56 @@
             }
           },
           {
-            "id": "9c8d0b4b14e218aa",
+            "id": "95218a2076c9201b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "src/00_inbox/Redis/分布式锁实现方式以及选型的分析.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "src/00_inbox/AWS/Excalidraw/Drawing 2023-06-19 02.05.22.excalidraw.md"
               }
             }
           },
           {
-            "id": "ff5119a0d8d92dae",
+            "id": "3a0f2b03ae8c4595",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "src/00_inbox/Redis/Redis 的持久化策略.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "src/00_inbox/AWS/Excalidraw/AWS 计算服务的演进.md"
               }
             }
           },
           {
-            "id": "253fd0b882ed9bb9",
+            "id": "8612574a2284f792",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "src/00_inbox/MySQL/MySQL 三大日志 binlog、undo log、redo log.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "src/00_inbox/AWS/Excalidraw/AWS 计算服务的演进.md"
               }
             }
           },
           {
-            "id": "7cb5a6ea7a2eaf1e",
+            "id": "8c154896dc60f7d8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "src/00_inbox/未命名.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "src/00_inbox/AWS/Excalidraw/AWS Lambda VS AWS EC2.md"
+              }
+            }
+          },
+          {
+            "id": "1840d1ce832d1b98",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "src/00_inbox/AWS/Excalidraw/Lambda With S3.md"
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,13 +115,22 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "216feee41199bed4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ],
         "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 304.5,
+    "collapsed": true
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -151,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/00_inbox/未命名.md",
+                "file": "src/00_inbox/AWS/AWS Lambda 入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/00_inbox/未命名.md"
+                "file": "src/00_inbox/AWS/AWS Lambda 入门.md"
               }
             }
           }
@@ -196,37 +202,43 @@
   },
   "active": "be552bffe11b7e5f",
   "lastOpenFiles": [
+    "src/00_inbox/AWS/Excalidraw/Drawing 2023-06-19 02.05.22.excalidraw.md",
+    "node_modules/Pasted Image 20230619020653_991.png",
+    "src/00_inbox/AWS/AWS Lambda 入门.md",
+    "src/00_inbox/AWS/Excalidraw/AWS Lambda VS AWS EC2.md",
+    "node_modules/Pasted Image 20230619020538_851.png",
+    "src/00_inbox/AWS/Excalidraw/Drawing 2023-06-18 17.34.29.excalidraw.md",
+    "src/00_inbox/AWS/Excalidraw/Lambda With S3.md",
+    "src/00_inbox/AWS/Excalidraw/AWS Lambda 的几大优势.md",
+    "node_modules/Pasted Image 20230619013827_803.png",
+    "src/00_inbox/AWS/Excalidraw/AWS 计算服务的演进.md",
+    "node_modules/Pasted Image 20230618173545_135.png",
+    "src/00_inbox/AWS/Excalidraw",
+    "Excalidraw",
+    "src/00_inbox/AWS",
+    "src/00_inbox/GraphQL 入门.md",
+    "src/02_program/README.md",
+    "src/03_single_page/221203_网站导航.md",
+    "src/02_program/02_base/README.md",
+    "src/README.md",
+    "src/01_daliy/02_铁子注意身体/README.md",
+    "src/01_daliy/04_有点东西但是不多/README.md",
+    "src/01_daliy/README.md",
+    "src/01_daliy/01_文档工具/221024_个人知识库、博客搭建.md",
     "src/00_inbox/MySQL/MySQL 三大日志 binlog、undo log、redo log.md",
-    "src/00_inbox/未命名.md",
-    "src/00_inbox/Redis/分布式锁实现方式以及选型的分析.md",
     "src/00_inbox/Redis/Redis 的持久化策略.md",
+    "src/00_inbox/Redis/分布式锁实现方式以及选型的分析.md",
+    "src/02_program/03_database/01_mysql/01_基础概念.md",
+    "src/00_inbox/MySQL/MySQL Explain 字段说明.md",
+    "src/00_inbox/分布式唯一 ID 生成方案.md",
     "src/00_inbox/MySQL/MySQL 中的 distinct 和 group by 哪个效率更高.md",
     "src/00_inbox/MySQL/MySQL 中的松散索引和紧凑索引.md",
-    "src/00_inbox/MySQL/MySQL Explain 字段说明.md",
     "src/00_inbox/直播/主流直播架构分析，产品设计与技术选型.md",
-    "src/00_inbox/场景/订单超时未支付的三种解决方案.md",
-    "src/00_inbox/直播/直播架构.excalidraw.md",
-    "src/00_inbox/211018 IO.md",
-    "src/00_inbox/211209 分布式系统之 CAP 理论.md",
-    "src/00_inbox/211209 如何设计一个电商库存的秒杀.md",
-    "src/00_inbox/数据库攻略.md",
-    "src/00_inbox/线上GC.md",
-    "src/00_inbox/为什么有了HTTP还要有RPC？.md",
     "src/00_inbox/场景",
-    "src/00_inbox/MySQL/MySQL 的锁.md",
     "src/00_inbox/Redis",
-    "src/00_inbox/211119 本地缓存框架 Caffeine.md",
-    "src/00_inbox/延迟服务.md",
     "src/00_inbox/MySQL",
     "src/00_inbox",
-    "src/03_single_page/221203_网站导航.md",
-    "src/00_inbox/接口鉴权问题.md",
     "src/00_inbox/直播",
-    "src/00_inbox/MQ/RocketMQ 刷盘机制流程图.excalidraw.md",
-    "src/01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
-    "01_daliy/01_文档工具/221111_基于vuepress和Obsidian的知识库搭建.md",
-    "src/00_inbox/MQ/如何保证线上 MQ 消息不丢失.md",
-    "src/02_program/01_java/02_集合/02_ConcurrentHashMap 实现线程安全.md",
     "src/02_program/00_todo/RocketMQ 刷盘机制流程图.canvas"
   ]
 }

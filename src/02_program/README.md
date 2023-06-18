@@ -86,6 +86,7 @@ root)学习路线(
 | [互联网 Java 工程师进阶知识完全扫盲][] | 涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识      |
 | [互联网公司常用框架源码赏析][]        | 涵盖 Spring、Mybatis、Netty、Dubbo等热门框架 |
 | [JVM 底层原理最全知识总结][]       |                                    |
+| [Hello 算法][]             | 算法入门好书                             |
 
 **值得一提**的是，「互联网 Java 工程师进阶知识完全扫盲」、「互联网公司常用框架源码赏析」、「JVM 底层原理最全知识总结」是由 Doocs 技术社区总结发布的，该社区还有一些值得一看的项目，有兴趣的也可以看下，[跳转](https://doocs.github.io/#/README_CN?id=项目)
 
@@ -114,3 +115,5 @@ root)学习路线(
 [面试造火箭 - Java3y]: https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzU4NzA3MTc5Mg==&scene=1&album_id=1657204970858872832&count=3#wechat_redirect
 
 [阿里巴巴 - 技术人生]: https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4NzU0MDIzOQ==&action=getalbum&album_id=2058854698228482051&scene=173&subscene=3&sessionid=undefined&enterid=1633072103&from_msgid=2247494519&from_itemidx=1&count=3&nolastread=1#wechat_redirect
+
+[Hello 算法]: https://www.hello-algo.com/

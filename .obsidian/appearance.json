@@ -1,11 +1,12 @@
 {
   "accentColor": "",
-  "cssTheme": "",
+  "cssTheme": "Minimal",
   "theme": "system",
   "enabledCssSnippets": [
     "obsidian"
   ],
   "translucency": true,
   "baseFontSize": 18,
-  "baseFontSizeAction": false
+  "baseFontSizeAction": false,
+  "nativeMenus": true
 }

@@ -1,0 +1,1 @@
+import{_ as e,Y as l,Z as t,$ as _}from"./framework-beff9ad1.js";const n={},c=_("ul",null,[_("li",null,"是否要无规则？ 不能从 id 中看出时间、业务编码等类似的东西"),_("li",null,"是否自主？ 需要依赖服务？自己就可以生成？"),_("li",null,"是否有序？")],-1),o=[c];function s(r,a){return l(),t("div",null,o)}const u=e(n,[["render",s],["__file","分布式唯一 ID 生成方案.html.vue"]]);export{u as default};

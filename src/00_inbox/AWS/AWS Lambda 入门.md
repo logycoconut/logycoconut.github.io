@@ -9,7 +9,7 @@ tag: [AWS, Serverless]
 
 ### 计算服务的演进
 
-![image.png](https://cdn.jsdelivr.net/gh/logycoconut/pic-repo/aws/lambda20230619011619.png)
+![image.png](https://cdn.jsdelivr.net/gh/logycoconut/pic-repo/aws/lambda/20230620013915.png)
 
 **基础云架构 -> 容器技术兴起 -> Serverless 无服务器架构**
 
@@ -28,19 +28,18 @@ Serverless, 字面意思是 "无服务器"
 
 #### Lambda 优势
 
-![image.png](https://cdn.jsdelivr.net/gh/logycoconut/pic-repo/aws/lambda/20230618164224.png)
+![image.png](https://cdn.jsdelivr.net/gh/logycoconut/pic-repo/aws/lambda/20230620014235.png)
 
 - 无需维护 (特指物理机器的维护)
   只关心你的代码, 不需要考虑服务器
 
 - 天然高可用, 自动伸缩
   得益于 AWS 的高可用架构, Lambda 在监测到流量变大之后, 会自动扩展
+  并且这一切都在处在账户的并发限制中, 不会无限制的扩张, 导致成本上升
 
 - 按照调用付费, 降低成本, 不需要为闲置付费
 
-- 用自定义逻辑扩展其他 AWS 服务
-  AWS Lambda 在 AWS 整个版图中占非常重要的位置
-  通过 Lambda 服务, 用户可以将 AWS 中的很多服务联系起来, 相互来调用
+- **用自定义逻辑扩展其他 AWS 服务**
 
 #### Lambda 使用场景
 
@@ -54,13 +53,15 @@ Serverless, 字面意思是 "无服务器"
 
 AWS Lambda 在 AWS 整个版图中占非常重要的位置
 
-为什么这么说呢? Lambda 就像胶水一样, 通过这个服务, 和很多的 AWS 服务全部配合起来, 相互来调用
+通过 Lambda 服务, 用户可以将 AWS 中的很多服务串在起来, 相互来调用
 
 _Lambda 提供了 17 个官方应用的触发器以及几十个三方的触发器 (通过 Event Bridge 触发)_
 
 #### [Lambda 的收费标准](https://aws.amazon.com/cn/lambda/pricing/)
 
-主要取决于两个因素
+> 使用 Lambda 的又一个很重要的理由
+
+Lambda 的调用十分便宜, 收费主要取决于两个因素
 
 - 为函数分配的内存量 (介于 128MB - 10240MB 之间)
 - 函数的执行时间 (介于 1s - 15min 之间)
@@ -73,6 +74,13 @@ _Lambda 提供了 17 个官方应用的触发器以及几十个三方的触发�
 
 _以 Java 语言为例_
 ![image.png](https://cdn.jsdelivr.net/gh/logycoconut/pic-repo/aws/lambda/20230619021142.png)
+
+```xml
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-lambda-java-core</artifactId>
+</dependency>
+```
 
 ### [并发控制](https://docs.aws.amazon.com/zh_cn/lambda/latest/dg/lambda-concurrency.html)
 
@@ -104,12 +112,10 @@ _请求减少，并且在空闲一段时间后，函数的未使用实例会停�
 
 ### 使用 Amazon S3 触发器创建缩略图
 
-1. 创建 S3 存储桶并上传测试图片
-
-2. 创建定义 Lambda 函数权限的 IAM Policy, 该函数必须具有以下权限
-   - 从指定 S3 桶获取对象
-   - 将对象写入到指定 S3 桶
-   - 将日志写入 Amazon CloudWatch Logs
+- 创建定义 Lambda 函数权限的 IAM Policy, 该函数必须具有以下权限
+  - 从指定 S3 桶获取对象
+  - 将对象写入到指定 S3 桶
+  - 将日志写入 Amazon CloudWatch Logs
 
 _具体策略 Json 如下:_
 
@@ -144,11 +150,11 @@ _具体策略 Json 如下:_
 }
 ```
 
-3. 创建 Lambda 函数
-4. 在 S3 中配置发布事件
-   通过上传动作获取结果
-
 ### 通过 API Gateway 进行参数传递
+
+模拟页面 crud 操作
+
+_[环境变量](https://docs.aws.amazon.com/zh_cn/lambda/latest/dg/configuration-envvars.html)_
 
 ## 参考链接
 

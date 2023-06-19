@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ce1f27a261f118c2",
+            "id": "95218a2076c9201b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -17,16 +17,6 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "95218a2076c9201b",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "src/00_inbox/AWS/Excalidraw/Drawing 2023-06-19 02.05.22.excalidraw.md"
               }
             }
           },
@@ -129,8 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5,
-    "collapsed": true
+    "width": 304.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -202,16 +191,18 @@
   },
   "active": "be552bffe11b7e5f",
   "lastOpenFiles": [
-    "src/00_inbox/AWS/Excalidraw/Drawing 2023-06-19 02.05.22.excalidraw.md",
-    "node_modules/Pasted Image 20230619020653_991.png",
-    "src/00_inbox/AWS/AWS Lambda 入门.md",
-    "src/00_inbox/AWS/Excalidraw/AWS Lambda VS AWS EC2.md",
-    "node_modules/Pasted Image 20230619020538_851.png",
-    "src/00_inbox/AWS/Excalidraw/Drawing 2023-06-18 17.34.29.excalidraw.md",
-    "src/00_inbox/AWS/Excalidraw/Lambda With S3.md",
     "src/00_inbox/AWS/Excalidraw/AWS Lambda 的几大优势.md",
-    "node_modules/Pasted Image 20230619013827_803.png",
+    "src/00_inbox/AWS/Excalidraw/AWS Lambda VS AWS EC2.md",
     "src/00_inbox/AWS/Excalidraw/AWS 计算服务的演进.md",
+    "src/00_inbox/AWS/Excalidraw/Lambda With S3.md",
+    "src/00_inbox/AWS/Excalidraw/Drawing 2023-06-19 02.05.22.excalidraw.md",
+    "src/00_inbox/AWS/Excalidraw/Drawing 2023-06-18 17.34.29.excalidraw.md",
+    "src/00_inbox/AWS/AWS Lambda 入门.md",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "node_modules/Pasted Image 20230619020653_991.png",
+    "node_modules/Pasted Image 20230619020538_851.png",
+    "node_modules/Pasted Image 20230619013827_803.png",
     "node_modules/Pasted Image 20230618173545_135.png",
     "src/00_inbox/AWS/Excalidraw",
     "Excalidraw",

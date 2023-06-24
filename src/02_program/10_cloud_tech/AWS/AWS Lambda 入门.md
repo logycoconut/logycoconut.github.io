@@ -1,6 +1,5 @@
 ---
 title: AWS Lambda 入门
-index: false
 date: 2023-06-18
 tag: [AWS, Serverless]
 ---
@@ -9,7 +8,7 @@ tag: [AWS, Serverless]
 
 ### 计算服务的演进
 
-![image.png](https://cdn.jsdelivr.net/gh/logycoconut/pic-repo/aws/lambda/20230620013915.png)
+![image.png](https://cdn.jsdelivr.net/gh/logycoconut/pic-repo/aws/lambda/20230624223939.png)
 
 **基础云架构 -> 容器技术兴起 -> Serverless 无服务器架构**
 
@@ -45,7 +44,7 @@ Serverless, 字面意思是 "无服务器"
 
 | AWS 组件      | 参考场景           |
 | ----------- | -------------- |
-| S3          | 图片压缩、视频转码、内容审查 |
+| S 3         | 图片压缩、视频转码、内容审查 |
 | SQS         | 消息推送           |
 | DynamoDB    | 数据校验、筛选        |
 | API Gateway | 微服务接口提供        |
@@ -63,8 +62,8 @@ _Lambda 提供了 17 个官方应用的触发器以及几十个三方的触发�
 
 Lambda 的调用十分便宜, 收费主要取决于两个因素
 
-- 为函数分配的内存量 (介于 128MB - 10240MB 之间)
-- 函数的执行时间 (介于 1s - 15min 之间)
+- 为函数分配的内存量 (介于 128 MB - 10240 MB 之间)
+- 函数的执行时间 (介于 1 s - 15 min 之间)
 
 ![image.png](https://cdn.jsdelivr.net/gh/logycoconut/pic-repo/aws/lambda/20230619012957.png)
 
@@ -86,7 +85,7 @@ _以 Java 语言为例_
 
 **并发**是 AWS Lambda 函数同时处理的正在进行的请求数
 
-对于每个并发请求，Lambda 会预置单独的执行环境实例。当函数收到更多请求时，Lambda 会自动处理执行环境数量的扩展，直到达到账户的并发限制 (默认为单区域1000),  并且也可以 [申请增加限额](http://aws.amazon.com/premiumsupport/knowledge-center/lambda-concurrency-limit-increase/)，或者为关键函数增加单独并发控制
+对于每个并发请求，Lambda 会预置单独的执行环境实例。当函数收到更多请求时，Lambda 会自动处理执行环境数量的扩展，直到达到账户的并发限制 (默认为单区域 1000),  并且也可以 [申请增加限额](http://aws.amazon.com/premiumsupport/knowledge-center/lambda-concurrency-limit-increase/)，或者为关键函数增加单独并发控制
 
 #### 预留并发
 
@@ -110,11 +109,11 @@ _请求减少，并且在空闲一段时间后，函数的未使用实例会停�
 
 ### 简单 String 处理
 
-### 使用 Amazon S3 触发器创建缩略图
+### 使用 Amazon S 3 触发器创建缩略图
 
 - 创建定义 Lambda 函数权限的 IAM Policy, 该函数必须具有以下权限
-  - 从指定 S3 桶获取对象
-  - 将对象写入到指定 S3 桶
+  - 从指定 S 3 桶获取对象
+  - 将对象写入到指定 S 3 桶
   - 将日志写入 Amazon CloudWatch Logs
 
 _具体策略 Json 如下:_
@@ -154,7 +153,7 @@ _具体策略 Json 如下:_
 
 模拟页面 crud 操作
 
-_[环境变量](https://docs.aws.amazon.com/zh_cn/lambda/latest/dg/configuration-envvars.html)_
+_ [环境变量](https://docs.aws.amazon.com/zh_cn/lambda/latest/dg/configuration-envvars.html) _
 
 ## 参考链接
 

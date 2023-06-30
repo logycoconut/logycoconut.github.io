@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b09525c66627ac31",
+        "id": "40a9a230e229ba94",
         "type": "tabs",
         "children": [
           {
-            "id": "de9220a68564e769",
+            "id": "646315eac126bfe7",
             "type": "leaf",
             "state": {
               "type": "diff-view",
               "state": {
-                "file": "template/template.md",
+                "file": "src/.vuepress/config.ts",
                 "staged": false
               }
             }
@@ -37,7 +37,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "网站",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 421.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -144,12 +144,26 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "de9220a68564e769",
+  "active": "646315eac126bfe7",
   "lastOpenFiles": [
-    "src/README.md",
-    "README.md",
+    "src/01_daliy/教程/ja-netfilter 和 JetBrains 的奇妙反应.md",
+    "未命名.md",
+    "src/01_daliy/教程",
+    "src/01_daliy/03_个人环境备份/SoftwareInMacOS.md",
+    "src/01_daliy/221204_FinalCutPro.md",
+    "src/01_daliy/03_个人环境备份/SoftwareInMac.excalidraw.md",
+    "src/01_daliy/03_个人环境备份/default_canvas.excalidraw.md",
+    "src/01_daliy/03_个人环境备份/default_canvas.excalidraw",
+    "src/01_daliy/03_个人环境备份/README.md",
+    "src/01_daliy/03_个人环境备份/221111_Chrome 插件、油猴脚本.md",
     "src/03_single_page/221203_网站导航.md",
+    "src/01_daliy/03_个人环境备份/230131_好玩的Docker项目.md",
+    "src/00_inbox/GraphQL 入门.md",
+    "src/00_inbox/延迟服务.md",
+    "src/00_inbox/未命名.md",
+    "README.md",
     "[].md",
+    "src/README.md",
     "src/02_program/10_cloud_tech/AWS/AWS Lambda 入门.md",
     "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS 计算服务的演进.md",
     "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS Lambda VS AWS EC2.md",
@@ -162,10 +176,6 @@
     "template/template.md",
     "未命名 1.canvas",
     "未命名.canvas",
-    "src/00_inbox/AWS/Excalidraw/Drawing 2023-06-18 17.34.29.excalidraw.md",
-    "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS Lambda 编程模型.md",
-    "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS Lambda 的几大优势.md",
-    "src/00_inbox/AWS/Excalidraw/Lambda With S3.md",
     "node_modules/Pasted Image 20230619020653_991.png",
     "node_modules/Pasted Image 20230619020538_851.png",
     "node_modules/Pasted Image 20230619013827_803.png",
@@ -173,20 +183,10 @@
     "src/02_program/10_cloud_tech/AWS/Excalidraw",
     "Excalidraw",
     "src/02_program/10_cloud_tech/AWS",
-    "src/00_inbox/GraphQL 入门.md",
-    "src/02_program/README.md",
-    "src/02_program/02_base/README.md",
-    "src/01_daliy/02_铁子注意身体/README.md",
-    "src/01_daliy/04_有点东西但是不多/README.md",
-    "src/01_daliy/README.md",
-    "src/01_daliy/01_文档工具/221024_个人知识库、博客搭建.md",
-    "src/00_inbox/MySQL/MySQL 三大日志 binlog、undo log、redo log.md",
-    "src/00_inbox/Redis/Redis 的持久化策略.md",
     "src/00_inbox/场景",
     "src/00_inbox/Redis",
     "src/00_inbox/MySQL",
     "src/00_inbox",
-    "src/00_inbox/直播",
     "src/02_program/00_todo/RocketMQ 刷盘机制流程图.canvas"
   ]
 }

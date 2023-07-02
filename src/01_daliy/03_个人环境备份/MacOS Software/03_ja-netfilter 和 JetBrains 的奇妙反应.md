@@ -8,7 +8,7 @@ tag: [JetBrains, ja-netfilter]
 >
 > 拥有 `JetBrains` 全家桶最好的方式, 还得是通过维护开源项目获取免费的 license
 
-## 背景
+### 背景
 
 之前查询场景比较简单的时候 ( MySQL + Redis ), 只需要安装 `Sequel Pro` 、 `Another Redis Desktop Manager` 就能满足所有的需求
 
@@ -22,7 +22,7 @@ tag: [JetBrains, ja-netfilter]
 
 DataGrip 并不是一款免费的软件, 毕竟它是这么好用!
 
-## ja-netfilter 登场
+### ja-netfilter 登场
 
 > [仓库地址](https://zhile.io/2021/11/29/ja-netfilter-javaagent-lib.html)
 
@@ -34,7 +34,7 @@ _正是这一点给了操作空间_
 
 于是乎本文诞生
 
-## 如何使用 ja-netfilter ( 以 DataGrip 为例 )
+### 如何使用 ja-netfilter ( 以 DataGrip 为例 )
 
 > 确保已阅读以下内容!
 >
@@ -78,6 +78,7 @@ EQUAL,65537,24773058818499217187577663886010908531303294206336895556072197892590
 ```
 
 - 配置 datagrip.vmoptions 文件
+
   `datagrip.vmoptions` 文件的位置一般位于 `/Applications/DataGrip.app/Contents/bin/`
 
 ```
@@ -88,15 +89,15 @@ EQUAL,65537,24773058818499217187577663886010908531303294206336895556072197892590
 
 **配置完了一定要重启 DataGrip**, 不然 ja-netfilter 插件不生效
 
-- 将 ipfs.io 上展示的激活码复制, 然后通过激活码进行激活
+- 复制 ipfs.io 上对应软件的激活码, 在软件上通过激活码进行激活
 
 其实也可以通过服务器进行激活, 但是服务器激活地址不太稳定
 
 服务器网址: <https://jetbra.in>
 
-- 最后, 如果一切顺利的话, 应该能看到激活信息
+- 最后, 如果一切顺利的话, 应该能看到激活信息啦
 
-## 参考链接
+### 参考链接
 
 - [ja-netfilter](https://gitee.com/ja-netfilter/ja-netfilter)
 - [jetbra](https://3.jetbra.in/)

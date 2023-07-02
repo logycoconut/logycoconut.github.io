@@ -11,14 +11,30 @@
             "id": "646315eac126bfe7",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "src/.vuepress/config.ts",
-                "staged": false
+                "file": "src/01_daliy/03_个人环境备份/README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3f4260966d5cf2c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/01_daliy/03_个人环境备份/MacOS Software/04_uTools 插件.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -37,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "网站",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 421.5
+    "width": 342.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -104,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/01_daliy/03_个人环境备份/MacOS Software/04_uTools 插件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +139,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/01_daliy/03_个人环境备份/MacOS Software/04_uTools 插件.md"
+              }
             }
           }
         ],
@@ -130,7 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 246.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -144,19 +163,27 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "646315eac126bfe7",
+  "active": "be552bffe11b7e5f",
   "lastOpenFiles": [
-    "src/01_daliy/教程/ja-netfilter 和 JetBrains 的奇妙反应.md",
-    "未命名.md",
-    "src/01_daliy/教程",
-    "src/01_daliy/03_个人环境备份/SoftwareInMacOS.md",
-    "src/01_daliy/221204_FinalCutPro.md",
+    "src/01_daliy/03_个人环境备份/MacOS Software/02_Chrome 推荐插件以及油猴脚本.md",
+    "src/01_daliy/03_个人环境备份/MacOS Software/03_ja-netfilter 和 JetBrains 的奇妙反应.md",
+    "src/01_daliy/03_个人环境备份/MacOS Software/04_uTools 插件.md",
+    "src/01_daliy/03_个人环境备份/MacOS Software/01_SoftwareInMacOS.md",
+    "src/01_daliy/03_个人环境备份/MacOS Software/README.md",
+    "src/01_daliy/03_个人环境备份/MacOS Software/IDEA 教程.md",
+    "src/01_daliy/03_个人环境备份/README.md",
     "src/01_daliy/03_个人环境备份/SoftwareInMac.excalidraw.md",
     "src/01_daliy/03_个人环境备份/default_canvas.excalidraw.md",
-    "src/01_daliy/03_个人环境备份/default_canvas.excalidraw",
-    "src/01_daliy/03_个人环境备份/README.md",
-    "src/01_daliy/03_个人环境备份/221111_Chrome 插件、油猴脚本.md",
+    "src/01_daliy/03_个人环境备份/MacOS Software",
+    "src/01_daliy/03_个人环境备份/MacOS 自用软件/配置文件",
+    "src/01_daliy/03_个人环境备份/221201_个人设备推荐.md",
+    "src/01_daliy/01_文档工具/230129_Markdown语法.md",
+    "src/01_daliy/01_文档工具/221024_个人知识库、博客搭建.md",
     "src/03_single_page/221203_网站导航.md",
+    "src/02_program/名词解释.md",
+    "src/01_daliy/教程",
+    "src/01_daliy/221204_FinalCutPro.md",
+    "src/01_daliy/03_个人环境备份/default_canvas.excalidraw",
     "src/01_daliy/03_个人环境备份/230131_好玩的Docker项目.md",
     "src/00_inbox/GraphQL 入门.md",
     "src/00_inbox/延迟服务.md",
@@ -168,12 +195,7 @@
     "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS 计算服务的演进.md",
     "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS Lambda VS AWS EC2.md",
     "src/02_program/09_tools/210812_Cron 表达式.md",
-    "src/02_program/10_cloud_tech/AWS/Excalidraw/README.md",
-    "src/02_program/10_cloud_tech/AWS/README.md",
-    "src/02_program/10_cloud_tech/README.md",
-    "src/02_program/09_tools/README.md",
     "src/02_program/10_cloud_tech",
-    "template/template.md",
     "未命名 1.canvas",
     "未命名.canvas",
     "node_modules/Pasted Image 20230619020653_991.png",
@@ -185,8 +207,6 @@
     "src/02_program/10_cloud_tech/AWS",
     "src/00_inbox/场景",
     "src/00_inbox/Redis",
-    "src/00_inbox/MySQL",
-    "src/00_inbox",
     "src/02_program/00_todo/RocketMQ 刷盘机制流程图.canvas"
   ]
 }

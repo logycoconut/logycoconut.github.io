@@ -8,5 +8,6 @@
   "translucency": true,
   "baseFontSize": 18,
   "baseFontSizeAction": false,
-  "nativeMenus": true
+  "nativeMenus": true,
+  "textFontFamily": "Monaco"
 }

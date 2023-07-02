@@ -1,1 +1,0 @@
-import{_ as e,Y as t,Z as _,$ as c}from"./framework-beff9ad1.js";const o={},s=c("p",null,"​​",-1),n=[s];function a(l,r){return t(),_("div",null,n)}const d=e(o,[["render",a],["__file","template.html.vue"]]);export{d as default};

@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/01_daliy/03_个人环境备份/MacOS Software/04_uTools 插件.md",
+                "file": "src/01_daliy/MacOS Software/README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/01_daliy/03_个人环境备份/MacOS Software/04_uTools 插件.md",
+                "file": "src/01_daliy/MacOS Software/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/01_daliy/03_个人环境备份/MacOS Software/04_uTools 插件.md"
+                "file": "src/01_daliy/MacOS Software/README.md"
               }
             }
           }
@@ -163,18 +163,22 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "be552bffe11b7e5f",
+  "active": "3f4260966d5cf2c7",
   "lastOpenFiles": [
-    "src/01_daliy/03_个人环境备份/MacOS Software/02_Chrome 推荐插件以及油猴脚本.md",
-    "src/01_daliy/03_个人环境备份/MacOS Software/03_ja-netfilter 和 JetBrains 的奇妙反应.md",
-    "src/01_daliy/03_个人环境备份/MacOS Software/04_uTools 插件.md",
-    "src/01_daliy/03_个人环境备份/MacOS Software/01_SoftwareInMacOS.md",
-    "src/01_daliy/03_个人环境备份/MacOS Software/README.md",
+    "src/01_daliy/README.md",
+    "src/01_daliy/MacOS Software/README.md",
+    "src/01_daliy/05_终身学习体系/README.md",
+    "src/01_daliy/221204_FinalCutPro.md",
+    "src/01_daliy/MacOS Software/01_MacOS 软件.md",
+    "src/01_daliy/MacOS Software/04_uTools 插件.md",
+    "src/01_daliy/MacOS Software/05_Obsidian 插件.md",
+    "src/01_daliy/MacOS Software/02_Chrome 推荐插件以及油猴脚本.md",
+    "src/01_daliy/MacOS Software/03_ja-netfilter 和 JetBrains 的奇妙反应.md",
     "src/01_daliy/03_个人环境备份/MacOS Software/IDEA 教程.md",
     "src/01_daliy/03_个人环境备份/README.md",
     "src/01_daliy/03_个人环境备份/SoftwareInMac.excalidraw.md",
     "src/01_daliy/03_个人环境备份/default_canvas.excalidraw.md",
-    "src/01_daliy/03_个人环境备份/MacOS Software",
+    "src/01_daliy/MacOS Software",
     "src/01_daliy/03_个人环境备份/MacOS 自用软件/配置文件",
     "src/01_daliy/03_个人环境备份/221201_个人设备推荐.md",
     "src/01_daliy/01_文档工具/230129_Markdown语法.md",
@@ -182,7 +186,6 @@
     "src/03_single_page/221203_网站导航.md",
     "src/02_program/名词解释.md",
     "src/01_daliy/教程",
-    "src/01_daliy/221204_FinalCutPro.md",
     "src/01_daliy/03_个人环境备份/default_canvas.excalidraw",
     "src/01_daliy/03_个人环境备份/230131_好玩的Docker项目.md",
     "src/00_inbox/GraphQL 入门.md",
@@ -192,9 +195,6 @@
     "[].md",
     "src/README.md",
     "src/02_program/10_cloud_tech/AWS/AWS Lambda 入门.md",
-    "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS 计算服务的演进.md",
-    "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS Lambda VS AWS EC2.md",
-    "src/02_program/09_tools/210812_Cron 表达式.md",
     "src/02_program/10_cloud_tech",
     "未命名 1.canvas",
     "未命名.canvas",

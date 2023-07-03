@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/01_daliy/01_文档工具/README.md",
+                "file": "src/02_program/10_cloud_tech/README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/01_daliy/01_文档工具/README.md",
+                "file": "src/02_program/10_cloud_tech/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/01_daliy/01_文档工具/README.md"
+                "file": "src/02_program/10_cloud_tech/README.md"
               }
             }
           }
@@ -149,8 +149,23 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "c52fc589d0a2f191",
+  "active": "be552bffe11b7e5f",
   "lastOpenFiles": [
+    "src/02_program/10_cloud_tech/AWS/01_AWS Lambda 入门.md",
+    "src/02_program/10_cloud_tech/AWS/Excalidraw/README.md",
+    "src/02_program/10_cloud_tech/AWS/README.md",
+    "src/02_program/10_cloud_tech/README.md",
+    "src/02_program/10_cloud_tech/AWS/Excalidraw/Drawing 2023-07-03 21.10.47.excalidraw.md",
+    "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS 计算服务的演进.excalidraw.md",
+    "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS Lambda 编程模型.excalidraw.md",
+    "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS Lambda 的几大优势.excalidraw.md",
+    "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS Lambda VS AWS EC2.excalidraw.md",
+    "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS Lambda VS AWS EC2. excalidraw.md",
+    "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS Lambda 编程模型.md",
+    "Excalidraw",
+    "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS 计算服务的演进.md",
+    "src/02_program/名词解释.md",
+    "src/01_daliy/01_文档工具/README.md",
     "src/01_daliy/01_文档工具/221024_个人知识库、博客搭建.md",
     "src/01_daliy/MacOS Software/README.md",
     "src/01_daliy/05_终身学习体系/README.md",
@@ -163,24 +178,10 @@
     "src/01_daliy/MacOS Software/04_uTools 插件.md",
     "src/01_daliy/MacOS Software/02_Chrome 推荐插件以及油猴脚本.md",
     "src/01_daliy/README.md",
-    "src/01_daliy/221204_FinalCutPro.md",
-    "src/01_daliy/03_个人环境备份/MacOS Software/IDEA 教程.md",
-    "src/01_daliy/03_个人环境备份/SoftwareInMac.excalidraw.md",
-    "src/01_daliy/03_个人环境备份/default_canvas.excalidraw.md",
     "src/01_daliy/MacOS Software",
     "src/01_daliy/03_个人环境备份/MacOS 自用软件/配置文件",
-    "src/01_daliy/03_个人环境备份/221201_个人设备推荐.md",
-    "src/01_daliy/01_文档工具/230129_Markdown语法.md",
-    "src/03_single_page/221203_网站导航.md",
-    "src/02_program/名词解释.md",
     "src/01_daliy/教程",
     "src/01_daliy/03_个人环境备份/default_canvas.excalidraw",
-    "src/01_daliy/03_个人环境备份/230131_好玩的Docker项目.md",
-    "src/00_inbox/GraphQL 入门.md",
-    "src/00_inbox/延迟服务.md",
-    "src/00_inbox/未命名.md",
-    "README.md",
-    "[].md",
     "src/02_program/10_cloud_tech",
     "未命名 1.canvas",
     "未命名.canvas",
@@ -189,7 +190,6 @@
     "node_modules/Pasted Image 20230619013827_803.png",
     "node_modules/Pasted Image 20230618173545_135.png",
     "src/02_program/10_cloud_tech/AWS/Excalidraw",
-    "Excalidraw",
     "src/02_program/10_cloud_tech/AWS",
     "src/00_inbox/场景",
     "src/00_inbox/Redis",

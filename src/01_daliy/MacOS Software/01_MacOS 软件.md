@@ -47,7 +47,7 @@ _另外： 「Sequel Pro」的正式版在 Mac 上打开有点问题，可以下
 | Obsidian      | Markdown 编辑器 | 个人知识库                                                    |
 | PicGo         | 图床工具         | 搭配 Obsidian 插件 `Image Auto Upload Plugin` 使用, 可以实现贴图自动上传 |
 | PDF Expert    | PDF 阅读       |                                                          |
-| Final Cut Pro | 剪辑工具         | 可以统一                                                     |
+| Final Cut Pro | 剪辑工具         | 方便素材管理                                                   |
 | NetNewsWire   | RSS 阅读       |                                                          |
 | IINA          | 视频播放         |                                                          |
 

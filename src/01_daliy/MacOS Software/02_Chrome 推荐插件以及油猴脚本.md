@@ -5,57 +5,57 @@ tag: [Chrome, 自用]
 
 > 有了插件, Chrome 变得更美好
 
-## Chrome 插件
+### Chrome 插件
 
 > 按照个人使用频次排名
 
-### Tampermonkey - 油猴脚本
+- Tampermonkey - 油猴脚本
 
-具体脚本在下文有说
+  具体脚本在下文有说
 
-### 沙拉查词 - 划词翻译
+- 沙拉查词 - 划词翻译
 
-### [为什么你们就是不能加个空格呢？][]
+- [为什么你们就是不能加个空格呢？][]
 
-用于在中英文之间添加 _盘古之白_ 哈哈
+  用于在中英文之间添加 _盘古之白_ 哈哈
 
-### Tabby Cat - 新标签页皮肤
+- Tabby Cat - 新标签页皮肤
 
-### Adblock Plus - 广告拦截
+- Adblock Plus - 广告拦截
 
-### Dark Reader - 暗黑模式
+- Dark Reader - 暗黑模式
 
-### [沉浸式翻译][]
+- [沉浸式翻译][]
 
-### uBlacklist - 屏蔽内容农场
+- uBlacklist - 屏蔽内容农场
 
-> 可以看一下[内容农场](https://zh.wikipedia.org/zh-hans/%E5%85%A7%E5%AE%B9%E8%BE%B2%E5%A0%B4)的具体含义
+  可以看一下[内容农场](https://zh.wikipedia.org/zh-hans/%E5%85%A7%E5%AE%B9%E8%BE%B2%E5%A0%B4)的具体含义
 
-- 这边有一份 [内容农场网站清单](https://github.com/wdmpa/content-farm-list), 可以通过订阅网站的时候屏蔽农场网站
+  - 这边有一份 [内容农场网站清单](https://github.com/wdmpa/content-farm-list), 可以通过订阅网站的时候屏蔽农场网站
 
-- 同步问题: 插件本身提供同步功能, 通过开启 Google Drive 的方式同步订阅网站
+  - 同步问题: 插件本身提供同步功能, 通过开启 Google Drive 的方式同步订阅网站
 
-### Notion Boost - Notion 的网页端插件
+- Notion Boost - Notion 的网页端插件
 
-Notion 官方不知道为什么迟迟不推出 outline 的功能, 在长文编辑的时候很容易让人困扰
+  Notion 官方不知道为什么迟迟不推出 outline 的功能, 在长文编辑的时候很容易让人困扰
 
-我使用 Notion Boost 的主要目的就是为了 outline 功能
+  我使用 Notion Boost 的主要目的就是为了 outline 功能
 
-### crxMouse Chrome™ 手势
+- crxMouse Chrome™ 手势
 
-在使用鼠标的时候有点用
+  在使用鼠标的时候有点用
 
-### JSON View - Json 解析
+- JSON View - Json 解析
 
-## 油猴脚本
-
-### KeepChatGPT - 优化 ChatGPT 使用体验
-
-### [V2EX Pro+][] - 优化 V2EX 的评论
-
-### [CSDNGreener][] - 屏蔽 CSDN 的广告
+### 油猴脚本
 
 _建议开启同步脚本（设置 - 同步脚本 - 启用 TESLA - 浏览器同步）_
+
+- KeepChatGPT - 优化 ChatGPT 使用体验
+
+- [V2EX Pro+][] - 优化 V2EX 的评论
+
+- [CSDNGreener][] - 屏蔽 CSDN 的广告
 
 ​​<!-- 下面是引用式链接-->
 

@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "40a9a230e229ba94",
+        "id": "fd50a911f4519c8e",
         "type": "tabs",
         "children": [
           {
-            "id": "646315eac126bfe7",
+            "id": "c52fc589d0a2f191",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/01_daliy/03_个人环境备份/README.md",
+                "file": "src/01_daliy/01_文档工具/README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
-          },
-          {
-            "id": "3f4260966d5cf2c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/01_daliy/MacOS Software/README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/01_daliy/MacOS Software/README.md",
+                "file": "src/01_daliy/01_文档工具/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/01_daliy/MacOS Software/README.md"
+                "file": "src/01_daliy/01_文档工具/README.md"
               }
             }
           }
@@ -163,26 +149,28 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "3f4260966d5cf2c7",
+  "active": "c52fc589d0a2f191",
   "lastOpenFiles": [
-    "src/01_daliy/README.md",
+    "src/01_daliy/01_文档工具/221024_个人知识库、博客搭建.md",
     "src/01_daliy/MacOS Software/README.md",
     "src/01_daliy/05_终身学习体系/README.md",
-    "src/01_daliy/221204_FinalCutPro.md",
+    "src/01_daliy/MacOS Software/06_Eudic 增加试用时间.md",
     "src/01_daliy/MacOS Software/01_MacOS 软件.md",
-    "src/01_daliy/MacOS Software/04_uTools 插件.md",
-    "src/01_daliy/MacOS Software/05_Obsidian 插件.md",
-    "src/01_daliy/MacOS Software/02_Chrome 推荐插件以及油猴脚本.md",
-    "src/01_daliy/MacOS Software/03_ja-netfilter 和 JetBrains 的奇妙反应.md",
-    "src/01_daliy/03_个人环境备份/MacOS Software/IDEA 教程.md",
+    "src/blog/230703_.md",
     "src/01_daliy/03_个人环境备份/README.md",
+    "src/01_daliy/MacOS Software/03_ja-netfilter 和 JetBrains 的奇妙反应.md",
+    "src/01_daliy/MacOS Software/05_Obsidian 插件.md",
+    "src/01_daliy/MacOS Software/04_uTools 插件.md",
+    "src/01_daliy/MacOS Software/02_Chrome 推荐插件以及油猴脚本.md",
+    "src/01_daliy/README.md",
+    "src/01_daliy/221204_FinalCutPro.md",
+    "src/01_daliy/03_个人环境备份/MacOS Software/IDEA 教程.md",
     "src/01_daliy/03_个人环境备份/SoftwareInMac.excalidraw.md",
     "src/01_daliy/03_个人环境备份/default_canvas.excalidraw.md",
     "src/01_daliy/MacOS Software",
     "src/01_daliy/03_个人环境备份/MacOS 自用软件/配置文件",
     "src/01_daliy/03_个人环境备份/221201_个人设备推荐.md",
     "src/01_daliy/01_文档工具/230129_Markdown语法.md",
-    "src/01_daliy/01_文档工具/221024_个人知识库、博客搭建.md",
     "src/03_single_page/221203_网站导航.md",
     "src/02_program/名词解释.md",
     "src/01_daliy/教程",
@@ -193,8 +181,6 @@
     "src/00_inbox/未命名.md",
     "README.md",
     "[].md",
-    "src/README.md",
-    "src/02_program/10_cloud_tech/AWS/AWS Lambda 入门.md",
     "src/02_program/10_cloud_tech",
     "未命名 1.canvas",
     "未命名.canvas",

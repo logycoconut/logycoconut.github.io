@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/02_program/10_cloud_tech/README.md",
+                "file": "src/01_daliy/MacOS Software/06_Eudic 增加试用时间.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/02_program/10_cloud_tech/README.md",
+                "file": "src/01_daliy/MacOS Software/06_Eudic 增加试用时间.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/02_program/10_cloud_tech/README.md"
+                "file": "src/01_daliy/MacOS Software/06_Eudic 增加试用时间.md"
               }
             }
           }
@@ -149,12 +149,12 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "be552bffe11b7e5f",
+  "active": "c52fc589d0a2f191",
   "lastOpenFiles": [
+    "src/02_program/10_cloud_tech/README.md",
     "src/02_program/10_cloud_tech/AWS/01_AWS Lambda 入门.md",
     "src/02_program/10_cloud_tech/AWS/Excalidraw/README.md",
     "src/02_program/10_cloud_tech/AWS/README.md",
-    "src/02_program/10_cloud_tech/README.md",
     "src/02_program/10_cloud_tech/AWS/Excalidraw/Drawing 2023-07-03 21.10.47.excalidraw.md",
     "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS 计算服务的演进.excalidraw.md",
     "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS Lambda 编程模型.excalidraw.md",

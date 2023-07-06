@@ -1,6 +1,6 @@
 ---
 title: 基于 vuepress 和 Obsidian 的知识库搭建
-tag: Obsidian
+tag: [Obsidian]
 ---
 
 ```

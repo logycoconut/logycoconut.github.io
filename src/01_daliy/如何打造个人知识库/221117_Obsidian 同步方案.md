@@ -1,6 +1,6 @@
 ---
-title: Obsidian多端同步方案
-tag: Obsidian
+title: Obsidian 多端同步方案
+tag: [Obsidian]
 ---
 
 ```
@@ -15,7 +15,7 @@ tag: Obsidian
 
 ## 实现思路
 
-### 一、 ~~Remotely Save 插件（放弃）~~
+### 一、~~Remotely Save 插件（放弃）~~
 
 很方便的插件，但是不支持过滤指定文件夹功能（ps: 我没找到😢），只适合纯文档型的仓库
 

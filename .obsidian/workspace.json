@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/01_daliy/MacOS Software/06_Eudic 增加试用时间.md",
+                "file": "src/01_daliy/如何打造个人知识库/README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d39664151e10abf6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/01_daliy/如何打造个人知识库/221117_Obsidian 同步方案.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/01_daliy/MacOS Software/06_Eudic 增加试用时间.md",
+                "file": "src/01_daliy/如何打造个人知识库/221117_Obsidian 同步方案.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/01_daliy/MacOS Software/06_Eudic 增加试用时间.md"
+                "file": "src/01_daliy/如何打造个人知识库/221117_Obsidian 同步方案.md"
               }
             }
           }
@@ -140,17 +154,23 @@
   "left-ribbon": {
     "hiddenItems": {
       "canvas:新建白板": false,
-      "dangerzone-writing-plugin:Dangerzone Writing": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "command-palette:打开命令面板": false,
       "templates:插入模板": false,
       "zk-prefixer:创建时间戳笔记": false,
+      "dangerzone-writing-plugin:Dangerzone Writing": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "c52fc589d0a2f191",
+  "active": "d39664151e10abf6",
   "lastOpenFiles": [
+    "src/01_daliy/如何打造个人知识库/230129_Markdown语法.md",
+    "src/01_daliy/如何打造个人知识库/221117_Obsidian 同步方案.md",
+    "src/01_daliy/如何打造个人知识库/221111_基于 vuepress 和 Obsidian 的知识库搭建.md",
+    "src/01_daliy/如何打造个人知识库/221024_个人知识库、博客搭建.md",
+    "src/01_daliy/如何打造个人知识库/README.md",
+    "src/01_daliy/MacOS Software/06_Eudic 增加试用时间.md",
     "src/02_program/10_cloud_tech/README.md",
     "src/02_program/10_cloud_tech/AWS/01_AWS Lambda 入门.md",
     "src/02_program/10_cloud_tech/AWS/Excalidraw/README.md",
@@ -165,19 +185,13 @@
     "Excalidraw",
     "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS 计算服务的演进.md",
     "src/02_program/名词解释.md",
-    "src/01_daliy/01_文档工具/README.md",
-    "src/01_daliy/01_文档工具/221024_个人知识库、博客搭建.md",
     "src/01_daliy/MacOS Software/README.md",
     "src/01_daliy/05_终身学习体系/README.md",
-    "src/01_daliy/MacOS Software/06_Eudic 增加试用时间.md",
     "src/01_daliy/MacOS Software/01_MacOS 软件.md",
     "src/blog/230703_.md",
     "src/01_daliy/03_个人环境备份/README.md",
     "src/01_daliy/MacOS Software/03_ja-netfilter 和 JetBrains 的奇妙反应.md",
     "src/01_daliy/MacOS Software/05_Obsidian 插件.md",
-    "src/01_daliy/MacOS Software/04_uTools 插件.md",
-    "src/01_daliy/MacOS Software/02_Chrome 推荐插件以及油猴脚本.md",
-    "src/01_daliy/README.md",
     "src/01_daliy/MacOS Software",
     "src/01_daliy/03_个人环境备份/MacOS 自用软件/配置文件",
     "src/01_daliy/教程",

@@ -4,16 +4,18 @@ date: 2023-07-02
 tag: [Obsidian]
 ---
 
-- Excalidraw
+- Excalidraw - 手绘风格画图工具
 
-- Obsidian Git
+  另见 `Excalidraw CN` - 中文字体优化版本
 
-- Image auto upload Plugin
+- Obsidian Git - 使用 Git 管理 Obsidian 仓库
 
-- Easy Typing
+- Image auto upload Plugein - 配合 PicGo 可以实现无缝粘贴图片
 
-- Paste URL into selection
+- Easy Typing - 优化中英文输入
 
-- Markdown prettifier
+- Paste URL into selection - 改善超链接
 
-- Advanced Tables
+- Markdown prettifier - 将 Markdown 文件格式化为标准格式
+
+- Advanced Tables - 格式化 Markdown 表格格式

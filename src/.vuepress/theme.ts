@@ -22,8 +22,9 @@ export default hopeTheme({
 
   // 外观配置
   iconAssets: "//at.alicdn.com/t/c/font_3777794_sm1lnswnudj.css",
-  darkmode: "toggle",
+  darkmode: "switch",
   backToTop: true,
+  print: false,
 
   // 自定义排序
   sidebarSorter: ["readme", "order", "filename"],

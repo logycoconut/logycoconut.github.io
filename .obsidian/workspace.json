@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "fd50a911f4519c8e",
+        "id": "26ee90c3840e6cc5",
         "type": "tabs",
         "children": [
           {
-            "id": "c52fc589d0a2f191",
+            "id": "1b98717bccdf9b57",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/01_daliy/如何打造个人知识库/README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d39664151e10abf6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/01_daliy/如何打造个人知识库/221117_Obsidian 同步方案.md",
+                "file": "src/01_daliy/如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/01_daliy/如何打造个人知识库/221117_Obsidian 同步方案.md",
+                "file": "src/01_daliy/如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/01_daliy/如何打造个人知识库/221117_Obsidian 同步方案.md"
+                "file": "src/01_daliy/如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md"
               }
             }
           }
@@ -163,50 +149,56 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "d39664151e10abf6",
+  "active": "1b98717bccdf9b57",
   "lastOpenFiles": [
-    "src/01_daliy/如何打造个人知识库/230129_Markdown语法.md",
-    "src/01_daliy/如何打造个人知识库/221117_Obsidian 同步方案.md",
-    "src/01_daliy/如何打造个人知识库/221111_基于 vuepress 和 Obsidian 的知识库搭建.md",
-    "src/01_daliy/如何打造个人知识库/221024_个人知识库、博客搭建.md",
-    "src/01_daliy/如何打造个人知识库/README.md",
-    "src/01_daliy/MacOS Software/06_Eudic 增加试用时间.md",
-    "src/02_program/10_cloud_tech/README.md",
-    "src/02_program/10_cloud_tech/AWS/01_AWS Lambda 入门.md",
-    "src/02_program/10_cloud_tech/AWS/Excalidraw/README.md",
-    "src/02_program/10_cloud_tech/AWS/README.md",
-    "src/02_program/10_cloud_tech/AWS/Excalidraw/Drawing 2023-07-03 21.10.47.excalidraw.md",
-    "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS 计算服务的演进.excalidraw.md",
-    "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS Lambda 编程模型.excalidraw.md",
-    "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS Lambda 的几大优势.excalidraw.md",
-    "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS Lambda VS AWS EC2.excalidraw.md",
-    "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS Lambda VS AWS EC2. excalidraw.md",
-    "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS Lambda 编程模型.md",
-    "Excalidraw",
-    "src/02_program/10_cloud_tech/AWS/Excalidraw/AWS 计算服务的演进.md",
-    "src/02_program/名词解释.md",
-    "src/01_daliy/MacOS Software/README.md",
-    "src/01_daliy/05_终身学习体系/README.md",
-    "src/01_daliy/MacOS Software/01_MacOS 软件.md",
-    "src/blog/230703_.md",
-    "src/01_daliy/03_个人环境备份/README.md",
-    "src/01_daliy/MacOS Software/03_ja-netfilter 和 JetBrains 的奇妙反应.md",
+    "src/01_daliy/如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
+    "src/01_daliy/如何打造个人知识库/03_Obsidian 同步方案.md",
     "src/01_daliy/MacOS Software/05_Obsidian 插件.md",
-    "src/01_daliy/MacOS Software",
-    "src/01_daliy/03_个人环境备份/MacOS 自用软件/配置文件",
-    "src/01_daliy/教程",
-    "src/01_daliy/03_个人环境备份/default_canvas.excalidraw",
-    "src/02_program/10_cloud_tech",
+    "src/01_daliy/05_终身学习体系/230202_个人信息流.md",
+    "src/01_daliy/如何打造个人知识库/02_VuePress Theme Hope 使用指南.md",
+    "src/01_daliy/如何打造个人知识库/README.md",
+    "src/01_daliy/MacOS Software/01_MacOS 软件.md",
+    "src/01_daliy/如何打造个人知识库/221024_个人知识库、博客搭建.md",
+    "src/01_daliy/如何打造个人知识库/230129_Markdown语法.md",
+    "src/01_daliy/MacOS Software/README.md",
+    "src/01_daliy/MacOS Software/06_Eudic 增加试用时间.md",
+    "node_modules/@babel/helper-create-regexp-features-plugin/node_modules",
+    "node_modules/@babel/helper-create-class-features-plugin/node_modules",
+    "node_modules/yaml/browser/dist/nodes/identity.js",
+    "node_modules/core-js/stable/string/virtual/to-well-formed.js",
+    "node_modules/core-js/stable/string/virtual/is-well-formed.js",
+    "node_modules/core-js/stable/array/virtual/to-spliced.js",
+    "node_modules/core-js/stable/array/virtual/with.js",
+    "node_modules/core-js/stable/array/virtual/to-reversed.js",
+    "node_modules/core-js/stable/array/virtual/to-sorted.js",
+    "node_modules/core-js/features/function/virtual/demethodize.js",
+    "node_modules/which-typed-array/README.md",
+    "node_modules/which-typed-array/CHANGELOG.md",
+    "node_modules/typed-array-length/README.md",
+    "node_modules/typed-array-length/CHANGELOG.md",
+    "node_modules/string.prototype.trim/README.md",
+    "node_modules/string.prototype.trim/CHANGELOG.md",
+    "node_modules/is-typed-array/README.md",
+    "node_modules/is-typed-array/CHANGELOG.md",
+    "node_modules/is-array-buffer/README.md",
+    "node_modules/is-array-buffer/CHANGELOG.md",
+    "node_modules/has-proto/README.md",
+    "node_modules/has-proto/CHANGELOG.md",
+    "node_modules/gopd/README.md",
+    "node_modules/gopd/CHANGELOG.md",
+    "node_modules/globalthis/README.md",
+    "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",
+    "node_modules/vuepress-theme-hope/templates/socialMediaIcons/telegram.svg",
+    "node_modules/vuepress-theme-hope/templates/socialMediaIcons/skype.svg",
+    "node_modules/vuepress-theme-hope/templates/socialMediaIcons/douban.svg",
+    "node_modules/pngjs/coverage/lcov-report/sort-arrow-sprite.png",
+    "node_modules/pngjs/coverage/lcov-report/favicon.png",
     "未命名 1.canvas",
     "未命名.canvas",
     "node_modules/Pasted Image 20230619020653_991.png",
     "node_modules/Pasted Image 20230619020538_851.png",
     "node_modules/Pasted Image 20230619013827_803.png",
     "node_modules/Pasted Image 20230618173545_135.png",
-    "src/02_program/10_cloud_tech/AWS/Excalidraw",
-    "src/02_program/10_cloud_tech/AWS",
-    "src/00_inbox/场景",
-    "src/00_inbox/Redis",
     "src/02_program/00_todo/RocketMQ 刷盘机制流程图.canvas"
   ]
 }

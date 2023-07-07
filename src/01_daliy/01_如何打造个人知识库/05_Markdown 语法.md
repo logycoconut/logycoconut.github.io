@@ -1,7 +1,7 @@
 ---
-title: Markdown语法
-date: 2023-01-29T00:00:00.000Z
-tag: Markdown
+title: Markdown 语法
+date: 2023-01-29
+tag: [Markdown]
 ---
 
 ### 引用式链接
@@ -27,7 +27,7 @@ tag: Markdown
 [链接id](链接地址)
 ```
 
-## 参考链接
+### 参考链接
 
 - [在 Markdown 中使用引用式链接和脚注][]
 

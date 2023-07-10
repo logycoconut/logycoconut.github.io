@@ -19,6 +19,7 @@ tag: [MacOS, 自用推荐]
 | Sublime Text                               | 文本工具                | 记录一些文本、代码碎片时很有用，打开很快                               |
 | iTerm                                      | 终端                  | 需要搭配 OhMyZsh 使用                                    |
 | Postman                                    | API 调试              | 虽然有点卡, 但目前没有找到替代品                                  |
+| Docker                                     | 虚拟机                 |                                                    |
 
 _另外： 「Sequel Pro」的正式版在 Mac 上打开有点问题，可以下载 [测试版本][Sequel Pro 测试版本]。_
 

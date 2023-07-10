@@ -1,7 +1,7 @@
 ---
-title: 好玩的Docker项目
+title: 好玩的 Docker 项目
 date: 2023-01-31
-tag: [Docker, 自用]
+tag: [Docker]
 ---
 
 > 推荐使用 Docker Compose 管理
@@ -29,7 +29,7 @@ services:
 
 阅读3服务器版，填补 iOS 小说阅读空缺
 
-[搭建教程][阅读3.0服务器版搭建]
+搭建教程本站搜索
 
 ### [RSSHub][]（RSS 订阅）
 

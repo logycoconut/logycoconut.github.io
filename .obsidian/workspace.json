@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2f4f801523035fea",
+        "id": "7c6260b6043f79b7",
         "type": "tabs",
         "children": [
           {
-            "id": "337c5ce9a06c5bba",
+            "id": "b8d7904450390854",
             "type": "leaf",
             "state": {
               "type": "diff-view",
               "state": {
-                "file": "src/01_daliy/01_如何打造个人知识库/03_通过 GitHub Actions 完成知识库的发布.md",
+                "file": ".obsidian/workspace.json",
                 "staged": false
               }
             }
@@ -144,8 +144,15 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "337c5ce9a06c5bba",
+  "active": "b8d7904450390854",
   "lastOpenFiles": [
+    "src/01_daliy/03_搞机达人/230130_RSS 订阅管理.md",
+    "src/01_daliy/03_搞机达人/02_URL Scheme 大全.md",
+    "src/01_daliy/03_搞机达人/01_个人设备推荐.md",
+    "src/01_daliy/02_MacOS Software/04_uTools 插件.md",
+    "src/01_daliy/02_MacOS Software/02_Chrome 推荐插件以及油猴脚本.md",
+    "src/01_daliy/02_MacOS Software/01_MacOS 软件.md",
+    "src/01_daliy/02_MacOS Software/07_好玩的 Docker 项目.md",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流.md",
     "src/01_daliy/01_如何打造个人知识库/05_Markdown 语法.md",
@@ -154,10 +161,7 @@
     "src/01_daliy/02_MacOS Software/README.md",
     "src/01_daliy/01_如何打造个人知识库/README.md",
     "src/01_daliy/04_有点东西但是不多/221126_生成独一无二的头像.md",
-    "src/01_daliy/03_个人环境备份/230202_URL Scheme 大全.md",
     "src/01_daliy/02_MacOS Software/03_ja-netfilter 和 JetBrains 的奇妙反应.md",
-    "src/01_daliy/02_MacOS Software/02_Chrome 推荐插件以及油猴脚本.md",
-    "src/01_daliy/02_MacOS Software/01_MacOS 软件.md",
     "src/01_daliy/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md",
     "src/01_daliy/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
     "src/01_daliy/02_MacOS Software/05_Obsidian 插件.md",
@@ -179,9 +183,6 @@
     "node_modules/typed-array-length/CHANGELOG.md",
     "node_modules/string.prototype.trim/README.md",
     "node_modules/string.prototype.trim/CHANGELOG.md",
-    "node_modules/is-typed-array/README.md",
-    "node_modules/is-typed-array/CHANGELOG.md",
-    "node_modules/is-array-buffer/README.md",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",
     "node_modules/vuepress-theme-hope/templates/socialMediaIcons/telegram.svg",
     "node_modules/vuepress-theme-hope/templates/socialMediaIcons/skype.svg",

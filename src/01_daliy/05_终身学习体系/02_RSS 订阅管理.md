@@ -1,9 +1,9 @@
 ---
 title: RSS 订阅管理
-tag: [RSS, 自用]
+tag: [RSS]
 ---
 
-> 备份一下
+> 推荐使用 NetNewsWire 能在 iOS、macOS 中同步 (通过 iCloud)
 
 ## 分类
 

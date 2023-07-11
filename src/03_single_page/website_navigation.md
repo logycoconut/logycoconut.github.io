@@ -43,6 +43,10 @@ title: 网站导航
 
 ### 图片处理
 
+- [Favicon Generator](https://realfavicongenerator.net/)
+
+- [PNG 转 SVG](https://www.aconvert.com/cn/image/png-to-svg/)
+
 - [Emoji to image](https://emoji.aranja.com/) - 获取图片格式的 emoji 表情
 
 ## 💻 开发

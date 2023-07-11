@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "7c6260b6043f79b7",
+        "id": "88166d16871bf55a",
         "type": "tabs",
         "children": [
           {
-            "id": "b8d7904450390854",
+            "id": "ed44f5e1bc0c89ef",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "src/01_daliy/04_有点东西但是不多/230117_美丽废物.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -77,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 388.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -104,6 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/01_daliy/04_有点东西但是不多/230117_美丽废物.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/01_daliy/04_有点东西但是不多/230117_美丽废物.md"
+              }
             }
           }
         ],
@@ -130,7 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5
+    "width": 395.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -144,29 +149,35 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "b8d7904450390854",
+  "active": "be552bffe11b7e5f",
   "lastOpenFiles": [
-    "src/01_daliy/03_搞机达人/230130_RSS 订阅管理.md",
+    "src/01_daliy/04_有点东西但是不多/生成一个网站图标.md",
+    "src/README.md",
+    "[].md",
+    "src/01_daliy/README.md",
+    "src/01_daliy/05_终身学习体系/README.md",
+    "src/01_daliy/05_终身学习体系/如何进行时间管理？.md",
     "src/01_daliy/03_搞机达人/02_URL Scheme 大全.md",
+    "src/01_daliy/04_有点东西但是不多/221126_生成独一无二的头像.md",
     "src/01_daliy/03_搞机达人/01_个人设备推荐.md",
+    "src/01_daliy/05_终身学习体系/230130_RSS 订阅管理.md",
+    "src/01_daliy/04_有点东西但是不多/220820_阅读3.0Web版搭建.md",
+    "src/03_single_page/website_navigation.md",
+    "src/02_program/README.md",
+    "src/01_daliy/03_搞机达人/README.md",
+    "src/01_daliy/02_MacOS Software/01_MacOS 软件.md",
+    "src/01_daliy/05_终身学习体系/230202_个人信息流.md",
     "src/01_daliy/02_MacOS Software/04_uTools 插件.md",
     "src/01_daliy/02_MacOS Software/02_Chrome 推荐插件以及油猴脚本.md",
-    "src/01_daliy/02_MacOS Software/01_MacOS 软件.md",
     "src/01_daliy/02_MacOS Software/07_好玩的 Docker 项目.md",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
-    "src/01_daliy/05_终身学习体系/230202_个人信息流.md",
     "src/01_daliy/01_如何打造个人知识库/05_Markdown 语法.md",
     "src/01_daliy/01_如何打造个人知识库/04_Obsidian 同步方案.md",
     "src/01_daliy/01_如何打造个人知识库/03_通过 GitHub Actions 完成知识库的发布.md",
     "src/01_daliy/02_MacOS Software/README.md",
     "src/01_daliy/01_如何打造个人知识库/README.md",
-    "src/01_daliy/04_有点东西但是不多/221126_生成独一无二的头像.md",
     "src/01_daliy/02_MacOS Software/03_ja-netfilter 和 JetBrains 的奇妙反应.md",
     "src/01_daliy/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md",
-    "src/01_daliy/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
-    "src/01_daliy/02_MacOS Software/05_Obsidian 插件.md",
-    "src/01_daliy/如何打造个人知识库/221024_个人知识库、博客搭建.md",
-    "src/01_daliy/02_MacOS Software/06_Eudic 增加试用时间.md",
     "node_modules/@babel/helper-create-regexp-features-plugin/node_modules",
     "node_modules/@babel/helper-create-class-features-plugin/node_modules",
     "node_modules/yaml/browser/dist/nodes/identity.js",
@@ -177,12 +188,6 @@
     "node_modules/core-js/stable/array/virtual/to-reversed.js",
     "node_modules/core-js/stable/array/virtual/to-sorted.js",
     "node_modules/core-js/features/function/virtual/demethodize.js",
-    "node_modules/which-typed-array/README.md",
-    "node_modules/which-typed-array/CHANGELOG.md",
-    "node_modules/typed-array-length/README.md",
-    "node_modules/typed-array-length/CHANGELOG.md",
-    "node_modules/string.prototype.trim/README.md",
-    "node_modules/string.prototype.trim/CHANGELOG.md",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",
     "node_modules/vuepress-theme-hope/templates/socialMediaIcons/telegram.svg",
     "node_modules/vuepress-theme-hope/templates/socialMediaIcons/skype.svg",

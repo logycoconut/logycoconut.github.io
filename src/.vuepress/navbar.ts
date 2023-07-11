@@ -16,13 +16,6 @@ export const zhNavbar = navbar([
     icon: "ziyuan",
     link: "/02_program/",
   },
-  // {
-  //   text: "另外",
-  //   icon: "gengduo1",
-  //   children: [
-  //     "/03_tools/",
-  //   ],
-  // },
   {
     text: "博客",
     icon: "blog1",
@@ -31,6 +24,6 @@ export const zhNavbar = navbar([
   {
     text: "网站导航",
     icon: "daohang",
-    link: "/03_single_page/221203_网站导航.md",
+    link: "/03_single_page/website_navigation.md",
   },
 ]);

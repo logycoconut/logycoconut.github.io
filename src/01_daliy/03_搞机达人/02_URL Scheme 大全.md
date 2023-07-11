@@ -1,10 +1,10 @@
 ---
 title: URL Scheme 大全
 date: 2023-02-02
-tag: [URLScheme]
+tag: [URL Scheme]
 ---
 
-> 主要用于提醒事项中直接跳转 APP 的需求
+> 主要用于提醒事项、快捷指令等场景中直接跳转 APP 的需求
 
 ## 社交、支付
 

@@ -1,5 +1,4 @@
 ---
-title: 个人环境备份
+title: 👨‍💻 搞机达人
 index: false
-icon: guidang2
 ---

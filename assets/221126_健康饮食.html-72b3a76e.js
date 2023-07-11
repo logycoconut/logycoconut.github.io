@@ -1,1 +1,0 @@
-import{_}from"./plugin-vue_export-helper-c27b6911.js";import{o as e,c as t}from"./app-272f7ca8.js";const c={};function o(r,n){return e(),t("div")}const f=_(c,[["render",o],["__file","221126_健康饮食.html.vue"]]);export{f as default};

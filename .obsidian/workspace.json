@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/01_daliy/05_终身学习体系/01_我的信息流转方案.md",
+                "file": "src/01_daliy/04_有点东西但是不多/230117_美丽废物.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,15 +34,15 @@
             }
           },
           {
-            "id": "35161200ad53b386",
+            "id": "6be42e30a06795da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/01_daliy/05_终身学习体系/README.md",
+                "file": "src/01_daliy/04_有点东西但是不多/ChatGPT 使用指北.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": true
+                "source": false
               }
             }
           }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/01_daliy/05_终身学习体系/README.md",
+                "file": "src/01_daliy/04_有点东西但是不多/ChatGPT 使用指北.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/01_daliy/05_终身学习体系/README.md"
+                "file": "src/01_daliy/04_有点东西但是不多/ChatGPT 使用指北.md"
               }
             }
           }
@@ -176,35 +176,37 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "35161200ad53b386",
+  "active": "6be42e30a06795da",
   "lastOpenFiles": [
+    "src/01_daliy/04_有点东西但是不多/230117_美丽废物.md",
+    "src/01_daliy/04_有点东西但是不多/ChatGPT 使用指北.md",
+    "src/03_single_page/website_navigation.md",
+    "src/01_daliy/06_铁子注意身体/221114_健身计划.md",
+    "src/01_daliy/06_铁子注意身体/220926_囚徒健身笔记.md",
+    "src/01_daliy/07_英语学习/README.md",
+    "src/01_daliy/06_铁子注意身体/README.md",
+    "src/01_daliy/07_英语学习",
+    "src/01_daliy/05_终身学习体系/01_我的信息流转方案.md",
+    "src/00_inbox/GraphQL 入门.md",
+    "src/00_inbox/数据库攻略.md",
+    "src/00_inbox/Redis/分布式锁实现方式以及选型的分析.md",
+    "src/00_inbox/RocketMQ/RocketMQ 刷盘机制流程图.excalidraw.md",
+    "src/01_daliy/05_终身学习体系/README.md",
     "src/01_daliy/05_终身学习体系/如何进行时间管理？.md",
     "src/01_daliy/05_终身学习体系/02_RSS 订阅管理.md",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
-    "src/01_daliy/05_终身学习体系/01_我的信息流转方案.md",
     "src/01_daliy/05_终身学习体系/excalidraw/信息流流转流程图.excalidraw.md",
     "src/01_daliy/05_终身学习体系/excalidraw",
-    "src/01_daliy/05_终身学习体系/README.md",
-    "src/01_daliy/06_铁子注意身体/221114_健身计划.md",
-    "src/01_daliy/06_铁子注意身体/README.md",
     "src/01_daliy/06_铁子注意身体/221126_健康饮食.md",
     "src/01_daliy/README.md",
     "src/01_daliy/04_有点东西但是不多/README.md",
-    "src/01_daliy/04_有点东西但是不多/230117_美丽废物.md",
     "src/01_daliy/03_搞机达人/01_个人设备推荐.md",
     "src/01_daliy/04_有点东西但是不多/01_阅读 3.0 Web 版搭建.md",
-    "src/03_single_page/website_navigation.md",
     "src/01_daliy/03_搞机达人/03_如何生成网站图标.md",
     "src/README.md",
     "[].md",
     "src/01_daliy/03_搞机达人/02_URL Scheme 大全.md",
     "src/01_daliy/04_有点东西但是不多/221126_生成独一无二的头像.md",
-    "src/02_program/README.md",
-    "src/01_daliy/03_搞机达人/README.md",
-    "src/01_daliy/02_MacOS Software/01_MacOS 软件.md",
-    "src/01_daliy/02_MacOS Software/04_uTools 插件.md",
-    "src/01_daliy/02_MacOS Software/02_Chrome 推荐插件以及油猴脚本.md",
-    "src/01_daliy/02_MacOS Software/07_好玩的 Docker 项目.md",
     "node_modules/@babel/helper-create-regexp-features-plugin/node_modules",
     "node_modules/@babel/helper-create-class-features-plugin/node_modules",
     "node_modules/yaml/browser/dist/nodes/identity.js",
@@ -213,7 +215,6 @@
     "node_modules/core-js/stable/array/virtual/to-spliced.js",
     "node_modules/core-js/stable/array/virtual/with.js",
     "node_modules/core-js/stable/array/virtual/to-reversed.js",
-    "node_modules/core-js/stable/array/virtual/to-sorted.js",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",
     "node_modules/vuepress-theme-hope/templates/socialMediaIcons/telegram.svg",
     "node_modules/vuepress-theme-hope/templates/socialMediaIcons/skype.svg",

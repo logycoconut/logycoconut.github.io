@@ -37,12 +37,10 @@
             "id": "6be42e30a06795da",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
                 "file": "src/01_daliy/04_有点东西但是不多/ChatGPT 使用指北.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "staged": false
               }
             }
           }
@@ -133,7 +131,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/01_daliy/04_有点东西但是不多/ChatGPT 使用指北.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,9 +149,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/01_daliy/04_有点东西但是不多/ChatGPT 使用指北.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -178,8 +173,8 @@
   },
   "active": "6be42e30a06795da",
   "lastOpenFiles": [
-    "src/01_daliy/04_有点东西但是不多/230117_美丽废物.md",
     "src/01_daliy/04_有点东西但是不多/ChatGPT 使用指北.md",
+    "src/01_daliy/04_有点东西但是不多/230117_美丽废物.md",
     "src/03_single_page/website_navigation.md",
     "src/01_daliy/06_铁子注意身体/221114_健身计划.md",
     "src/01_daliy/06_铁子注意身体/220926_囚徒健身笔记.md",

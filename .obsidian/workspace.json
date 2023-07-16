@@ -8,44 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ed44f5e1bc0c89ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/03_single_page/website_navigation.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3635799ac9e91f31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/01_daliy/05_终身学习体系/ChatGPT 使用指北.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6be42e30a06795da",
             "type": "leaf",
             "state": {
               "type": "diff-view",
               "state": {
-                "file": "src/01_daliy/04_有点东西但是不多/ChatGPT 使用指北.md",
+                "file": ".obsidian/themes/obsidian-california-coast-theme-2.0.0/screenshots/04.png",
                 "staged": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389.5
+    "width": 361.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -131,7 +104,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/01_daliy/05_终身学习体系/ChatGPT 使用指北.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,9 +122,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/01_daliy/05_终身学习体系/ChatGPT 使用指北.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -174,21 +144,27 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "be552bffe11b7e5f",
+  "active": "3635799ac9e91f31",
   "lastOpenFiles": [
+    "src/00_inbox/日常/高效休息.md",
+    "src/00_inbox/直播/主流直播架构分析，产品设计与技术选型.md",
+    "src/00_inbox/直播/直播架构.excalidraw.md",
+    "src/00_inbox/日常/硅谷王川及其评论区的观点.md",
+    "src/00_inbox/日常",
+    "src/00_inbox/分布式唯一 ID 生成方案.md",
+    "src/00_inbox/GraphQL 入门.md",
+    "src/01_daliy/05_终身学习体系/ChatGPT 使用指北.md",
+    "src/03_single_page/website_navigation.md",
     "src/01_daliy/04_有点东西但是不多/02_美丽废物.md",
     "src/01_daliy/04_有点东西但是不多/README.md",
-    "src/01_daliy/05_终身学习体系/ChatGPT 使用指北.md",
     "src/01_daliy/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md",
     "src/01_daliy/README.md",
     "src/01_daliy/06_铁子注意身体/README.md",
     "src/01_daliy/07_英语学习/README.md",
-    "src/03_single_page/website_navigation.md",
     "src/01_daliy/06_铁子注意身体/221114_健身计划.md",
     "src/01_daliy/06_铁子注意身体/220926_囚徒健身笔记.md",
     "src/01_daliy/07_英语学习",
     "src/01_daliy/05_终身学习体系/01_我的信息流转方案.md",
-    "src/00_inbox/GraphQL 入门.md",
     "src/00_inbox/数据库攻略.md",
     "src/00_inbox/Redis/分布式锁实现方式以及选型的分析.md",
     "src/00_inbox/RocketMQ/RocketMQ 刷盘机制流程图.excalidraw.md",
@@ -200,11 +176,6 @@
     "src/01_daliy/05_终身学习体系/excalidraw",
     "src/01_daliy/06_铁子注意身体/221126_健康饮食.md",
     "src/01_daliy/03_搞机达人/01_个人设备推荐.md",
-    "src/01_daliy/04_有点东西但是不多/01_阅读 3.0 Web 版搭建.md",
-    "src/01_daliy/03_搞机达人/03_如何生成网站图标.md",
-    "src/README.md",
-    "[].md",
-    "src/01_daliy/03_搞机达人/02_URL Scheme 大全.md",
     "node_modules/@babel/helper-create-regexp-features-plugin/node_modules",
     "node_modules/@babel/helper-create-class-features-plugin/node_modules",
     "node_modules/yaml/browser/dist/nodes/identity.js",
@@ -212,7 +183,6 @@
     "node_modules/core-js/stable/string/virtual/is-well-formed.js",
     "node_modules/core-js/stable/array/virtual/to-spliced.js",
     "node_modules/core-js/stable/array/virtual/with.js",
-    "node_modules/core-js/stable/array/virtual/to-reversed.js",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",
     "node_modules/vuepress-theme-hope/templates/socialMediaIcons/telegram.svg",
     "node_modules/vuepress-theme-hope/templates/socialMediaIcons/skype.svg",

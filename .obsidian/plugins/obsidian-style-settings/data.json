@@ -1,4 +1,5 @@
 {
   "minimal-advanced@@styled-scrollbars": true,
-  "minimal-advanced@@cursor": "pointer"
+  "minimal-style@@window-title-off": false,
+  "minimal-advanced@@font-ui-small": 14
 }

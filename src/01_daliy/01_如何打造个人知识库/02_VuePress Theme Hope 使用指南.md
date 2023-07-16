@@ -28,7 +28,11 @@ tag: [VuePress Theme Hope]
 
 - 通过 `slimsearch` 快速搜索
 
-- ~~Algolia Crawler (三方爬虫工具)~~
+- Algolia Crawler (三方爬虫工具)
+
+### 评论插件
+
+- Giscus - 通过一个公开的 Github 仓库的 Discussion 来存储评论
 
 ### 参考链接
 
@@ -37,3 +41,5 @@ tag: [VuePress Theme Hope]
 - [VuePress Theme Hope - Markdown 增强插件](https://vuepress-theme-hope.github.io/v2/md-enhance/zh/guide/)
 
 - [VuePress2 的客户端搜索插件](https://vuepress-theme-hope.github.io/v2/search-pro/zh/)
+
+- [VuePress Theme Hope - 评论与阅读量插件](https://plugin-comment2.vuejs.press/zh/)

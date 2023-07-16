@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/01_daliy/04_有点东西但是不多/230117_美丽废物.md",
+                "file": "src/01_daliy/05_终身学习体系/ChatGPT 使用指北.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -45,7 +45,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "VuePress",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -104,7 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388.5
+    "width": 389.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -131,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/01_daliy/05_终身学习体系/ChatGPT 使用指北.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/01_daliy/05_终身学习体系/ChatGPT 使用指北.md"
+              }
             }
           }
         ],
@@ -171,15 +174,18 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "6be42e30a06795da",
+  "active": "be552bffe11b7e5f",
   "lastOpenFiles": [
-    "src/01_daliy/04_有点东西但是不多/ChatGPT 使用指北.md",
-    "src/01_daliy/04_有点东西但是不多/230117_美丽废物.md",
+    "src/01_daliy/04_有点东西但是不多/02_美丽废物.md",
+    "src/01_daliy/04_有点东西但是不多/README.md",
+    "src/01_daliy/05_终身学习体系/ChatGPT 使用指北.md",
+    "src/01_daliy/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md",
+    "src/01_daliy/README.md",
+    "src/01_daliy/06_铁子注意身体/README.md",
+    "src/01_daliy/07_英语学习/README.md",
     "src/03_single_page/website_navigation.md",
     "src/01_daliy/06_铁子注意身体/221114_健身计划.md",
     "src/01_daliy/06_铁子注意身体/220926_囚徒健身笔记.md",
-    "src/01_daliy/07_英语学习/README.md",
-    "src/01_daliy/06_铁子注意身体/README.md",
     "src/01_daliy/07_英语学习",
     "src/01_daliy/05_终身学习体系/01_我的信息流转方案.md",
     "src/00_inbox/GraphQL 入门.md",
@@ -193,15 +199,12 @@
     "src/01_daliy/05_终身学习体系/excalidraw/信息流流转流程图.excalidraw.md",
     "src/01_daliy/05_终身学习体系/excalidraw",
     "src/01_daliy/06_铁子注意身体/221126_健康饮食.md",
-    "src/01_daliy/README.md",
-    "src/01_daliy/04_有点东西但是不多/README.md",
     "src/01_daliy/03_搞机达人/01_个人设备推荐.md",
     "src/01_daliy/04_有点东西但是不多/01_阅读 3.0 Web 版搭建.md",
     "src/01_daliy/03_搞机达人/03_如何生成网站图标.md",
     "src/README.md",
     "[].md",
     "src/01_daliy/03_搞机达人/02_URL Scheme 大全.md",
-    "src/01_daliy/04_有点东西但是不多/221126_生成独一无二的头像.md",
     "node_modules/@babel/helper-create-regexp-features-plugin/node_modules",
     "node_modules/@babel/helper-create-class-features-plugin/node_modules",
     "node_modules/yaml/browser/dist/nodes/identity.js",

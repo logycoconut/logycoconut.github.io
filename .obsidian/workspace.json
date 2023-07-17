@@ -11,10 +11,12 @@
             "id": "3635799ac9e91f31",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/themes/obsidian-california-coast-theme-2.0.0/screenshots/04.png",
-                "staged": false
+                "file": "src/00_inbox/提问的智慧.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -104,6 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/00_inbox/提问的智慧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/00_inbox/提问的智慧.md"
+              }
             }
           }
         ],
@@ -146,6 +151,9 @@
   },
   "active": "3635799ac9e91f31",
   "lastOpenFiles": [
+    "src/00_inbox/好用的中文字体.md",
+    "src/00_inbox/提问的智慧.md",
+    "src/00_inbox/游泳.md",
     "src/00_inbox/日常/高效休息.md",
     "src/00_inbox/直播/主流直播架构分析，产品设计与技术选型.md",
     "src/00_inbox/直播/直播架构.excalidraw.md",
@@ -172,10 +180,7 @@
     "src/01_daliy/05_终身学习体系/如何进行时间管理？.md",
     "src/01_daliy/05_终身学习体系/02_RSS 订阅管理.md",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
-    "src/01_daliy/05_终身学习体系/excalidraw/信息流流转流程图.excalidraw.md",
     "src/01_daliy/05_终身学习体系/excalidraw",
-    "src/01_daliy/06_铁子注意身体/221126_健康饮食.md",
-    "src/01_daliy/03_搞机达人/01_个人设备推荐.md",
     "node_modules/@babel/helper-create-regexp-features-plugin/node_modules",
     "node_modules/@babel/helper-create-class-features-plugin/node_modules",
     "node_modules/yaml/browser/dist/nodes/identity.js",

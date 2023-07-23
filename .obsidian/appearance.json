@@ -6,8 +6,8 @@
     "obsidian"
   ],
   "translucency": true,
-  "baseFontSize": 18,
+  "baseFontSize": 19,
   "baseFontSizeAction": false,
-  "nativeMenus": true,
+  "nativeMenus": false,
   "textFontFamily": "Monaco"
 }

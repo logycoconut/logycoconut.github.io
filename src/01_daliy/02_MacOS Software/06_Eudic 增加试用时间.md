@@ -1,6 +1,5 @@
 ---
 title: Eudic (欧路词典) 增加试用时间
-date: 2023-07-03
 tag: [Eudic]
 ---
 

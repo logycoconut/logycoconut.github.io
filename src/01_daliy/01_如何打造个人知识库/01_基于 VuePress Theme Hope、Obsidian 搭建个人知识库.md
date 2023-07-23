@@ -23,6 +23,10 @@ tag: [VuePress Theme Hope, Obsidian]
 
 - `Obsidian` - 作为笔记工具记录想法、文档
 
+  - 使用 P.A.R.A 方法管理仓库
+
+    _[The PARA Method: The Simple System for Organizing Your Digital Life in Seconds](https://fortelabs.com/blog/para/)_
+
   - 配合 `Obsidian Git` 插件, 使用 `Git` 做版本控制, 利用 `Github Action` 在每次代码提交的时候部署到 `Github Page` 供公网访问
 
   - 配合 `Image auto upload Plugin` 插件, 直接使用 `Command + V` 的方式完成贴图功能

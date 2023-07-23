@@ -14,5 +14,6 @@
   "useTab": false,
   "defaultViewMode": "source",
   "livePreview": true,
-  "spellcheck": true
+  "spellcheck": true,
+  "focusNewTab": true
 }

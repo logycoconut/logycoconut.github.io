@@ -1,12 +1,11 @@
 ---
 title: 好玩的 Docker 项目
-date: 2023-01-31
 tag: [Docker]
 ---
 
 > 推荐使用 Docker Compose 管理
 
-## 系统
+## 面板
 
 ### [Portainer][]（Docker 容器管理）
 
@@ -34,6 +33,10 @@ services:
 ### [RSSHub][]（RSS 订阅）
 
 RSS 生成器，适配程度很完整
+
+## 参考链接
+
+- [整理全网有趣好玩的 Docker](https://github.com/itgoyo/awesome-docker)
 
 ​​<!-- +++++++++ 下面是引用式链接 +++++++++ -->
 

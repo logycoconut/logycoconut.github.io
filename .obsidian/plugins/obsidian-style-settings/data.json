@@ -1,5 +1,8 @@
 {
   "minimal-advanced@@styled-scrollbars": true,
   "minimal-style@@window-title-off": false,
-  "minimal-advanced@@font-ui-small": 14
+  "minimal-advanced@@font-ui-small": 14,
+  "things-style@@mobile-black-background": false,
+  "things-style@@active-line": true,
+  "things-style@@default-font-color": false
 }

@@ -3,7 +3,7 @@
   "emphasis": "_",
   "rule": "-",
   "createHeaderIfNotPresent": true,
-  "newHeaderTemplate": "\ntitle: to be perfected\nindex: false\ndate: {{date:YYYY-MM-DD HH:mm:ss}}\ntag: []",
+  "newHeaderTemplate": "\ntitle: to be perfected\ntag: []",
   "updateHeader": false,
   "updateHeaderTemplate": "\ndate updated: \"{{date:YYYY-MM-DD HH:mm}}\" \n",
   "listItemIndent": "one",

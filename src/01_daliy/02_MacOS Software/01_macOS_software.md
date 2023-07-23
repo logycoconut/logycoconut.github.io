@@ -23,6 +23,17 @@ tag: [MacOS, 自用推荐]
 
 _另外： 「Sequel Pro」的正式版在 Mac 上打开有点问题，可以下载 [测试版本][Sequel Pro 测试版本]。_
 
+#### Oh My Zsh 插件
+
+```
+plugins=( 
+    git 
+    zsh-autosuggestions
+    zsh-syntax-highlighting 
+    z 
+)
+```
+
 ### 效率工具
 
 | 名称         | 介绍           | 备注                   |
@@ -56,6 +67,7 @@ _另外： 「Sequel Pro」的正式版在 Mac 上打开有点问题，可以下
 ### 参考链接
 
 - [ Mac 使用软件分享，抛砖引玉][]
+
 - [这十多个插件，大幅度改善你的 Obsidian 编辑体验][]
 
 ​​<!-- 下面是引用式链接-->

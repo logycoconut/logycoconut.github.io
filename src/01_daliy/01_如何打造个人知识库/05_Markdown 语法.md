@@ -27,6 +27,21 @@ tag: [Markdown]
 [链接id](链接地址)
 ```
 
+### Mermaid 高阶用法
+
+#### 流程图内换行
+
+使用传统 HTML 语法 `<br>` 即可
+
+```mermaid
+sequenceDiagram
+    participant A
+    participant B
+
+    A->>B: 第一行<br>第二行
+
+```
+
 ### 参考链接
 
 - [在 Markdown 中使用引用式链接和脚注][]

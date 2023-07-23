@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "88166d16871bf55a",
+        "id": "9bdb2448fc279ba7",
         "type": "tabs",
         "children": [
           {
-            "id": "3635799ac9e91f31",
+            "id": "c093554cbb1fa552",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/00_inbox/提问的智慧.md",
+                "file": "src/P.A.R.A/Resource/211018 IO.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "VuePress",
+                "query": "程序",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/00_inbox/提问的智慧.md",
+                "file": "src/P.A.R.A/Resource/211018 IO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/00_inbox/提问的智慧.md"
+                "file": "src/P.A.R.A/Resource/211018 IO.md"
               }
             }
           }
@@ -139,7 +139,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:新建白板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "command-palette:打开命令面板": false,
@@ -149,45 +148,46 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "3635799ac9e91f31",
+  "active": "c093554cbb1fa552",
   "lastOpenFiles": [
-    "src/00_inbox/好用的中文字体.md",
-    "src/00_inbox/提问的智慧.md",
-    "src/00_inbox/游泳.md",
-    "src/00_inbox/日常/高效休息.md",
-    "src/00_inbox/直播/主流直播架构分析，产品设计与技术选型.md",
-    "src/00_inbox/直播/直播架构.excalidraw.md",
-    "src/00_inbox/日常/硅谷王川及其评论区的观点.md",
-    "src/00_inbox/日常",
-    "src/00_inbox/分布式唯一 ID 生成方案.md",
-    "src/00_inbox/GraphQL 入门.md",
-    "src/01_daliy/05_终身学习体系/ChatGPT 使用指北.md",
-    "src/03_single_page/website_navigation.md",
-    "src/01_daliy/04_有点东西但是不多/02_美丽废物.md",
-    "src/01_daliy/04_有点东西但是不多/README.md",
-    "src/01_daliy/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md",
+    "src/P.A.R.A/Area/BetterLife/提问的智慧.md",
+    "src/01_daliy/09_关注大佬的语录/README.md",
+    "src/01_daliy/08_生活技能/README.md",
     "src/01_daliy/README.md",
-    "src/01_daliy/06_铁子注意身体/README.md",
-    "src/01_daliy/07_英语学习/README.md",
+    "src/01_daliy/09_关注大佬的语录/硅谷王川及其评论区的观点.md",
+    "src/01_daliy/09_关注大佬的语录",
+    "src/P.A.R.A/Project/SeniorDevelopment/本地缓存框架 Caffeine.md",
+    "src/01_daliy/09_",
+    "src/01_daliy/06_铁子注意身体/高效休息.md",
     "src/01_daliy/06_铁子注意身体/221114_健身计划.md",
+    "src/01_daliy/07_英语学习/README.md",
+    "src/01_daliy/08_生活技能/学会游泳.md",
+    "src/01_daliy/08_生活技能/01_掌握一门生活技能.md",
+    "src/01_daliy/08_生活技能/未命名.md",
     "src/01_daliy/06_铁子注意身体/220926_囚徒健身笔记.md",
-    "src/01_daliy/07_英语学习",
-    "src/01_daliy/05_终身学习体系/01_我的信息流转方案.md",
-    "src/00_inbox/数据库攻略.md",
-    "src/00_inbox/Redis/分布式锁实现方式以及选型的分析.md",
-    "src/00_inbox/RocketMQ/RocketMQ 刷盘机制流程图.excalidraw.md",
-    "src/01_daliy/05_终身学习体系/README.md",
-    "src/01_daliy/05_终身学习体系/如何进行时间管理？.md",
-    "src/01_daliy/05_终身学习体系/02_RSS 订阅管理.md",
+    "src/01_daliy/06_铁子注意身体/README.md",
+    "src/01_daliy/05_终身学习体系/excalidraw/信息流流转流程图.excalidraw.md",
+    "src/01_daliy/03_搞机达人/01_个人设备推荐.md",
+    "src/01_daliy/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
+    "src/README.md",
+    "template/reference-style link template.md",
+    "src/P.A.R.A/Resource/发送邮件注意事项.md",
+    "src/P.A.R.A/Resource/分布式唯一 ID 生成方案.md",
+    "src/P.A.R.A/Resource/数据库攻略.md",
+    "src/P.A.R.A/Resource/GraphQL 入门.md",
+    "[].md",
+    "src/02_program/README.md",
+    "src/P.A.R.A/Project/学会游泳",
+    "src/02_program/名词解释.md",
+    "src/02_program/场景题/01_电商",
+    "src/P.A.R.A/Project/SeniorDevelopment",
+    "src/P.A.R.A/Area/BetterLife",
+    "src/P.A.R.A/Archive",
+    "src/P.A.R.A/Resource",
+    "src/P.A.R.A/Area",
+    "src/P.A.R.A/Project",
+    "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
-    "src/01_daliy/05_终身学习体系/excalidraw",
-    "node_modules/@babel/helper-create-regexp-features-plugin/node_modules",
-    "node_modules/@babel/helper-create-class-features-plugin/node_modules",
-    "node_modules/yaml/browser/dist/nodes/identity.js",
-    "node_modules/core-js/stable/string/virtual/to-well-formed.js",
-    "node_modules/core-js/stable/string/virtual/is-well-formed.js",
-    "node_modules/core-js/stable/array/virtual/to-spliced.js",
-    "node_modules/core-js/stable/array/virtual/with.js",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",
     "node_modules/vuepress-theme-hope/templates/socialMediaIcons/telegram.svg",
     "node_modules/vuepress-theme-hope/templates/socialMediaIcons/skype.svg",
@@ -195,7 +195,6 @@
     "node_modules/pngjs/coverage/lcov-report/sort-arrow-sprite.png",
     "node_modules/pngjs/coverage/lcov-report/favicon.png",
     "未命名 1.canvas",
-    "未命名.canvas",
     "node_modules/Pasted Image 20230619020653_991.png",
     "node_modules/Pasted Image 20230619020538_851.png",
     "node_modules/Pasted Image 20230619013827_803.png",

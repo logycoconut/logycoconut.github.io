@@ -1,6 +1,5 @@
 ---
 title: Obsidian 插件
-date: 2023-07-02
 tag: [Obsidian]
 ---
 
@@ -17,5 +16,14 @@ tag: [Obsidian]
 - Paste URL into selection - 改善超链接
 
 - Markdown prettifier - 将 Markdown 文件格式化为标准格式
+
+比如说可以初始化一个 markdown header
+
+```
+title: to be perfected
+index: false
+date: {{date:YYYY-MM-DD HH:mm:ss}}
+tag: []
+```
 
 - Advanced Tables - 格式化 Markdown 表格格式

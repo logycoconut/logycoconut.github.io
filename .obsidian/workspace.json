@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/P.A.R.A/Resource/211018 IO.md",
+                "file": "src/02_program/README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "程序",
+                "query": "学习网站",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -74,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -106,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/P.A.R.A/Resource/211018 IO.md",
+                "file": "src/02_program/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/P.A.R.A/Resource/211018 IO.md"
+                "file": "src/02_program/README.md"
               }
             }
           }
@@ -150,6 +149,11 @@
   },
   "active": "c093554cbb1fa552",
   "lastOpenFiles": [
+    "src/02_program/工作中遇过的问题/邮件/发送邮件注意事项.md",
+    "src/02_program/名词解释.md",
+    "src/02_program/工作中遇过的问题/邮件",
+    "src/02_program/工作中遇过的问题",
+    "src/P.A.R.A/Resource/211018 IO.md",
     "src/P.A.R.A/Area/BetterLife/提问的智慧.md",
     "src/01_daliy/09_关注大佬的语录/README.md",
     "src/01_daliy/08_生活技能/README.md",
@@ -171,21 +175,16 @@
     "src/01_daliy/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
     "src/README.md",
     "template/reference-style link template.md",
-    "src/P.A.R.A/Resource/发送邮件注意事项.md",
     "src/P.A.R.A/Resource/分布式唯一 ID 生成方案.md",
     "src/P.A.R.A/Resource/数据库攻略.md",
     "src/P.A.R.A/Resource/GraphQL 入门.md",
     "[].md",
-    "src/02_program/README.md",
     "src/P.A.R.A/Project/学会游泳",
-    "src/02_program/名词解释.md",
     "src/02_program/场景题/01_电商",
     "src/P.A.R.A/Project/SeniorDevelopment",
     "src/P.A.R.A/Area/BetterLife",
     "src/P.A.R.A/Archive",
     "src/P.A.R.A/Resource",
-    "src/P.A.R.A/Area",
-    "src/P.A.R.A/Project",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

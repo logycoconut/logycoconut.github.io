@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9bdb2448fc279ba7",
+        "id": "a085dbb72e9e2951",
         "type": "tabs",
         "children": [
           {
-            "id": "c093554cbb1fa552",
+            "id": "a13b88594d2b2444",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/02_program/README.md",
+                "file": "src/README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "学习网站",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -74,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -105,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/02_program/README.md",
+                "file": "src/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/02_program/README.md"
+                "file": "src/README.md"
               }
             }
           }
@@ -147,44 +148,44 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "c093554cbb1fa552",
+  "active": "be552bffe11b7e5f",
   "lastOpenFiles": [
+    "src/01_daliy/06_生活技能/05_车车.md",
+    "src/P.A.R.A/Area/BetterLife/提问的智慧.md",
+    "MySQL Explain 字段说明 c1ebd68410ab4cefb4d38544e0b5e697/Untitled 1.png.md",
+    "src/01_daliy/06_生活技能/04_硅谷王川及其评论区的观点.md",
+    "src/01_daliy/06_生活技能/03_程序员如何优雅的挣零花钱？.md",
+    "src/01_daliy/06_生活技能/02_学会游泳.md",
+    "src/01_daliy/06_生活技能/01_掌握一门生活技能.md",
+    "src/01_daliy/06_生活技能/概念扫盲.md",
+    "src/01_daliy/03_搞机达人/04_收藏癖的美丽废物.md",
+    "src/01_daliy/07_英语学习/README.md",
+    "src/01_daliy/04_有点东西但是不多/README.md",
+    "src/01_daliy/03_搞机达人/03_阅读 3.0 Web 版搭建.md",
+    "src/01_daliy/03_搞机达人/01_个人设备推荐.md",
+    "src/02_program/03_database/01_mysql/03_MySQL 中的 distinct 和 group by 哪个效率更高.md",
+    "src/02_program/03_database/01_mysql/02_MySQL Explain 字段说明.md",
+    "MySQL Explain 字段说明 c1ebd68410ab4cefb4d38544e0b5e697",
+    "src/02_program/03_database/01_mysql/01_基础概念.md",
+    "src/01_daliy/10_money_things/README.md",
+    "src/01_daliy/09_关注大佬的语录/README.md",
+    "src/02_program/README.md",
+    "src/01_daliy/10_money_things",
     "src/02_program/工作中遇过的问题/邮件/发送邮件注意事项.md",
     "src/02_program/名词解释.md",
     "src/02_program/工作中遇过的问题/邮件",
     "src/02_program/工作中遇过的问题",
     "src/P.A.R.A/Resource/211018 IO.md",
-    "src/P.A.R.A/Area/BetterLife/提问的智慧.md",
-    "src/01_daliy/09_关注大佬的语录/README.md",
-    "src/01_daliy/08_生活技能/README.md",
+    "src/01_daliy/06_生活技能/README.md",
     "src/01_daliy/README.md",
-    "src/01_daliy/09_关注大佬的语录/硅谷王川及其评论区的观点.md",
     "src/01_daliy/09_关注大佬的语录",
     "src/P.A.R.A/Project/SeniorDevelopment/本地缓存框架 Caffeine.md",
     "src/01_daliy/09_",
-    "src/01_daliy/06_铁子注意身体/高效休息.md",
-    "src/01_daliy/06_铁子注意身体/221114_健身计划.md",
-    "src/01_daliy/07_英语学习/README.md",
-    "src/01_daliy/08_生活技能/学会游泳.md",
-    "src/01_daliy/08_生活技能/01_掌握一门生活技能.md",
-    "src/01_daliy/08_生活技能/未命名.md",
-    "src/01_daliy/06_铁子注意身体/220926_囚徒健身笔记.md",
-    "src/01_daliy/06_铁子注意身体/README.md",
-    "src/01_daliy/05_终身学习体系/excalidraw/信息流流转流程图.excalidraw.md",
-    "src/01_daliy/03_搞机达人/01_个人设备推荐.md",
-    "src/01_daliy/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
-    "src/README.md",
-    "template/reference-style link template.md",
-    "src/P.A.R.A/Resource/分布式唯一 ID 生成方案.md",
-    "src/P.A.R.A/Resource/数据库攻略.md",
-    "src/P.A.R.A/Resource/GraphQL 入门.md",
-    "[].md",
+    "src/01_daliy/05_铁子注意身体/高效休息.md",
     "src/P.A.R.A/Project/学会游泳",
     "src/02_program/场景题/01_电商",
     "src/P.A.R.A/Project/SeniorDevelopment",
     "src/P.A.R.A/Area/BetterLife",
-    "src/P.A.R.A/Archive",
-    "src/P.A.R.A/Resource",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

@@ -11,10 +11,12 @@
             "id": "a13b88594d2b2444",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "src/README.md",
-                "staged": false
+                "file": "src/01_daliy/05_铁子注意身体/221114_健身计划.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -104,6 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/01_daliy/05_铁子注意身体/221114_健身计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/01_daliy/05_铁子注意身体/221114_健身计划.md"
+              }
             }
           }
         ],
@@ -145,6 +150,8 @@
   },
   "active": "a13b88594d2b2444",
   "lastOpenFiles": [
+    "src/01_daliy/05_铁子注意身体/README.md",
+    "src/01_daliy/05_铁子注意身体/高效休息.md",
     "src/01_daliy/06_生活技能/05_车车.md",
     "src/01_daliy/06_生活技能/如何学习英语.md",
     "src/01_daliy/06_生活技能/01_掌握一门生活技能.md",
@@ -173,8 +180,6 @@
     "src/02_program/工作中遇过的问题/邮件",
     "src/02_program/工作中遇过的问题",
     "src/P.A.R.A/Resource/211018 IO.md",
-    "src/01_daliy/06_生活技能/README.md",
-    "src/01_daliy/README.md",
     "src/01_daliy/09_关注大佬的语录",
     "src/01_daliy/09_",
     "src/P.A.R.A/Project/学会游泳",

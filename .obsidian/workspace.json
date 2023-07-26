@@ -11,12 +11,10 @@
             "id": "a13b88594d2b2444",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
                 "file": "src/README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "staged": false
               }
             }
           }
@@ -39,7 +37,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:生活技能",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 375.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -106,7 +104,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +122,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/README.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -148,15 +143,17 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "be552bffe11b7e5f",
+  "active": "a13b88594d2b2444",
   "lastOpenFiles": [
     "src/01_daliy/06_生活技能/05_车车.md",
+    "src/01_daliy/06_生活技能/如何学习英语.md",
+    "src/01_daliy/06_生活技能/01_掌握一门生活技能.md",
+    "src/01_daliy/06_生活技能/02_学会游泳.md",
+    "src/README.md",
     "src/P.A.R.A/Area/BetterLife/提问的智慧.md",
     "MySQL Explain 字段说明 c1ebd68410ab4cefb4d38544e0b5e697/Untitled 1.png.md",
     "src/01_daliy/06_生活技能/04_硅谷王川及其评论区的观点.md",
     "src/01_daliy/06_生活技能/03_程序员如何优雅的挣零花钱？.md",
-    "src/01_daliy/06_生活技能/02_学会游泳.md",
-    "src/01_daliy/06_生活技能/01_掌握一门生活技能.md",
     "src/01_daliy/06_生活技能/概念扫盲.md",
     "src/01_daliy/03_搞机达人/04_收藏癖的美丽废物.md",
     "src/01_daliy/07_英语学习/README.md",
@@ -179,9 +176,7 @@
     "src/01_daliy/06_生活技能/README.md",
     "src/01_daliy/README.md",
     "src/01_daliy/09_关注大佬的语录",
-    "src/P.A.R.A/Project/SeniorDevelopment/本地缓存框架 Caffeine.md",
     "src/01_daliy/09_",
-    "src/01_daliy/05_铁子注意身体/高效休息.md",
     "src/P.A.R.A/Project/学会游泳",
     "src/02_program/场景题/01_电商",
     "src/P.A.R.A/Project/SeniorDevelopment",

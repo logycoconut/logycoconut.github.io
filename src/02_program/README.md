@@ -134,7 +134,7 @@ flowchart LR
 
 - [极客时间程序员精进之路][]
 
-- [面试造火箭 - Java 3 y][]
+- [面试造火箭 - Java3y][]
 
   <https://mp.weixin.qq.com/s/oKbqNmZ88rAPLjrYoEfnEA>
 

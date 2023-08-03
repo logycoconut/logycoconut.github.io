@@ -26,6 +26,12 @@ title: 网站导航
 
 ## 🔧 工具
 
+### AI
+
+- [ChatGPT](https://chat.openai.com/auth/login)
+
+- [Claude 2](https://claude.ai)
+
 ### 创意
 
 - [Notion 模版](https://www.notioneverything.com/categories/startup?price=Free+template)
@@ -60,6 +66,10 @@ title: 网站导航
 ### 文档
 
 - [Quick Reference](https://quickref.cn) - 开发文档速查表
+
+### 流程图
+
+- [Mermaid Live Editor](https://mermaid.live/)
 
 ### 独立开发者工具
 

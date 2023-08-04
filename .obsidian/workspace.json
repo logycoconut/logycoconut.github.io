@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a085dbb72e9e2951",
+        "id": "6bb237446fa0c50f",
         "type": "tabs",
         "children": [
           {
-            "id": "a13b88594d2b2444",
+            "id": "664be68417dde7dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:生活技能",
+                "query": "订阅",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5
+    "width": 379.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -139,22 +139,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "command-palette:打开命令面板": false,
-      "templates:插入模板": false,
-      "zk-prefixer:创建时间戳笔记": false,
-      "dangerzone-writing-plugin:Dangerzone Writing": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "dangerzone-writing-plugin:Dangerzone Writing": false
     }
   },
-  "active": "a13b88594d2b2444",
+  "active": "664be68417dde7dd",
   "lastOpenFiles": [
-    "src/03_single_page/website_navigation.md",
-    "src/02_program/工作中遇过的问题/微信小程序/发送订阅消息.md",
-    "src/02_program/工作中遇过的问题/微信小程序",
     "src/02_program/README.md",
-    "src/02_program/名词解释.md",
+    "src/02_program/工作中遇过的问题/微信小程序/发送订阅消息.md",
+    "src/03_single_page/website_navigation.md",
+    "src/02_program/工作中遇过的问题/微信小程序",
+    "src/02_program/工作中遇过的问题/名词解释.md",
     "src/P.A.R.A/Resource/GraphQL 入门.md",
     "src/P.A.R.A/Project/SeniorDevelopment/Redis/分布式锁实现方式以及选型的分析.md",
     "src/P.A.R.A/Project/SeniorDevelopment/Redis/Redis 的持久化策略.md",

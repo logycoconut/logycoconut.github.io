@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/02_program/04_framework/Spring/AOP 面向切面 @Aspect 注解.md",
+                "file": "src/01_daliy/02_MacOS Software/01_macOS_software.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "言论",
+                "query": "软件",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/02_program/04_framework/Spring/AOP 面向切面 @Aspect 注解.md",
+                "file": "src/01_daliy/02_MacOS Software/01_macOS_software.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/02_program/04_framework/Spring/AOP 面向切面 @Aspect 注解.md"
+                "file": "src/01_daliy/02_MacOS Software/01_macOS_software.md"
               }
             }
           },
@@ -139,19 +139,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "zk-prefixer:Create new unique note": false,
-      "dangerzone-writing-plugin:Dangerzone Writing": false
+      "dangerzone-writing-plugin:Dangerzone Writing": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "664be68417dde7dd",
+  "active": "49813a896445e999",
   "lastOpenFiles": [
-    "src/01_daliy/05_铁子注意身体/让人流口水的身材.md",
+    "src/01_daliy/08_不知道怎么分类",
     "src/02_program/04_framework/Spring/AOP 面向切面 @Aspect 注解.md",
+    "src/01_daliy/05_铁子注意身体/让人流口水的身材.md",
     "src/02_program/04_framework/Spring/README.md",
     "src/01_daliy/07_言论/README.md",
     "src/01_daliy/07_言论/值得反复看的 Video.md",
@@ -178,7 +179,6 @@
     "src/01_daliy/06_生活技能/01_掌握一门生活技能.md",
     "src/01_daliy/06_生活技能/如何学习英语.md",
     "src/01_daliy/07_言论/Effective Engineer.md",
-    "src/01_daliy/07_言论/硅谷王川及其评论区的观点.md",
     "src/01_daliy/07_言论",
     "MySQL Explain 字段说明 c1ebd68410ab4cefb4d38544e0b5e697",
     "src/01_daliy/10_money_things",

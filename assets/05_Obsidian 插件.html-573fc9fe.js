@@ -1,5 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o as i,c as a,f as l}from"./app-1e7bfc48.js";const n={},d=l(`<ul><li><p>Excalidraw - 手绘风格画图工具</p><p>另见 <code>Excalidraw CN</code> - 中文字体优化版本</p></li><li><p>Obsidian Git - 使用 Git 管理 Obsidian 仓库</p></li><li><p>Image auto upload Plugein - 配合 PicGo 可以实现无缝粘贴图片</p></li><li><p>Easy Typing - 优化中英文输入</p></li><li><p>Paste URL into selection - 改善超链接</p></li><li><p>Markdown prettifier - 将 Markdown 文件格式化为标准格式</p></li></ul><p>比如说可以初始化一个 markdown header</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>title: to be perfected
-index: false
-date: {{date:YYYY-MM-DD HH:mm:ss}}
-tag: []
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul><li>Advanced Tables - 格式化 Markdown 表格格式</li></ul>`,4),t=[d];function s(c,r){return i(),a("div",null,t)}const _=e(n,[["render",s],["__file","05_Obsidian 插件.html.vue"]]);export{_ as default};

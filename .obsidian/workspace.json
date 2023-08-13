@@ -11,8 +11,11 @@
             "id": "318740470fa50ba4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "diff-view",
+              "state": {
+                "file": "src/01_daliy/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md",
+                "staged": false
+              }
             }
           }
         ]
@@ -34,7 +37,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "软件",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -57,7 +60,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "custom"
               }
             }
           },
@@ -133,15 +136,39 @@
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "templates:Insert template": false,
       "zk-prefixer:Create new unique note": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "dangerzone-writing-plugin:Dangerzone Writing": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "excalidraw-cn:Create New Excalidraw File": false,
+      "obsidian42-brat:BRAT": false
     }
   },
   "active": "318740470fa50ba4",
   "lastOpenFiles": [
+    "src/01_daliy/02_MacOS Software/05_Obsidian 插件.md",
+    "src/01_daliy/01_如何打造个人知识库/README.md",
+    "src/01_daliy/01_如何打造个人知识库/05_Markdown 语法.md",
+    "src/01_daliy/01_如何打造个人知识库/04_Obsidian 同步方案.md",
+    "src/01_daliy/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
+    "README.md",
+    "src/02_program/01_java/01_基础/01_常见问题.md",
+    "excalidraw 23-08-13 06.05.39.ex",
+    "Excalidraw/Drawing 2023-08-13 18.05.32.excalidraw.md",
+    "Excalidraw",
+    "src/02_program/01_java/01_基础/02_Java 8 新特性.md",
+    "src/README.md",
+    "src/01_daliy/04_终身学习体系/ChatGPT 使用指北.md",
+    "src/01_daliy/04_终身学习体系/README.md",
+    "src/01_daliy/07_言论/README.md",
+    "excalidraw 23-08-13 05.33.16.ex",
+    "src/01_daliy/07_言论/硅谷王川及其评论区的观点.md",
+    "src/01_daliy/07_言论/值得反复看的 Video.md",
+    "src/01_daliy/07_言论/01_提问的智慧.md",
+    "src/03_single_page/website_navigation.md",
+    "src/01_daliy/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md",
+    "src/01_daliy/08_不知道怎么分类/零食购买清单.md",
     "src/01_daliy/05_铁子注意身体/高效休息.md",
     "src/01_daliy/05_铁子注意身体/README.md",
     "src/01_daliy/05_铁子注意身体/221114_健身计划.md",
@@ -149,35 +176,13 @@
     "src/01_daliy/04_终身学习体系/04_如何进行时间管理？.md",
     "src/01_daliy/04_终身学习体系/excalidraw/信息流流转流程图.excalidraw.md",
     "src/01_daliy/04_终身学习体系/01_我的信息流转方案.md",
-    "src/01_daliy/04_终身学习体系/02_RSS 订阅管理.md",
-    "src/01_daliy/04_终身学习体系/03_拖延症大王.md",
-    "src/01_daliy/06_生活技能/01_掌握一门生活技能.md",
-    "src/01_daliy/08_不知道怎么分类/README.md",
-    "src/01_daliy/08_不知道怎么分类/零食购买清单.md",
-    "src/01_daliy/02_MacOS Software/01_macOS_software.md",
     "src/01_daliy/08_不知道怎么分类",
-    "src/02_program/04_framework/Spring/AOP 面向切面 @Aspect 注解.md",
-    "src/02_program/04_framework/Spring/README.md",
-    "src/01_daliy/07_言论/README.md",
-    "src/01_daliy/07_言论/值得反复看的 Video.md",
-    "src/02_program/工作中遇过的问题/二维码/Untitled.md",
     "src/02_program/工作中遇过的问题/二维码",
-    "src/02_program/01_java/04_并发/01_常见问题.md",
-    "src/01_daliy/06_生活技能/05_车车.md",
-    "src/02_program/工作中遇过的问题/微信小程序/发送订阅消息.md",
-    "src/02_program/README.md",
-    "src/03_single_page/website_navigation.md",
     "src/02_program/工作中遇过的问题/微信小程序",
-    "src/02_program/工作中遇过的问题/名词解释.md",
-    "src/P.A.R.A/Resource/GraphQL 入门.md",
-    "src/P.A.R.A/Project/SeniorDevelopment/Redis/分布式锁实现方式以及选型的分析.md",
     "src/02_program/04_framework/MybatisPlus",
     "src/01_daliy/07_言论",
     "MySQL Explain 字段说明 c1ebd68410ab4cefb4d38544e0b5e697",
     "src/01_daliy/10_money_things",
-    "src/02_program/工作中遇过的问题/邮件",
-    "src/02_program/工作中遇过的问题",
-    "src/01_daliy/09_关注大佬的语录",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

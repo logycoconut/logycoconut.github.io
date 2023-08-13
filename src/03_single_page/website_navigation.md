@@ -89,6 +89,13 @@ title: 网站导航
 
 - [麦克搜](https://www.imacso.com)
 
+### 电子书
+
+- Z-Library
+
+  Z-Library 的域名容易被封
+  所以需要在 Chrome 应用商店安装官方插件 [Z-Library Finder](https://chrome.google.com/webstore/detail/z-library-finder/eebjmekegoofamhbnjoboeifabhbbddn/related?utm_source=ext_sidebar&hl=en-US)
+
 ### 装机资源
 
 - [i tell you](https://next.itellyou.cn) - 装机，脱胎于 MSDN

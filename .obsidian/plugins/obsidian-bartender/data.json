@@ -1,0 +1,18 @@
+{
+  "statusBarOrder": [],
+  "ribbonBarOrder": [],
+  "fileExplorerOrder": {
+    "src/01_daliy/01_如何打造个人知识库": [
+      "src/01_daliy/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
+      "src/01_daliy/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md",
+      "src/01_daliy/01_如何打造个人知识库/03_通过 GitHub Actions 完成知识库的发布.md",
+      "src/01_daliy/01_如何打造个人知识库/04_Obsidian 同步方案.md",
+      "src/01_daliy/01_如何打造个人知识库/05_Markdown 语法.md",
+      "src/01_daliy/01_如何打造个人知识库/README.md"
+    ]
+  },
+  "actionBarOrder": {},
+  "autoHide": true,
+  "autoHideDelay": 2000,
+  "dragDelay": 200
+}

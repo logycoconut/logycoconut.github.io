@@ -27,3 +27,7 @@ tag: []
 ```
 
 - Advanced Tables - 格式化 Markdown 表格格式
+
+- BRAT - 用于安装还未上架到应用商店的插件
+
+  通过输入 Git 仓库就直接安装插件

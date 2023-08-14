@@ -11,12 +11,10 @@
             "id": "318740470fa50ba4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "src/01_daliy/06_生活技能/01_掌握一门生活技能.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": ".obsidian/themes/Things/manifest.json",
+                "staged": false
               }
             }
           }
@@ -106,7 +104,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/01_daliy/06_生活技能/01_掌握一门生活技能.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -117,9 +114,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/01_daliy/06_生活技能/01_掌握一门生活技能.md"
-              }
+              "state": {}
             }
           },
           {
@@ -152,6 +147,7 @@
   },
   "active": "318740470fa50ba4",
   "lastOpenFiles": [
+    "src/01_daliy/06_生活技能/01_掌握一门生活技能.md",
     "src/01_daliy/08_不知道怎么分类/README.md",
     "src/01_daliy/08_不知道怎么分类/零食购买清单.md",
     "src/01_daliy/02_MacOS Software/05_Obsidian 插件.md",
@@ -180,7 +176,6 @@
     "src/01_daliy/05_铁子注意身体/221114_健身计划.md",
     "src/01_daliy/05_铁子注意身体/让人流口水的身材.md",
     "src/01_daliy/04_终身学习体系/04_如何进行时间管理？.md",
-    "src/01_daliy/04_终身学习体系/excalidraw/信息流流转流程图.excalidraw.md",
     "src/01_daliy/08_不知道怎么分类",
     "src/02_program/工作中遇过的问题/二维码",
     "src/02_program/工作中遇过的问题/微信小程序",

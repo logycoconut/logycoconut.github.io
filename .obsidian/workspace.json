@@ -11,10 +11,12 @@
             "id": "318740470fa50ba4",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "src/01_daliy/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md",
-                "staged": false
+                "file": "src/01_daliy/06_生活技能/01_掌握一门生活技能.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -37,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Obsidian",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -104,6 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/01_daliy/06_生活技能/01_掌握一门生活技能.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -114,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/01_daliy/06_生活技能/01_掌握一门生活技能.md"
+              }
             }
           },
           {
@@ -147,6 +152,8 @@
   },
   "active": "318740470fa50ba4",
   "lastOpenFiles": [
+    "src/01_daliy/08_不知道怎么分类/README.md",
+    "src/01_daliy/08_不知道怎么分类/零食购买清单.md",
     "src/01_daliy/02_MacOS Software/05_Obsidian 插件.md",
     "src/01_daliy/01_如何打造个人知识库/README.md",
     "src/01_daliy/01_如何打造个人知识库/05_Markdown 语法.md",
@@ -168,14 +175,12 @@
     "src/01_daliy/07_言论/01_提问的智慧.md",
     "src/03_single_page/website_navigation.md",
     "src/01_daliy/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md",
-    "src/01_daliy/08_不知道怎么分类/零食购买清单.md",
     "src/01_daliy/05_铁子注意身体/高效休息.md",
     "src/01_daliy/05_铁子注意身体/README.md",
     "src/01_daliy/05_铁子注意身体/221114_健身计划.md",
     "src/01_daliy/05_铁子注意身体/让人流口水的身材.md",
     "src/01_daliy/04_终身学习体系/04_如何进行时间管理？.md",
     "src/01_daliy/04_终身学习体系/excalidraw/信息流流转流程图.excalidraw.md",
-    "src/01_daliy/04_终身学习体系/01_我的信息流转方案.md",
     "src/01_daliy/08_不知道怎么分类",
     "src/02_program/工作中遇过的问题/二维码",
     "src/02_program/工作中遇过的问题/微信小程序",

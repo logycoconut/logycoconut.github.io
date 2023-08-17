@@ -2,10 +2,10 @@ import { sidebar } from "vuepress-theme-hope";
 
 export const zhSidebar = sidebar({
 
-    "/01_daliy/": "structure",
+    "/daliy/": "structure",
 
-    "/02_program/": "structure",
+    "/program/": "structure",
 
-    "/03_tools/": "structure",
+    "/tools/": "structure",
 
 });

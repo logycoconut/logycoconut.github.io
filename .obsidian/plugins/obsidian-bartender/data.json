@@ -13,6 +13,34 @@
     "src/01_daliy/08_不知道怎么分类": [
       "src/01_daliy/08_不知道怎么分类/零食购买清单.md",
       "src/01_daliy/08_不知道怎么分类/README.md"
+    ],
+    "src/01_daliy/07_言论": [
+      "src/01_daliy/07_言论/README.md",
+      "src/01_daliy/07_言论/01_提问的智慧.md",
+      "src/01_daliy/07_言论/Effective Engineer.md",
+      "src/01_daliy/07_言论/值得反复看的 Video.md",
+      "src/01_daliy/07_言论/硅谷王川及其评论区的观点.md"
+    ],
+    "src/👨‍💻 Code": [
+      "src/👨‍💻 Code/README.md",
+      "src/👨‍💻 Code/01_java",
+      "src/👨‍💻 Code/02_base",
+      "src/👨‍💻 Code/03_database",
+      "src/👨‍💻 Code/04_framework",
+      "src/👨‍💻 Code/05_system_design",
+      "src/👨‍💻 Code/06_distribution",
+      "src/👨‍💻 Code/09_tools",
+      "src/👨‍💻 Code/10_cloud_tech",
+      "src/👨‍💻 Code/场景题",
+      "src/👨‍💻 Code/工作中遇过的问题"
+    ],
+    "src": [
+      "src/README.md",
+      "src/daliy",
+      "src/code",
+      "src/single_page",
+      "src/blog",
+      "src/P.A.R.A"
     ]
   },
   "actionBarOrder": {},

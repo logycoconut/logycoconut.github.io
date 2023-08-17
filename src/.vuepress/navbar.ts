@@ -9,12 +9,12 @@ export const zhNavbar = navbar([
   {
     text: "生活",
     icon: "shenghuo",
-    link: "/01_daliy/",
+    link: "/daliy/",
   },
   {
     text: "代码人生",
     icon: "ziyuan",
-    link: "/02_program/",
+    link: "/code/",
   },
   {
     text: "博客",
@@ -24,6 +24,6 @@ export const zhNavbar = navbar([
   {
     text: "网站导航",
     icon: "daohang",
-    link: "/03_single_page/website_navigation.md",
+    link: "/single_page/website_navigation.md",
   },
 ]);

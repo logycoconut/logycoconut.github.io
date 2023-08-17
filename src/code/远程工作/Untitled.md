@@ -1,0 +1,10 @@
+---
+title: to be perfected
+tag: []
+---
+
+### Remote 探索
+
+- [程序员海外 Remote 工作探索和总结 - 花果山大圣](https://juejin.cn/post/7264920948751188008)
+
+  从面试风格要求、心态、薪酬支付方式介绍了一些要点

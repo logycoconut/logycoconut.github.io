@@ -4,8 +4,6 @@ export const zhSidebar = sidebar({
 
     "/daliy/": "structure",
 
-    "/program/": "structure",
-
-    "/tools/": "structure",
+    "/code/": "structure",
 
 });

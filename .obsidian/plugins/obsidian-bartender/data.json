@@ -35,12 +35,29 @@
       "src/👨‍💻 Code/工作中遇过的问题"
     ],
     "src": [
-      "src/README.md",
       "src/daliy",
       "src/code",
       "src/single_page",
       "src/blog",
-      "src/P.A.R.A"
+      "src/P.A.R.A",
+      "src/README.md"
+    ],
+    "src/daliy/08_不知道怎么分类": [
+      "src/daliy/08_不知道怎么分类/零食购买清单.md",
+      "src/daliy/08_不知道怎么分类/README.md"
+    ],
+    "src/code": [
+      "src/code/01_java",
+      "src/code/02_base",
+      "src/code/03_database",
+      "src/code/04_framework",
+      "src/code/05_system_design",
+      "src/code/06_distribution",
+      "src/code/09_tools",
+      "src/code/10_cloud_tech",
+      "src/code/场景题",
+      "src/code/工作中遇过的问题",
+      "src/code/README.md"
     ]
   },
   "actionBarOrder": {},

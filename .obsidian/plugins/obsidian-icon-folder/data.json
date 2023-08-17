@@ -6,7 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "SiSinglestore"
+      "FarChessQueen"
     ],
     "recentlyUsedIconsSize": 1,
     "rules": [],
@@ -18,7 +18,7 @@
     },
     "iconInTabsEnabled": true
   },
-  "src/single_page": "SiSinglestore",
+  "src/single_page": "FarChessQueen",
   "src/code": "LiCode2",
   "src/daliy": "TiRainbow",
   "src/blog": "RiArticleLine"

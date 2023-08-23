@@ -57,6 +57,7 @@
       "src/code/10_cloud_tech",
       "src/code/场景题",
       "src/code/工作中遇过的问题",
+      "src/code/远程工作",
       "src/code/README.md"
     ],
     "src/daliy/05_铁子注意身体": [
@@ -73,6 +74,14 @@
       "src/daliy/06_生活技能/01_掌握一门生活技能.md",
       "src/daliy/06_生活技能/03_程序员如何优雅的挣零花钱？.md",
       "src/daliy/06_生活技能/README.md"
+    ],
+    "/": [
+      "node_modules",
+      "package.json",
+      "src",
+      "template",
+      "README.md",
+      "yarn.lock"
     ]
   },
   "actionBarOrder": {},

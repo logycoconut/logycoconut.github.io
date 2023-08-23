@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "223627db150716fd",
+        "id": "e9b9805645a2e27d",
         "type": "tabs",
         "children": [
           {
-            "id": "9749c44b2840cac0",
+            "id": "1a749fdfb4f8f33f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/code/远程工作/Untitled.md",
+                "file": "src/daliy/08_不知道怎么分类/零食购买清单.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Obsidian",
+                "query": "零食",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -106,9 +105,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/code/远程工作/Untitled.md",
+                "file": "src/daliy/08_不知道怎么分类/零食购买清单.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/code/远程工作/Untitled.md"
+                "file": "src/daliy/08_不知道怎么分类/零食购买清单.md"
               }
             }
           },
@@ -147,20 +146,22 @@
       "excalidraw-cn:Create New Excalidraw File": false
     }
   },
-  "active": "9749c44b2840cac0",
+  "active": "1a749fdfb4f8f33f",
   "lastOpenFiles": [
+    "src/README.md",
+    "README.md",
+    "src/daliy/05_铁子注意身体/221114_健身计划.md",
+    "src/daliy/05_铁子注意身体/让人流口水的身材.md",
+    "src/daliy/05_铁子注意身体/高效休息.md",
+    "src/daliy/05_铁子注意身体/README.md",
+    "src/daliy/08_不知道怎么分类/零食购买清单.md",
+    "src/code/远程工作/程序员一败涂地.md",
     "src/daliy/06_生活技能/README.md",
-    "src/code/远程工作/Untitled.md",
     "src/code/远程工作",
     "src/daliy/06_生活技能/03_程序员如何优雅的挣零花钱？.md",
     "src/daliy/06_生活技能/01_掌握一门生活技能.md",
-    "src/daliy/05_铁子注意身体/高效休息.md",
-    "src/daliy/05_铁子注意身体/221114_健身计划.md",
     "src/code/工作中遇过的问题/名词解释.md",
-    "src/daliy/05_铁子注意身体/让人流口水的身材.md",
-    "src/daliy/08_不知道怎么分类/零食购买清单.md",
     "src/daliy/README.md",
-    "src/README.md",
     "src/code/01_java/05_JVM/Java 的逃逸分析.md",
     "src/code/README.md",
     "Untitled.md",
@@ -174,8 +175,6 @@
     "src/daliy/02_MacOS Software/05_Obsidian 插件.md",
     "src/daliy/01_如何打造个人知识库/README.md",
     "src/daliy/01_如何打造个人知识库/05_Markdown 语法.md",
-    "src/daliy/01_如何打造个人知识库/04_Obsidian 同步方案.md",
-    "src/daliy/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
     "excalidraw 23-08-13 06.05.39.ex",
     "Excalidraw",
     "excalidraw 23-08-13 05.33.16.ex",

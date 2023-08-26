@@ -65,6 +65,7 @@
       "src/daliy/05_铁子注意身体/221114_健身计划.md",
       "src/daliy/05_铁子注意身体/让人流口水的身材.md",
       "src/daliy/05_铁子注意身体/高效休息.md",
+      "src/daliy/05_铁子注意身体/养生功.md",
       "src/daliy/05_铁子注意身体/README.md"
     ],
     "src/daliy/06_生活技能": [
@@ -82,6 +83,27 @@
       "template",
       "README.md",
       "yarn.lock"
+    ],
+    "src/daliy": [
+      "src/daliy/01_如何打造个人知识库",
+      "src/daliy/02_MacOS Software",
+      "src/daliy/iOS 美区账号购买 APP.md",
+      "src/daliy/03_搞机达人",
+      "src/daliy/04_终身学习体系",
+      "src/daliy/05_铁子注意身体",
+      "src/daliy/06_生活技能",
+      "src/daliy/07_言论",
+      "src/daliy/08_不知道怎么分类",
+      "src/daliy/README.md"
+    ],
+    "src/daliy/03_搞机达人": [
+      "src/daliy/03_搞机达人/01_个人设备推荐.md",
+      "src/daliy/03_搞机达人/02_URL Scheme 大全.md",
+      "src/daliy/03_搞机达人/03_阅读 3.0 Web 版搭建.md",
+      "src/daliy/03_搞机达人/04_收藏癖的美丽废物.md",
+      "src/daliy/03_搞机达人/iOS 美区账号购买 APP.md",
+      "src/daliy/03_搞机达人/iOS 屏蔽广告.md",
+      "src/daliy/03_搞机达人/README.md"
     ]
   },
   "actionBarOrder": {},

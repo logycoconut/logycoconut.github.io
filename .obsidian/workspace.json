@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/daliy/03_搞机达人/iOS 屏蔽广告.md",
+                "file": "src/P.A.R.A/Resource/接口鉴权问题.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -74,11 +74,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300.50390243530273
+    "width": 372.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -105,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/daliy/03_搞机达人/iOS 屏蔽广告.md",
+                "file": "src/P.A.R.A/Resource/接口鉴权问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/daliy/03_搞机达人/iOS 屏蔽广告.md"
+                "file": "src/P.A.R.A/Resource/接口鉴权问题.md"
               }
             }
           },
@@ -130,7 +131,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -146,15 +147,21 @@
       "excalidraw-cn:Create New Excalidraw File": false
     }
   },
-  "active": "8f682e7ec7ba4574",
+  "active": "1a749fdfb4f8f33f",
   "lastOpenFiles": [
+    "src/P.A.R.A/Resource/数据库攻略.md",
+    "src/staged/跑步给我带来了什么.md",
+    "src/README.md",
+    "src/daliy/03_搞机达人/如何在 iOS 美区商店账号购买一个 APP.md",
+    "src/staged",
+    "src/daliy/03_搞机达人/如何优雅地屏蔽广告 - iOS 篇.md",
+    "src/daliy/03_搞机达人/04_收藏癖的美丽废物.md",
+    "src/daliy/03_搞机达人/02_URL Scheme 大全.md",
+    "src/daliy/03_搞机达人/03_阅读 3.0 Web 版搭建.md",
     "src/daliy/03_搞机达人/01_个人设备推荐.md",
-    "src/daliy/03_搞机达人/iOS 屏蔽广告.md",
     "src/daliy/03_搞机达人/README.md",
-    "src/daliy/03_搞机达人/iOS 美区账号购买 APP.md",
     "src/daliy/07_言论/值得反复看的 Video.md",
     "src/daliy/07_言论/硅谷王川及其评论区的观点.md",
-    "src/README.md",
     "src/daliy/05_铁子注意身体/养生功.md",
     "src/daliy/08_不知道怎么分类/零食购买清单.md",
     "README.md",
@@ -170,11 +177,6 @@
     "src/code/工作中遇过的问题/名词解释.md",
     "src/daliy/README.md",
     "src/code/01_java/05_JVM/Java 的逃逸分析.md",
-    "src/code/README.md",
-    "Untitled.md",
-    "src/code/02_base/README.md",
-    "src/daliy/07_言论/README.md",
-    "src/daliy/07_言论/Effective Engineer.md",
     "excalidraw 23-08-13 06.05.39.ex",
     "Excalidraw",
     "excalidraw 23-08-13 05.33.16.ex",
@@ -183,7 +185,6 @@
     "src/code/工作中遇过的问题/微信小程序",
     "src/code/04_framework/MybatisPlus",
     "src/daliy/07_言论",
-    "MySQL Explain 字段说明 c1ebd68410ab4cefb4d38544e0b5e697",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

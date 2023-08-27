@@ -1,5 +1,6 @@
 ---
-title: iOS 美区账号购买 APP
+title: 如何在 iOS 美区商店账号购买一个 APP
+category: [iOS 修炼手册]
 tag: [iOS, 美区账号]
 ---
 

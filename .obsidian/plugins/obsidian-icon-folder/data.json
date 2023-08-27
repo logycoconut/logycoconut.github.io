@@ -6,7 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "FarChessQueen"
+      "IbDocument"
     ],
     "recentlyUsedIconsSize": 1,
     "rules": [],
@@ -21,5 +21,6 @@
   "src/single_page": "FarChessQueen",
   "src/code": "LiCode2",
   "src/daliy": "TiRainbow",
-  "src/blog": "RiArticleLine"
+  "src/blog": "RiArticleLine",
+  "src/staged": "IbDocument"
 }

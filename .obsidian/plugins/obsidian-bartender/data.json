@@ -40,6 +40,7 @@
       "src/single_page",
       "src/blog",
       "src/P.A.R.A",
+      "src/staged",
       "src/README.md"
     ],
     "src/daliy/08_不知道怎么分类": [
@@ -101,8 +102,8 @@
       "src/daliy/03_搞机达人/02_URL Scheme 大全.md",
       "src/daliy/03_搞机达人/03_阅读 3.0 Web 版搭建.md",
       "src/daliy/03_搞机达人/04_收藏癖的美丽废物.md",
-      "src/daliy/03_搞机达人/iOS 美区账号购买 APP.md",
-      "src/daliy/03_搞机达人/iOS 屏蔽广告.md",
+      "src/daliy/03_搞机达人/如何优雅地屏蔽广告 - iOS 篇.md",
+      "src/daliy/03_搞机达人/如何在 iOS 美区商店账号购买一个 APP.md",
       "src/daliy/03_搞机达人/README.md"
     ]
   },

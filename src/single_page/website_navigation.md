@@ -28,9 +28,13 @@ title: 网站导航
 
 ### AI
 
+- [Claude 2](https://claude.ai)
+
 - [ChatGPT](https://chat.openai.com/auth/login)
 
-- [Claude 2](https://claude.ai)
+- [Bard](https://bard.google.com/?hl=en)
+
+- [Poe](https://poe.com/)
 
 ### 创意
 
@@ -67,9 +71,15 @@ title: 网站导航
 
 - [Quick Reference](https://quickref.cn) - 开发文档速查表
 
+- [Java8 中文文档](https://www.matools.com/api/java8)
+
+- [Redis 文档](https://redis.io/commands/)
+
 ### 流程图
 
 - [Mermaid Live Editor](https://mermaid.live/)
+
+- [AsciiFlow](https://asciiflow.com/)
 
 ### 独立开发者工具
 
@@ -95,6 +105,10 @@ title: 网站导航
 
   Z-Library 的域名容易被封
   所以需要在 Chrome 应用商店安装官方插件 [Z-Library Finder](https://chrome.google.com/webstore/detail/z-library-finder/eebjmekegoofamhbnjoboeifabhbbddn/related?utm_source=ext_sidebar&hl=en-US)
+
+- [熊猫搜书](https://xmsoushu.com)
+
+  资源说实话很杂很乱, 可以作为 Z-Library 的替代
 
 ### 装机资源
 

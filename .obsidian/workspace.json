@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1a749fdfb4f8f33f",
+            "id": "28cc31ed5de8b37f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "导航",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -130,7 +131,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -138,19 +139,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "command-palette:Open command palette": false,
-      "templates:Insert template": false,
-      "zk-prefixer:Create new unique note": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "zk-prefixer:创建时间戳笔记": false,
       "excalidraw-cn:Create New Excalidraw File": false
     }
   },
-  "active": "ac33791abec12b73",
+  "active": "28cc31ed5de8b37f",
   "lastOpenFiles": [
-    "src/staged/MySQL 是怎样运行的：从根儿上理解 MySQL.md",
+    "src/code/工作中遇过的问题/微信小程序/发送订阅消息.md",
     "src/single_page/website_navigation.md",
     "src/README.md",
+    "src/blog/230903_.md",
+    "src/staged/MySQL 是怎样运行的：从根儿上理解 MySQL.md",
     "src/staged/跑步给我带来了什么.md",
     "README.md",
     "src/P.A.R.A/Resource/接口鉴权问题.md",
@@ -174,8 +177,6 @@
     "src/code/远程工作/程序员一败涂地.md",
     "src/daliy/06_生活技能/README.md",
     "src/code/远程工作",
-    "src/daliy/06_生活技能/03_程序员如何优雅的挣零花钱？.md",
-    "src/daliy/06_生活技能/01_掌握一门生活技能.md",
     "excalidraw 23-08-13 06.05.39.ex",
     "Excalidraw",
     "excalidraw 23-08-13 05.33.16.ex",

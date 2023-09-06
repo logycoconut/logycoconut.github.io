@@ -75,6 +75,8 @@ title: 网站导航
 
 - [Redis 文档](https://redis.io/commands/)
 
+- [IDEA 快捷键](https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/master/keymap-mac-introduce.md)
+
 ### 流程图
 
 - [Mermaid Live Editor](https://mermaid.live/)
@@ -86,6 +88,14 @@ title: 网站导航
 - [Vercel](https://vercel.com) - 一键部署 Next. Js 等应用，性能有保障
 
 - [Serverless](https://serverless.com) - 免费的无服务
+
+### 仓库
+
+- [Maven 仓库](https://mvnrepository.com/)
+
+- [Docker 仓库](https://hub.docker.com/search?q=&type=image)
+
+- [Jetbrains Plugins](https://plugins.jetbrains.com/)
 
 ## 📦 资源
 
@@ -113,3 +123,7 @@ title: 网站导航
 ### 装机资源
 
 - [i tell you](https://next.itellyou.cn) - 装机，脱胎于 MSDN
+
+### 壁纸
+
+- [Unsplash](https://unsplash.com/t/wallpapers)

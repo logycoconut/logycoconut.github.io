@@ -45,6 +45,7 @@
     ],
     "src/daliy/08_不知道怎么分类": [
       "src/daliy/08_不知道怎么分类/零食购买清单.md",
+      "src/daliy/08_不知道怎么分类/个人宽带如何开启IPv6网络访问.md",
       "src/daliy/08_不知道怎么分类/README.md"
     ],
     "src/code": [
@@ -88,7 +89,6 @@
     "src/daliy": [
       "src/daliy/01_如何打造个人知识库",
       "src/daliy/02_MacOS Software",
-      "src/daliy/iOS 美区账号购买 APP.md",
       "src/daliy/03_搞机达人",
       "src/daliy/04_终身学习体系",
       "src/daliy/05_铁子注意身体",
@@ -104,7 +104,14 @@
       "src/daliy/03_搞机达人/04_收藏癖的美丽废物.md",
       "src/daliy/03_搞机达人/如何优雅地屏蔽广告 - iOS 篇.md",
       "src/daliy/03_搞机达人/如何在 iOS 美区商店账号购买一个 APP.md",
+      "src/daliy/03_搞机达人/个人宽带如何开启IPv6网络访问.md",
       "src/daliy/03_搞机达人/README.md"
+    ],
+    "src/daliy/07_言论": [
+      "src/daliy/07_言论/观点.md",
+      "src/daliy/07_言论/01_提问的智慧.md",
+      "src/daliy/07_言论/硅谷王川及其评论区的观点.md",
+      "src/daliy/07_言论/README.md"
     ]
   },
   "actionBarOrder": {},

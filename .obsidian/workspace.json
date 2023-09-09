@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e9b9805645a2e27d",
+        "id": "68ee96ab2bfdbee7",
         "type": "tabs",
         "children": [
           {
-            "id": "28cc31ed5de8b37f",
+            "id": "467b9934b51fba2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/single_page/website_navigation.md",
-                "mode": "source",
+                "file": "src/daliy/07_言论/01_提问的智慧.md",
+                "mode": "preview",
                 "backlinks": false,
-                "source": false
+                "source": true
               }
             }
           }
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/single_page/website_navigation.md",
+                "file": "src/daliy/07_言论/01_提问的智慧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/single_page/website_navigation.md"
+                "file": "src/daliy/07_言论/01_提问的智慧.md"
               }
             }
           },
@@ -131,7 +131,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -147,35 +147,35 @@
       "excalidraw-cn:Create New Excalidraw File": false
     }
   },
-  "active": "28cc31ed5de8b37f",
+  "active": "467b9934b51fba2b",
   "lastOpenFiles": [
-    "src/code/工作中遇过的问题/微信小程序/发送订阅消息.md",
+    "src/daliy/07_言论/观点.md",
+    "src/daliy/07_言论/01_提问的智慧.md",
+    "src/daliy/07_言论/硅谷王川及其评论区的观点.md",
+    "src/daliy/07_言论/README.md",
+    "src/daliy/07_言论/Effective Engineer.md",
+    "src/daliy/07_言论/未命名.md",
+    "src/daliy/02_MacOS Software/02_Chrome 推荐插件以及油猴脚本.md",
+    "src/daliy/02_MacOS Software/01_macOS_software.md",
+    "src/code/README.md",
+    "src/daliy/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
+    "src/daliy/01_如何打造个人知识库/README.md",
+    "src/daliy/01_如何打造个人知识库/03_通过 GitHub Actions 完成知识库的发布.md",
+    "src/daliy/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md",
+    "src/daliy/03_搞机达人/01_个人设备推荐.md",
+    "src/daliy/03_搞机达人/04_收藏癖的美丽废物.md",
+    "src/daliy/03_搞机达人/个人宽带如何开启IPv6网络访问.md",
+    "src/daliy/08_不知道怎么分类/README.md",
+    "src/staged/跑步给我带来了什么.md",
     "src/single_page/website_navigation.md",
+    "src/code/工作中遇过的问题/微信小程序/发送订阅消息.md",
     "src/README.md",
     "src/blog/230903_.md",
     "src/staged/MySQL 是怎样运行的：从根儿上理解 MySQL.md",
-    "src/staged/跑步给我带来了什么.md",
     "README.md",
     "src/P.A.R.A/Resource/接口鉴权问题.md",
     "src/P.A.R.A/Resource/数据库攻略.md",
-    "src/daliy/03_搞机达人/如何在 iOS 美区商店账号购买一个 APP.md",
     "src/staged",
-    "src/daliy/03_搞机达人/如何优雅地屏蔽广告 - iOS 篇.md",
-    "src/daliy/03_搞机达人/04_收藏癖的美丽废物.md",
-    "src/daliy/03_搞机达人/02_URL Scheme 大全.md",
-    "src/daliy/03_搞机达人/03_阅读 3.0 Web 版搭建.md",
-    "src/daliy/03_搞机达人/01_个人设备推荐.md",
-    "src/daliy/03_搞机达人/README.md",
-    "src/daliy/07_言论/值得反复看的 Video.md",
-    "src/daliy/07_言论/硅谷王川及其评论区的观点.md",
-    "src/daliy/05_铁子注意身体/养生功.md",
-    "src/daliy/08_不知道怎么分类/零食购买清单.md",
-    "src/daliy/05_铁子注意身体/221114_健身计划.md",
-    "src/daliy/05_铁子注意身体/让人流口水的身材.md",
-    "src/daliy/05_铁子注意身体/高效休息.md",
-    "src/daliy/05_铁子注意身体/README.md",
-    "src/code/远程工作/程序员一败涂地.md",
-    "src/daliy/06_生活技能/README.md",
     "src/code/远程工作",
     "excalidraw 23-08-13 06.05.39.ex",
     "Excalidraw",

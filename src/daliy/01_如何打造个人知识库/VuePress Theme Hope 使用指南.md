@@ -1,7 +1,7 @@
 ---
 title: VuePress Theme Hope 使用指南
-date: 2023-07-06
 tag: [VuePress Theme Hope]
+order: 2
 ---
 
 之前在「如何打造个人知识库」系列文章中提到过 `VuePress Theme Hope`

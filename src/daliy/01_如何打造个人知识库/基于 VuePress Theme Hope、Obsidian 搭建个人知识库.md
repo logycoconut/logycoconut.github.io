@@ -1,6 +1,11 @@
 ---
 title: ⭐️ 基于 VuePress Theme Hope、Obsidian 搭建个人知识库
-tag: [VuePress Theme Hope, Obsidian]
+tag:
+  - VuePress
+  - Theme
+  - Hope
+  - Obsidian
+order: 1
 ---
 
 > “工具是为了更好的记录, 不要把时间花在工具身上”

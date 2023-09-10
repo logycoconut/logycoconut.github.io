@@ -5,8 +5,9 @@
     "/": [
       "node_modules",
       "package.json",
-      "src",
       "template",
+      "scripts",
+      "src",
       "README.md",
       "yarn.lock"
     ],

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "68ee96ab2bfdbee7",
+        "id": "474f4ae07788bbe1",
         "type": "tabs",
         "children": [
           {
-            "id": "467b9934b51fba2b",
+            "id": "a357c606531366d8",
             "type": "leaf",
             "state": {
               "type": "diff-view",
               "state": {
-                "file": ".obsidian/plugins/obsidian-bartender/data.json",
+                "file": "src/daliy/01_如何打造个人知识库/基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
                 "staged": false
               }
             }
@@ -142,13 +142,14 @@
       "excalidraw-cn:Create New Excalidraw File": false
     }
   },
-  "active": "467b9934b51fba2b",
+  "active": "a357c606531366d8",
   "lastOpenFiles": [
-    "src/daliy/01_如何打造个人知识库/Markdown 语法.md",
-    "src/daliy/01_如何打造个人知识库/基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
-    "src/daliy/01_如何打造个人知识库/通过 GitHub Actions 完成知识库的发布.md",
     "src/daliy/01_如何打造个人知识库/Obsidian 同步方案.md",
+    "src/daliy/01_如何打造个人知识库/Markdown 语法.md",
+    "src/daliy/01_如何打造个人知识库/通过 GitHub Actions 完成知识库的发布.md",
     "src/daliy/01_如何打造个人知识库/VuePress Theme Hope 使用指南.md",
+    "src/daliy/01_如何打造个人知识库/基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
+    "src/daliy/01_如何打造个人知识库/README.md",
     "src/daliy/README.md",
     "src/daliy/07_言论/01_提问的智慧.md",
     "src/daliy/02_MacOS Software/README.md",
@@ -161,7 +162,6 @@
     "src/daliy/02_MacOS Software/02_Chrome 推荐插件以及油猴脚本.md",
     "src/daliy/02_MacOS Software/01_macOS_software.md",
     "src/daliy/02_MacOS Software",
-    "src/daliy/01_如何打造个人知识库/README.md",
     "src/daliy/01_如何打造个人知识库",
     "src/daliy/07_言论/观点.md",
     "src/daliy/07_言论/硅谷王川及其评论区的观点.md",

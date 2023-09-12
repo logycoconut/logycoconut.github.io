@@ -127,3 +127,7 @@ title: 网站导航
 ### 壁纸
 
 - [Unsplash](https://unsplash.com/t/wallpapers)
+
+### 英语学习
+
+- [英语语法 - INet Club](https://hzpt-inet-club.github.io/english-note/)

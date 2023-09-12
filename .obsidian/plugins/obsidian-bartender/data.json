@@ -84,6 +84,17 @@
       "src/daliy/01_如何打造个人知识库/Obsidian 同步方案.md",
       "src/daliy/01_如何打造个人知识库/Markdown 语法.md",
       "src/daliy/01_如何打造个人知识库/README.md"
+    ],
+    "src/daliy/02_MacOS Software": [
+      "src/daliy/02_MacOS Software/macOS_software.md",
+      "src/daliy/02_MacOS Software/Chrome 推荐插件以及油猴脚本.md",
+      "src/daliy/02_MacOS Software/03_ja-netfilter 和 JetBrains 的奇妙反应.md",
+      "src/daliy/02_MacOS Software/04_uTools 插件.md",
+      "src/daliy/02_MacOS Software/05_Obsidian 插件.md",
+      "src/daliy/02_MacOS Software/06_Eudic 增加试用时间.md",
+      "src/daliy/02_MacOS Software/07_好玩的 Docker 项目.md",
+      "src/daliy/02_MacOS Software/08_sublime_text.md",
+      "src/daliy/02_MacOS Software/README.md"
     ]
   },
   "actionBarOrder": {},

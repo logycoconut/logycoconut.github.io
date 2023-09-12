@@ -1,7 +1,7 @@
 ---
 title: Markdown 语法
-date: 2023-01-29
-tag: [Markdown]
+tags:
+  - Markdown
 order: 5
 ---
 

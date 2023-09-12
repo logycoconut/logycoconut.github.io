@@ -1,7 +1,8 @@
 ---
 title: 通过 GitHub Actions 完成知识库的发布
-date: 2023-07-07
-tag: [GitHub Action]
+tags:
+  - GitHub
+  - Action
 order: 3
 ---
 

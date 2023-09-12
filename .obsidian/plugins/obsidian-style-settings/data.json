@@ -4,5 +4,16 @@
   "minimal-advanced@@font-ui-small": 14,
   "things-style@@mobile-black-background": false,
   "things-style@@active-line": true,
-  "things-style@@default-font-color": false
+  "things-style@@default-font-color": false,
+  "Appearance-light@@card-layout-open-light": true,
+  "Appearance-light@@theme-light-style-select": "theme-light-background-default",
+  "Appearance-light@@card-highlight-light": true,
+  "Components@@outline-enhanced": true,
+  "Components@@CTA-BTN-enable": true,
+  "Components@@file-names-untrim": true,
+  "Components@@vault-name-fixed": true,
+  "Components@@folder-font-bold": false,
+  "Components@@colorful-folder": true,
+  "Components@@file-icon-style-select": "file-icon-fill",
+  "Components@@file-icon-remove": false
 }

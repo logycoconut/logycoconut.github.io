@@ -1,9 +1,12 @@
 ---
 title: ⭐️ MacOS 软件
-tag: [MacOS, 自用推荐]
+tags:
+  - MacOS
+  - 自用推荐
+order: 1
 ---
 
-> 以下软件都可以在官网 / Github 仓库下载安装
+> 以下软件都可以在官网、对应的 Github 仓库直接下载安装
 >
 > 不要轻易相信三方网站 !
 
@@ -20,7 +23,7 @@ tag: [MacOS, 自用推荐]
 | iTerm                                      | 终端                  | 需要搭配 OhMyZsh 使用                                    |
 | Postman                                    | API 调试              | 虽然有点卡, 但目前没有找到替代品                                  |
 | Docker                                     | 虚拟机                 |                                                    |
-| [ProxyMan](https://proxyman.io/)           | 抓包                  | 上手很快, 和 Charles 相比像是隔一代的产物                         |
+| [ProxyMan](https://proxyman.io/)           | 抓包                  | 上手很快, 和 Charles 相比像是不同时代的产物                        |
 
 _另外： 「Sequel Pro」的正式版在 Mac 上打开有点问题，可以下载 [测试版本][Sequel Pro 测试版本]。_
 

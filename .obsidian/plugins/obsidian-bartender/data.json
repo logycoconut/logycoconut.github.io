@@ -23,7 +23,7 @@
     "src/daliy": [
       "src/daliy/如何打造个人知识库",
       "src/daliy/MacOS Software",
-      "src/daliy/03_搞机达人",
+      "src/daliy/搞机达人",
       "src/daliy/04_终身学习体系",
       "src/daliy/05_铁子注意身体",
       "src/daliy/06_生活技能",
@@ -106,6 +106,16 @@
       "src/daliy/MacOS Software/好玩的 Docker 项目.md",
       "src/daliy/MacOS Software/sublime_text.md",
       "src/daliy/MacOS Software/README.md"
+    ],
+    "src/daliy/搞机达人": [
+      "src/daliy/搞机达人/个人设备推荐.md",
+      "src/daliy/搞机达人/URL Scheme 大全.md",
+      "src/daliy/搞机达人/如何在 iOS 美区商店账号购买一个 APP.md",
+      "src/daliy/搞机达人/如何优雅地屏蔽广告 - iOS 篇.md",
+      "src/daliy/搞机达人/个人宽带如何开启IPv6网络访问.md",
+      "src/daliy/搞机达人/03_阅读 3.0 Web 版搭建.md",
+      "src/daliy/搞机达人/04_收藏癖的美丽废物.md",
+      "src/daliy/搞机达人/README.md"
     ]
   },
   "actionBarOrder": {},

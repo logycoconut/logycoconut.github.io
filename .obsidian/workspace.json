@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/daliy/MacOS Software/Eudic 增加试用时间.md",
+                "file": "src/daliy/搞机达人/如何在 iOS 美区商店账号购买一个 APP.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.5
+    "width": 372.5,
+    "collapsed": true
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -106,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/daliy/MacOS Software/Eudic 增加试用时间.md",
+                "file": "src/daliy/搞机达人/如何在 iOS 美区商店账号购买一个 APP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/daliy/MacOS Software/Eudic 增加试用时间.md"
+                "file": "src/daliy/搞机达人/如何在 iOS 美区商店账号购买一个 APP.md"
               }
             }
           },
@@ -159,9 +160,16 @@
   },
   "active": "7cc1dadec08830db",
   "lastOpenFiles": [
+    "src/daliy/搞机达人/如何优雅地屏蔽广告 - iOS 篇.md",
+    "src/daliy/搞机达人/如何在 iOS 美区商店账号购买一个 APP.md",
+    "src/daliy/搞机达人/个人宽带如何开启IPv6网络访问.md",
+    "src/daliy/搞机达人/03_阅读 3.0 Web 版搭建.md",
+    "src/daliy/搞机达人/个人设备推荐.md",
+    "src/daliy/搞机达人/URL Scheme 大全.md",
+    "src/daliy/搞机达人/README.md",
+    "src/daliy/MacOS Software/Eudic 增加试用时间.md",
     "src/daliy/MacOS Software/好玩的 Docker 项目.md",
     "src/daliy/MacOS Software/uTools 插件.md",
-    "src/daliy/MacOS Software/Eudic 增加试用时间.md",
     "src/daliy/MacOS Software/ja-netfilter 和 JetBrains 产品的奇妙反应.md",
     "src/daliy/MacOS Software/Obsidian 插件.md",
     "src/daliy/MacOS Software/Chrome 推荐插件以及油猴脚本.md",
@@ -181,13 +189,6 @@
     "scripts",
     "README.md",
     "src/daliy/01_如何打造个人知识库/03_通过 GitHub Actions 完成知识库的发布.md",
-    "未命名.md",
-    "src/daliy/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md",
-    "src/daliy/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
-    "src/daliy/01_如何打造个人知识库/04_Obsidian 同步方案.md",
-    "src/daliy/01_如何打造个人知识库/05_Markdown 语法.md",
-    "src/daliy/07_言论/01_提问的智慧.md",
-    "src/daliy/07_言论/观点.md",
     "src/staged",
     "src/code/远程工作",
     "excalidraw 23-08-13 06.05.39.ex",

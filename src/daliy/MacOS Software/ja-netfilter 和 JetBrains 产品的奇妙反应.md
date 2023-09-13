@@ -1,64 +1,68 @@
 ---
-title: ja-netfilter 和 JetBrains 的奇妙反应
-date: 2023-06-30
-tag: [JetBrains, ja-netfilter]
+title: ja-netfilter 和 JetBrains 产品的奇妙反应
+tags:
+  - JetBrains
+  - ja-netfilter
+  - Datagrip
+  - IDEA
+order: 3
 ---
 
 > 本文所说的方式不推荐!!!
+> 一是社区版的功能足够好用
+> 二是当破解方式失效时会对项目造成短暂的影响
 >
 > 拥有 `JetBrains` 全家桶最好的方式, 还得是通过维护开源项目获取免费的 license
+> 具体可以查看[官网说明](https://www.jetbrains.com/community/opensource/#support)
 
 ### 背景
 
-之前查询场景比较简单的时候 ( MySQL + Redis ), 只需要安装 `Sequel Pro` 、 `Another Redis Desktop Manager` 就能满足所有的需求
+之前查询场景比较简单的时候，只需要安装 `Sequel Pro` 、 `Another Redis Desktop Manager` 类似的软件就能满足所有的需求
+亦或是直接通过类似 `Aliyun DMS Console` 这样的数据平台进行数据查询
 
-亦或是通过类似 Aliyun DMS Console 这样的数据平台进行数据查询
+但是最近新增了 `PostgreSQL` 的使用场景, 又装了一个 `Postico 2`...
 
-但是最近新增了 `PostgreSQL` 的使用场景, 又装了一个 `Postico 2`, 苦于在各个软件中切换, 想要寻找一款 All in One 的数据库工具
-
-调研了之后, 发现 JetBrains 家的 DataGrip 比较能满足我现在的场景
+苦于在各个软件中切换, 想要寻找一款 `All in One` 的数据库工具
+调研了之后, 发现 `JetBrains` 家的 `DataGrip` 比较能满足我现在的场景
 
 **但是... there's always a but**
 
 DataGrip 并不是一款免费的软件, 毕竟它是这么好用!
 
-### ja-netfilter 登场
+### `ja-netfilter` 登场
 
 > [仓库地址](https://zhile.io/2021/11/29/ja-netfilter-javaagent-lib.html)
 
-ja-netfilter 是 zhile 大佬开发的一款插件, 用于阻断软件的恶意网络请求, 例如黑心软件读取本地信息上传云端
+`ja-netfilter` 是 zhile 大佬开发的一款插件
 
-同时也可以阻断某些非恶意的请求, 例如说 DataGrip 的激活验证接口
+主要用于阻断软件的恶意网络请求,  例如黑心软件读取本地信息上传云端
+但同时也可以阻断某些非恶意的请求, 例如说 DataGrip 的激活验证接口
 
-_正是这一点给了操作空间_
+_正是这个特性给了我们操作空间_
 
-于是乎本文诞生
+### 如何使用`  ja-netfilter ` ( 以 `DataGrip` 为例 )
 
-### 如何使用 ja-netfilter ( 以 DataGrip 为例 )
+> 以下内容预设你已经阅读过 `ja-netfilter` 仓库的 `README` 文件
 
-> 确保已阅读以下内容!
->
-> - ja-netfilter 仓库的 README 文件
+- 在 [JETBRA.IN](https://3.jetbra.in) 上找一个能访问的节点并访问, 例如 `ipfs.io`
 
-- 在 [JETBRA.IN](https://3.jetbra.in) 上找一个能访问的节点并访问, 例如 ipfs.io
-
-  在 ipfs.io 页面上方发现以下文字
+  在 `ipfs.io` 页面上方发现以下文字
 
 ```
  Download jetbra.zip (220801), and configure as described in readme.txt! For testing purposes only, not for commercial use!
 ```
 
-- 下载 jetbra.zip 文件到本地并解压
+- 下载 `jetbra.zip` 文件到本地并解压
 
-  熟悉一下解压后的文件夹, 是不是感觉和大神仓库下载的 Release 差不多?
+  熟悉一下解压后的文件夹, 是不是感觉和大神仓库下载的 `Release` 差不多?
 
   _其实就是一个自动化执行脚本_
 
   _但是保险起见, 我选择自己操作_
 
-- 配置对应的 dns.conf、url.conf、power.conf 文件
+- 配置对应的 `dns.conf`、`url.conf`、`power.conf` 文件
 
-  内容都来自于刚下载的 jetbra.zip 文件
+  内容都来自于刚下载的 `jetbra.zip` 文件
 
 ```
 [URL]
@@ -77,9 +81,9 @@ EQUAL,17430805040661904960217142128786500464864043257152786846745016761637330023
 EQUAL,65537,24773058818499217187577663886010908531303294206336895556072197892590450942803807164562754911175164262596715237551312004078542654996496301487027034803410086499747369353221485073240039340641397198525027728751956658900801359887190562885573922317930300068615009483578963467556425525328780085523172495307229112069939166202511721671904748968934606589702999279663332403655662225374084460291376706916679151764149324177444374590606643838366605181996272409014933080082205048098737253668016260658830645459388519595314928290853199112791333551144805347785109465401055719331231478162870216035573012645710763533896540021550083104281->3,24773058818499217187577663886010908531303294206336895556072197892590450942803807164562754911175164262596715237551312004078542654996496301487027034803410086499747369353221485073240039340641397198525027728751956658900801359887190562885573922317930300068615009483578963467556425525328780085523172495307229112069939166202511721671904748968934606589702999279663332403655662225374084460291376706916679151764149324177444374590606643838366605181996272409014933080082205048098737253668016260658830645459388519595314928290853199112791333551144805347785109465401055719331231478162870216035573012645710763533896540021550083104281
 ```
 
-- 配置 datagrip.vmoptions 文件
+- 配置 `datagrip.vmoptions` 文件
 
-  `datagrip.vmoptions` 文件的位置一般位于 `/Applications/DataGrip.app/Contents/bin/`
+  _`datagrip.vmoptions` 文件的位置一般位于 `/Applications/DataGrip.app/Contents/bin/`_
 
 ```
 --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED
@@ -87,18 +91,20 @@ EQUAL,65537,24773058818499217187577663886010908531303294206336895556072197892590
 -javaagent:/Users/hall/Documents/Env/ja-netfilter/ja-netfilter.jar
 ```
 
-**配置完了一定要重启 DataGrip**, 不然 ja-netfilter 插件不生效
+**配置完了一定要重启 `DataGrip`**, 不然 `ja-netfilter` 插件不生效
 
-- 复制 ipfs.io 上对应软件的激活码, 在软件上通过激活码进行激活
+- 复制 `ipfs.io` 上对应软件的激活码, 在软件上通过激活码进行激活
 
 其实也可以通过服务器进行激活, 但是服务器激活地址不太稳定
 
-服务器网址: <https://jetbra.in>
+> _服务器网址: <https://jetbra.in>_
 
 - 最后, 如果一切顺利的话, 应该能看到激活信息啦
 
 ### 参考链接
 
 - [ja-netfilter](https://gitee.com/ja-netfilter/ja-netfilter)
+
 - [jetbra](https://3.jetbra.in/)
+
 - [intellij-idea 插件 ja-netfilter 使用教程](https://segmentfault.com/a/1190000043383181)

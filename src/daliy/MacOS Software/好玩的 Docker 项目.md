@@ -1,13 +1,17 @@
 ---
 title: 好玩的 Docker 项目
-tag: [Docker]
+tags:
+  - Docker
+order: 7
 ---
 
-> 推荐使用 Docker Compose 管理
+> 推荐使用 `Docker Compose` 管理
 
 ## 面板
 
-### [Portainer][]（Docker 容器管理）
+### `Portainer`（Docker 容器管理）
+
+> [下载地址](https://github.com/portainer/portainer)
 
 ```
 version: "3"
@@ -24,7 +28,9 @@ services:
 
 ## 阅读
 
-### [reader][]（小说阅读）
+### `reader`（小说阅读）
+
+> [下载地址](https://github.com/hectorqin/reader)
 
 阅读3服务器版，填补 iOS 小说阅读空缺
 
@@ -32,18 +38,10 @@ services:
 
 ### [RSSHub][]（RSS 订阅）
 
+> [下载地址](https://github.com/DIYgod/RSSHub)
+
 RSS 生成器，适配程度很完整
 
 ## 参考链接
 
 - [整理全网有趣好玩的 Docker](https://github.com/itgoyo/awesome-docker)
-
-​​<!-- +++++++++ 下面是引用式链接 +++++++++ -->
-
-[Portainer]: https://github.com/portainer/portainer
-
-[reader]: https://github.com/hectorqin/reader
-
-[RSSHub]: https://github.com/DIYgod/RSSHub
-
-[阅读3.0服务器版搭建]: /01_daliy/220820_阅读3.0Web版搭建.html

@@ -21,8 +21,8 @@
       "src/README.md"
     ],
     "src/daliy": [
-      "src/daliy/01_如何打造个人知识库",
-      "src/daliy/02_MacOS Software",
+      "src/daliy/如何打造个人知识库",
+      "src/daliy/MacOS Software",
       "src/daliy/03_搞机达人",
       "src/daliy/04_终身学习体系",
       "src/daliy/05_铁子注意身体",
@@ -88,13 +88,24 @@
     "src/daliy/02_MacOS Software": [
       "src/daliy/02_MacOS Software/macOS_software.md",
       "src/daliy/02_MacOS Software/Chrome 推荐插件以及油猴脚本.md",
-      "src/daliy/02_MacOS Software/03_ja-netfilter 和 JetBrains 的奇妙反应.md",
-      "src/daliy/02_MacOS Software/04_uTools 插件.md",
-      "src/daliy/02_MacOS Software/05_Obsidian 插件.md",
-      "src/daliy/02_MacOS Software/06_Eudic 增加试用时间.md",
-      "src/daliy/02_MacOS Software/07_好玩的 Docker 项目.md",
-      "src/daliy/02_MacOS Software/08_sublime_text.md",
+      "src/daliy/02_MacOS Software/ja-netfilter 和 JetBrains 产品的奇妙反应.md",
+      "src/daliy/02_MacOS Software/uTools 插件.md",
+      "src/daliy/02_MacOS Software/Obsidian 插件.md",
+      "src/daliy/02_MacOS Software/Eudic 增加试用时间.md",
+      "src/daliy/02_MacOS Software/好玩的 Docker 项目.md",
+      "src/daliy/02_MacOS Software/sublime_text.md",
       "src/daliy/02_MacOS Software/README.md"
+    ],
+    "src/daliy/MacOS Software": [
+      "src/daliy/MacOS Software/macOS_software.md",
+      "src/daliy/MacOS Software/Chrome 推荐插件以及油猴脚本.md",
+      "src/daliy/MacOS Software/ja-netfilter 和 JetBrains 产品的奇妙反应.md",
+      "src/daliy/MacOS Software/uTools 插件.md",
+      "src/daliy/MacOS Software/Obsidian 插件.md",
+      "src/daliy/MacOS Software/Eudic 增加试用时间.md",
+      "src/daliy/MacOS Software/好玩的 Docker 项目.md",
+      "src/daliy/MacOS Software/sublime_text.md",
+      "src/daliy/MacOS Software/README.md"
     ]
   },
   "actionBarOrder": {},

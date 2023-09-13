@@ -6,8 +6,10 @@
     "obsidian"
   ],
   "translucency": true,
-  "baseFontSize": 19,
+  "baseFontSize": 16,
   "baseFontSizeAction": false,
   "nativeMenus": false,
-  "textFontFamily": "Monaco"
+  "textFontFamily": "Helvetica Neue",
+  "interfaceFontFamily": "Helvetica Neue",
+  "monospaceFontFamily": "Monaco"
 }

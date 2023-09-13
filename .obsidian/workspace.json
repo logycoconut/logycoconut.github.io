@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "46fd1f1f56a50700",
+        "id": "da59e0f92fb6f192",
         "type": "tabs",
         "children": [
           {
-            "id": "e36700cfd2a155ce",
+            "id": "7cc1dadec08830db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/daliy/02_MacOS Software/macOS_software.md",
+                "file": "src/daliy/MacOS Software/Eudic 增加试用时间.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,6 +49,14 @@
             }
           },
           {
+            "id": "bdbdcbc466196552",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
             "id": "49813a896445e999",
             "type": "leaf",
             "state": {
@@ -67,11 +75,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 406.5
+    "width": 372.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -98,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/daliy/02_MacOS Software/macOS_software.md",
+                "file": "src/daliy/MacOS Software/Eudic 增加试用时间.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/daliy/02_MacOS Software/macOS_software.md"
+                "file": "src/daliy/MacOS Software/Eudic 增加试用时间.md"
               }
             }
           },
@@ -123,7 +131,7 @@
             }
           },
           {
-            "id": "03246c885e65dd70",
+            "id": "607bf35dc4b56e4e",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -137,7 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,36 +157,37 @@
       "excalidraw-cn:Create New Excalidraw File": false
     }
   },
-  "active": "49813a896445e999",
+  "active": "7cc1dadec08830db",
   "lastOpenFiles": [
-    "src/daliy/02_MacOS Software/Chrome 推荐插件以及油猴脚本.md",
-    "[].md",
-    "src/daliy/02_MacOS Software/03_ja-netfilter 和 JetBrains 的奇妙反应.md",
-    "src/daliy/02_MacOS Software/macOS_software.md",
-    "src/daliy/01_如何打造个人知识库/基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
-    "src/daliy/01_如何打造个人知识库/VuePress Theme Hope 使用指南.md",
-    "src/daliy/01_如何打造个人知识库/通过 GitHub Actions 完成知识库的发布.md",
-    "src/daliy/01_如何打造个人知识库/Markdown 语法.md",
-    "src/daliy/01_如何打造个人知识库/Obsidian 同步方案.md",
-    "src/daliy/01_如何打造个人知识库/README.md",
-    "src/single_page/website_navigation.md",
-    "src/daliy/06_生活技能/如何学习英语.md",
+    "src/daliy/MacOS Software/好玩的 Docker 项目.md",
+    "src/daliy/MacOS Software/uTools 插件.md",
+    "src/daliy/MacOS Software/Eudic 增加试用时间.md",
+    "src/daliy/MacOS Software/ja-netfilter 和 JetBrains 产品的奇妙反应.md",
+    "src/daliy/MacOS Software/Obsidian 插件.md",
+    "src/daliy/MacOS Software/Chrome 推荐插件以及油猴脚本.md",
+    "src/daliy/MacOS Software/macOS_software.md",
+    "src/daliy/MacOS Software/README.md",
     "src/daliy/README.md",
+    "src/daliy/如何打造个人知识库/README.md",
+    "src/daliy/MacOS Software/sublime_text.md",
+    "[].md",
+    "src/daliy/如何打造个人知识库/基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
+    "src/daliy/如何打造个人知识库/通过 GitHub Actions 完成知识库的发布.md",
+    "src/daliy/如何打造个人知识库/Obsidian 同步方案.md",
+    "src/daliy/如何打造个人知识库/VuePress Theme Hope 使用指南.md",
+    "excalidraw 23-09-13 02.47.10.ex",
+    "src/daliy/如何打造个人知识库/Markdown 语法.md",
+    "scripts/set_order_val.py",
+    "scripts",
+    "README.md",
+    "src/daliy/01_如何打造个人知识库/03_通过 GitHub Actions 完成知识库的发布.md",
+    "未命名.md",
+    "src/daliy/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md",
+    "src/daliy/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
+    "src/daliy/01_如何打造个人知识库/04_Obsidian 同步方案.md",
+    "src/daliy/01_如何打造个人知识库/05_Markdown 语法.md",
     "src/daliy/07_言论/01_提问的智慧.md",
-    "src/daliy/02_MacOS Software/README.md",
-    "src/daliy/02_MacOS Software/08_sublime_text.md",
-    "src/daliy/02_MacOS Software/07_好玩的 Docker 项目.md",
-    "src/daliy/02_MacOS Software/06_Eudic 增加试用时间.md",
-    "src/daliy/02_MacOS Software/05_Obsidian 插件.md",
-    "src/daliy/02_MacOS Software/04_uTools 插件.md",
-    "src/daliy/02_MacOS Software",
-    "src/daliy/01_如何打造个人知识库",
     "src/daliy/07_言论/观点.md",
-    "src/daliy/07_言论/硅谷王川及其评论区的观点.md",
-    "src/daliy/07_言论/README.md",
-    "src/daliy/07_言论/Effective Engineer.md",
-    "src/daliy/07_言论/未命名.md",
-    "src/code/README.md",
     "src/staged",
     "src/code/远程工作",
     "excalidraw 23-08-13 06.05.39.ex",
@@ -186,7 +195,6 @@
     "excalidraw 23-08-13 05.33.16.ex",
     "src/daliy/08_不知道怎么分类",
     "src/02_program/工作中遇过的问题/二维码",
-    "src/code/工作中遇过的问题/微信小程序",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

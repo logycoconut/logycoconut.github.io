@@ -1,9 +1,12 @@
 ---
 title: Sublime Text 配置文件
-tag: [Sublime Text]
+tags:
+  - Sublime
+  - Text
+order: 8
 ---
 
-_主题安装需要在 Package Control: Install Package Package 选项中搜索主题
+_主题安装需要在 `Package Control: Install Package Package` 选项中搜索主题
 
 ```json
 {

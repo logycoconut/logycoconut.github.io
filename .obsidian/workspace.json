@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "da59e0f92fb6f192",
+        "id": "646dbf8a6aeb359f",
         "type": "tabs",
         "children": [
           {
-            "id": "7cc1dadec08830db",
+            "id": "bfd383dd499d3639",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/daliy/搞机达人/如何在 iOS 美区商店账号购买一个 APP.md",
+                "file": "src/daliy/04_终身学习体系/excalidraw/信息流流转流程图.ex.md.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c65ce342c43fe042",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/daliy/04_终身学习体系/02_RSS 订阅管理.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,14 +63,6 @@
             }
           },
           {
-            "id": "bdbdcbc466196552",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
             "id": "49813a896445e999",
             "type": "leaf",
             "state": {
@@ -75,12 +81,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 372.5,
-    "collapsed": true
+    "width": 411.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -107,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/daliy/搞机达人/如何在 iOS 美区商店账号购买一个 APP.md",
+                "file": "src/daliy/04_终身学习体系/02_RSS 订阅管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/daliy/搞机达人/如何在 iOS 美区商店账号购买一个 APP.md"
+                "file": "src/daliy/04_终身学习体系/02_RSS 订阅管理.md"
               }
             }
           },
@@ -132,7 +137,7 @@
             }
           },
           {
-            "id": "607bf35dc4b56e4e",
+            "id": "03246c885e65dd70",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -146,7 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 296.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,44 +163,43 @@
       "excalidraw-cn:Create New Excalidraw File": false
     }
   },
-  "active": "7cc1dadec08830db",
+  "active": "c65ce342c43fe042",
   "lastOpenFiles": [
-    "src/daliy/搞机达人/如何优雅地屏蔽广告 - iOS 篇.md",
-    "src/daliy/搞机达人/如何在 iOS 美区商店账号购买一个 APP.md",
-    "src/daliy/搞机达人/个人宽带如何开启IPv6网络访问.md",
-    "src/daliy/搞机达人/03_阅读 3.0 Web 版搭建.md",
-    "src/daliy/搞机达人/个人设备推荐.md",
-    "src/daliy/搞机达人/URL Scheme 大全.md",
-    "src/daliy/搞机达人/README.md",
-    "src/daliy/MacOS Software/Eudic 增加试用时间.md",
-    "src/daliy/MacOS Software/好玩的 Docker 项目.md",
-    "src/daliy/MacOS Software/uTools 插件.md",
-    "src/daliy/MacOS Software/ja-netfilter 和 JetBrains 产品的奇妙反应.md",
-    "src/daliy/MacOS Software/Obsidian 插件.md",
-    "src/daliy/MacOS Software/Chrome 推荐插件以及油猴脚本.md",
-    "src/daliy/MacOS Software/macOS_software.md",
-    "src/daliy/MacOS Software/README.md",
+    "src/daliy/04_终身学习体系/excalidraw/信息流流转流程图.ex.md.md",
+    "src/daliy/04_终身学习体系/excalidraw/excalidraw 23-09-13 10.29.37.ex",
+    "src/daliy/04_终身学习体系/01_我的信息流转方案.md",
+    "src/daliy/04_终身学习体系/README.md",
+    "src/daliy/04_终身学习体系/02_RSS 订阅管理.md",
+    "src/daliy/08_不知道怎么分类/零食购买清单.md",
+    "src/single_page/website_navigation.md",
+    "src/single_page/04_收藏癖的美丽废物.md",
+    "src/daliy/01_如何打造个人知识库/基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
+    "src/daliy/01_如何打造个人知识库/VuePress Theme Hope 使用指南.md",
+    "src/daliy/02_MacOS Software/macOS_software.md",
+    "src/daliy/01_如何打造个人知识库/README.md",
     "src/daliy/README.md",
-    "src/daliy/如何打造个人知识库/README.md",
-    "src/daliy/MacOS Software/sublime_text.md",
-    "[].md",
-    "src/daliy/如何打造个人知识库/基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
-    "src/daliy/如何打造个人知识库/通过 GitHub Actions 完成知识库的发布.md",
-    "src/daliy/如何打造个人知识库/Obsidian 同步方案.md",
-    "src/daliy/如何打造个人知识库/VuePress Theme Hope 使用指南.md",
-    "excalidraw 23-09-13 02.47.10.ex",
-    "src/daliy/如何打造个人知识库/Markdown 语法.md",
-    "scripts/set_order_val.py",
-    "scripts",
-    "README.md",
-    "src/daliy/01_如何打造个人知识库/03_通过 GitHub Actions 完成知识库的发布.md",
-    "src/staged",
-    "src/code/远程工作",
-    "excalidraw 23-08-13 06.05.39.ex",
-    "Excalidraw",
-    "excalidraw 23-08-13 05.33.16.ex",
-    "src/daliy/08_不知道怎么分类",
-    "src/02_program/工作中遇过的问题/二维码",
+    "src/daliy/03_搞机达人/README.md",
+    "src/daliy/02_MacOS Software/README.md",
+    "src/temp",
+    "src/daliy/01_如何打造个人知识库/Obsidian 同步方案.md",
+    "src/daliy/01_如何打造个人知识库/Markdown 语法.md",
+    "src/daliy/01_如何打造个人知识库/通过 GitHub Actions 完成知识库的发布.md",
+    "src/daliy/02_MacOS Software/Chrome 推荐插件以及油猴脚本.md",
+    "src/daliy/02_MacOS Software/ja-netfilter 和 JetBrains 产品的奇妙反应.md",
+    "src/daliy/02_MacOS Software/uTools 插件.md",
+    "src/daliy/02_MacOS Software/Obsidian 插件.md",
+    "src/daliy/02_MacOS Software/Eudic 增加试用时间.md",
+    "src/daliy/02_MacOS Software/好玩的 Docker 项目.md",
+    "src/daliy/02_MacOS Software/sublime_text.md",
+    "src/daliy/03_搞机达人/阅读 3.0 Web 版搭建.md",
+    "node_modules/core-js/full/math/f16round.js",
+    "node_modules/core-js/full/data-view/set-uint8-clamped.js",
+    "node_modules/core-js/full/data-view/set-float16.js",
+    "node_modules/core-js/full/data-view/get-float16.js",
+    "node_modules/core-js/full/data-view/get-uint8-clamped.js",
+    "node_modules/core-js/features/math/f16round.js",
+    "node_modules/core-js/features/data-view/set-uint8-clamped.js",
+    "node_modules/core-js/features/data-view/set-float16.js",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

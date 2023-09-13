@@ -1,10 +1,6 @@
 ---
 title: ⭐️ 基于 VuePress Theme Hope、Obsidian 搭建个人知识库
-tag:
-  - VuePress
-  - Theme
-  - Hope
-  - Obsidian
+tag: [VuePress Theme Hope, Obsidian]
 order: 1
 ---
 
@@ -24,27 +20,27 @@ order: 1
 
 ## 如何搭建一个知识库
 
-**核心部分**
+### **核心组件**
 
-- `Obsidian` - 作为笔记工具记录想法、文档
+#### `Obsidian` - 作为笔记工具记录想法、文档
 
-  - 使用 P.A.R.A 方法管理仓库
+- 使用 P.A.R.A 方法管理仓库
 
-    _[The PARA Method: The Simple System for Organizing Your Digital Life in Seconds](https://fortelabs.com/blog/para/)_
+  _[The PARA Method: The Simple System for Organizing Your Digital Life in Seconds](https://fortelabs.com/blog/para/)_
 
-  - 配合 `Obsidian Git` 插件, 使用 `Git` 做版本控制, 利用 `Github Action` 在每次代码提交的时候部署到 `Github Page` 供公网访问
+- 配合 `Obsidian Git` 插件, 使用 `Git` 做版本控制, 利用 `Github Action` 在每次代码提交的时候部署到 `Github Page` 供公网访问
 
-  - 配合 `Image auto upload Plugin` 插件, 直接使用 `Command + V` 的方式完成贴图功能
+- 配合 `Image auto upload Plugin` 插件, 直接使用 `Command + V` 的方式完成贴图功能
 
-  - 更多插件见同仓库 **「MacOS 软件推荐」系列文章 - Obsidian 插件**
+- 更多插件见同仓库 **「MacOS 软件推荐」系列文章 - Obsidian 插件**
 
-- `VuePress Theme Hope` - 一个具有强大功能的 `VuePress` 主题
+#### `VuePress Theme Hope` - 一个具有强大功能的 `VuePress` 主题
 
-  _没听说过 `VuePress` 的小伙伴可以先了解一下_
+_没听说过 `VuePress` 的小伙伴可以先了解一下_
 
-  `VuePress Theme Hope` 不仅仅是 `VuePress` 的一个主题, 同时包含了许多强大的插件 (例如播客插件、Markdown 增强插件、评论插件等)
+`VuePress Theme Hope` 不仅仅是 `VuePress` 的一个主题, 同时包含了许多强大的插件 (例如播客插件、Markdown 增强插件、评论插件等)
 
-  这些插件功能可以帮助建立一个规整、强大的个人文档库, 记录自己所有的想法
+这些插件功能可以帮助建立一个规整、强大的个人文档库, 记录自己所有的想法
 
 ### 选择一个图床库 - Github
 

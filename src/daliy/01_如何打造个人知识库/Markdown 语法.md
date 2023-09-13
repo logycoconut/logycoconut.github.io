@@ -1,6 +1,6 @@
 ---
 title: Markdown 语法
-tags:
+tag:
   - Markdown
 order: 5
 ---

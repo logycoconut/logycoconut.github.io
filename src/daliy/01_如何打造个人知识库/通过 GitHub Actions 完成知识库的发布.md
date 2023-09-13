@@ -1,6 +1,6 @@
 ---
 title: 通过 GitHub Actions 完成知识库的发布
-tags:
+tag:
   - GitHub
   - Action
 order: 3

@@ -27,7 +27,8 @@ export default hopeTheme({
   print: false,
 
   // 自定义排序
-  sidebarSorter: ["readme", "order", "filename"],
+  // sidebarSorter: ["readme", "order", "filename"],
+  sidebarSorter: ["order"],
 
   locales: {
     "/": {

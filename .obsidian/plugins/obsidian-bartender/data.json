@@ -8,10 +8,12 @@
       "template",
       "scripts",
       "src",
+      "excalidraw 23-09-13 10.29.37.ex",
       "README.md",
       "yarn.lock"
     ],
     "src": [
+      "src/temp",
       "src/daliy",
       "src/code",
       "src/single_page",
@@ -21,9 +23,9 @@
       "src/README.md"
     ],
     "src/daliy": [
-      "src/daliy/如何打造个人知识库",
-      "src/daliy/MacOS Software",
-      "src/daliy/搞机达人",
+      "src/daliy/01_如何打造个人知识库",
+      "src/daliy/02_MacOS Software",
+      "src/daliy/03_搞机达人",
       "src/daliy/04_终身学习体系",
       "src/daliy/05_铁子注意身体",
       "src/daliy/06_生活技能",
@@ -113,9 +115,25 @@
       "src/daliy/搞机达人/如何在 iOS 美区商店账号购买一个 APP.md",
       "src/daliy/搞机达人/如何优雅地屏蔽广告 - iOS 篇.md",
       "src/daliy/搞机达人/个人宽带如何开启IPv6网络访问.md",
-      "src/daliy/搞机达人/03_阅读 3.0 Web 版搭建.md",
-      "src/daliy/搞机达人/04_收藏癖的美丽废物.md",
+      "src/daliy/搞机达人/阅读 3.0 Web 版搭建.md",
       "src/daliy/搞机达人/README.md"
+    ],
+    "src/daliy/如何打造个人知识库": [
+      "src/daliy/如何打造个人知识库/基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
+      "src/daliy/如何打造个人知识库/VuePress Theme Hope 使用指南.md",
+      "src/daliy/如何打造个人知识库/通过 GitHub Actions 完成知识库的发布.md",
+      "src/daliy/如何打造个人知识库/Markdown 语法.md",
+      "src/daliy/如何打造个人知识库/Obsidian 同步方案.md",
+      "src/daliy/如何打造个人知识库/README.md"
+    ],
+    "src/daliy/04_终身学习体系": [
+      "src/daliy/04_终身学习体系/excalidraw",
+      "src/daliy/04_终身学习体系/01_我的信息流转方案.md",
+      "src/daliy/04_终身学习体系/02_RSS 订阅管理.md",
+      "src/daliy/04_终身学习体系/03_拖延症大王.md",
+      "src/daliy/04_终身学习体系/04_如何进行时间管理？.md",
+      "src/daliy/04_终身学习体系/ChatGPT 使用指北.md",
+      "src/daliy/04_终身学习体系/README.md"
     ]
   },
   "actionBarOrder": {},

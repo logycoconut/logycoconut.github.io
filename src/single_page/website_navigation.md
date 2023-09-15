@@ -71,11 +71,13 @@ title: 网站导航
 
 - [Quick Reference](https://quickref.cn) - 开发文档速查表
 
+- [IDEA 快捷键](https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/master/keymap-mac-introduce.md)
+
 - [Java8 中文文档](https://www.matools.com/api/java8)
 
 - [Redis 文档](https://redis.io/commands/)
 
-- [IDEA 快捷键](https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/master/keymap-mac-introduce.md)
+- [Open API ( 原 Swagger ) - 文档](https://springdoc.org/)
 
 ### 流程图
 

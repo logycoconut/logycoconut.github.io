@@ -11,12 +11,10 @@
             "id": "5604aee6731961a1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "src/daliy/01_如何打造个人知识库/Obsidian 同步方案.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": ".obsidian/appearance.json",
+                "staged": false
               }
             }
           }
@@ -48,6 +46,21 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "custom"
+              }
+            }
+          },
+          {
+            "id": "8337d5b489e0c543",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
               }
             }
           }
@@ -83,7 +96,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/daliy/01_如何打造个人知识库/Obsidian 同步方案.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -94,9 +106,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/daliy/01_如何打造个人知识库/Obsidian 同步方案.md"
-              }
+              "state": {}
             }
           },
           {
@@ -122,10 +132,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 358.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "templates:插入模板": false,
@@ -134,6 +145,7 @@
   },
   "active": "5604aee6731961a1",
   "lastOpenFiles": [
+    "src/daliy/01_如何打造个人知识库/Obsidian 同步方案.md",
     "src/daliy/02_MacOS Software/sublime_text.md",
     "src/daliy/03_搞机达人/阅读 3.0 Web 版搭建.md",
     "src/daliy/03_搞机达人/个人设备推荐.md",
@@ -161,7 +173,6 @@
     "src/daliy/01_如何打造个人知识库/通过 GitHub Actions 完成知识库的发布.md",
     "src/daliy/01_如何打造个人知识库/基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
     "src/daliy/01_如何打造个人知识库/VuePress Theme Hope 使用指南.md",
-    "src/daliy/01_如何打造个人知识库/Obsidian 同步方案.md",
     "src/daliy/01_如何打造个人知识库",
     "excalidraw 23-09-13 02.47.10.ex",
     "scripts/set_order_val.py",

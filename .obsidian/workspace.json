@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "646dbf8a6aeb359f",
+        "id": "a253bfd7b3237c57",
         "type": "tabs",
         "children": [
           {
-            "id": "bfd383dd499d3639",
+            "id": "5604aee6731961a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/daliy/04_终身学习体系/02_RSS 订阅管理.md",
+                "file": "src/daliy/01_如何打造个人知识库/Obsidian 同步方案.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,18 +34,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8f682e7ec7ba4574",
+            "id": "bdbdcbc466196552",
             "type": "leaf",
             "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": true,
-                "collapseAll": false,
-                "extraContext": true,
-                "sortOrder": "alphabetical"
-              }
+              "type": "starred",
+              "state": {}
             }
           },
           {
@@ -57,21 +50,13 @@
                 "sortOrder": "custom"
               }
             }
-          },
-          {
-            "id": "216feee41199bed4",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
           }
         ],
         "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 411.5
+    "width": 291.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -98,7 +83,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/daliy/04_终身学习体系/02_RSS 订阅管理.md",
+                "file": "src/daliy/01_如何打造个人知识库/Obsidian 同步方案.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/daliy/04_终身学习体系/02_RSS 订阅管理.md"
+                "file": "src/daliy/01_如何打造个人知识库/Obsidian 同步方案.md"
               }
             }
           },
@@ -123,7 +108,7 @@
             }
           },
           {
-            "id": "03246c885e65dd70",
+            "id": "607bf35dc4b56e4e",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -133,60 +118,58 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "zk-prefixer:创建时间戳笔记": false,
       "excalidraw-cn:Create New Excalidraw File": false
     }
   },
-  "active": "bfd383dd499d3639",
+  "active": "5604aee6731961a1",
   "lastOpenFiles": [
-    "src/daliy/04_终身学习体系/我的信息流转方案.md",
-    "src/daliy/04_终身学习体系/02_RSS 订阅管理.md",
-    "src/daliy/04_终身学习体系/ChatGPT 使用指北.md",
-    "src/daliy/08_不知道怎么分类/零食购买清单.md",
-    "src/single_page/收藏癖的美丽废物.md",
-    "src/single_page/website_navigation.md",
-    "src/daliy/04_终身学习体系/excalidraw/信息流流转流程图.ex.md.md",
-    "src/daliy/04_终身学习体系/excalidraw/excalidraw 23-09-13 10.29.37.ex",
-    "src/daliy/04_终身学习体系/README.md",
-    "src/daliy/01_如何打造个人知识库/基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
-    "src/daliy/01_如何打造个人知识库/VuePress Theme Hope 使用指南.md",
-    "src/daliy/02_MacOS Software/macOS_software.md",
-    "src/daliy/01_如何打造个人知识库/README.md",
-    "src/daliy/README.md",
-    "src/daliy/03_搞机达人/README.md",
-    "src/daliy/02_MacOS Software/README.md",
-    "src/temp",
-    "src/daliy/01_如何打造个人知识库/Obsidian 同步方案.md",
-    "src/daliy/01_如何打造个人知识库/Markdown 语法.md",
-    "src/daliy/01_如何打造个人知识库/通过 GitHub Actions 完成知识库的发布.md",
-    "src/daliy/02_MacOS Software/Chrome 推荐插件以及油猴脚本.md",
-    "src/daliy/02_MacOS Software/ja-netfilter 和 JetBrains 产品的奇妙反应.md",
-    "src/daliy/02_MacOS Software/uTools 插件.md",
-    "src/daliy/02_MacOS Software/Obsidian 插件.md",
-    "src/daliy/02_MacOS Software/Eudic 增加试用时间.md",
-    "src/daliy/02_MacOS Software/好玩的 Docker 项目.md",
     "src/daliy/02_MacOS Software/sublime_text.md",
     "src/daliy/03_搞机达人/阅读 3.0 Web 版搭建.md",
-    "node_modules/core-js/full/math/f16round.js",
-    "node_modules/core-js/full/data-view/set-uint8-clamped.js",
-    "node_modules/core-js/full/data-view/set-float16.js",
-    "node_modules/core-js/full/data-view/get-float16.js",
-    "node_modules/core-js/full/data-view/get-uint8-clamped.js",
-    "node_modules/core-js/features/math/f16round.js",
-    "node_modules/core-js/features/data-view/set-uint8-clamped.js",
-    "node_modules/core-js/features/data-view/set-float16.js",
+    "src/daliy/03_搞机达人/个人设备推荐.md",
+    "src/daliy/03_搞机达人/如何在 iOS 美区商店账号购买一个 APP.md",
+    "src/daliy/03_搞机达人/个人宽带如何开启IPv6网络访问.md",
+    "src/daliy/03_搞机达人/如何优雅地屏蔽广告 - iOS 篇.md",
+    "src/blog/230918_.md",
+    "src/daliy/02_MacOS Software/macOS_software.md",
+    "src/daliy/02_MacOS Software/Chrome 推荐插件以及油猴脚本.md",
+    "src/daliy/04_终身学习体系/03_拖延症大王.md",
+    "src/single_page/收藏癖的美丽废物.md",
+    "src/daliy/04_终身学习体系/我的信息流转方案.md",
+    "src/daliy/04_终身学习体系/excalidraw/信息流流转流程图.ex.md.md",
+    "src/daliy/03_搞机达人/URL Scheme 大全.md",
+    "src/single_page/04_收藏癖的美丽废物.md",
+    "src/daliy/03_搞机达人/README.md",
+    "src/daliy/03_搞机达人",
+    "src/daliy/02_MacOS Software/好玩的 Docker 项目.md",
+    "src/daliy/02_MacOS Software/uTools 插件.md",
+    "src/daliy/02_MacOS Software/ja-netfilter 和 JetBrains 产品的奇妙反应.md",
+    "src/daliy/02_MacOS Software/README.md",
+    "src/daliy/02_MacOS Software/Obsidian 插件.md",
+    "src/daliy/02_MacOS Software/Eudic 增加试用时间.md",
+    "src/daliy/02_MacOS Software",
+    "src/daliy/01_如何打造个人知识库/通过 GitHub Actions 完成知识库的发布.md",
+    "src/daliy/01_如何打造个人知识库/基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
+    "src/daliy/01_如何打造个人知识库/VuePress Theme Hope 使用指南.md",
+    "src/daliy/01_如何打造个人知识库/Obsidian 同步方案.md",
+    "src/daliy/01_如何打造个人知识库",
+    "excalidraw 23-09-13 02.47.10.ex",
+    "scripts/set_order_val.py",
+    "scripts",
+    "src/staged",
+    "src/code/远程工作",
+    "excalidraw 23-08-13 06.05.39.ex",
+    "Excalidraw",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

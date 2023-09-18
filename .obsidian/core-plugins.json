@@ -8,10 +8,8 @@
   "properties",
   "templates",
   "note-composer",
-  "command-palette",
+  "slash-command",
   "editor-status",
-  "bookmarks",
-  "zk-prefixer",
   "outline",
   "word-count",
   "file-recovery"

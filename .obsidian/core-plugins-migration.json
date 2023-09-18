@@ -10,12 +10,12 @@
   "daily-notes": false,
   "templates": true,
   "note-composer": true,
-  "command-palette": true,
-  "slash-command": false,
+  "command-palette": false,
+  "slash-command": true,
   "editor-status": true,
   "starred": true,
   "markdown-importer": false,
-  "zk-prefixer": true,
+  "zk-prefixer": false,
   "random-note": false,
   "outline": true,
   "word-count": true,
@@ -26,6 +26,6 @@
   "publish": false,
   "sync": false,
   "canvas": false,
-  "bookmarks": true,
+  "bookmarks": false,
   "properties": true
 }

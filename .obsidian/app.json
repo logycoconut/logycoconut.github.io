@@ -15,5 +15,8 @@
   "defaultViewMode": "source",
   "livePreview": true,
   "spellcheck": true,
-  "focusNewTab": true
+  "focusNewTab": true,
+  "propertiesInDocument": "source",
+  "foldIndent": false,
+  "foldHeading": false
 }

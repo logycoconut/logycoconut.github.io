@@ -4,21 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "a253bfd7b3237c57",
+        "id": "73ad094c705d1c30",
         "type": "tabs",
         "children": [
           {
-            "id": "5604aee6731961a1",
+            "id": "4af5fdf823c96165",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/appearance.json",
-                "staged": false
+                "file": "src/daliy/02_MacOS Software/macOS_software.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b724c4e1c3582fbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/daliy/08_不知道怎么分类/零食购买清单.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 399.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -96,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/daliy/08_不知道怎么分类/零食购买清单.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -106,7 +123,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/daliy/08_不知道怎么分类/零食购买清单.md"
+              }
             }
           },
           {
@@ -126,13 +145,21 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "579360b68a025cf9",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 358.5
+    "width": 344.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,8 +170,11 @@
       "excalidraw-cn:Create New Excalidraw File": false
     }
   },
-  "active": "5604aee6731961a1",
+  "active": "b724c4e1c3582fbe",
   "lastOpenFiles": [
+    "src/daliy/07_言论/如何优雅地编写代码.md",
+    "src/daliy/07_言论/观点.md",
+    "src/daliy/02_MacOS Software/macOS_software.md",
     "src/daliy/01_如何打造个人知识库/Obsidian 同步方案.md",
     "src/daliy/02_MacOS Software/sublime_text.md",
     "src/daliy/03_搞机达人/阅读 3.0 Web 版搭建.md",
@@ -153,7 +183,6 @@
     "src/daliy/03_搞机达人/个人宽带如何开启IPv6网络访问.md",
     "src/daliy/03_搞机达人/如何优雅地屏蔽广告 - iOS 篇.md",
     "src/blog/230918_.md",
-    "src/daliy/02_MacOS Software/macOS_software.md",
     "src/daliy/02_MacOS Software/Chrome 推荐插件以及油猴脚本.md",
     "src/daliy/04_终身学习体系/03_拖延症大王.md",
     "src/single_page/收藏癖的美丽废物.md",
@@ -171,8 +200,6 @@
     "src/daliy/02_MacOS Software/Eudic 增加试用时间.md",
     "src/daliy/02_MacOS Software",
     "src/daliy/01_如何打造个人知识库/通过 GitHub Actions 完成知识库的发布.md",
-    "src/daliy/01_如何打造个人知识库/基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
-    "src/daliy/01_如何打造个人知识库/VuePress Theme Hope 使用指南.md",
     "src/daliy/01_如何打造个人知识库",
     "excalidraw 23-09-13 02.47.10.ex",
     "scripts/set_order_val.py",

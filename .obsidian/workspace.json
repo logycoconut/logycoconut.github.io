@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/daliy/08_不知道怎么分类/零食购买清单.md",
+                "file": "src/single_page/website_navigation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/daliy/08_不知道怎么分类/零食购买清单.md",
+                "file": "src/single_page/website_navigation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/daliy/08_不知道怎么分类/零食购买清单.md"
+                "file": "src/single_page/website_navigation.md"
               }
             }
           },
@@ -172,8 +172,10 @@
   },
   "active": "b724c4e1c3582fbe",
   "lastOpenFiles": [
+    "src/single_page/收藏癖的美丽废物.md",
     "src/daliy/07_言论/如何优雅地编写代码.md",
     "src/daliy/07_言论/观点.md",
+    "src/daliy/08_不知道怎么分类/零食购买清单.md",
     "src/daliy/02_MacOS Software/macOS_software.md",
     "src/daliy/01_如何打造个人知识库/Obsidian 同步方案.md",
     "src/daliy/02_MacOS Software/sublime_text.md",
@@ -185,7 +187,6 @@
     "src/blog/230918_.md",
     "src/daliy/02_MacOS Software/Chrome 推荐插件以及油猴脚本.md",
     "src/daliy/04_终身学习体系/03_拖延症大王.md",
-    "src/single_page/收藏癖的美丽废物.md",
     "src/daliy/04_终身学习体系/我的信息流转方案.md",
     "src/daliy/04_终身学习体系/excalidraw/信息流流转流程图.ex.md.md",
     "src/daliy/03_搞机达人/URL Scheme 大全.md",
@@ -199,7 +200,6 @@
     "src/daliy/02_MacOS Software/Obsidian 插件.md",
     "src/daliy/02_MacOS Software/Eudic 增加试用时间.md",
     "src/daliy/02_MacOS Software",
-    "src/daliy/01_如何打造个人知识库/通过 GitHub Actions 完成知识库的发布.md",
     "src/daliy/01_如何打造个人知识库",
     "excalidraw 23-09-13 02.47.10.ex",
     "scripts/set_order_val.py",

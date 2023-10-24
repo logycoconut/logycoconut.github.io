@@ -91,6 +91,8 @@ title: 网站导航
 
 - [Serverless](https://serverless.com) - 免费的无服务
 
+- [Free for Developers](https://free-for.dev/)  - 几乎能找到一切免费的开发工具
+
 ### 仓库
 
 - [Maven 仓库](https://mvnrepository.com/)

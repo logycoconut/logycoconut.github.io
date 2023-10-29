@@ -47,7 +47,7 @@ docker exec -it eb4e5f3d4f71 /bin/sh
 docker commit -m "add test.txt" -a "hall" eb4e5f3d4f71 test:0.1
 ```
 
-#### 基于Dockerfile来创建（推荐）
+#### 基于 Dockerfile 来创建（推荐）
 
 ```docker
 FROM docker.io/alpine:latest
@@ -140,6 +140,21 @@ docker container prune -a
 
   `docker run --name nginx-local -p 8080:80 -d nginx`
 
+- Docker 安装 PostgreSQL
+
+用户名默认为 postgres
+
+```shell
+docker run -it \
+	--name postgres \
+	--restart always \
+	-e TZ='Asia/Shanghai' \
+	-e POSTGRES_PASSWORD='12345678' \
+	-e ALLOW_IP_RANGE=0.0.0.0/0 \
+	-p 5432:5432 \
+	-d postgres
+```
+
 ## 镜像管理 Portainer
 
 ### Portainer容器更新
@@ -160,7 +175,11 @@ docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock --restar
 ## 参考资料
 
 - [易百教程](https://www.yiibai.com/docker)
+
 - [菜鸟教程-Docker](https://www.runoob.com/docker/docker-tutorial.html)
+
 - [异常教程-Docker](https://www.exception.site/docker)
+
 - [Docker官方镜像仓库](https://hub.docker.com/)
+
 - [Docker — 从入门到实践](https://yeasy.gitbook.io/docker_practice/)（⭐️⭐️⭐️）

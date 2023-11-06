@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "73ad094c705d1c30",
+        "id": "1f9adeaa7837fb0f",
         "type": "tabs",
         "children": [
           {
-            "id": "4af5fdf823c96165",
+            "id": "cccd80444347019c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/code/03_database/postgresql/PostgreSQL 的奇妙用法 - 获取分组前几个记录.md",
+                "file": "src/staged/怎么更好的学习.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"title\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 399.5
+    "width": 371.5033645629883
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -89,7 +89,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/code/03_database/postgresql/PostgreSQL 的奇妙用法 - 获取分组前几个记录.md"
+                "file": "src/staged/怎么更好的学习.md"
               }
             }
           },
@@ -110,6 +110,18 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "b66ac743468a1180",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "src/staged/怎么更好的学习.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -124,47 +136,48 @@
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "templates:插入模板": false,
-      "excalidraw-cn:Create New Excalidraw File": false
+      "excalidraw-cn:Create New Excalidraw File": false,
+      "hidden-folder-obsidian:显示文件夹": false
     }
   },
-  "active": "4af5fdf823c96165",
+  "active": "cccd80444347019c",
   "lastOpenFiles": [
-    "src/code/09_tools/01_Docker/01_Docker 入门.md",
-    "src/code/03_database/postgresql/PostgreSQL 的奇妙用法 - 获取分组前几个记录.md",
-    "src/code/03_database/postgresql",
-    "src/daliy/02_MacOS Software/macOS_software.md",
-    "src/code/09_tools/01_Docker/README.md",
-    "src/single_page/website_navigation.md",
-    "src/single_page/收藏癖的美丽废物.md",
-    "src/daliy/07_言论/如何优雅地编写代码.md",
+    "未命名.md",
+    "src/staged/怎么更好的学习.md",
+    "src/staged/未命名.md",
+    "src/blog/230213_如何快速学习一项新技能 读后感.md",
+    "src/staged/MySQL 是怎样运行的：从根儿上理解 MySQL.md",
+    "src/staged/211209 分布式系统之 CAP 理论.md",
+    "src/staged/211018 IO.md",
+    "src/staged/GraphQL 入门.md",
+    "src/staged/接口鉴权问题.md",
     "src/daliy/07_言论/观点.md",
-    "src/daliy/08_不知道怎么分类/零食购买清单.md",
-    "src/daliy/01_如何打造个人知识库/Obsidian 同步方案.md",
-    "src/daliy/02_MacOS Software/sublime_text.md",
-    "src/daliy/03_搞机达人/阅读 3.0 Web 版搭建.md",
-    "src/daliy/03_搞机达人/个人设备推荐.md",
-    "src/daliy/03_搞机达人/如何在 iOS 美区商店账号购买一个 APP.md",
-    "src/daliy/03_搞机达人/个人宽带如何开启IPv6网络访问.md",
-    "src/daliy/03_搞机达人/如何优雅地屏蔽广告 - iOS 篇.md",
-    "src/blog/230918_.md",
-    "src/daliy/02_MacOS Software/Chrome 推荐插件以及油猴脚本.md",
-    "src/daliy/04_终身学习体系/03_拖延症大王.md",
-    "src/daliy/04_终身学习体系/我的信息流转方案.md",
-    "src/daliy/04_终身学习体系/excalidraw/信息流流转流程图.ex.md.md",
-    "src/daliy/03_搞机达人/URL Scheme 大全.md",
-    "src/single_page/04_收藏癖的美丽废物.md",
-    "src/daliy/03_搞机达人/README.md",
+    "src/inbox",
+    "src/tech/cloud_plat/阿里云 SLS 日志服务相关.md",
+    "src/tech/books",
+    "src/tech/database",
+    "src/tech/cloud_plat/日志服务",
+    "src/tech/cloud_plat",
+    "src/daliy/08_不知道怎么分类/字体安装.md",
+    "src/daliy/README.md",
+    "src/tech",
+    "README.md",
+    "src/daliy/01_如何打造个人知识库/Markdown 语法.md",
+    "src/daliy/01_如何打造个人知识库/通过 GitHub Actions 完成知识库的发布.md",
+    "src/daliy/01_如何打造个人知识库/VuePress Theme Hope 使用指南.md",
+    "src/daliy/01_如何打造个人知识库/基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
+    "src/code/01_java/04_并发/01_常见问题.md",
+    "src/daliy/06_生活技能/02_学会游泳.md",
+    "src/staged/跑步给我带来了什么.md",
+    "src/code/远程工作/程序员一败涂地.md",
+    "src/code/README.md",
+    "src/code/03_database/postgresql/PostgreSQL 的奇妙用法 - 获取分组前几个记录.md",
+    "src/code/未命名.md",
+    "src/code/09_tools/01_Docker/01_Docker 入门.md",
+    "src/code/03_database/postgresql",
     "src/daliy/03_搞机达人",
-    "src/daliy/02_MacOS Software/好玩的 Docker 项目.md",
-    "src/daliy/02_MacOS Software/uTools 插件.md",
     "src/daliy/02_MacOS Software",
     "src/daliy/01_如何打造个人知识库",
-    "excalidraw 23-09-13 02.47.10.ex",
-    "scripts/set_order_val.py",
-    "scripts",
-    "src/staged",
-    "src/code/远程工作",
-    "excalidraw 23-08-13 06.05.39.ex",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

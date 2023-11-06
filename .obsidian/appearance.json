@@ -7,7 +7,8 @@
   "baseFontSize": 16,
   "baseFontSizeAction": false,
   "nativeMenus": false,
-  "textFontFamily": "Helvetica Neue",
-  "interfaceFontFamily": "Helvetica Neue",
-  "monospaceFontFamily": "Monaco"
+  "textFontFamily": "Source Han Sans,Helvetica Neue",
+  "interfaceFontFamily": "Source Han Sans,Helvetica Neue",
+  "monospaceFontFamily": "Monaco",
+  "showViewHeader": true
 }

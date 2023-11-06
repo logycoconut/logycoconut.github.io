@@ -13,13 +13,13 @@
       "yarn.lock"
     ],
     "src": [
-      "src/temp",
+      "src/staged",
+      "src/P.A.R.A",
       "src/daliy",
+      "src/tech",
       "src/code",
       "src/single_page",
       "src/blog",
-      "src/P.A.R.A",
-      "src/staged",
       "src/README.md"
     ],
     "src/daliy": [
@@ -133,6 +133,12 @@
       "src/daliy/04_终身学习体系/04_如何进行时间管理？.md",
       "src/daliy/04_终身学习体系/ChatGPT 使用指北.md",
       "src/daliy/04_终身学习体系/README.md"
+    ],
+    "src/daliy/08_不知道怎么分类": [
+      "src/daliy/08_不知道怎么分类/零食购买清单.md",
+      "src/daliy/08_不知道怎么分类/字体安装.md",
+      "src/daliy/08_不知道怎么分类/阿里云 SLS 日志服务相关.md",
+      "src/daliy/08_不知道怎么分类/README.md"
     ]
   },
   "actionBarOrder": {},

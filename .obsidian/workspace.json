@@ -11,12 +11,10 @@
             "id": "cccd80444347019c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "src/staged/怎么更好的学习.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "src/tech/issure/java/项目中升级 JDK 17 遇到的一些问题.md",
+                "staged": true
               }
             }
           }
@@ -88,9 +86,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/staged/怎么更好的学习.md"
-              }
+              "state": {}
             }
           },
           {
@@ -117,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/staged/怎么更好的学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,14 +137,18 @@
   },
   "active": "cccd80444347019c",
   "lastOpenFiles": [
-    "未命名.md",
-    "src/staged/怎么更好的学习.md",
-    "src/staged/未命名.md",
-    "src/blog/230213_如何快速学习一项新技能 读后感.md",
+    "src/tech/issure/postgresql/PostgreSQL 中 distinct on 用法.md",
+    "src/tech/issure/java/项目中升级 JDK 17 遇到的一些问题.md",
+    "src/tech/issure/postgresql/PostgreSQL 的奇妙用法 - 获取分组前几个记录.md",
     "src/staged/MySQL 是怎样运行的：从根儿上理解 MySQL.md",
+    "src/staged/GraphQL 入门.md",
+    "src/staged/怎么更好的学习.md",
+    "src/tech/issure/java",
+    "src/tech/issure",
+    "未命名.md",
+    "src/blog/230213_如何快速学习一项新技能 读后感.md",
     "src/staged/211209 分布式系统之 CAP 理论.md",
     "src/staged/211018 IO.md",
-    "src/staged/GraphQL 入门.md",
     "src/staged/接口鉴权问题.md",
     "src/daliy/07_言论/观点.md",
     "src/inbox",
@@ -171,13 +170,9 @@
     "src/staged/跑步给我带来了什么.md",
     "src/code/远程工作/程序员一败涂地.md",
     "src/code/README.md",
-    "src/code/03_database/postgresql/PostgreSQL 的奇妙用法 - 获取分组前几个记录.md",
     "src/code/未命名.md",
-    "src/code/09_tools/01_Docker/01_Docker 入门.md",
-    "src/code/03_database/postgresql",
+    "src/tech/issure/postgresql",
     "src/daliy/03_搞机达人",
-    "src/daliy/02_MacOS Software",
-    "src/daliy/01_如何打造个人知识库",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

@@ -6,7 +6,7 @@
   "userIgnoreFilters": [
     "node_modules/"
   ],
-  "readableLineLength": true,
+  "readableLineLength": false,
   "strictLineBreaks": false,
   "showFrontmatter": false,
   "showLineNumber": false,

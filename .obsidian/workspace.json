@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "1f9adeaa7837fb0f",
+        "id": "788328ec08fe3057",
         "type": "tabs",
         "children": [
           {
-            "id": "cccd80444347019c",
+            "id": "857ba04f7eb9e8f5",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "src/tech/issure/java/项目中升级 JDK 17 遇到的一些问题.md",
-                "staged": true
+                "file": "src/staged/使用滑动窗口算法实现限流 - Java 实现.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -47,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "redis",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +88,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/staged/使用滑动窗口算法实现限流 - Java 实现.md"
+              }
             }
           },
           {
@@ -113,13 +117,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/staged/使用滑动窗口算法实现限流 - Java 实现.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -135,13 +140,17 @@
       "hidden-folder-obsidian:显示文件夹": false
     }
   },
-  "active": "cccd80444347019c",
+  "active": "857ba04f7eb9e8f5",
   "lastOpenFiles": [
+    "src/staged/使用滑动窗口算法实现限流 - Java 实现.md",
+    "src/code/09_tools/01_Docker/01_Docker 入门.md",
+    "src/staged/书单.md",
+    "src/staged/GraphQL 入门.md",
+    "src/staged/MySQL 是怎样运行的：从根儿上理解 MySQL.md",
+    "template/reference-style link template.md",
     "src/tech/issure/postgresql/PostgreSQL 中 distinct on 用法.md",
     "src/tech/issure/java/项目中升级 JDK 17 遇到的一些问题.md",
     "src/tech/issure/postgresql/PostgreSQL 的奇妙用法 - 获取分组前几个记录.md",
-    "src/staged/MySQL 是怎样运行的：从根儿上理解 MySQL.md",
-    "src/staged/GraphQL 入门.md",
     "src/staged/怎么更好的学习.md",
     "src/tech/issure/java",
     "src/tech/issure",
@@ -167,10 +176,6 @@
     "src/daliy/01_如何打造个人知识库/基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
     "src/code/01_java/04_并发/01_常见问题.md",
     "src/daliy/06_生活技能/02_学会游泳.md",
-    "src/staged/跑步给我带来了什么.md",
-    "src/code/远程工作/程序员一败涂地.md",
-    "src/code/README.md",
-    "src/code/未命名.md",
     "src/tech/issure/postgresql",
     "src/daliy/03_搞机达人",
     "未命名.canvas",

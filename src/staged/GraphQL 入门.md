@@ -9,10 +9,9 @@ tag: [GraphQL]
 
 ### `GraphQL` 中的 `N+1` 问题
 
+```java
+```
+
 ## 参考链接
 
-- [30分钟理解 GraphQL 核心概念][]
-
-​​<!-- +++++++++ 下面是引用式链接 +++++++++ -->
-
-[30分钟理解 GraphQL 核心概念]: https://segmentfault.com/a/1190000014131950
+- [30分钟理解 GraphQL 核心概念](https://segmentfault.com/a/1190000014131950)

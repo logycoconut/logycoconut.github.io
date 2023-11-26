@@ -139,6 +139,15 @@
       "src/daliy/08_不知道怎么分类/字体安装.md",
       "src/daliy/08_不知道怎么分类/阿里云 SLS 日志服务相关.md",
       "src/daliy/08_不知道怎么分类/README.md"
+    ],
+    "src/tech": [
+      "src/tech/java",
+      "src/tech/algorithm",
+      "src/tech/middleware",
+      "src/tech/system_design",
+      "src/tech/cloud_plat",
+      "src/tech/issure",
+      "src/tech/README.md"
     ]
   },
   "actionBarOrder": {},

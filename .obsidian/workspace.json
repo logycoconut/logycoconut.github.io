@@ -11,10 +11,12 @@
             "id": "a46de867f6a20215",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "未命名.md",
-                "staged": false
+                "file": "src/daliy/03_搞机达人/Clash 分流以及去广告.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -86,7 +88,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/daliy/03_搞机达人/Clash 分流以及去广告.md"
+              }
             }
           },
           {
@@ -113,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/daliy/03_搞机达人/Clash 分流以及去广告.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,8 +142,16 @@
   },
   "active": "a46de867f6a20215",
   "lastOpenFiles": [
-    "src/tech/issure/java/项目中升级 JDK 17 遇到的一些问题.md",
+    "src/daliy/03_搞机达人/阅读 3.0 Web 版搭建.md",
+    "src/daliy/03_搞机达人/个人设备推荐.md",
+    "src/daliy/03_搞机达人/URL Scheme 大全.md",
+    "src/daliy/03_搞机达人/README.md",
+    "src/daliy/03_搞机达人/个人宽带如何开启IPv6网络访问.md",
+    "src/daliy/03_搞机达人/如何在 iOS 美区商店账号购买一个 APP.md",
+    "src/daliy/03_搞机达人/如何优雅地屏蔽广告 - iOS 篇.md",
+    "src/daliy/03_搞机达人/Clash 分流以及去广告.md",
     "src/tech/README.md",
+    "src/tech/issure/java/项目中升级 JDK 17 遇到的一些问题.md",
     "src/tech/system_design",
     "src/code/README.md",
     "src/README.md",
@@ -161,17 +174,10 @@
     "src/staged/怎么更好的学习.md",
     "src/tech/issure/java",
     "src/tech/issure",
-    "未命名.md",
-    "src/blog/230213_如何快速学习一项新技能 读后感.md",
-    "src/staged/211209 分布式系统之 CAP 理论.md",
-    "src/staged/211018 IO.md",
-    "src/staged/接口鉴权问题.md",
-    "src/daliy/07_言论/观点.md",
     "src/inbox",
     "src/tech/books",
     "src/tech/database",
     "src/tech/cloud_plat/日志服务",
-    "src/daliy/08_不知道怎么分类/字体安装.md",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

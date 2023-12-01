@@ -2,9 +2,7 @@
 title: 如何优雅地屏蔽广告 - iOS 篇
 category:
   - iOS 修炼手册
-tags:
-  - iOS
-  - 广告屏蔽
+tag: [iOS, 广告屏蔽]
 order: 4
 ---
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/daliy/03_搞机达人/Clash 分流以及去广告.md",
+                "file": "src/staged/MySQL 是怎样运行的：从根儿上理解 MySQL.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -89,7 +89,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/daliy/03_搞机达人/Clash 分流以及去广告.md"
+                "file": "src/staged/MySQL 是怎样运行的：从根儿上理解 MySQL.md"
               }
             }
           },
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/daliy/03_搞机达人/Clash 分流以及去广告.md",
+                "file": "src/staged/MySQL 是怎样运行的：从根儿上理解 MySQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,6 +142,8 @@
   },
   "active": "a46de867f6a20215",
   "lastOpenFiles": [
+    "src/staged/Node 版本升级.md",
+    "src/daliy/03_搞机达人/Clash 分流以及去广告.md",
     "src/daliy/03_搞机达人/阅读 3.0 Web 版搭建.md",
     "src/daliy/03_搞机达人/个人设备推荐.md",
     "src/daliy/03_搞机达人/URL Scheme 大全.md",
@@ -149,7 +151,6 @@
     "src/daliy/03_搞机达人/个人宽带如何开启IPv6网络访问.md",
     "src/daliy/03_搞机达人/如何在 iOS 美区商店账号购买一个 APP.md",
     "src/daliy/03_搞机达人/如何优雅地屏蔽广告 - iOS 篇.md",
-    "src/daliy/03_搞机达人/Clash 分流以及去广告.md",
     "src/tech/README.md",
     "src/tech/issure/java/项目中升级 JDK 17 遇到的一些问题.md",
     "src/tech/system_design",
@@ -161,7 +162,6 @@
     "src/tech/middleware",
     "src/tech/algorithm",
     "src/tech/java",
-    "src/staged/Node 版本升级.md",
     "src/daliy/01_如何打造个人知识库/基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
     "src/daliy/01_如何打造个人知识库/VuePress Theme Hope 使用指南.md",
     "src/staged/使用滑动窗口算法实现限流 - Java 实现.md",

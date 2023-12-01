@@ -1,8 +1,9 @@
 ---
-title: to be perfected
-tag: []
-order: null
+title: Node 版本升级
+tag: [Node]
 ---
+
+### 使用 `n` 包升级 `node`
 
 ```bash
  # 查看当前 node 版本 

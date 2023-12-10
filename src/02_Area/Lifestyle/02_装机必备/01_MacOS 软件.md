@@ -1,8 +1,6 @@
 ---
 title: ⭐️ MacOS 软件
-tags:
-  - MacOS
-  - 自用推荐
+tag: [MacOS]
 order: 1
 ---
 

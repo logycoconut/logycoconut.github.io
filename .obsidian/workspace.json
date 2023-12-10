@@ -11,12 +11,10 @@
             "id": "a46de867f6a20215",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "src/Area/Lifestyle/01_如何打造个人知识库/README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "src/Area/Lifestyle/02_装机必备/ja-netfilter 和 JetBrains 产品的奇妙反应.md",
+                "staged": true
               }
             }
           }
@@ -39,7 +37,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "custom"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -88,9 +86,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/Area/Lifestyle/01_如何打造个人知识库/README.md"
-              }
+              "state": {}
             }
           },
           {
@@ -117,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/Area/Lifestyle/01_如何打造个人知识库/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,39 +138,39 @@
   },
   "active": "a46de867f6a20215",
   "lastOpenFiles": [
-    "src/Area/Lifestyle/01_如何打造个人知识库/Markdown 语法.md",
-    "src/Area/Lifestyle/01_如何打造个人知识库/通过 GitHub Actions 完成知识库的发布.md",
-    "src/Area/Lifestyle/01_如何打造个人知识库/Obsidian 同步方案.md",
-    "src/Area/Lifestyle/01_如何打造个人知识库/VuePress Theme Hope 使用指南.md",
-    "src/Area/Lifestyle/01_如何打造个人知识库/基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
-    "src/Area/Lifestyle/02_MacOS Software/好玩的 Docker 项目.md",
-    "src/Area/Lifestyle/README.md",
+    "src/02_Area/Lifestyle/02_装机必备/01_MacOS 软件.md",
+    "src/02_Area/Lifestyle/02_装机必备/好玩的 Docker 项目.md",
+    "src/02_Area/Lifestyle/01_如何打造个人知识库/README.md",
+    "src/02_Area/Lifestyle/01_如何打造个人知识库/Markdown 语法.md",
+    "src/02_Area/Lifestyle/01_如何打造个人知识库/通过 GitHub Actions 完成知识库的发布.md",
+    "src/02_Area/Lifestyle/01_如何打造个人知识库/Obsidian 同步方案.md",
+    "src/02_Area/Lifestyle/01_如何打造个人知识库/VuePress Theme Hope 使用指南.md",
+    "src/02_Area/Lifestyle/01_如何打造个人知识库/基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
+    "src/02_Area/Lifestyle/README.md",
     "README.md",
     "src/Area/Lifestyle/README1.md",
     "src/Area/README.md",
-    "src/Area/Lifestyle/04_终身学习体系/我的信息流转方案.md",
-    "src/Area/Lifestyle/04_终身学习体系/README.md",
-    "src/Area/Lifestyle/04_终身学习体系/ChatGPT 使用指北.md",
-    "src/Area/Lifestyle/04_终身学习体系/04_如何进行时间管理？.md",
-    "src/Area/Lifestyle/04_终身学习体系/03_拖延症大王.md",
-    "src/Area/Lifestyle/04_终身学习体系/02_RSS 订阅管理.md",
-    "src/Area/Lifestyle/03_搞机达人/阅读 3.0 Web 版搭建.md",
-    "src/Area/Lifestyle/03_搞机达人/如何在 iOS 美区商店账号购买一个 APP.md",
-    "src/Area/Lifestyle/03_搞机达人/如何优雅地屏蔽广告 - iOS 篇.md",
-    "src/Area/Lifestyle/03_搞机达人/个人设备推荐.md",
-    "src/Area/Lifestyle/03_搞机达人/个人宽带如何开启IPv6网络访问.md",
-    "src/Area/Lifestyle/03_搞机达人/URL Scheme 大全.md",
-    "src/Area/Lifestyle/03_搞机达人/README.md",
-    "src/Area/Lifestyle/03_搞机达人/Clash 分流以及去广告.md",
-    "src/Area/Lifestyle/01_如何打造个人知识库/README.md",
-    "src/Area/Lifestyle/02_MacOS Software/uTools 插件.md",
-    "src/Area/Lifestyle/04_终身学习体系",
-    "src/Area/Lifestyle/03_搞机达人",
-    "src/Area/Lifestyle/01_如何打造个人知识库",
-    "src/Area/Lifestyle/02_MacOS Software",
-    "src/Area/Tech",
-    "src/Area/Lifestyle",
-    "src/Area",
+    "src/02_Area/Lifestyle/04_终身学习体系/我的信息流转方案.md",
+    "src/02_Area/Lifestyle/04_终身学习体系/README.md",
+    "src/02_Area/Lifestyle/04_终身学习体系/ChatGPT 使用指北.md",
+    "src/02_Area/Lifestyle/04_终身学习体系/04_如何进行时间管理？.md",
+    "src/02_Area/Lifestyle/04_终身学习体系/03_拖延症大王.md",
+    "src/02_Area/Lifestyle/04_终身学习体系/02_RSS 订阅管理.md",
+    "src/02_Area/Lifestyle/03_搞机达人/阅读 3.0 Web 版搭建.md",
+    "src/02_Area/Lifestyle/03_搞机达人/如何在 iOS 美区商店账号购买一个 APP.md",
+    "src/02_Area/Lifestyle/03_搞机达人/如何优雅地屏蔽广告 - iOS 篇.md",
+    "src/02_Area/Lifestyle/03_搞机达人/个人设备推荐.md",
+    "src/02_Area/Lifestyle/03_搞机达人/个人宽带如何开启IPv6网络访问.md",
+    "src/02_Area/Lifestyle/03_搞机达人/URL Scheme 大全.md",
+    "src/02_Area/Lifestyle/03_搞机达人/README.md",
+    "src/02_Area/Lifestyle/03_搞机达人/Clash 分流以及去广告.md",
+    "src/02_Area/Lifestyle/04_终身学习体系",
+    "src/02_Area/Lifestyle/03_搞机达人",
+    "src/02_Area/Lifestyle/01_如何打造个人知识库",
+    "src/02_Area/Lifestyle/02_装机必备",
+    "src/02_Area/Tech",
+    "src/02_Area/Lifestyle",
+    "src/02_Area",
     "src/area/Lifestyle/04_终身学习体系",
     "src/area/Lifestyle/03_搞机达人",
     "src/area/Lifestyle/02_MacOS Software",

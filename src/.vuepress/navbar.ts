@@ -7,7 +7,7 @@ export const zhNavbar = navbar([
   },
   {
     text: "🥳 成为一个有趣的人",
-    link: "/Area/Lifestyle/",
+    link: "/02_Area/Lifestyle/",
   },
   {
     text: "📝 博客",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/Area/Lifestyle/01_如何打造个人知识库/VuePress Theme Hope 使用指南.md",
+                "file": "src/Area/Lifestyle/01_如何打造个人知识库/README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -89,7 +89,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/Area/Lifestyle/01_如何打造个人知识库/VuePress Theme Hope 使用指南.md"
+                "file": "src/Area/Lifestyle/01_如何打造个人知识库/README.md"
               }
             }
           },
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/Area/Lifestyle/01_如何打造个人知识库/VuePress Theme Hope 使用指南.md",
+                "file": "src/Area/Lifestyle/01_如何打造个人知识库/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,14 +141,16 @@
       "hidden-folder-obsidian:显示文件夹": false
     }
   },
-  "active": "49813a896445e999",
+  "active": "a46de867f6a20215",
   "lastOpenFiles": [
     "src/Area/Lifestyle/01_如何打造个人知识库/Markdown 语法.md",
     "src/Area/Lifestyle/01_如何打造个人知识库/通过 GitHub Actions 完成知识库的发布.md",
-    "src/Area/Lifestyle/01_如何打造个人知识库/基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
+    "src/Area/Lifestyle/01_如何打造个人知识库/Obsidian 同步方案.md",
     "src/Area/Lifestyle/01_如何打造个人知识库/VuePress Theme Hope 使用指南.md",
-    "README.md",
+    "src/Area/Lifestyle/01_如何打造个人知识库/基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
+    "src/Area/Lifestyle/02_MacOS Software/好玩的 Docker 项目.md",
     "src/Area/Lifestyle/README.md",
+    "README.md",
     "src/Area/Lifestyle/README1.md",
     "src/Area/README.md",
     "src/Area/Lifestyle/04_终身学习体系/我的信息流转方案.md",
@@ -166,8 +168,6 @@
     "src/Area/Lifestyle/03_搞机达人/README.md",
     "src/Area/Lifestyle/03_搞机达人/Clash 分流以及去广告.md",
     "src/Area/Lifestyle/01_如何打造个人知识库/README.md",
-    "src/Area/Lifestyle/01_如何打造个人知识库/Obsidian 同步方案.md",
-    "src/Area/Lifestyle/02_MacOS Software/好玩的 Docker 项目.md",
     "src/Area/Lifestyle/02_MacOS Software/uTools 插件.md",
     "src/Area/Lifestyle/04_终身学习体系",
     "src/Area/Lifestyle/03_搞机达人",

@@ -56,6 +56,5 @@
   "Components@@setting-item-title-icon-remove": true,
   "Components@@scrollbar-hide": true,
   "Components@@restored-scrollbars": false,
-  "Appearance-light@@workspace-divider-transparent-light": false,
-  "Editor@@line-hover-indicator-disable": true
+  "Appearance-light@@workspace-divider-transparent-light": false
 }

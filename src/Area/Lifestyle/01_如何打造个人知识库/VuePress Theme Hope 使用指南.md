@@ -4,9 +4,7 @@ tag: [VuePress Theme Hope]
 order: 2
 ---
 
-之前在「如何打造个人知识库」系列文章中提到过 `VuePress Theme Hope`
-
-一个具有强大功能的 `VuePress` 主题
+之前在「如何打造个人知识库」系列中提到过 `VuePress Theme Hope` 这个强大的 `VuePress` 主题
 
 本文就简单记录一下我平时用的比较多的功能、插件
 

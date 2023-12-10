@@ -154,6 +154,25 @@
     "src/Area": [
       "src/Area/Tech",
       "src/Area/未命名"
+    ],
+    "src/Area/Lifestyle/02_MacOS Software": [
+      "src/Area/Lifestyle/02_MacOS Software/好玩的 Docker 项目.md",
+      "src/Area/Lifestyle/02_MacOS Software/Chrome 推荐插件以及油猴脚本.md",
+      "src/Area/Lifestyle/02_MacOS Software/Eudic 增加试用时间.md",
+      "src/Area/Lifestyle/02_MacOS Software/ja-netfilter 和 JetBrains 产品的奇妙反应.md",
+      "src/Area/Lifestyle/02_MacOS Software/macOS_software.md",
+      "src/Area/Lifestyle/02_MacOS Software/Obsidian 插件.md",
+      "src/Area/Lifestyle/02_MacOS Software/README.md",
+      "src/Area/Lifestyle/02_MacOS Software/sublime_text.md",
+      "src/Area/Lifestyle/02_MacOS Software/uTools 插件.md"
+    ],
+    "src/Area/Lifestyle/01_如何打造个人知识库": [
+      "src/Area/Lifestyle/01_如何打造个人知识库/基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
+      "src/Area/Lifestyle/01_如何打造个人知识库/VuePress Theme Hope 使用指南.md",
+      "src/Area/Lifestyle/01_如何打造个人知识库/通过 GitHub Actions 完成知识库的发布.md",
+      "src/Area/Lifestyle/01_如何打造个人知识库/Obsidian 同步方案.md",
+      "src/Area/Lifestyle/01_如何打造个人知识库/Markdown 语法.md",
+      "src/Area/Lifestyle/01_如何打造个人知识库/README.md"
     ]
   },
   "actionBarOrder": {},

@@ -1,7 +1,6 @@
 ---
 title: Markdown 语法
-tag:
-  - Markdown
+tag: [Markdown]
 order: 5
 ---
 
@@ -45,8 +44,4 @@ sequenceDiagram
 
 ### 参考链接
 
-- [在 Markdown 中使用引用式链接和脚注][]
-
-​​<!-- +++++++++ 下面是引用式链接 +++++++++ -->
-
-[在 Markdown 中使用引用式链接和脚注]: https://client.sspai.com/post/77513
+- [在 Markdown 中使用引用式链接和脚注](https://client.sspai.com/post/77513)

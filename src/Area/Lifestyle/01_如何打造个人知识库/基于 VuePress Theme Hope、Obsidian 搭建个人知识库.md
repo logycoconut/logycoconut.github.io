@@ -140,7 +140,7 @@ _v2ex 上有篇帖子专门讨论了这件事情_
 
 ## 参考链接
 
-- [VuePress Theme Hope 官方文档](https://vuepress-theme-hope.github.io/v2/zh/guide)
+- [VuePress Theme Hope 官方文档](https://theme-hope.vuejs.press/zh/guide/)
 
 - [LearnData-开源笔记](https://github.com/rockbenben/LearnData)
 

@@ -11,8 +11,8 @@
   "Components@@outline-enhanced": true,
   "Components@@CTA-BTN-enable": true,
   "Components@@file-names-untrim": true,
-  "Components@@folder-font-bold": true,
-  "Components@@colorful-folder": false,
+  "Components@@folder-font-bold": false,
+  "Components@@colorful-folder": true,
   "Components@@file-icon-remove": false,
   "Appearance-light@@accent-light": "#8B6CEF",
   "Appearance-light@@accent-color-override-light": true,
@@ -56,5 +56,6 @@
   "Components@@setting-item-title-icon-remove": true,
   "Components@@scrollbar-hide": true,
   "Components@@restored-scrollbars": false,
-  "Appearance-light@@workspace-divider-transparent-light": false
+  "Appearance-light@@workspace-divider-transparent-light": false,
+  "Editor@@line-hover-indicator-disable": true
 }

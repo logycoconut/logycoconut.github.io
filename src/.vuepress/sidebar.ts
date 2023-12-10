@@ -2,8 +2,8 @@ import { sidebar } from "vuepress-theme-hope";
 
 export const zhSidebar = sidebar({
 
-    "/daliy/": "structure",
+    "/Area/Lifestyle/": "structure",
 
-    "/code/": "structure",
+    "/Resource/": "structure",
 
 });

@@ -10,11 +10,11 @@ order: 2
 
 本文就简单记录一下我平时用的比较多的功能、插件
 
-### Markdown 增强
+### `Markdown` 增强
 
-`VuePress Theme Hope` 对于原生 markdown 语法做了许多增强, 比如 Mermaid、Echarts、代码块分组支持等功能
+`VuePress Theme Hope` 对于原生 `Markdown` 语法做了许多增强, 比如 `Mermaid`、`Echarts`、代码块分组支持等功能
 
-- Mermaid
+- `Mermaid`
 
   平时用来画图比较多, 例如系统架构图、时序图
 
@@ -28,15 +28,15 @@ order: 2
 
 - 通过 `slimsearch` 快速搜索
 
-- Algolia Crawler (三方爬虫工具)
+- `Algolia Crawler` (三方爬虫工具)
 
-  Algolia 为开源文档提供的公益服务
+  `Algolia` 为开源文档提供的公益服务
 
   通过 [Editor](https://crawler.algolia.com/admin/crawlers/6ce617a4-38bc-4371-894d-a96d83291ea6/configuration/edit) 编辑爬虫规则
 
 ### 评论插件
 
-- Giscus - 通过一个公开的 Github 仓库的 Discussion 来存储评论
+- `Giscus` - 通过一个公开的 `Github` 仓库的 `Discussion` 来存储评论
 
 ### 参考链接
 

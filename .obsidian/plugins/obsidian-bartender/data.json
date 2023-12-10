@@ -6,21 +6,19 @@
       "node_modules",
       "package.json",
       "template",
-      "scripts",
       "src",
-      "excalidraw 23-09-13 10.29.37.ex",
       "README.md",
       "yarn.lock"
     ],
     "src": [
-      "src/staged",
-      "src/P.A.R.A",
-      "src/daliy",
-      "src/tech",
-      "src/code",
+      "src/Project",
+      "src/Area",
+      "src/Resource",
+      "src/Archive",
+      "src/README.md",
       "src/single_page",
       "src/blog",
-      "src/README.md"
+      "src/什么是 P.A.R.A 笔记管理法.md"
     ],
     "src/daliy": [
       "src/daliy/01_如何打造个人知识库",
@@ -148,6 +146,14 @@
       "src/tech/cloud_plat",
       "src/tech/issure",
       "src/tech/README.md"
+    ],
+    "src/inbox": [
+      "src/inbox/tech",
+      "src/inbox/staged"
+    ],
+    "src/Area": [
+      "src/Area/Tech",
+      "src/Area/未命名"
     ]
   },
   "actionBarOrder": {},

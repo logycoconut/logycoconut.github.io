@@ -1,11 +1,6 @@
 ---
 title: ja-netfilter 和 JetBrains 产品的奇妙反应
-tags:
-  - JetBrains
-  - ja-netfilter
-  - Datagrip
-  - IDEA
-order: 3
+tag: [JetBrains, ja-netfilter, Datagrip, IDEA]
 ---
 
 > 本文所说的方式不推荐!!!
@@ -40,7 +35,7 @@ DataGrip 并不是一款免费的软件, 毕竟它是这么好用!
 
 _正是这个特性给了我们操作空间_
 
-### 如何使用`  ja-netfilter ` ( 以 `DataGrip` 为例 )
+### 如何使用 `ja-netfilter` ( 以 `DataGrip` 为例 )
 
 > 以下内容预设你已经阅读过 `ja-netfilter` 仓库的 `README` 文件
 

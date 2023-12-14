@@ -1,7 +1,6 @@
 ---
 title: VuePress Theme Hope 使用指南
 tag: [VuePress Theme Hope]
-order: 2
 ---
 
 之前在「如何打造个人知识库」系列中提到过 `VuePress Theme Hope` 这个强大的 `VuePress` 主题

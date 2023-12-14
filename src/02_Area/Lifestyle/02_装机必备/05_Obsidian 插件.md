@@ -1,7 +1,6 @@
 ---
 title: Obsidian 插件
 tag: [Obsidian]
-order: 5
 ---
 
 #### `Obsidian Git` - 使用 `Git` 管理 `Obsidian` 仓库

@@ -1,8 +1,6 @@
 ---
 title: Eudic (欧路词典) 增加试用时间
-tags:
-  - Eudic
-order: 6
+tag: [Eudic]
 ---
 
 ### 具体步骤

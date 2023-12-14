@@ -1,8 +1,6 @@
 ---
 title: 好玩的 Docker 项目
-tags:
-  - Docker
-order: 7
+tag: [Docker]
 ---
 
 > 推荐使用 `Docker Compose` 管理

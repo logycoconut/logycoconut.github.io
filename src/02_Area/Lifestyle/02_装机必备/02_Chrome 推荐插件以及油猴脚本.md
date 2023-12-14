@@ -1,9 +1,6 @@
 ---
 title: Chrome 推荐插件以及油猴脚本
-tags:
-  - Chrome
-  - 自用
-order: 2
+tag: [Chrome]
 ---
 
 > 有了插件, Chrome 变得更美好

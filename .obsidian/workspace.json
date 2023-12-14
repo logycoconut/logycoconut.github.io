@@ -11,14 +11,56 @@
             "id": "a46de867f6a20215",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "src/Area/Lifestyle/02_装机必备/ja-netfilter 和 JetBrains 产品的奇妙反应.md",
-                "staged": true
+                "file": "src/03_Resource/收藏癖的美丽废物.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f9592d9c4b4bc15b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "多巴胺失衡状态.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1543021e5c28b7c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "多巴胺失衡状态.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5a997a51f13783a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/03_Resource/daliy/README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -60,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 554.5
+    "width": 500.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -86,7 +128,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/03_Resource/daliy/README.md"
+              }
             }
           },
           {
@@ -113,13 +157,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/03_Resource/daliy/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -132,38 +177,39 @@
       "graph:查看关系图谱": false,
       "templates:插入模板": false,
       "excalidraw-cn:Create New Excalidraw File": false,
-      "omnisearch:Omnisearch": false,
-      "hidden-folder-obsidian:显示文件夹": false
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "a46de867f6a20215",
+  "active": "49813a896445e999",
   "lastOpenFiles": [
-    "src/02_Area/Lifestyle/02_装机必备/01_MacOS 软件.md",
-    "src/02_Area/Lifestyle/02_装机必备/好玩的 Docker 项目.md",
-    "src/02_Area/Lifestyle/01_如何打造个人知识库/README.md",
-    "src/02_Area/Lifestyle/01_如何打造个人知识库/Markdown 语法.md",
-    "src/02_Area/Lifestyle/01_如何打造个人知识库/通过 GitHub Actions 完成知识库的发布.md",
-    "src/02_Area/Lifestyle/01_如何打造个人知识库/Obsidian 同步方案.md",
-    "src/02_Area/Lifestyle/01_如何打造个人知识库/VuePress Theme Hope 使用指南.md",
-    "src/02_Area/Lifestyle/01_如何打造个人知识库/基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
-    "src/02_Area/Lifestyle/README.md",
-    "README.md",
-    "src/Area/Lifestyle/README1.md",
-    "src/Area/README.md",
-    "src/02_Area/Lifestyle/04_终身学习体系/我的信息流转方案.md",
-    "src/02_Area/Lifestyle/04_终身学习体系/README.md",
+    "src/03_Resource/code/README.md",
+    "src/03_Resource/tech/README.md",
+    "src/blog/231214_将睡眠时间延长至 8 小时对身心的变化.md",
+    "src/blog/221223_感染奥密克戎之后.md",
+    "src/blog/221225_2022年终总结.md",
+    "src/blog/230213_如何快速学习一项新技能 读后感.md",
+    "src/02_Area/Lifestyle/04_终身学习体系/01_我的信息流转方案.md",
     "src/02_Area/Lifestyle/04_终身学习体系/ChatGPT 使用指北.md",
-    "src/02_Area/Lifestyle/04_终身学习体系/04_如何进行时间管理？.md",
-    "src/02_Area/Lifestyle/04_终身学习体系/03_拖延症大王.md",
     "src/02_Area/Lifestyle/04_终身学习体系/02_RSS 订阅管理.md",
-    "src/02_Area/Lifestyle/03_搞机达人/阅读 3.0 Web 版搭建.md",
-    "src/02_Area/Lifestyle/03_搞机达人/如何在 iOS 美区商店账号购买一个 APP.md",
-    "src/02_Area/Lifestyle/03_搞机达人/如何优雅地屏蔽广告 - iOS 篇.md",
+    "src/02_Area/Tech/README.md",
+    "src/03_Resource/staged/MySQL 是怎样运行的：从根儿上理解 MySQL.md",
+    "多巴胺失衡状态.md",
+    "未命名.md",
+    "接下来要干什么 ？.md",
+    "src/02_Area/Lifestyle/03_搞机达人/黑苹果相关/如何给设备安装黑苹果？.md",
     "src/02_Area/Lifestyle/03_搞机达人/个人设备推荐.md",
-    "src/02_Area/Lifestyle/03_搞机达人/个人宽带如何开启IPv6网络访问.md",
-    "src/02_Area/Lifestyle/03_搞机达人/URL Scheme 大全.md",
-    "src/02_Area/Lifestyle/03_搞机达人/README.md",
-    "src/02_Area/Lifestyle/03_搞机达人/Clash 分流以及去广告.md",
+    "src/02_Area/Lifestyle/03_搞机达人/黑苹果相关",
+    "大环境下程序员出路最优解 - 成为远程个体户的全流程分享.md",
+    "并发常见问题.md",
+    "src/03_Resource/收藏癖的美丽废物.md",
+    "src/02_Area/Lifestyle/02_装机必备/08_sublime_text.md",
+    "src/03_Resource/staged/README.md",
+    "src/02_Area/Lifestyle/02_装机必备/05_Obsidian 插件.md",
+    "src/02_Area/Lifestyle/02_装机必备/06_Eudic 增加试用时间.md",
+    "src/02_Area/Lifestyle/02_装机必备/07_好玩的 Docker 项目.md",
+    "src/02_Area/Lifestyle/02_装机必备/04_uTools 插件.md",
+    "src/02_Area/Lifestyle/02_装机必备/01_MacOS 软件.md",
+    "src/01_Project/MySQL",
     "src/02_Area/Lifestyle/04_终身学习体系",
     "src/02_Area/Lifestyle/03_搞机达人",
     "src/02_Area/Lifestyle/01_如何打造个人知识库",
@@ -172,8 +218,6 @@
     "src/02_Area/Lifestyle",
     "src/02_Area",
     "src/area/Lifestyle/04_终身学习体系",
-    "src/area/Lifestyle/03_搞机达人",
-    "src/area/Lifestyle/02_MacOS Software",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

@@ -1,9 +1,9 @@
 {
   "bullet": "-",
-  "emphasis": "_",
+  "emphasis": "*",
   "rule": "-",
   "createHeaderIfNotPresent": true,
-  "newHeaderTemplate": "\ntitle: to be perfected\ntag: []\norder: ",
+  "newHeaderTemplate": "\ntitle: \ntag: []",
   "updateHeader": false,
   "updateHeaderTemplate": "\ndate updated: \"{{date:YYYY-MM-DD HH:mm}}\" \n",
   "listItemIndent": "one",

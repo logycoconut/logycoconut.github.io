@@ -1,7 +1,6 @@
 ---
 title: 通过 GitHub Actions 完成知识库的发布
 tag: [GitHub Actions]
-order: 3
 ---
 
 > 教程同样适用于使用 Hexo、Hugo 等工具维护个人网站的行为

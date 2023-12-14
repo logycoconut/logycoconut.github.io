@@ -1,8 +1,6 @@
 ---
 title: uTools 插件
-tags:
-  - uTools
-order: 4
+tag: [uTools]
 ---
 
 | 名称       | 描述                 |

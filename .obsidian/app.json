@@ -18,5 +18,6 @@
   "focusNewTab": true,
   "propertiesInDocument": "source",
   "foldIndent": false,
-  "foldHeading": false
+  "foldHeading": false,
+  "showInlineTitle": true
 }

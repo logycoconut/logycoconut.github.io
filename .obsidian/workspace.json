@@ -4,63 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "2b635050a55ac818",
+        "id": "579c1e61b6565ae6",
         "type": "tabs",
         "children": [
           {
-            "id": "a46de867f6a20215",
+            "id": "9d384873b7a62e27",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/03_Resource/收藏癖的美丽废物.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f9592d9c4b4bc15b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "多巴胺失衡状态.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1543021e5c28b7c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "多巴胺失衡状态.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a997a51f13783a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/03_Resource/daliy/README.md",
+                "file": "并发常见问题.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,7 +89,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/03_Resource/daliy/README.md"
+                "file": "并发常见问题.md"
               }
             }
           },
@@ -157,14 +117,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/03_Resource/daliy/README.md",
+                "file": "并发常见问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -177,11 +137,17 @@
       "graph:查看关系图谱": false,
       "templates:插入模板": false,
       "excalidraw-cn:Create New Excalidraw File": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": true
     }
   },
-  "active": "49813a896445e999",
+  "active": "9d384873b7a62e27",
   "lastOpenFiles": [
+    "大环境下程序员出路最优解 - 成为远程个体户的全流程分享.md",
+    "多巴胺失衡状态.md",
+    "并发常见问题.md",
+    "未命名.md",
+    "src/03_Resource/收藏癖的美丽废物.md",
+    "README.md",
     "src/03_Resource/code/README.md",
     "src/03_Resource/tech/README.md",
     "src/blog/231214_将睡眠时间延长至 8 小时对身心的变化.md",
@@ -193,22 +159,16 @@
     "src/02_Area/Lifestyle/04_终身学习体系/02_RSS 订阅管理.md",
     "src/02_Area/Tech/README.md",
     "src/03_Resource/staged/MySQL 是怎样运行的：从根儿上理解 MySQL.md",
-    "多巴胺失衡状态.md",
-    "未命名.md",
     "接下来要干什么 ？.md",
     "src/02_Area/Lifestyle/03_搞机达人/黑苹果相关/如何给设备安装黑苹果？.md",
     "src/02_Area/Lifestyle/03_搞机达人/个人设备推荐.md",
     "src/02_Area/Lifestyle/03_搞机达人/黑苹果相关",
-    "大环境下程序员出路最优解 - 成为远程个体户的全流程分享.md",
-    "并发常见问题.md",
-    "src/03_Resource/收藏癖的美丽废物.md",
     "src/02_Area/Lifestyle/02_装机必备/08_sublime_text.md",
     "src/03_Resource/staged/README.md",
     "src/02_Area/Lifestyle/02_装机必备/05_Obsidian 插件.md",
     "src/02_Area/Lifestyle/02_装机必备/06_Eudic 增加试用时间.md",
     "src/02_Area/Lifestyle/02_装机必备/07_好玩的 Docker 项目.md",
     "src/02_Area/Lifestyle/02_装机必备/04_uTools 插件.md",
-    "src/02_Area/Lifestyle/02_装机必备/01_MacOS 软件.md",
     "src/01_Project/MySQL",
     "src/02_Area/Lifestyle/04_终身学习体系",
     "src/02_Area/Lifestyle/03_搞机达人",

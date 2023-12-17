@@ -3,10 +3,10 @@
   "obsidian-image-auto-upload-plugin",
   "obsidian-git",
   "cm-editor-syntax-highlight-obsidian",
-  "markdown-prettifier",
   "url-into-selection",
   "easy-typing-obsidian",
   "obsidian-style-settings",
   "excalidraw-cn",
-  "omnisearch"
+  "omnisearch",
+  "obsidian-linter"
 ]

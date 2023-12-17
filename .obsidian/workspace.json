@@ -13,14 +13,132 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "并发常见问题.md",
+                "file": "src/03_Resource/大环境下程序员出路最优解 - 成为远程个体户的全流程分享.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c7f5bab5c688dd35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/今天要学什么？.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "20616de4dbee9265",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/接口优化技巧.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "814e918a65f91af5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/怎么优化一个大 Key.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6714c2f91a972b96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/03_Resource/大环境下程序员出路最优解 - 成为远程个体户的全流程分享.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "329645ddfe70af12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/为什么消息至少投递成功一次，但没有办法保证只投递一次？.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "849a856d46677596",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/怎么解决消息堆积？.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a3a3fc428143d225",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/怎么实现一个聊天室.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7e9cb09a9243072d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/八部金刚功.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be9446e91598e381",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/英语学习资料.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -62,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 500.5
+    "width": 500.5,
+    "collapsed": true
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -89,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "并发常见问题.md"
+                "file": "src/怎么实现一个聊天室.md"
               }
             }
           },
@@ -117,14 +236,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "并发常见问题.md",
+                "file": "src/怎么实现一个聊天室.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -140,44 +259,44 @@
       "omnisearch:Omnisearch": true
     }
   },
-  "active": "9d384873b7a62e27",
+  "active": "a3a3fc428143d225",
   "lastOpenFiles": [
-    "大环境下程序员出路最优解 - 成为远程个体户的全流程分享.md",
-    "多巴胺失衡状态.md",
-    "并发常见问题.md",
-    "未命名.md",
+    "src/怎么解决消息堆积？.md",
+    "src/怎么实现一个聊天室.md",
+    "src/为什么消息至少投递成功一次，但没有办法保证只投递一次？.md",
+    "src/03_Resource/大环境下程序员出路最优解 - 成为远程个体户的全流程分享.md",
+    "src/03_Resource/并发常见问题.md",
+    "src/03_Resource/多巴胺失衡状态.md",
     "src/03_Resource/收藏癖的美丽废物.md",
-    "README.md",
-    "src/03_Resource/code/README.md",
-    "src/03_Resource/tech/README.md",
-    "src/blog/231214_将睡眠时间延长至 8 小时对身心的变化.md",
-    "src/blog/221223_感染奥密克戎之后.md",
-    "src/blog/221225_2022年终总结.md",
-    "src/blog/230213_如何快速学习一项新技能 读后感.md",
+    "src/03_Resource/什么是 P.A.R.A 笔记管理法.md",
+    "src/今天要学什么？.md",
+    "src/接口优化技巧.md",
+    "src/八部金刚功.md",
+    "src/分布式锁可以解决什么问题？.md",
+    "src/怎么优化一个大 Key.md",
+    "src/英语学习资料.md",
+    "src/03_Resource/daliy/README.md",
+    "src/01_Project/Interview",
+    "src/01_Project/Interview/当我准备面试时，我应该准备什么？.md",
+    "src/single_page/website_navigation.md",
+    "src/03_Resource/daliy/08_不知道怎么分类/README.md",
+    "src/03_Resource/daliy/08_不知道怎么分类/字体安装.md",
+    "src/03_Resource/daliy/08_不知道怎么分类/零食购买清单.md",
+    "src/02_Area/Lifestyle/README.md",
     "src/02_Area/Lifestyle/04_终身学习体系/01_我的信息流转方案.md",
-    "src/02_Area/Lifestyle/04_终身学习体系/ChatGPT 使用指北.md",
     "src/02_Area/Lifestyle/04_终身学习体系/02_RSS 订阅管理.md",
-    "src/02_Area/Tech/README.md",
-    "src/03_Resource/staged/MySQL 是怎样运行的：从根儿上理解 MySQL.md",
-    "接下来要干什么 ？.md",
-    "src/02_Area/Lifestyle/03_搞机达人/黑苹果相关/如何给设备安装黑苹果？.md",
-    "src/02_Area/Lifestyle/03_搞机达人/个人设备推荐.md",
+    "src/02_Area/Lifestyle/04_终身学习体系/03_拖延症大王.md",
+    "src/02_Area/Lifestyle/04_终身学习体系/04_如何进行时间管理？.md",
+    "src/02_Area/Lifestyle/04_终身学习体系/05_ChatGPT 使用指北.md",
+    "src/02_Area/Lifestyle/03_搞机达人/iOS 修炼手册",
     "src/02_Area/Lifestyle/03_搞机达人/黑苹果相关",
-    "src/02_Area/Lifestyle/02_装机必备/08_sublime_text.md",
-    "src/03_Resource/staged/README.md",
-    "src/02_Area/Lifestyle/02_装机必备/05_Obsidian 插件.md",
-    "src/02_Area/Lifestyle/02_装机必备/06_Eudic 增加试用时间.md",
-    "src/02_Area/Lifestyle/02_装机必备/07_好玩的 Docker 项目.md",
-    "src/02_Area/Lifestyle/02_装机必备/04_uTools 插件.md",
-    "src/01_Project/MySQL",
+    "src/01_Project/Interview/MySQL",
     "src/02_Area/Lifestyle/04_终身学习体系",
     "src/02_Area/Lifestyle/03_搞机达人",
     "src/02_Area/Lifestyle/01_如何打造个人知识库",
     "src/02_Area/Lifestyle/02_装机必备",
     "src/02_Area/Tech",
     "src/02_Area/Lifestyle",
-    "src/02_Area",
-    "src/area/Lifestyle/04_终身学习体系",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

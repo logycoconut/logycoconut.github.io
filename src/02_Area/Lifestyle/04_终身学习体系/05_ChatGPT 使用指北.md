@@ -15,7 +15,7 @@ tag: [ChatGPT, Prompt]
 
 - [Claude](https://claude.ai/chats)
 
-  _据说是 OpenAI 的离职人员另起炉灶?_
+  *据说是 OpenAI 的离职人员另起炉灶?*
 
   - 每次输出的话相较于 ChatGPT 会少一点, 需要用问题一步步地让模型说出答案
 
@@ -47,7 +47,7 @@ Prompt 是指在对话中给于 AI 的特定输入信息
 
 可以看一下「Prompt 编写模式」系列给出的例子, 该示例让 AI 一步步地设计出需求的模型、API
 
-[_如何将思维框架赋予机器，以设计模式的形式来思考 prompt_](http://prompt-patterns.phodal.com/ddd.sample.html)
+[*如何将思维框架赋予机器，以设计模式的形式来思考 prompt*](http://prompt-patterns.phodal.com/ddd.sample.html)
 
 ### 提示词工具
 

@@ -1,7 +1,7 @@
 {
   "attachmentFolderPath": "node_modules",
   "promptDelete": false,
-  "newFileLocation": "root",
+  "newFileLocation": "folder",
   "newLinkFormat": "absolute",
   "userIgnoreFilters": [
     "node_modules/"
@@ -19,5 +19,6 @@
   "propertiesInDocument": "source",
   "foldIndent": false,
   "foldHeading": false,
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "newFileFolderPath": "src"
 }

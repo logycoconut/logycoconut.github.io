@@ -3,7 +3,7 @@
   "emphasis": "*",
   "rule": "-",
   "createHeaderIfNotPresent": true,
-  "newHeaderTemplate": "\ntitle: \ntag: []",
+  "newHeaderTemplate": "\ntitle:  {{fileName}}\ntag: []",
   "updateHeader": false,
   "updateHeaderTemplate": "\ndate updated: \"{{date:YYYY-MM-DD HH:mm}}\" \n",
   "listItemIndent": "one",

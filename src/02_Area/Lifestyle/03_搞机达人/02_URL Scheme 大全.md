@@ -1,9 +1,6 @@
 ---
 title: URL Scheme 大全
-tags:
-  - URL
-  - Scheme
-order: 2
+tag: [URL,Scheme]
 ---
 
 > 主要用于提醒事项、快捷指令等场景中直接跳转 APP 的需求

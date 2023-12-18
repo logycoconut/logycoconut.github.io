@@ -115,12 +115,10 @@
             "id": "e096b543879df76d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "src/01_Project/Interview/缓存/关于缓存一致性的问题.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "src/01_Project/Interview/缓存/excalidraw/关于缓存一致性的问题.ex",
+                "staged": false
               }
             }
           },
@@ -193,8 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 500.5,
-    "collapsed": true
+    "width": 500.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -220,9 +217,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/01_Project/Interview/缓存/关于缓存一致性的问题.md"
-              }
+              "state": {}
             }
           },
           {
@@ -249,7 +244,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/01_Project/Interview/缓存/关于缓存一致性的问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -275,9 +269,9 @@
   "active": "e096b543879df76d",
   "lastOpenFiles": [
     "src/01_Project/Interview/缓存/excalidraw/关于缓存一致性的问题.ex",
+    "src/01_Project/Interview/缓存/关于缓存一致性的问题.md",
     "src/怎么实现一个聊天室.md",
     "src/平常在工作中遇到过什么问题？.md",
-    "src/01_Project/Interview/缓存/关于缓存一致性的问题.md",
     "src/01_Project/Interview/缓存/excalidraw",
     "src/01_Project/Interview/分布式系统/excalidraw",
     "src/01_Project/Interview/缓存",

@@ -112,6 +112,19 @@
             }
           },
           {
+            "id": "e096b543879df76d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/01_Project/Interview/缓存/关于缓存一致性的问题.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7e9cb09a9243072d",
             "type": "leaf",
             "state": {
@@ -138,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -167,7 +180,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#安员外很有码",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -208,7 +221,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/怎么实现一个聊天室.md"
+                "file": "src/01_Project/Interview/缓存/关于缓存一致性的问题.md"
               }
             }
           },
@@ -236,14 +249,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/怎么实现一个聊天室.md",
+                "file": "src/01_Project/Interview/缓存/关于缓存一致性的问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -259,10 +272,23 @@
       "omnisearch:Omnisearch": true
     }
   },
-  "active": "a3a3fc428143d225",
+  "active": "e096b543879df76d",
   "lastOpenFiles": [
-    "src/怎么解决消息堆积？.md",
+    "src/01_Project/Interview/缓存/excalidraw/关于缓存一致性的问题.ex",
     "src/怎么实现一个聊天室.md",
+    "src/平常在工作中遇到过什么问题？.md",
+    "src/01_Project/Interview/缓存/关于缓存一致性的问题.md",
+    "src/01_Project/Interview/缓存/excalidraw",
+    "src/01_Project/Interview/分布式系统/excalidraw",
+    "src/01_Project/Interview/缓存",
+    "src/01_Project/Interview/Java 基础/什么是 Java SPI.md",
+    "src/01_Project/Interview/分布式系统/CAP 理论.md",
+    "src/01_Project/Interview/分布式系统/excalidraw/CAP 理论.ex",
+    "src/01_Project/Interview/分布式系统",
+    "src/八部金刚功.md",
+    "src/分布式锁可以解决什么问题？.md",
+    "src/01_Project/Interview/Java 基础",
+    "src/怎么解决消息堆积？.md",
     "src/为什么消息至少投递成功一次，但没有办法保证只投递一次？.md",
     "src/03_Resource/大环境下程序员出路最优解 - 成为远程个体户的全流程分享.md",
     "src/03_Resource/并发常见问题.md",
@@ -271,8 +297,6 @@
     "src/03_Resource/什么是 P.A.R.A 笔记管理法.md",
     "src/今天要学什么？.md",
     "src/接口优化技巧.md",
-    "src/八部金刚功.md",
-    "src/分布式锁可以解决什么问题？.md",
     "src/怎么优化一个大 Key.md",
     "src/英语学习资料.md",
     "src/03_Resource/daliy/README.md",
@@ -283,20 +307,8 @@
     "src/03_Resource/daliy/08_不知道怎么分类/字体安装.md",
     "src/03_Resource/daliy/08_不知道怎么分类/零食购买清单.md",
     "src/02_Area/Lifestyle/README.md",
-    "src/02_Area/Lifestyle/04_终身学习体系/01_我的信息流转方案.md",
-    "src/02_Area/Lifestyle/04_终身学习体系/02_RSS 订阅管理.md",
-    "src/02_Area/Lifestyle/04_终身学习体系/03_拖延症大王.md",
-    "src/02_Area/Lifestyle/04_终身学习体系/04_如何进行时间管理？.md",
-    "src/02_Area/Lifestyle/04_终身学习体系/05_ChatGPT 使用指北.md",
     "src/02_Area/Lifestyle/03_搞机达人/iOS 修炼手册",
     "src/02_Area/Lifestyle/03_搞机达人/黑苹果相关",
-    "src/01_Project/Interview/MySQL",
-    "src/02_Area/Lifestyle/04_终身学习体系",
-    "src/02_Area/Lifestyle/03_搞机达人",
-    "src/02_Area/Lifestyle/01_如何打造个人知识库",
-    "src/02_Area/Lifestyle/02_装机必备",
-    "src/02_Area/Tech",
-    "src/02_Area/Lifestyle",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "c7f5bab5c688dd35",
+            "id": "20616de4dbee9265",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/今天要学什么？.md",
+                "file": "src/BeanPostProcessor 实际应用场景.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,15 +34,25 @@
             }
           },
           {
-            "id": "20616de4dbee9265",
+            "id": "6eae206c1160cd4f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/接口优化技巧.md",
+                "file": "src/01_Project/Interview/Spring/Spring 循环依赖.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "4bf7387632803719",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw_cn",
+              "state": {
+                "file": "src/01_Project/Interview/Spring/excalidraw/Spring 循环依赖.ex"
               }
             }
           },
@@ -138,12 +148,12 @@
             }
           },
           {
-            "id": "7e9cb09a9243072d",
+            "id": "a108bd058633a660",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/八部金刚功.md",
+                "file": "src/01_Project/Interview/面试部分/挖掘项目亮点优化简历.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -151,12 +161,12 @@
             }
           },
           {
-            "id": "be9446e91598e381",
+            "id": "c484987fb7811c75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/英语学习资料.md",
+                "file": "src/深入理解 MySQL 的 MVCC.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -164,7 +174,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -233,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/BeanPostProcessor 实际应用场景.md"
+                "file": "src/01_Project/Interview/Spring/Spring 循环依赖.md"
               }
             }
           },
@@ -261,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/BeanPostProcessor 实际应用场景.md",
+                "file": "src/01_Project/Interview/Spring/Spring 循环依赖.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -284,10 +294,27 @@
       "omnisearch:Omnisearch": true
     }
   },
-  "active": "ba799f0cdb528378",
+  "active": "6eae206c1160cd4f",
   "lastOpenFiles": [
-    "src/MySQL 中的锁.md",
+    "src/01_Project/Interview/Spring/excalidraw",
+    "src/01_Project/Interview/Spring",
+    "src/01_Project/Interview/Spring/excalidraw/Spring 循环依赖.ex",
+    "src/01_Project/Interview/Spring/Spring 循环依赖.md",
     "src/BeanPostProcessor 实际应用场景.md",
+    "src/01_Project/养生/九阳炼目.md",
+    "src/01_Project/养生/太极站桩.md",
+    "src/01_Project/养生",
+    "src/MySQL 中的锁.md",
+    "src/分布式锁可以解决什么问题？.md",
+    "src/八部金刚功.md",
+    "src/接口优化技巧.md",
+    "src/深入理解 MySQL 的 MVCC.md",
+    "src/01_Project/Interview/面试部分/excalidraw/挖掘项目亮点优化简历.ex",
+    "src/01_Project/Interview/面试部分/挖掘项目亮点优化简历.md",
+    "src/01_Project/Interview/面试部分/excalidraw",
+    "src/01_Project/Interview/面试部分",
+    "src/03_Resource/英语学习资料.md",
+    "src/今天要学什么？.md",
     "src/怎么实现一个聊天室.md",
     "src/01_Project/Interview/缓存/excalidraw/关于缓存一致性的问题.ex",
     "src/01_Project/Interview/缓存/关于缓存一致性的问题.md",
@@ -297,11 +324,6 @@
     "src/01_Project/Interview/缓存",
     "src/01_Project/Interview/Java 基础/什么是 Java SPI.md",
     "src/01_Project/Interview/分布式系统/CAP 理论.md",
-    "src/01_Project/Interview/分布式系统/excalidraw/CAP 理论.ex",
-    "src/01_Project/Interview/分布式系统",
-    "src/八部金刚功.md",
-    "src/分布式锁可以解决什么问题？.md",
-    "src/01_Project/Interview/Java 基础",
     "src/怎么解决消息堆积？.md",
     "src/为什么消息至少投递成功一次，但没有办法保证只投递一次？.md",
     "src/03_Resource/大环境下程序员出路最优解 - 成为远程个体户的全流程分享.md",
@@ -309,19 +331,7 @@
     "src/03_Resource/多巴胺失衡状态.md",
     "src/03_Resource/收藏癖的美丽废物.md",
     "src/03_Resource/什么是 P.A.R.A 笔记管理法.md",
-    "src/今天要学什么？.md",
-    "src/接口优化技巧.md",
     "src/怎么优化一个大 Key.md",
-    "src/英语学习资料.md",
-    "src/03_Resource/daliy/README.md",
-    "src/01_Project/Interview",
-    "src/01_Project/Interview/当我准备面试时，我应该准备什么？.md",
-    "src/single_page/website_navigation.md",
-    "src/03_Resource/daliy/08_不知道怎么分类/README.md",
-    "src/03_Resource/daliy/08_不知道怎么分类/字体安装.md",
-    "src/03_Resource/daliy/08_不知道怎么分类/零食购买清单.md",
-    "src/02_Area/Lifestyle/03_搞机达人/iOS 修炼手册",
-    "src/02_Area/Lifestyle/03_搞机达人/黑苹果相关",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

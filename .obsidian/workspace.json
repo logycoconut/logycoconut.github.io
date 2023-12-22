@@ -8,51 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9d384873b7a62e27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/03_Resource/大环境下程序员出路最优解 - 成为远程个体户的全流程分享.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "20616de4dbee9265",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/MySQL 中的锁.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "814e918a65f91af5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "src/怎么优化一个大 Key.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6714c2f91a972b96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/03_Resource/大环境下程序员出路最优解 - 成为远程个体户的全流程分享.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -125,12 +86,25 @@
             }
           },
           {
-            "id": "c484987fb7811c75",
+            "id": "7fa9b7629798dfa0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/深入理解 MySQL 的 MVCC.md",
+                "file": "src/MySQL 如何实现 ACID.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6482f4690890854e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/MySQL 的三大日志.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -138,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -180,7 +154,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 500.5
+    "width": 500.5,
+    "collapsed": true
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -207,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/MySQL 中的锁.md"
+                "file": "src/MySQL 的三大日志.md"
               }
             }
           },
@@ -235,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/MySQL 中的锁.md",
+                "file": "src/MySQL 的三大日志.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,8 +233,30 @@
       "omnisearch:Omnisearch": true
     }
   },
-  "active": "20616de4dbee9265",
+  "active": "6482f4690890854e",
   "lastOpenFiles": [
+    "src/MySQL 如何实现 ACID.md",
+    "src/MySQL 的三大日志.md",
+    "src/MySQL 中的锁.md",
+    "src/怎么实现一个聊天室.md",
+    "src/怎么解决消息堆积？.md",
+    "src/为什么消息至少投递成功一次，但没有办法保证只投递一次？.md",
+    "src/怎么优化一个大 Key.md",
+    "src/01_Project/Interview/面试部分/挖掘项目亮点优化简历.md",
+    "src/更好的思考工具 untools.md",
+    "src/深入理解 MySQL 的 MVCC.md",
+    "src/03_Resource/大环境下程序员出路最优解 - 成为远程个体户的全流程分享.md",
+    "src/01_Project/Interview/MySQL/excalidraw/什么是 MVCC？.ex",
+    "src/01_Project/Interview/MySQL/excalidraw",
+    "src/01_Project/Interview/MySQL/什么是 MVCC？.md",
+    "src/01_Project/Interview/场景题/excalidraw/接口优化技巧.ex",
+    "src/01_Project/养生/八部金刚功.md",
+    "src/01_Project/Interview/场景题/接口优化技巧.md",
+    "src/single_page/website_navigation.md",
+    "src/03_Resource/未完成的",
+    "src/01_Project/Interview/当我准备面试时，我应该准备什么？.md",
+    "src/01_Project/Interview/场景题/excalidraw",
+    "src/01_Project/Interview/场景题",
     "src/BeanPostProcessor 实际应用场景.md",
     "src/01_Project/Interview/Spring/excalidraw/Spring 循环依赖.ex",
     "src/01_Project/Interview/Spring/Spring 循环依赖.md",
@@ -268,33 +265,12 @@
     "src/01_Project/养生/九阳炼目.md",
     "src/01_Project/养生/太极站桩.md",
     "src/01_Project/养生",
-    "src/MySQL 中的锁.md",
     "src/分布式锁可以解决什么问题？.md",
-    "src/八部金刚功.md",
-    "src/接口优化技巧.md",
-    "src/深入理解 MySQL 的 MVCC.md",
-    "src/01_Project/Interview/面试部分/excalidraw/挖掘项目亮点优化简历.ex",
-    "src/01_Project/Interview/面试部分/挖掘项目亮点优化简历.md",
-    "src/01_Project/Interview/面试部分/excalidraw",
-    "src/01_Project/Interview/面试部分",
     "src/03_Resource/英语学习资料.md",
     "src/今天要学什么？.md",
-    "src/怎么实现一个聊天室.md",
-    "src/01_Project/Interview/缓存/excalidraw/关于缓存一致性的问题.ex",
     "src/01_Project/Interview/缓存/关于缓存一致性的问题.md",
     "src/平常在工作中遇到过什么问题？.md",
-    "src/01_Project/Interview/缓存/excalidraw",
-    "src/01_Project/Interview/分布式系统/excalidraw",
     "src/01_Project/Interview/Java 基础/什么是 Java SPI.md",
-    "src/01_Project/Interview/分布式系统/CAP 理论.md",
-    "src/怎么解决消息堆积？.md",
-    "src/为什么消息至少投递成功一次，但没有办法保证只投递一次？.md",
-    "src/03_Resource/大环境下程序员出路最优解 - 成为远程个体户的全流程分享.md",
-    "src/03_Resource/并发常见问题.md",
-    "src/03_Resource/多巴胺失衡状态.md",
-    "src/03_Resource/收藏癖的美丽废物.md",
-    "src/03_Resource/什么是 P.A.R.A 笔记管理法.md",
-    "src/怎么优化一个大 Key.md",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

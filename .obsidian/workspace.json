@@ -104,10 +104,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/MySQL 的三大日志.md",
+                "file": "src/01_Project/Interview/MySQL/MySQL 的三大日志.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "3b9eda0dee7fdad0",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw_cn",
+              "state": {
+                "file": "src/01_Project/Interview/MySQL/excalidraw/MySQL 的三大日志.ex"
               }
             }
           }
@@ -182,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/MySQL 的三大日志.md"
+                "file": "src/01_Project/Interview/MySQL/MySQL 的三大日志.md"
               }
             }
           },
@@ -200,7 +210,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -210,14 +222,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/MySQL 的三大日志.md",
+                "file": "src/01_Project/Interview/MySQL/MySQL 的三大日志.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -235,20 +247,21 @@
   },
   "active": "6482f4690890854e",
   "lastOpenFiles": [
+    "src/01_Project/Interview/MySQL/excalidraw/MySQL 的三大日志.ex",
+    "src/01_Project/Interview/MySQL/MySQL 的三大日志.md",
+    "src/01_Project/Interview/MySQL/什么是 MVCC？.md",
+    "src/怎么优化一个大 Key.md",
     "src/MySQL 如何实现 ACID.md",
-    "src/MySQL 的三大日志.md",
     "src/MySQL 中的锁.md",
     "src/怎么实现一个聊天室.md",
     "src/怎么解决消息堆积？.md",
     "src/为什么消息至少投递成功一次，但没有办法保证只投递一次？.md",
-    "src/怎么优化一个大 Key.md",
     "src/01_Project/Interview/面试部分/挖掘项目亮点优化简历.md",
     "src/更好的思考工具 untools.md",
     "src/深入理解 MySQL 的 MVCC.md",
     "src/03_Resource/大环境下程序员出路最优解 - 成为远程个体户的全流程分享.md",
     "src/01_Project/Interview/MySQL/excalidraw/什么是 MVCC？.ex",
     "src/01_Project/Interview/MySQL/excalidraw",
-    "src/01_Project/Interview/MySQL/什么是 MVCC？.md",
     "src/01_Project/Interview/场景题/excalidraw/接口优化技巧.ex",
     "src/01_Project/养生/八部金刚功.md",
     "src/01_Project/Interview/场景题/接口优化技巧.md",
@@ -264,13 +277,11 @@
     "src/01_Project/Interview/Spring",
     "src/01_Project/养生/九阳炼目.md",
     "src/01_Project/养生/太极站桩.md",
-    "src/01_Project/养生",
     "src/分布式锁可以解决什么问题？.md",
     "src/03_Resource/英语学习资料.md",
     "src/今天要学什么？.md",
     "src/01_Project/Interview/缓存/关于缓存一致性的问题.md",
     "src/平常在工作中遇到过什么问题？.md",
-    "src/01_Project/Interview/Java 基础/什么是 Java SPI.md",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

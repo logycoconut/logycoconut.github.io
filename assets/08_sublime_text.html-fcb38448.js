@@ -1,0 +1,10 @@
+import{_ as s}from"./plugin-vue_export-helper-c27b6911.js";import{o as n,c as a,e}from"./app-33ef3045.js";const t={},o=e(`<p>_主题安装需要在 <code>Package Control: Install Package Package</code> 选项中搜索主题</p><div class="language-json line-numbers-mode" data-ext="json"><pre class="language-json"><code><span class="token punctuation">{</span>
+    <span class="token property">&quot;theme&quot;</span><span class="token operator">:</span> <span class="token string">&quot;ayu-light.sublime-theme&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;font_size&quot;</span><span class="token operator">:</span> <span class="token number">17</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;update_check&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;ignored_packages&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token string">&quot;Vintage&quot;</span><span class="token punctuation">,</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;color_scheme&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Packages/ayu/ayu-light.sublime-color-scheme&quot;</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,2),p=[o];function c(l,i){return n(),a("div",null,p)}const d=s(t,[["render",c],["__file","08_sublime_text.html.vue"]]);export{d as default};

@@ -4,23 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "579c1e61b6565ae6",
+        "id": "c74315a5287b5b88",
         "type": "tabs",
         "children": [
           {
-            "id": "6482f4690890854e",
+            "id": "776d53ca8f607588",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw_cn",
+              "state": {
+                "file": "src/01_Project/Interview/场景题/excalidraw/为什么需要分库分表.ex"
+              }
+            }
+          },
+          {
+            "id": "6419ae2984183c1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/01_Project/Interview/MySQL/什么是 MVCC？.md",
+                "file": "src/01_Project/Interview/场景题/分布式 ID 解决方案.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/01_Project/Interview/MySQL/什么是 MVCC？.md"
+                "file": "src/01_Project/Interview/场景题/分布式 ID 解决方案.md"
               }
             }
           },
@@ -114,12 +125,12 @@
             }
           },
           {
-            "id": "b66ac743468a1180",
+            "id": "f8dcb60f53fd278a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/01_Project/Interview/MySQL/什么是 MVCC？.md",
+                "file": "src/01_Project/Interview/场景题/分布式 ID 解决方案.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,26 +145,31 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "templates:插入模板": false,
-      "excalidraw-cn:Create New Excalidraw File": false,
-      "omnisearch:Omnisearch": true
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "omnisearch:Omnisearch": false,
+      "excalidraw-cn:Create New Excalidraw File": false
     }
   },
-  "active": "6482f4690890854e",
+  "active": "6419ae2984183c1a",
   "lastOpenFiles": [
+    "src/04_Archive/游记/香港、澳门游玩攻略.md",
+    "src/04_Archive/游记",
+    "src/01_Project/Interview/场景题/分布式 ID 解决方案.md",
+    "src/01_Project/Interview/场景题/excalidraw/为什么需要分库分表.ex",
+    "src/01_Project/Interview/场景题/接口优化技巧.md",
+    "src/01_Project/Interview/场景题/为什么需要分库分表？.md",
+    "src/01_Project/Interview/场景题/为什么要分库分表？.md",
+    "src/01_Project/Interview/MySQL/什么是 MVCC？.md",
     "src/01_Project/Interview/JVM/excalidraw/什么是双亲委派模型？.ex",
     "src/买车对比.md",
     "src/01_Project/Interview/JVM/什么是双亲委派模型？.md",
     "src/01_Project/Interview/JVM/excalidraw",
     "src/01_Project/Interview/JVM",
-    "src/01_Project/Interview/MySQL/什么是 MVCC？.md",
     "src/01_Project/Interview/MySQL/excalidraw/什么是 MVCC？.ex",
     "src/01_Project/Interview/MySQL/excalidraw/MySQL 的三大日志.ex",
-    "src/01_Project/Interview/场景题/为什么要分库分表？.md",
-    "src/01_Project/Interview/场景题/接口优化技巧.md",
     "src/01_Project/Interview/MySQL/MySQL 的三大日志.md",
     "src/README.md",
     "README.md",
@@ -173,12 +189,7 @@
     "src/single_page/website_navigation.md",
     "src/03_Resource/未完成的",
     "src/01_Project/Interview/当我准备面试时，我应该准备什么？.md",
-    "src/01_Project/Interview/场景题/excalidraw",
-    "src/01_Project/Interview/场景题",
     "src/BeanPostProcessor 实际应用场景.md",
-    "src/01_Project/Interview/Spring/Spring 循环依赖.md",
-    "src/01_Project/养生/九阳炼目.md",
-    "src/01_Project/养生/太极站桩.md",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

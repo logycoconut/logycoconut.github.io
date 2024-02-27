@@ -4,34 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "c74315a5287b5b88",
+        "id": "8b6178e66cc39d5d",
         "type": "tabs",
         "children": [
           {
-            "id": "776d53ca8f607588",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw_cn",
-              "state": {
-                "file": "src/01_Project/Interview/场景题/excalidraw/为什么需要分库分表.ex"
-              }
-            }
-          },
-          {
-            "id": "6419ae2984183c1a",
+            "id": "95364d857401929d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/01_Project/Interview/场景题/分布式 ID 解决方案.md",
+                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/01_一个键值数据库包含什么.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -60,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#安员外很有码",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +89,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/01_Project/Interview/场景题/分布式 ID 解决方案.md"
+                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/01_一个键值数据库包含什么.md"
               }
             }
           },
@@ -130,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/01_Project/Interview/场景题/分布式 ID 解决方案.md",
+                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/01_一个键值数据库包含什么.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,48 +137,49 @@
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "templates:插入模板": false,
+      "excalidraw-cn:Create New Excalidraw File": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "omnisearch:Omnisearch": false,
-      "excalidraw-cn:Create New Excalidraw File": false
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "6419ae2984183c1a",
+  "active": "49813a896445e999",
   "lastOpenFiles": [
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/README.md",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/01_一个键值数据库包含什么.md",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间",
+    "src/01_Project/Redis.md",
+    "src/01_Project/Redis",
+    "src/01_Project/Interview/Redis",
+    "src/04_Archive/计划单/2024 年度计划.md",
+    "src/04_Archive/计划单",
     "src/04_Archive/游记/香港、澳门游玩攻略.md",
-    "src/04_Archive/游记",
-    "src/01_Project/Interview/场景题/分布式 ID 解决方案.md",
+    "src/01_Inbox",
+    "src/README.md",
+    "src/single_page/website_navigation.md",
+    "src/03_Resource/MySQL 中的锁.md",
+    "src/03_Resource/家庭网络篇 - 软路由.md",
+    "src/身体调养篇 - 黑眼圈.md",
     "src/01_Project/Interview/场景题/excalidraw/为什么需要分库分表.ex",
+    "src/01_Project/Interview/场景题/分布式 ID 解决方案.md",
+    "src/04_Archive/游记",
     "src/01_Project/Interview/场景题/接口优化技巧.md",
     "src/01_Project/Interview/场景题/为什么需要分库分表？.md",
     "src/01_Project/Interview/场景题/为什么要分库分表？.md",
     "src/01_Project/Interview/MySQL/什么是 MVCC？.md",
     "src/01_Project/Interview/JVM/excalidraw/什么是双亲委派模型？.ex",
-    "src/买车对比.md",
+    "src/03_Resource/买车对比.md",
     "src/01_Project/Interview/JVM/什么是双亲委派模型？.md",
     "src/01_Project/Interview/JVM/excalidraw",
     "src/01_Project/Interview/JVM",
-    "src/01_Project/Interview/MySQL/excalidraw/什么是 MVCC？.ex",
-    "src/01_Project/Interview/MySQL/excalidraw/MySQL 的三大日志.ex",
     "src/01_Project/Interview/MySQL/MySQL 的三大日志.md",
-    "src/README.md",
     "README.md",
-    "src/MySQL 如何实现 ACID.md",
-    "src/怎么优化一个大 Key.md",
-    "src/MySQL 中的锁.md",
-    "src/怎么实现一个聊天室.md",
-    "src/怎么解决消息堆积？.md",
-    "src/为什么消息至少投递成功一次，但没有办法保证只投递一次？.md",
+    "src/03_Resource/MySQL 如何实现 ACID.md",
+    "src/03_Resource/怎么优化一个大 Key.md",
+    "src/03_Resource/怎么实现一个聊天室.md",
+    "src/03_Resource/怎么解决消息堆积？.md",
+    "src/03_Resource/为什么消息至少投递成功一次，但没有办法保证只投递一次？.md",
     "src/01_Project/Interview/面试部分/挖掘项目亮点优化简历.md",
     "src/更好的思考工具 untools.md",
-    "src/深入理解 MySQL 的 MVCC.md",
-    "src/03_Resource/大环境下程序员出路最优解 - 成为远程个体户的全流程分享.md",
-    "src/01_Project/Interview/MySQL/excalidraw",
-    "src/01_Project/Interview/场景题/excalidraw/接口优化技巧.ex",
-    "src/01_Project/养生/八部金刚功.md",
-    "src/single_page/website_navigation.md",
-    "src/03_Resource/未完成的",
-    "src/01_Project/Interview/当我准备面试时，我应该准备什么？.md",
-    "src/BeanPostProcessor 实际应用场景.md",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

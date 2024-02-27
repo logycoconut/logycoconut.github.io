@@ -1,7 +1,8 @@
 ---
+title: README
+tag: [] 
 home: true
 icon: home
-title: 主页
 heroText: 个人知识库
 tagline: 欢迎来到 logycoconut 的知识库
 actions:
@@ -14,7 +15,7 @@ features:
 #     details: 添加路径导航、页脚、改进的导航栏、改进的页面导航等。
 #     link: https://vuepress-theme-hope.github.io/v2/guide/layout/
 copyright: false
-footer: MIT Licensed | Copyright © 2019-present logycoconut
+footer: MIT Licensed | Copyright © 2019 - present logycoconut
 ---
 
 > _“我们都知道，如果可以回到过去，改变任何一件小事情，都将极大地改变未来。然而，几乎没有人想到，今天只要小小改变，就会改变自己的未来。”_

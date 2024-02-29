@@ -1,1 +1,0 @@
-import{_}from"./plugin-vue_export-helper-c27b6911.js";import{o as e,c as t,a as o}from"./app-33ef3045.js";const c={},s=o("p",null,"MQ 有一些确认机制，消息在发送之后，因为某些网络原因，没有收到 ACK 消息，那么它内部就会做一些重发的操作，这样就会存在多条的情况",-1),n=[s];function r(a,l){return e(),t("div",null,n)}const m=_(c,[["render",r],["__file","为什么消息至少投递成功一次，但没有办法保证只投递一次？.html.vue"]]);export{m as default};

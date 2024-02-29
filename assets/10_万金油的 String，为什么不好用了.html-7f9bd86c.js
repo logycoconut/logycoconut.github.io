@@ -1,0 +1,1 @@
+import{_}from"./plugin-vue_export-helper-c27b6911.js";import{o as e,c as t}from"./app-2608b4f0.js";const r={};function c(o,n){return e(),t("div")}const f=_(r,[["render",c],["__file","10_万金油的 String，为什么不好用了.html.vue"]]);export{f as default};

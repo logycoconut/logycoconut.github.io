@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/05_内存快照：宕机后，Redis 如何实现快速恢复？.md",
+                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/12_GEO 是什么？还可以定义新的数据类型吗？.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/05_内存快照：宕机后，Redis 如何实现快速恢复？.md"
+                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/12_GEO 是什么？还可以定义新的数据类型吗？.md"
               }
             }
           },
@@ -110,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -128,15 +128,20 @@
   },
   "active": "95364d857401929d",
   "lastOpenFiles": [
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/11_有一亿个 keys 要统计，应该用哪种集合.md",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/12_GEO 是什么？还可以定义新的数据类型吗？.md",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/10_万金油的 String，为什么不好用了.md",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/09_切片集群：数据增多了，是该加内存还是加实例？.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/08_哨兵集群：哨兵挂了，主从库还能切换吗？.md",
+    "src/03_Resource/「极氪 001 All New」选购单.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/07_哨兵模式：主库挂了，如何不间断服务？.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/06_数据同步：主从库如何实现数据一致.md",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/课堂作业以及答案.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/05_内存快照：宕机后，Redis 如何实现快速恢复？.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/04_AOF日志：宕机了，Redis 如何避免数据丢失.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/03_高性能 IO 模型：为什么单线程 Redis 能那么快？.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/02_快速的 Redis 有哪些慢操作.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/01_一个键值数据库包含什么.md",
-    "src/「极氪 001 ALL NEW」选购单.md",
     "src/家庭药箱.md",
     "src/未命名.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/excalidraw/Redis 核心技术与实战.ex",
@@ -158,12 +163,7 @@
     "src/01_Project/Interview/场景题/excalidraw/为什么需要分库分表.ex",
     "src/01_Project/Interview/场景题/分布式 ID 解决方案.md",
     "src/04_Archive/游记",
-    "src/01_Project/Interview/场景题/接口优化技巧.md",
-    "src/01_Project/Interview/场景题/为什么需要分库分表？.md",
-    "src/01_Project/Interview/场景题/为什么要分库分表？.md",
-    "src/01_Project/Interview/MySQL/什么是 MVCC？.md",
     "src/01_Project/Interview/JVM/excalidraw/什么是双亲委派模型？.ex",
-    "src/03_Resource/买车对比.md",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

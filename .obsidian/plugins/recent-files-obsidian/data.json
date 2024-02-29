@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "09_切片集群：数据增多了，是该加内存还是加实例？",
+      "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/09_切片集群：数据增多了，是该加内存还是加实例？.md"
+    },
+    {
       "basename": "12_GEO 是什么？还可以定义新的数据类型吗？",
       "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/12_GEO 是什么？还可以定义新的数据类型吗？.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "10_万金油的 String，为什么不好用了",
       "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/10_万金油的 String，为什么不好用了.md"
-    },
-    {
-      "basename": "09_切片集群：数据增多了，是该加内存还是加实例？",
-      "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/09_切片集群：数据增多了，是该加内存还是加实例？.md"
     },
     {
       "basename": "08_哨兵集群：哨兵挂了，主从库还能切换吗？",

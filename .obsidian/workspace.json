@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/12_GEO 是什么？还可以定义新的数据类型吗？.md",
+                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/09_切片集群：数据增多了，是该加内存还是加实例？.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/12_GEO 是什么？还可以定义新的数据类型吗？.md"
+                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/09_切片集群：数据增多了，是该加内存还是加实例？.md"
               }
             }
           },
@@ -110,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -128,8 +128,8 @@
   },
   "active": "95364d857401929d",
   "lastOpenFiles": [
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/11_有一亿个 keys 要统计，应该用哪种集合.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/12_GEO 是什么？还可以定义新的数据类型吗？.md",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/11_有一亿个 keys 要统计，应该用哪种集合.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/10_万金油的 String，为什么不好用了.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/09_切片集群：数据增多了，是该加内存还是加实例？.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/08_哨兵集群：哨兵挂了，主从库还能切换吗？.md",

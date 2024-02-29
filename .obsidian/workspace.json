@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/01_一个键值数据库包含什么.md",
+                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/05_内存快照：宕机后，Redis 如何实现快速恢复？.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -57,6 +57,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "e4a27fda7aaef96b",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
         ]
       }
@@ -89,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/01_一个键值数据库包含什么.md"
+                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/05_内存快照：宕机后，Redis 如何实现快速恢复？.md"
               }
             }
           },
@@ -100,33 +108,9 @@
               "type": "git-view",
               "state": {}
             }
-          },
-          {
-            "id": "607bf35dc4b56e4e",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "f8dcb60f53fd278a",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/01_一个键值数据库包含什么.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -142,10 +126,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "49813a896445e999",
+  "active": "95364d857401929d",
   "lastOpenFiles": [
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/README.md",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/08_哨兵集群：哨兵挂了，主从库还能切换吗？.md",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/07_哨兵模式：主库挂了，如何不间断服务？.md",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/06_数据同步：主从库如何实现数据一致.md",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/05_内存快照：宕机后，Redis 如何实现快速恢复？.md",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/04_AOF日志：宕机了，Redis 如何避免数据丢失.md",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/03_高性能 IO 模型：为什么单线程 Redis 能那么快？.md",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/02_快速的 Redis 有哪些慢操作.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/01_一个键值数据库包含什么.md",
+    "src/「极氪 001 ALL NEW」选购单.md",
+    "src/家庭药箱.md",
+    "src/未命名.md",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/excalidraw/Redis 核心技术与实战.ex",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/excalidraw",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/README.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间",
     "src/01_Project/Redis.md",
     "src/01_Project/Redis",
@@ -168,18 +164,6 @@
     "src/01_Project/Interview/MySQL/什么是 MVCC？.md",
     "src/01_Project/Interview/JVM/excalidraw/什么是双亲委派模型？.ex",
     "src/03_Resource/买车对比.md",
-    "src/01_Project/Interview/JVM/什么是双亲委派模型？.md",
-    "src/01_Project/Interview/JVM/excalidraw",
-    "src/01_Project/Interview/JVM",
-    "src/01_Project/Interview/MySQL/MySQL 的三大日志.md",
-    "README.md",
-    "src/03_Resource/MySQL 如何实现 ACID.md",
-    "src/03_Resource/怎么优化一个大 Key.md",
-    "src/03_Resource/怎么实现一个聊天室.md",
-    "src/03_Resource/怎么解决消息堆积？.md",
-    "src/03_Resource/为什么消息至少投递成功一次，但没有办法保证只投递一次？.md",
-    "src/01_Project/Interview/面试部分/挖掘项目亮点优化简历.md",
-    "src/更好的思考工具 untools.md",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

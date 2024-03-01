@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8b6178e66cc39d5d",
+        "id": "62cf89306fae5de7",
         "type": "tabs",
         "children": [
           {
-            "id": "95364d857401929d",
+            "id": "e34811740bf855c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -110,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -126,13 +126,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "95364d857401929d",
+  "active": "e34811740bf855c0",
   "lastOpenFiles": [
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/08_哨兵集群：哨兵挂了，主从库还能切换吗？.md",
+    "src/single_page/website_navigation.md",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/09_切片集群：数据增多了，是该加内存还是加实例？.md",
+    "src/未命名.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/12_GEO 是什么？还可以定义新的数据类型吗？.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/11_有一亿个 keys 要统计，应该用哪种集合.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/10_万金油的 String，为什么不好用了.md",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/09_切片集群：数据增多了，是该加内存还是加实例？.md",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/08_哨兵集群：哨兵挂了，主从库还能切换吗？.md",
     "src/03_Resource/「极氪 001 All New」选购单.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/07_哨兵模式：主库挂了，如何不间断服务？.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/06_数据同步：主从库如何实现数据一致.md",
@@ -143,7 +145,6 @@
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/02_快速的 Redis 有哪些慢操作.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/01_一个键值数据库包含什么.md",
     "src/家庭药箱.md",
-    "src/未命名.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/excalidraw/Redis 核心技术与实战.ex",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/excalidraw",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/README.md",
@@ -156,7 +157,6 @@
     "src/04_Archive/游记/香港、澳门游玩攻略.md",
     "src/01_Inbox",
     "src/README.md",
-    "src/single_page/website_navigation.md",
     "src/03_Resource/MySQL 中的锁.md",
     "src/03_Resource/家庭网络篇 - 软路由.md",
     "src/身体调养篇 - 黑眼圈.md",

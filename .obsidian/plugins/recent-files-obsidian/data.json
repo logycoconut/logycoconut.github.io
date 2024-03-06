@@ -1,20 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "09_切片集群：数据增多了，是该加内存还是加实例？",
-      "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/09_切片集群：数据增多了，是该加内存还是加实例？.md"
+      "basename": "14_消息队列的考验：Redis 有哪些解决方案？",
+      "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/14_消息队列的考验：Redis 有哪些解决方案？.md"
     },
     {
-      "basename": "08_哨兵集群：哨兵挂了，主从库还能切换吗？",
-      "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/08_哨兵集群：哨兵挂了，主从库还能切换吗？.md"
-    },
-    {
-      "basename": "website_navigation",
-      "path": "src/single_page/website_navigation.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "src/未命名.md"
+      "basename": "13_如何在 Redis 中保存时间序列数据？",
+      "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/13_如何在 Redis 中保存时间序列数据？.md"
     },
     {
       "basename": "12_GEO 是什么？还可以定义新的数据类型吗？",
@@ -27,6 +19,30 @@
     {
       "basename": "10_万金油的 String，为什么不好用了",
       "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/10_万金油的 String，为什么不好用了.md"
+    },
+    {
+      "basename": "09_切片集群：数据增多了，是该加内存还是加实例？",
+      "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/09_切片集群：数据增多了，是该加内存还是加实例？.md"
+    },
+    {
+      "basename": "未命名 1",
+      "path": "src/未命名 1.md"
+    },
+    {
+      "basename": "ACC、LCC 是什么？",
+      "path": "src/ACC、LCC 是什么？.md"
+    },
+    {
+      "basename": "08_哨兵集群：哨兵挂了，主从库还能切换吗？",
+      "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/08_哨兵集群：哨兵挂了，主从库还能切换吗？.md"
+    },
+    {
+      "basename": "website_navigation",
+      "path": "src/single_page/website_navigation.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "src/未命名.md"
     },
     {
       "basename": "「极氪 001 All New」选购单",

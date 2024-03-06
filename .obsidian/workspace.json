@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "62cf89306fae5de7",
+        "id": "54692732cb93880d",
         "type": "tabs",
         "children": [
           {
-            "id": "e34811740bf855c0",
+            "id": "bf5abe1c89e52592",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/09_切片集群：数据增多了，是该加内存还是加实例？.md",
+                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/14_消息队列的考验：Redis 有哪些解决方案？.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/09_切片集群：数据增多了，是该加内存还是加实例？.md"
+                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/14_消息队列的考验：Redis 有哪些解决方案？.md"
               }
             }
           },
@@ -107,6 +107,30 @@
             "state": {
               "type": "git-view",
               "state": {}
+            }
+          },
+          {
+            "id": "0ffe64b7ef3a3a9c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/14_消息队列的考验：Redis 有哪些解决方案？.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "007323d7114f7cb1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
             }
           }
         ],
@@ -126,15 +150,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e34811740bf855c0",
+  "active": "bf5abe1c89e52592",
   "lastOpenFiles": [
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/08_哨兵集群：哨兵挂了，主从库还能切换吗？.md",
-    "src/single_page/website_navigation.md",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/09_切片集群：数据增多了，是该加内存还是加实例？.md",
-    "src/未命名.md",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/13_如何在 Redis 中保存时间序列数据？.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/12_GEO 是什么？还可以定义新的数据类型吗？.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/11_有一亿个 keys 要统计，应该用哪种集合.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/10_万金油的 String，为什么不好用了.md",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/14_消息队列的考验：Redis 有哪些解决方案？.md",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/09_切片集群：数据增多了，是该加内存还是加实例？.md",
+    "src/未命名 1.md",
+    "src/ACC、LCC 是什么？.md",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/08_哨兵集群：哨兵挂了，主从库还能切换吗？.md",
+    "src/single_page/website_navigation.md",
+    "src/未命名.md",
     "src/03_Resource/「极氪 001 All New」选购单.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/07_哨兵模式：主库挂了，如何不间断服务？.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/06_数据同步：主从库如何实现数据一致.md",
@@ -157,11 +185,7 @@
     "src/04_Archive/游记/香港、澳门游玩攻略.md",
     "src/01_Inbox",
     "src/README.md",
-    "src/03_Resource/MySQL 中的锁.md",
-    "src/03_Resource/家庭网络篇 - 软路由.md",
-    "src/身体调养篇 - 黑眼圈.md",
     "src/01_Project/Interview/场景题/excalidraw/为什么需要分库分表.ex",
-    "src/01_Project/Interview/场景题/分布式 ID 解决方案.md",
     "src/04_Archive/游记",
     "src/01_Project/Interview/JVM/excalidraw/什么是双亲委派模型？.ex",
     "未命名.canvas",

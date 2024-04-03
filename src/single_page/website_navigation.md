@@ -67,6 +67,7 @@ tag: []
 - [免费商用字体库](https://www.figma.com/community/file/1256555346586156735/%E5%85%8D%E8%B4%B9%E5%95%86%E7%94%A8%E5%AD%97%E4%BD%93%E5%BA%93)
 
   *[尊重字体版权，我整理了一个免费商用字体库](https://sspai.com/post/80926)*
+- [「得意黑」](https://github.com/atelier-anchor/smiley-sans)
 
 ### 思考工具
 

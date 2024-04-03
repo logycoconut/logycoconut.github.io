@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "有什么好用的 Docker 镜像？",
+      "path": "src/有什么好用的 Docker 镜像？.md"
+    },
+    {
+      "basename": "05_个人宽带如何开启IPv6网络访问",
+      "path": "src/02_Area/Lifestyle/03_搞机达人/05_个人宽带如何开启IPv6网络访问.md"
+    },
+    {
       "basename": "14_消息队列的考验：Redis 有哪些解决方案？",
       "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/14_消息队列的考验：Redis 有哪些解决方案？.md"
+    },
+    {
+      "basename": "极氪 001 交付 & 验车全流程",
+      "path": "src/极氪 001 交付 & 验车全流程.md"
+    },
+    {
+      "basename": "website_navigation",
+      "path": "src/single_page/website_navigation.md"
+    },
+    {
+      "basename": "01_MacOS 软件",
+      "path": "src/02_Area/Lifestyle/02_装机必备/01_MacOS 软件.md"
+    },
+    {
+      "basename": "excalidraw 24-03-28 11.16.31",
+      "path": "excalidraw 24-03-28 11.16.31.ex"
     },
     {
       "basename": "13_如何在 Redis 中保存时间序列数据？",
@@ -25,24 +49,8 @@
       "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/09_切片集群：数据增多了，是该加内存还是加实例？.md"
     },
     {
-      "basename": "未命名 1",
-      "path": "src/未命名 1.md"
-    },
-    {
-      "basename": "ACC、LCC 是什么？",
-      "path": "src/ACC、LCC 是什么？.md"
-    },
-    {
       "basename": "08_哨兵集群：哨兵挂了，主从库还能切换吗？",
       "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/08_哨兵集群：哨兵挂了，主从库还能切换吗？.md"
-    },
-    {
-      "basename": "website_navigation",
-      "path": "src/single_page/website_navigation.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "src/未命名.md"
     },
     {
       "basename": "「极氪 001 All New」选购单",

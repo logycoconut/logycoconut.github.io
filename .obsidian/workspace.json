@@ -8,12 +8,38 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bf5abe1c89e52592",
+            "id": "de25a682540928bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/14_消息队列的考验：Redis 有哪些解决方案？.md",
+                "file": "src/有什么好用的 Docker 镜像？.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ec8adcc80cf3f9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/极氪 001 交付 & 验车全流程.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2dc515e2b18900d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/02_Area/Lifestyle/02_装机必备/01_MacOS 软件.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/14_消息队列的考验：Redis 有哪些解决方案？.md"
+                "file": "src/有什么好用的 Docker 镜像？.md"
               }
             }
           },
@@ -115,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/14_消息队列的考验：Redis 有哪些解决方案？.md",
+                "file": "src/有什么好用的 Docker 镜像？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,19 +176,25 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bf5abe1c89e52592",
+  "active": "de25a682540928bd",
   "lastOpenFiles": [
+    "src/02_Area/Lifestyle/03_搞机达人/05_个人宽带如何开启IPv6网络访问.md",
+    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/14_消息队列的考验：Redis 有哪些解决方案？.md",
+    "src/极氪 001 交付 & 验车全流程.md",
+    "src/有什么好用的 Docker 镜像？.md",
+    "src/single_page/website_navigation.md",
+    "src/ACC、LCC 是什么？.md",
+    "src/Mac 软.md",
+    "src/未命名 1.md",
+    "src/未命名.md",
+    "src/02_Area/Lifestyle/02_装机必备/01_MacOS 软件.md",
+    "excalidraw 24-03-28 11.16.31.ex",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/13_如何在 Redis 中保存时间序列数据？.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/12_GEO 是什么？还可以定义新的数据类型吗？.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/11_有一亿个 keys 要统计，应该用哪种集合.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/10_万金油的 String，为什么不好用了.md",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/14_消息队列的考验：Redis 有哪些解决方案？.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/09_切片集群：数据增多了，是该加内存还是加实例？.md",
-    "src/未命名 1.md",
-    "src/ACC、LCC 是什么？.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/08_哨兵集群：哨兵挂了，主从库还能切换吗？.md",
-    "src/single_page/website_navigation.md",
-    "src/未命名.md",
     "src/03_Resource/「极氪 001 All New」选购单.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/07_哨兵模式：主库挂了，如何不间断服务？.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/06_数据同步：主从库如何实现数据一致.md",
@@ -175,19 +207,13 @@
     "src/家庭药箱.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/excalidraw/Redis 核心技术与实战.ex",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/excalidraw",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/README.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间",
-    "src/01_Project/Redis.md",
     "src/01_Project/Redis",
     "src/01_Project/Interview/Redis",
-    "src/04_Archive/计划单/2024 年度计划.md",
     "src/04_Archive/计划单",
-    "src/04_Archive/游记/香港、澳门游玩攻略.md",
     "src/01_Inbox",
-    "src/README.md",
     "src/01_Project/Interview/场景题/excalidraw/为什么需要分库分表.ex",
     "src/04_Archive/游记",
-    "src/01_Project/Interview/JVM/excalidraw/什么是双亲委派模型？.ex",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

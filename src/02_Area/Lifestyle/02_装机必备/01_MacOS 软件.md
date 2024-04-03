@@ -1,5 +1,5 @@
 ---
-title: ⭐️ MacOS 软件
+title: 01_MacOS 软件
 tag: [MacOS]
 order: 1
 ---
@@ -71,6 +71,8 @@ plugins=(
 - [ Mac 使用软件分享，抛砖引玉][]
 
 - [这十多个插件，大幅度改善你的 Obsidian 编辑体验][]
+
+- [Mac 教程 - 一站式解决大部分 Mac 问题](https://44maker.github.io/wiki/Mac/index.html)
 
 ​​<!-- 下面是引用式链接-->
 

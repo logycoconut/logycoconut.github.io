@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "扫地机器人 - 追觅 X20 Pro",
+      "path": "src/扫地机器人 - 追觅 X20 Pro.md"
+    },
+    {
+      "basename": "草稿本",
+      "path": "src/草稿本.md"
+    },
+    {
       "basename": "有什么好用的 Docker 镜像？",
       "path": "src/有什么好用的 Docker 镜像？.md"
+    },
+    {
+      "basename": "01_MacOS 软件",
+      "path": "src/02_Area/Lifestyle/02_装机必备/01_MacOS 软件.md"
+    },
+    {
+      "basename": "极氪 001 交付 & 验车全流程",
+      "path": "src/极氪 001 交付 & 验车全流程.md"
     },
     {
       "basename": "05_个人宽带如何开启IPv6网络访问",
@@ -13,16 +29,8 @@
       "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/14_消息队列的考验：Redis 有哪些解决方案？.md"
     },
     {
-      "basename": "极氪 001 交付 & 验车全流程",
-      "path": "src/极氪 001 交付 & 验车全流程.md"
-    },
-    {
       "basename": "website_navigation",
       "path": "src/single_page/website_navigation.md"
-    },
-    {
-      "basename": "01_MacOS 软件",
-      "path": "src/02_Area/Lifestyle/02_装机必备/01_MacOS 软件.md"
     },
     {
       "basename": "excalidraw 24-03-28 11.16.31",

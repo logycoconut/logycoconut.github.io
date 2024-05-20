@@ -25,7 +25,7 @@ https://localhost:9443
 
 ```
 user：admin
-password：portainer+docker
+password： 
 ```
 
 ### Emby

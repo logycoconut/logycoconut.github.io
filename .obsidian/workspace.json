@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/有什么好用的 Docker 镜像？.md",
+                "file": "src/家用好物推荐.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,12 +34,25 @@
             }
           },
           {
-            "id": "4f72195bb7058a88",
+            "id": "b145291f78bfd3be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/扫地机器人 - 追觅 X20 Pro.md",
+                "file": "src/家用好物推荐.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb3cb37923a89e06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/草稿本.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/扫地机器人 - 追觅 X20 Pro.md"
+                "file": "src/家用好物推荐.md"
               }
             }
           },
@@ -142,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/扫地机器人 - 追觅 X20 Pro.md",
+                "file": "src/家用好物推荐.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +174,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -177,13 +190,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4f72195bb7058a88",
+  "active": "2dc515e2b18900d6",
   "lastOpenFiles": [
-    "src/草稿本.md",
+    "src/极氪 001 交付 & 验车全流程.md",
+    "src/家用好物推荐.md",
     "src/扫地机器人 - 追觅 X20 Pro.md",
+    "src/草稿本.md",
+    "src/车载好物推荐.md",
     "src/有什么好用的 Docker 镜像？.md",
     "src/02_Area/Lifestyle/02_装机必备/01_MacOS 软件.md",
-    "src/极氪 001 交付 & 验车全流程.md",
     "src/02_Area/Lifestyle/03_搞机达人/05_个人宽带如何开启IPv6网络访问.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/14_消息队列的考验：Redis 有哪些解决方案？.md",
     "src/single_page/website_navigation.md",
@@ -204,8 +219,6 @@
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/05_内存快照：宕机后，Redis 如何实现快速恢复？.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/04_AOF日志：宕机了，Redis 如何避免数据丢失.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/03_高性能 IO 模型：为什么单线程 Redis 能那么快？.md",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/02_快速的 Redis 有哪些慢操作.md",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/01_一个键值数据库包含什么.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/excalidraw/Redis 核心技术与实战.ex",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/excalidraw",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间",

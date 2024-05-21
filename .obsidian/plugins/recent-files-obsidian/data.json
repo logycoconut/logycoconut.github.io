@@ -1,32 +1,72 @@
 {
   "recentFiles": [
     {
+      "basename": "Docker 镜像",
+      "path": "src/02_Area/资源类整合/Docker 镜像.md"
+    },
+    {
+      "basename": "阅读 3.0 Web 版搭建",
+      "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/阅读 3.0 Web 版搭建.md"
+    },
+    {
+      "basename": "Clash 分流以及去广告",
+      "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/Clash 分流以及去广告.md"
+    },
+    {
+      "basename": "README",
+      "path": "src/02_Area/Lifestyle/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/README.md"
+    },
+    {
+      "basename": "02_URL Scheme 大全",
+      "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/02_URL Scheme 大全.md"
+    },
+    {
+      "basename": "01_个人设备推荐",
+      "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/01_个人设备推荐.md"
+    },
+    {
       "basename": "家用好物推荐",
-      "path": "src/家用好物推荐.md"
-    },
-    {
-      "basename": "极氪 001 交付 & 验车全流程",
-      "path": "src/极氪 001 交付 & 验车全流程.md"
-    },
-    {
-      "basename": "草稿本",
-      "path": "src/草稿本.md"
-    },
-    {
-      "basename": "车载好物推荐",
-      "path": "src/车载好物推荐.md"
-    },
-    {
-      "basename": "有什么好用的 Docker 镜像？",
-      "path": "src/有什么好用的 Docker 镜像？.md"
+      "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/家用好物推荐.md"
     },
     {
       "basename": "01_MacOS 软件",
       "path": "src/02_Area/Lifestyle/02_装机必备/01_MacOS 软件.md"
     },
     {
+      "basename": "02_Chrome 推荐插件以及油猴脚本",
+      "path": "src/02_Area/Lifestyle/02_装机必备/02_Chrome 推荐插件以及油猴脚本.md"
+    },
+    {
+      "basename": "01_如何给设备安装黑苹果？",
+      "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/黑苹果相关/01_如何给设备安装黑苹果？.md"
+    },
+    {
+      "basename": "03_通过 GitHub Actions 完成知识库的发布",
+      "path": "src/02_Area/Lifestyle/01_如何打造个人知识库/03_通过 GitHub Actions 完成知识库的发布.md"
+    },
+    {
+      "basename": "02_VuePress Theme Hope 使用指南",
+      "path": "src/02_Area/Lifestyle/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md"
+    },
+    {
+      "basename": "01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库",
+      "path": "src/02_Area/Lifestyle/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md"
+    },
+    {
+      "basename": "家庭网络篇 - 软路由",
+      "path": "src/03_Resource/家庭网络篇 - 软路由.md"
+    },
+    {
+      "basename": "「极氪 001 All New」选购单",
+      "path": "src/03_Resource/「极氪 001 All New」选购单.md"
+    },
+    {
       "basename": "05_个人宽带如何开启IPv6网络访问",
-      "path": "src/02_Area/Lifestyle/03_搞机达人/05_个人宽带如何开启IPv6网络访问.md"
+      "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/05_个人宽带如何开启IPv6网络访问.md"
     },
     {
       "basename": "14_消息队列的考验：Redis 有哪些解决方案？",
@@ -35,10 +75,6 @@
     {
       "basename": "website_navigation",
       "path": "src/single_page/website_navigation.md"
-    },
-    {
-      "basename": "excalidraw 24-03-28 11.16.31",
-      "path": "excalidraw 24-03-28 11.16.31.ex"
     },
     {
       "basename": "13_如何在 Redis 中保存时间序列数据？",
@@ -63,10 +99,6 @@
     {
       "basename": "08_哨兵集群：哨兵挂了，主从库还能切换吗？",
       "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/08_哨兵集群：哨兵挂了，主从库还能切换吗？.md"
-    },
-    {
-      "basename": "「极氪 001 All New」选购单",
-      "path": "src/03_Resource/「极氪 001 All New」选购单.md"
     },
     {
       "basename": "07_哨兵模式：主库挂了，如何不间断服务？",

@@ -8,59 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "de25a682540928bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/极氪 001 交付 & 验车全流程.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2dc515e2b18900d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/家用好物推荐.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b145291f78bfd3be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/家用好物推荐.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb3cb37923a89e06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/草稿本.md",
+                "file": "src/02_Area/资源类整合/Docker 镜像.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 455.5
+    "width": 360.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -137,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/家用好物推荐.md"
+                "file": "src/02_Area/资源类整合/Docker 镜像.md"
               }
             }
           },
@@ -155,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/家用好物推荐.md",
+                "file": "src/02_Area/资源类整合/Docker 镜像.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -190,35 +150,35 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2dc515e2b18900d6",
+  "active": "b145291f78bfd3be",
   "lastOpenFiles": [
-    "src/极氪 001 交付 & 验车全流程.md",
-    "src/家用好物推荐.md",
-    "src/扫地机器人 - 追觅 X20 Pro.md",
-    "src/草稿本.md",
-    "src/车载好物推荐.md",
-    "src/有什么好用的 Docker 镜像？.md",
+    "src/02_Area/资源类整合",
+    "src/02_Area/Lifestyle/03_就是爱折腾系列/阅读 3.0 Web 版搭建.md",
+    "src/02_Area/Lifestyle/03_就是爱折腾系列/Clash 分流以及去广告.md",
+    "src/02_Area/Lifestyle/README.md",
+    "src/02_Area/Lifestyle/03_就是爱折腾系列/README.md",
+    "src/02_Area/Lifestyle/03_就是爱折腾系列/02_URL Scheme 大全.md",
+    "src/02_Area/Lifestyle/03_就是爱折腾系列/01_个人设备推荐.md",
+    "src/02_Area/Lifestyle/03_就是爱折腾系列/家用好物推荐.md",
     "src/02_Area/Lifestyle/02_装机必备/01_MacOS 软件.md",
-    "src/02_Area/Lifestyle/03_搞机达人/05_个人宽带如何开启IPv6网络访问.md",
+    "src/02_Area/Lifestyle/02_装机必备/02_Chrome 推荐插件以及油猴脚本.md",
+    "src/02_Area/Lifestyle/03_就是爱折腾系列/黑苹果相关/01_如何给设备安装黑苹果？.md",
+    "src/02_Area/Lifestyle/01_如何打造个人知识库/03_通过 GitHub Actions 完成知识库的发布.md",
+    "src/02_Area/Lifestyle/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md",
+    "src/02_Area/Lifestyle/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
+    "src/02_Area/资源类整合/Docker 镜像.md",
+    "src/车载好物推荐.md",
+    "src/03_Resource/家庭网络篇 - 软路由.md",
+    "src/03_Resource/「极氪 001 All New」选购单.md",
+    "src/03_Resource/买车对比.md",
+    "src/草稿本.md",
+    "excalidraw 24-03-28 11.16.31.ex",
+    "src/极氪 001 交付 & 验车全流程.md",
+    "src/扫地机器人 - 追觅 X20 Pro.md",
+    "src/02_Area/Lifestyle/03_就是爱折腾系列/05_个人宽带如何开启IPv6网络访问.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/14_消息队列的考验：Redis 有哪些解决方案？.md",
     "src/single_page/website_navigation.md",
     "src/ACC、LCC 是什么？.md",
-    "src/Mac 软.md",
-    "src/未命名 1.md",
-    "excalidraw 24-03-28 11.16.31.ex",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/13_如何在 Redis 中保存时间序列数据？.md",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/12_GEO 是什么？还可以定义新的数据类型吗？.md",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/11_有一亿个 keys 要统计，应该用哪种集合.md",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/10_万金油的 String，为什么不好用了.md",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/09_切片集群：数据增多了，是该加内存还是加实例？.md",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/08_哨兵集群：哨兵挂了，主从库还能切换吗？.md",
-    "src/03_Resource/「极氪 001 All New」选购单.md",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/07_哨兵模式：主库挂了，如何不间断服务？.md",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/06_数据同步：主从库如何实现数据一致.md",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/课堂作业以及答案.md",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/05_内存快照：宕机后，Redis 如何实现快速恢复？.md",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/04_AOF日志：宕机了，Redis 如何避免数据丢失.md",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/03_高性能 IO 模型：为什么单线程 Redis 能那么快？.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/excalidraw/Redis 核心技术与实战.ex",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/excalidraw",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间",

@@ -1,12 +1,15 @@
 ---
-title: 01_MacOS 软件
+title: MacOS 软件
 tag: [MacOS]
 order: 1
+aliases: [MacOS 软件]
 ---
 
 > 以下软件都可以在官网、对应的 Github 仓库直接下载安装
 >
 > 不要轻易相信三方网站 !
+
+# MacOS 软件
 
 ### 开发
 

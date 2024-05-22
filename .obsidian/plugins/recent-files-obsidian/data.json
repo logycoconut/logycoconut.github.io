@@ -2,7 +2,27 @@
   "recentFiles": [
     {
       "basename": "Docker 镜像",
-      "path": "src/02_Area/资源类整合/Docker 镜像.md"
+      "path": "src/02_Area/资源整合/Docker 镜像.md"
+    },
+    {
+      "basename": "README",
+      "path": "src/02_Area/资源整合/README.md"
+    },
+    {
+      "basename": "家用好物推荐",
+      "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/家用好物推荐.md"
+    },
+    {
+      "basename": "README",
+      "path": "src/02_Area/Lifestyle/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "src/02_Area/Tech/README.md"
+    },
+    {
+      "basename": "website_navigation",
+      "path": "src/single_page/website_navigation.md"
     },
     {
       "basename": "阅读 3.0 Web 版搭建",
@@ -11,10 +31,6 @@
     {
       "basename": "Clash 分流以及去广告",
       "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/Clash 分流以及去广告.md"
-    },
-    {
-      "basename": "README",
-      "path": "src/02_Area/Lifestyle/README.md"
     },
     {
       "basename": "README",
@@ -27,10 +43,6 @@
     {
       "basename": "01_个人设备推荐",
       "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/01_个人设备推荐.md"
-    },
-    {
-      "basename": "家用好物推荐",
-      "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/家用好物推荐.md"
     },
     {
       "basename": "01_MacOS 软件",
@@ -71,10 +83,6 @@
     {
       "basename": "14_消息队列的考验：Redis 有哪些解决方案？",
       "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/14_消息队列的考验：Redis 有哪些解决方案？.md"
-    },
-    {
-      "basename": "website_navigation",
-      "path": "src/single_page/website_navigation.md"
     },
     {
       "basename": "13_如何在 Redis 中保存时间序列数据？",

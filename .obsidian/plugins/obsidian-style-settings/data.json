@@ -11,10 +11,9 @@
   "Components@@outline-enhanced": true,
   "Components@@CTA-BTN-enable": true,
   "Components@@file-names-untrim": true,
-  "Components@@folder-font-bold": false,
+  "Components@@folder-font-bold": true,
   "Components@@colorful-folder": true,
   "Components@@file-icon-remove": false,
-  "Appearance-light@@accent-light": "#8B6CEF",
   "Appearance-light@@accent-color-override-light": true,
   "Appearance-light@@color-red-rgb@@light": "#E93147",
   "Appearance-light@@color-orange-rgb@@light": "#ec7500",
@@ -45,9 +44,9 @@
   "Appearance-light@@card-shadow-light": "0 0 0 1px var(--background-modifier-border)",
   "Appearance-light@@background-activated-tab-header-light": "#00000013",
   "Appearance-light@@shadow-activated-tab-header-light": "none",
-  "Components@@Ribbon-autohide": true,
-  "Components@@nav-header-autohide": false,
-  "Components@@tab-title-bar-autohide": true,
+  "Components@@Ribbon-autohide": false,
+  "Components@@nav-header-autohide": true,
+  "Components@@tab-title-bar-autohide": false,
   "Components@@status-bar-autohide": false,
   "Components@@tab-autohide": false,
   "Components@@vault-name-display-select": "vault-name-hide",
@@ -56,5 +55,7 @@
   "Components@@setting-item-title-icon-remove": true,
   "Components@@scrollbar-hide": true,
   "Components@@restored-scrollbars": false,
-  "Appearance-light@@workspace-divider-transparent-light": false
+  "Appearance-light@@workspace-divider-transparent-light": false,
+  "Components@@icon-autohide": false,
+  "Appearance-light@@mod-root-split-background-select-light": "mod-root-split-background-primary-light"
 }

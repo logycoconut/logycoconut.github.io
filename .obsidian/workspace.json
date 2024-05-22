@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "54692732cb93880d",
+        "id": "22196d0724d8f63c",
         "type": "tabs",
         "children": [
           {
-            "id": "b145291f78bfd3be",
+            "id": "5dd3061a8d6f989b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/02_Area/资源类整合/Docker 镜像.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -96,9 +91,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/02_Area/资源类整合/Docker 镜像.md"
-              }
+              "state": {}
             }
           },
           {
@@ -115,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/02_Area/资源类整合/Docker 镜像.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +126,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -150,23 +142,26 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b145291f78bfd3be",
+  "active": "5dd3061a8d6f989b",
   "lastOpenFiles": [
-    "src/02_Area/资源类整合",
+    "src/02_Area/资源整合/Docker 镜像.md",
+    "src/02_Area/资源整合/README.md",
+    "src/02_Area/Lifestyle/03_就是爱折腾系列/家用好物推荐.md",
+    "src/02_Area/Lifestyle/README.md",
+    "src/02_Area/Tech/README.md",
+    "src/single_page/website_navigation.md",
+    "src/02_Area/资源整合",
     "src/02_Area/Lifestyle/03_就是爱折腾系列/阅读 3.0 Web 版搭建.md",
     "src/02_Area/Lifestyle/03_就是爱折腾系列/Clash 分流以及去广告.md",
-    "src/02_Area/Lifestyle/README.md",
     "src/02_Area/Lifestyle/03_就是爱折腾系列/README.md",
     "src/02_Area/Lifestyle/03_就是爱折腾系列/02_URL Scheme 大全.md",
     "src/02_Area/Lifestyle/03_就是爱折腾系列/01_个人设备推荐.md",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/家用好物推荐.md",
     "src/02_Area/Lifestyle/02_装机必备/01_MacOS 软件.md",
     "src/02_Area/Lifestyle/02_装机必备/02_Chrome 推荐插件以及油猴脚本.md",
     "src/02_Area/Lifestyle/03_就是爱折腾系列/黑苹果相关/01_如何给设备安装黑苹果？.md",
     "src/02_Area/Lifestyle/01_如何打造个人知识库/03_通过 GitHub Actions 完成知识库的发布.md",
     "src/02_Area/Lifestyle/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md",
     "src/02_Area/Lifestyle/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
-    "src/02_Area/资源类整合/Docker 镜像.md",
     "src/车载好物推荐.md",
     "src/03_Resource/家庭网络篇 - 软路由.md",
     "src/03_Resource/「极氪 001 All New」选购单.md",
@@ -177,17 +172,14 @@
     "src/扫地机器人 - 追觅 X20 Pro.md",
     "src/02_Area/Lifestyle/03_就是爱折腾系列/05_个人宽带如何开启IPv6网络访问.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/14_消息队列的考验：Redis 有哪些解决方案？.md",
-    "src/single_page/website_navigation.md",
-    "src/ACC、LCC 是什么？.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/excalidraw/Redis 核心技术与实战.ex",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/excalidraw",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间",
     "src/01_Project/Redis",
     "src/01_Project/Interview/Redis",
     "src/04_Archive/计划单",
-    "src/01_Inbox",
+    "src/00_inbox",
     "src/01_Project/Interview/场景题/excalidraw/为什么需要分库分表.ex",
-    "src/04_Archive/游记",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

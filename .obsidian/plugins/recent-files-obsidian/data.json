@@ -1,12 +1,80 @@
 {
   "recentFiles": [
     {
-      "basename": "Docker 镜像",
-      "path": "src/02_Area/资源整合/Docker 镜像.md"
+      "basename": "穷人生活指南",
+      "path": "src/02_Area/Lifestyle/穷人生活指南.md"
+    },
+    {
+      "basename": "09_Docker 镜像",
+      "path": "src/02_Area/Lifestyle/02_装机必备/09_Docker 镜像.md"
+    },
+    {
+      "basename": "08_sublime_text",
+      "path": "src/02_Area/Lifestyle/02_装机必备/08_sublime_text.md"
+    },
+    {
+      "basename": "05_Markdown 语法",
+      "path": "src/02_Area/Lifestyle/01_如何打造个人知识库/05_Markdown 语法.md"
+    },
+    {
+      "basename": "04_Obsidian 同步方案",
+      "path": "src/02_Area/Lifestyle/01_如何打造个人知识库/04_Obsidian 同步方案.md"
+    },
+    {
+      "basename": "03_通过 GitHub Actions 完成知识库的发布",
+      "path": "src/02_Area/Lifestyle/01_如何打造个人知识库/03_通过 GitHub Actions 完成知识库的发布.md"
+    },
+    {
+      "basename": "02_VuePress Theme Hope 使用指南",
+      "path": "src/02_Area/Lifestyle/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md"
+    },
+    {
+      "basename": "01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库",
+      "path": "src/02_Area/Lifestyle/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md"
     },
     {
       "basename": "README",
-      "path": "src/02_Area/资源整合/README.md"
+      "path": "src/README.md"
+    },
+    {
+      "basename": "怎么优化一个大 Key",
+      "path": "src/03_Resource/怎么优化一个大 Key.md"
+    },
+    {
+      "basename": "什么是 P.A.R.A 笔记管理法",
+      "path": "src/03_Resource/什么是 P.A.R.A 笔记管理法.md"
+    },
+    {
+      "basename": "收藏癖的美丽废物",
+      "path": "src/03_Resource/收藏癖的美丽废物.md"
+    },
+    {
+      "basename": "MySQL 中的锁",
+      "path": "src/03_Resource/MySQL 中的锁.md"
+    },
+    {
+      "basename": "英语学习资料",
+      "path": "src/03_Resource/英语学习资料.md"
+    },
+    {
+      "basename": "reference-style link template",
+      "path": "template/reference-style link template.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "香港、澳门游玩攻略",
+      "path": "src/04_Archive/游记/香港、澳门游玩攻略.md"
+    },
+    {
+      "basename": "八部金刚功",
+      "path": "src/01_Project/养生/八部金刚功.md"
+    },
+    {
+      "basename": "2024 年度计划",
+      "path": "src/04_Archive/计划单/2024 年度计划.md"
     },
     {
       "basename": "家用好物推荐",
@@ -55,18 +123,6 @@
     {
       "basename": "01_如何给设备安装黑苹果？",
       "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/黑苹果相关/01_如何给设备安装黑苹果？.md"
-    },
-    {
-      "basename": "03_通过 GitHub Actions 完成知识库的发布",
-      "path": "src/02_Area/Lifestyle/01_如何打造个人知识库/03_通过 GitHub Actions 完成知识库的发布.md"
-    },
-    {
-      "basename": "02_VuePress Theme Hope 使用指南",
-      "path": "src/02_Area/Lifestyle/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md"
-    },
-    {
-      "basename": "01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库",
-      "path": "src/02_Area/Lifestyle/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md"
     },
     {
       "basename": "家庭网络篇 - 软路由",

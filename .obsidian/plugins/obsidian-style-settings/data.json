@@ -44,7 +44,7 @@
   "Appearance-light@@card-shadow-light": "0 0 0 1px var(--background-modifier-border)",
   "Appearance-light@@background-activated-tab-header-light": "#00000013",
   "Appearance-light@@shadow-activated-tab-header-light": "none",
-  "Components@@Ribbon-autohide": false,
+  "Components@@Ribbon-autohide": true,
   "Components@@nav-header-autohide": true,
   "Components@@tab-title-bar-autohide": false,
   "Components@@status-bar-autohide": false,

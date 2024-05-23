@@ -4,18 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "22196d0724d8f63c",
+        "id": "6cfa67af413eee3f",
         "type": "tabs",
         "children": [
           {
-            "id": "5dd3061a8d6f989b",
+            "id": "e779b3cdc53512b8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "src/03_Resource/什么是 P.A.R.A 笔记管理法.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e6b56fa31b0cc0cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/02_Area/Lifestyle/穷人生活指南.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "055fcf49a0d5ddd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/03_Resource/什么是 P.A.R.A 笔记管理法.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360.5
+    "width": 477.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -91,7 +123,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/02_Area/Lifestyle/穷人生活指南.md"
+              }
             }
           },
           {
@@ -108,6 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/02_Area/Lifestyle/穷人生活指南.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +161,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -142,44 +177,44 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5dd3061a8d6f989b",
+  "active": "e6b56fa31b0cc0cd",
   "lastOpenFiles": [
-    "src/02_Area/资源整合/Docker 镜像.md",
+    "src/02_Area/Lifestyle/02_装机必备/09_Docker 镜像.md",
+    "src/02_Area/Lifestyle/02_装机必备/08_sublime_text.md",
     "src/02_Area/资源整合/README.md",
+    "src/02_Area/Lifestyle/01_如何打造个人知识库/05_Markdown 语法.md",
+    "src/02_Area/Lifestyle/01_如何打造个人知识库/04_Obsidian 同步方案.md",
+    "src/02_Area/Lifestyle/01_如何打造个人知识库/03_通过 GitHub Actions 完成知识库的发布.md",
+    "src/02_Area/Lifestyle/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md",
+    "src/02_Area/Lifestyle/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
+    "src/02_Area/Lifestyle/穷人生活指南.md",
+    "src/README.md",
+    "excalidraw 24-05-23 10.29.26.ex",
+    "src/03_Resource/怎么优化一个大 Key.md",
+    "src/未命名.md",
+    "src/blog/2024",
+    "src/03_Resource/什么是 P.A.R.A 笔记管理法.md",
+    "src/03_Resource/收藏癖的美丽废物.md",
+    "src/03_Resource/MySQL 中的锁.md",
+    "src/03_Resource/英语学习资料.md",
+    "template/reference-style link template.md",
+    "README.md",
+    "src/04_Archive/游记/香港、澳门游玩攻略.md",
+    "src/01_Project/养生/八部金刚功.md",
+    "src/02_Area/资源整合/未命名.md",
+    "src/04_Archive/计划单/2024 年度计划.md",
     "src/02_Area/Lifestyle/03_就是爱折腾系列/家用好物推荐.md",
     "src/02_Area/Lifestyle/README.md",
     "src/02_Area/Tech/README.md",
     "src/single_page/website_navigation.md",
     "src/02_Area/资源整合",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/阅读 3.0 Web 版搭建.md",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/Clash 分流以及去广告.md",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/README.md",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/02_URL Scheme 大全.md",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/01_个人设备推荐.md",
-    "src/02_Area/Lifestyle/02_装机必备/01_MacOS 软件.md",
-    "src/02_Area/Lifestyle/02_装机必备/02_Chrome 推荐插件以及油猴脚本.md",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/黑苹果相关/01_如何给设备安装黑苹果？.md",
-    "src/02_Area/Lifestyle/01_如何打造个人知识库/03_通过 GitHub Actions 完成知识库的发布.md",
-    "src/02_Area/Lifestyle/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md",
-    "src/02_Area/Lifestyle/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
-    "src/车载好物推荐.md",
-    "src/03_Resource/家庭网络篇 - 软路由.md",
-    "src/03_Resource/「极氪 001 All New」选购单.md",
-    "src/03_Resource/买车对比.md",
-    "src/草稿本.md",
     "excalidraw 24-03-28 11.16.31.ex",
-    "src/极氪 001 交付 & 验车全流程.md",
-    "src/扫地机器人 - 追觅 X20 Pro.md",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/05_个人宽带如何开启IPv6网络访问.md",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/14_消息队列的考验：Redis 有哪些解决方案？.md",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/excalidraw/Redis 核心技术与实战.ex",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/excalidraw",
     "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间",
     "src/01_Project/Redis",
     "src/01_Project/Interview/Redis",
     "src/04_Archive/计划单",
-    "src/00_inbox",
-    "src/01_Project/Interview/场景题/excalidraw/为什么需要分库分表.ex",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

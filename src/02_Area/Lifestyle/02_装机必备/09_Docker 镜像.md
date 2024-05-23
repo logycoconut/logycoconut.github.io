@@ -1,7 +1,7 @@
 ---
 title: Docker 镜像
 tag: [Docker] 
-aliases: [Docker 镜像？]
+aliases: [Docker 镜像]
 ---
 
 # Docker 镜像

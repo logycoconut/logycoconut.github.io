@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6cfa67af413eee3f",
+        "id": "8f83703c0c291aac",
         "type": "tabs",
         "children": [
           {
-            "id": "e779b3cdc53512b8",
+            "id": "aefe8fef756e755b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/03_Resource/什么是 P.A.R.A 笔记管理法.md",
+                "file": "src/00_Inbox/00_The Draft.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,25 +21,12 @@
             }
           },
           {
-            "id": "e6b56fa31b0cc0cd",
+            "id": "06049f9938764007",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/02_Area/Lifestyle/穷人生活指南.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "055fcf49a0d5ddd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/03_Resource/什么是 P.A.R.A 笔记管理法.md",
+                "file": "src/八股篇.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 477.5
+    "width": 404.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -124,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/02_Area/Lifestyle/穷人生活指南.md"
+                "file": "excalidraw 24-06-01 10.10.58.ex"
               }
             }
           },
@@ -142,7 +129,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/02_Area/Lifestyle/穷人生活指南.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -177,44 +163,43 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e6b56fa31b0cc0cd",
+  "active": "49813a896445e999",
   "lastOpenFiles": [
-    "src/02_Area/Lifestyle/02_装机必备/09_Docker 镜像.md",
-    "src/02_Area/Lifestyle/02_装机必备/08_sublime_text.md",
-    "src/02_Area/资源整合/README.md",
-    "src/02_Area/Lifestyle/01_如何打造个人知识库/05_Markdown 语法.md",
-    "src/02_Area/Lifestyle/01_如何打造个人知识库/04_Obsidian 同步方案.md",
-    "src/02_Area/Lifestyle/01_如何打造个人知识库/03_通过 GitHub Actions 完成知识库的发布.md",
-    "src/02_Area/Lifestyle/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md",
-    "src/02_Area/Lifestyle/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
-    "src/02_Area/Lifestyle/穷人生活指南.md",
-    "src/README.md",
-    "excalidraw 24-05-23 10.29.26.ex",
-    "src/03_Resource/怎么优化一个大 Key.md",
-    "src/未命名.md",
+    "src/八股篇.md",
+    "excalidraw 24-06-01 10.10.58.ex",
+    "src/blog/2023/231214_将睡眠时间延长至 8 小时对身心的变化.md",
+    "src/blog/2023/230213_如何快速学习一项新技能 读后感.md",
+    "src/blog/2023/230130_重返 RSS.md",
+    "src/blog/2023/230130_更好地使用清单工具.md",
+    "src/blog/2023/230113_智能插座带来的幸福感.md",
+    "src/blog/2023/230111_toggl_track_推荐.md",
+    "src/blog/2023/230108_记第一次滑雪.md",
+    "src/blog/2022/221225_2022年终总结.md",
+    "src/blog/2022/221220_「重新认识GTD」读后感.md",
+    "src/blog/2022/221223_感染奥密克戎之后.md",
+    "src/blog/2022/221218_怎么逼自己成为一个上进的人.md",
+    "src/blog/2022/221210_有时间要多陪陪父母.md",
+    "src/blog/2021/210116_Spring Cloud 之 Spring Cloud Stream.md",
+    "src/blog/2020/201231_Spring Cloud 之配置中心 Spring Cloud Config.md",
+    "src/blog/2020/201229_Spring Cloud 之微服务网关 Gateway.md",
+    "src/blog/2020/201228_Spring Cloud 之熔断器 Hystrix.md",
+    "src/blog/2020/201225_Spring Cloud 之 OpenFeign的使用.md",
+    "src/blog/2020/201222_SpringCloud之Eureka实现服务注册和发现.md",
+    "src/blog/2020/201216_如果你也在学习Spring Cloud.md",
+    "src/blog/2020/201203_Spring中事务的处理.md",
+    "src/blog/2020/201203_SpringDataJPA Auditing 及其事件详解.md",
+    "src/blog/2020/201201_Java8 Stream 多字段分组求和 groupingBy.md",
+    "src/blog/2020/200921_通过密钥登陆服务器.md",
+    "src/blog/2020/200827_设计一个秒杀系统.md",
     "src/blog/2024",
-    "src/03_Resource/什么是 P.A.R.A 笔记管理法.md",
-    "src/03_Resource/收藏癖的美丽废物.md",
-    "src/03_Resource/MySQL 中的锁.md",
-    "src/03_Resource/英语学习资料.md",
-    "template/reference-style link template.md",
-    "README.md",
-    "src/04_Archive/游记/香港、澳门游玩攻略.md",
-    "src/01_Project/养生/八部金刚功.md",
-    "src/02_Area/资源整合/未命名.md",
-    "src/04_Archive/计划单/2024 年度计划.md",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/家用好物推荐.md",
-    "src/02_Area/Lifestyle/README.md",
-    "src/02_Area/Tech/README.md",
-    "src/single_page/website_navigation.md",
-    "src/02_Area/资源整合",
-    "excalidraw 24-03-28 11.16.31.ex",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/excalidraw/Redis 核心技术与实战.ex",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/excalidraw",
-    "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间",
-    "src/01_Project/Redis",
-    "src/01_Project/Interview/Redis",
-    "src/04_Archive/计划单",
+    "src/blog/2023",
+    "src/blog/2022",
+    "src/blog/2021",
+    "src/blog/2020",
+    "src/blog/2019",
+    "src/blog",
+    "src/Blog/2024",
+    "src/Blog/2023",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

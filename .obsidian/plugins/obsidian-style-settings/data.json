@@ -49,13 +49,11 @@
   "Components@@tab-title-bar-autohide": false,
   "Components@@status-bar-autohide": false,
   "Components@@tab-autohide": false,
-  "Components@@vault-name-display-select": "vault-name-hide",
   "Components@@new-tab-btn-select": "new-tab-btn-default",
   "Components@@extra-anim-remove": true,
   "Components@@setting-item-title-icon-remove": true,
   "Components@@scrollbar-hide": true,
   "Components@@restored-scrollbars": false,
   "Appearance-light@@workspace-divider-transparent-light": false,
-  "Components@@icon-autohide": false,
   "Appearance-light@@mod-root-split-background-select-light": "mod-root-split-background-primary-light"
 }

@@ -26,20 +26,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/00_Inbox/240611_每个男人都要有一根的梦中情棍？.md",
+                "file": "src/02_Area/Lifestyle/04_好物推荐/01_家电.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "0de44a6a2bda0f97",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw_cn",
-              "state": {
-                "file": "excalidraw 24-06-11 06.27.50.ex"
               }
             }
           },
@@ -49,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/00_Inbox/240611_每个男人都要有一根的梦中情棍？.md",
+                "file": "src/blog/2024/240611_每个男人都要有一根的梦中情棍？.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -134,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/00_Inbox/240611_每个男人都要有一根的梦中情棍？.md"
+                "file": "src/02_Area/Lifestyle/04_好物推荐/01_家电.md"
               }
             }
           },
@@ -152,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/00_Inbox/240611_每个男人都要有一根的梦中情棍？.md",
+                "file": "src/02_Area/Lifestyle/04_好物推荐/01_家电.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,15 +177,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ac33791abec12b73",
+  "active": "06049f9938764007",
   "lastOpenFiles": [
+    "src/02_Area/Lifestyle/04_好物推荐/02_数码产品.md",
+    "src/02_Area/Lifestyle/04_好物推荐/01_家电.md",
+    "src/02_Area/Lifestyle/04_好物推荐",
+    "src/blog/2024/240611_每个男人都要有一根的梦中情棍？.md",
+    "excalidraw 24-06-11 06.27.50.ex",
     "src/00_Inbox/00_The Draft.md",
     "src/00_Inbox/2024-.md",
-    "src/00_Inbox/240611_每个男人都要有一根的梦中情棍？.md",
     "src/00_Inbox/我也想写周刊.md",
-    "excalidraw 24-06-11 06.27.50.ex",
-    "src/00_Inbox/LifeStyle-好物推荐 -数码.md",
-    "src/00_Inbox/Lifesytle - 好物推荐 - 家居.md",
     "src/00_Inbox/椰子呆呆的人生准则.md",
     "src/00_Inbox/羞怯与于市井鼠目，必苟且匍于世间.md",
     "src/八股篇.md",
@@ -216,7 +207,6 @@
     "src/blog/2020/201231_Spring Cloud 之配置中心 Spring Cloud Config.md",
     "src/blog/2020/201229_Spring Cloud 之微服务网关 Gateway.md",
     "src/blog/2020/201228_Spring Cloud 之熔断器 Hystrix.md",
-    "src/blog/2020/201225_Spring Cloud 之 OpenFeign的使用.md",
     "src/blog/2024",
     "src/blog/2023",
     "src/blog/2022",
@@ -224,7 +214,6 @@
     "src/blog/2020",
     "src/blog/2019",
     "src/blog",
-    "src/Blog/2024",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

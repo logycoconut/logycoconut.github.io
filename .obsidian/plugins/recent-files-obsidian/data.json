@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "240611_每个男人都要有一根的梦中情棍？",
+      "path": "src/00_Inbox/240611_每个男人都要有一根的梦中情棍？.md"
+    },
+    {
+      "basename": "00_The Draft",
+      "path": "src/00_Inbox/00_The Draft.md"
+    },
+    {
+      "basename": "excalidraw 24-06-11 06.27.50",
+      "path": "excalidraw 24-06-11 06.27.50.ex"
+    },
+    {
       "basename": "LifeStyle-好物推荐 -数码",
       "path": "src/00_Inbox/LifeStyle-好物推荐 -数码.md"
     },
@@ -9,20 +21,12 @@
       "path": "src/00_Inbox/Lifesytle - 好物推荐 - 家居.md"
     },
     {
-      "basename": "Blog - 240527_未命名",
-      "path": "src/00_Inbox/Blog - 240527_未命名.md"
-    },
-    {
       "basename": "椰子呆呆的人生准则",
       "path": "src/00_Inbox/椰子呆呆的人生准则.md"
     },
     {
       "basename": "羞怯与于市井鼠目，必苟且匍于世间",
       "path": "src/00_Inbox/羞怯与于市井鼠目，必苟且匍于世间.md"
-    },
-    {
-      "basename": "00_The Draft",
-      "path": "src/00_Inbox/00_The Draft.md"
     },
     {
       "basename": "八股篇",
@@ -187,10 +191,6 @@
     {
       "basename": "09_切片集群：数据增多了，是该加内存还是加实例？",
       "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/09_切片集群：数据增多了，是该加内存还是加实例？.md"
-    },
-    {
-      "basename": "08_哨兵集群：哨兵挂了，主从库还能切换吗？",
-      "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/08_哨兵集群：哨兵挂了，主从库还能切换吗？.md"
     }
   ],
   "omittedPaths": [],

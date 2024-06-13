@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/02_Area/Lifestyle/04_好物推荐/01_家电.md",
+                "file": "src/02_Area/Lifestyle/03_穷鬼生存指南/README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/02_Area/Lifestyle/04_好物推荐/01_家电.md"
+                "file": "src/02_Area/Lifestyle/03_穷鬼生存指南/README.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/02_Area/Lifestyle/04_好物推荐/01_家电.md",
+                "file": "src/02_Area/Lifestyle/03_穷鬼生存指南/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,12 +179,14 @@
   },
   "active": "06049f9938764007",
   "lastOpenFiles": [
-    "src/02_Area/Lifestyle/04_好物推荐/02_数码产品.md",
-    "src/02_Area/Lifestyle/04_好物推荐/01_家电.md",
-    "src/02_Area/Lifestyle/04_好物推荐",
+    "src/02_Area/Lifestyle/05_好物推荐/README.md",
+    "src/00_Inbox/00_The Draft.md",
+    "src/02_Area/Lifestyle/03_穷鬼生存指南/README.md",
+    "src/02_Area/Lifestyle/05_好物推荐/01_家电.md",
+    "src/02_Area/Lifestyle/05_好物推荐/02_数码产品.md",
+    "src/02_Area/Lifestyle/05_好物推荐",
     "src/blog/2024/240611_每个男人都要有一根的梦中情棍？.md",
     "excalidraw 24-06-11 06.27.50.ex",
-    "src/00_Inbox/00_The Draft.md",
     "src/00_Inbox/2024-.md",
     "src/00_Inbox/我也想写周刊.md",
     "src/00_Inbox/椰子呆呆的人生准则.md",
@@ -206,7 +208,6 @@
     "src/blog/2021/210116_Spring Cloud 之 Spring Cloud Stream.md",
     "src/blog/2020/201231_Spring Cloud 之配置中心 Spring Cloud Config.md",
     "src/blog/2020/201229_Spring Cloud 之微服务网关 Gateway.md",
-    "src/blog/2020/201228_Spring Cloud 之熔断器 Hystrix.md",
     "src/blog/2024",
     "src/blog/2023",
     "src/blog/2022",

@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/02_Area/Lifestyle/03_穷鬼生存指南/README.md",
+                "file": "src/02_Area/Lifestyle/06_终身学习体系/01_我的信息流转方案.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -46,8 +46,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/02_Area/Lifestyle/03_穷鬼生存指南/README.md"
+                "file": "src/00_Inbox/00_The Draft.md"
               }
             }
           },
@@ -142,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/02_Area/Lifestyle/03_穷鬼生存指南/README.md",
+                "file": "src/00_Inbox/00_The Draft.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,11 +176,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "06049f9938764007",
+  "active": "aefe8fef756e755b",
   "lastOpenFiles": [
+    "src/02_Area/Lifestyle/06_终身学习体系/01_我的信息流转方案.md",
+    "src/02_Area/Lifestyle/03_穷鬼生存指南/README.md",
     "src/02_Area/Lifestyle/05_好物推荐/README.md",
     "src/00_Inbox/00_The Draft.md",
-    "src/02_Area/Lifestyle/03_穷鬼生存指南/README.md",
     "src/02_Area/Lifestyle/05_好物推荐/01_家电.md",
     "src/02_Area/Lifestyle/05_好物推荐/02_数码产品.md",
     "src/02_Area/Lifestyle/05_好物推荐",
@@ -207,7 +207,6 @@
     "src/blog/2022/221210_有时间要多陪陪父母.md",
     "src/blog/2021/210116_Spring Cloud 之 Spring Cloud Stream.md",
     "src/blog/2020/201231_Spring Cloud 之配置中心 Spring Cloud Config.md",
-    "src/blog/2020/201229_Spring Cloud 之微服务网关 Gateway.md",
     "src/blog/2024",
     "src/blog/2023",
     "src/blog/2022",

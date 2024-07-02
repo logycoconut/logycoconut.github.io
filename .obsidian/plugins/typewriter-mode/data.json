@@ -1,5 +1,5 @@
 {
-  "version": "0.0.7",
+  "version": "0.0.10",
   "isAnnounceUpdatesEnabled": true,
   "isPluginActivated": true,
   "isDisableInCanvasEnabled": true,
@@ -23,6 +23,10 @@
   "currentLineHighlightUnderlineThickness": 1,
   "currentLineHighlightColor-dark": "#444",
   "currentLineHighlightColor-light": "#ddd",
+  "doesWritingFocusShowHeader": false,
+  "doesWritingFocusShowVignette": true,
+  "isWritingFocusFullscreen": true,
+  "writingFocusVignetteStyle": "box",
   "doesFullscreenWritingFocusShowHeader": false,
   "doesFullscreenWritingFocusShowVignette": true,
   "fullscreenWritingFocusVignetteStyle": "box"

@@ -5,6 +5,54 @@
       "path": "src/00_Inbox/00_The Draft.md"
     },
     {
+      "basename": "怎么包装项目",
+      "path": "src/00_Inbox/怎么包装项目.md"
+    },
+    {
+      "basename": "关于缓存一致性的问题",
+      "path": "src/01_Project/Interview/缓存/关于缓存一致性的问题.md"
+    },
+    {
+      "basename": "excalidraw 24-06-28 10.32.59",
+      "path": "excalidraw 24-06-28 10.32.59.ex"
+    },
+    {
+      "basename": "重点面试题",
+      "path": "src/00_Inbox/重点面试题.md"
+    },
+    {
+      "basename": "关于缓存一致性的问题",
+      "path": "src/01_Project/Interview/缓存/excalidraw/关于缓存一致性的问题.ex"
+    },
+    {
+      "basename": "MySQL 自增主键一定是连续的吗？",
+      "path": "src/00_Inbox/MySQL 自增主键一定是连续的吗？.md"
+    },
+    {
+      "basename": "八股篇",
+      "path": "src/00_Inbox/八股篇.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "src/00_Inbox/未命名.md"
+    },
+    {
+      "basename": "01_Docker 入门",
+      "path": "src/03_Resource/code/09_tools/01_Docker/01_Docker 入门.md"
+    },
+    {
+      "basename": "未命名 1",
+      "path": "src/00_Inbox/未命名 1.md"
+    },
+    {
+      "basename": "怎么说好一个项目？",
+      "path": "src/00_Inbox/怎么说好一个项目？.md"
+    },
+    {
+      "basename": "240611_每个男人都要有一根的梦中情棍？",
+      "path": "src/blog/2024/240611_每个男人都要有一根的梦中情棍？.md"
+    },
+    {
       "basename": "01_我的信息流转方案",
       "path": "src/02_Area/Lifestyle/06_终身学习体系/01_我的信息流转方案.md"
     },
@@ -25,20 +73,12 @@
       "path": "src/02_Area/Lifestyle/05_好物推荐/02_数码产品.md"
     },
     {
-      "basename": "240611_每个男人都要有一根的梦中情棍？",
-      "path": "src/blog/2024/240611_每个男人都要有一根的梦中情棍？.md"
-    },
-    {
       "basename": "椰子呆呆的人生准则",
       "path": "src/00_Inbox/椰子呆呆的人生准则.md"
     },
     {
       "basename": "羞怯与于市井鼠目，必苟且匍于世间",
       "path": "src/00_Inbox/羞怯与于市井鼠目，必苟且匍于世间.md"
-    },
-    {
-      "basename": "八股篇",
-      "path": "src/八股篇.md"
     },
     {
       "basename": "当我准备面试时，我应该准备什么？",
@@ -159,46 +199,6 @@
     {
       "basename": "README",
       "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/README.md"
-    },
-    {
-      "basename": "02_URL Scheme 大全",
-      "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/02_URL Scheme 大全.md"
-    },
-    {
-      "basename": "01_个人设备推荐",
-      "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/01_个人设备推荐.md"
-    },
-    {
-      "basename": "家庭网络篇 - 软路由",
-      "path": "src/03_Resource/家庭网络篇 - 软路由.md"
-    },
-    {
-      "basename": "05_个人宽带如何开启IPv6网络访问",
-      "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/05_个人宽带如何开启IPv6网络访问.md"
-    },
-    {
-      "basename": "14_消息队列的考验：Redis 有哪些解决方案？",
-      "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/14_消息队列的考验：Redis 有哪些解决方案？.md"
-    },
-    {
-      "basename": "13_如何在 Redis 中保存时间序列数据？",
-      "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/13_如何在 Redis 中保存时间序列数据？.md"
-    },
-    {
-      "basename": "12_GEO 是什么？还可以定义新的数据类型吗？",
-      "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/12_GEO 是什么？还可以定义新的数据类型吗？.md"
-    },
-    {
-      "basename": "11_有一亿个 keys 要统计，应该用哪种集合",
-      "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/11_有一亿个 keys 要统计，应该用哪种集合.md"
-    },
-    {
-      "basename": "10_万金油的 String，为什么不好用了",
-      "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/10_万金油的 String，为什么不好用了.md"
-    },
-    {
-      "basename": "09_切片集群：数据增多了，是该加内存还是加实例？",
-      "path": "src/01_Project/Redis/Redis 核心技术与实战 - 极客时间/09_切片集群：数据增多了，是该加内存还是加实例？.md"
     }
   ],
   "omittedPaths": [],

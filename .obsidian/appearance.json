@@ -9,6 +9,6 @@
   "nativeMenus": false,
   "textFontFamily": "LXGW Neo XiHei,Source Han Sans,Helvetica Neue",
   "interfaceFontFamily": "LXGW Neo XiHei,Source Han Sans,Helvetica Neue",
-  "monospaceFontFamily": "Monaco",
+  "monospaceFontFamily": "LXGW Neo XiHei,Monaco",
   "showViewHeader": true
 }

@@ -1,60 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "00_The Draft",
-      "path": "src/00_Inbox/00_The Draft.md"
+      "basename": "「系统设计」 - 直播弹幕系统设计",
+      "path": "src/00_Inbox/「系统设计」 - 直播弹幕系统设计.md"
     },
     {
-      "basename": "怎么包装项目",
-      "path": "src/00_Inbox/怎么包装项目.md"
+      "basename": "「系统设计」 - 聊天室已读未读功能",
+      "path": "src/00_Inbox/「系统设计」 - 聊天室已读未读功能.md"
     },
     {
-      "basename": "关于缓存一致性的问题",
-      "path": "src/01_Project/Interview/缓存/关于缓存一致性的问题.md"
+      "basename": "「场景题」 -",
+      "path": "src/00_Inbox/「场景题」 -.md"
     },
     {
-      "basename": "excalidraw 24-06-28 10.32.59",
-      "path": "excalidraw 24-06-28 10.32.59.ex"
-    },
-    {
-      "basename": "重点面试题",
-      "path": "src/00_Inbox/重点面试题.md"
-    },
-    {
-      "basename": "关于缓存一致性的问题",
-      "path": "src/01_Project/Interview/缓存/excalidraw/关于缓存一致性的问题.ex"
-    },
-    {
-      "basename": "MySQL 自增主键一定是连续的吗？",
-      "path": "src/00_Inbox/MySQL 自增主键一定是连续的吗？.md"
-    },
-    {
-      "basename": "八股篇",
-      "path": "src/00_Inbox/八股篇.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "src/00_Inbox/未命名.md"
-    },
-    {
-      "basename": "01_Docker 入门",
-      "path": "src/03_Resource/code/09_tools/01_Docker/01_Docker 入门.md"
-    },
-    {
-      "basename": "未命名 1",
-      "path": "src/00_Inbox/未命名 1.md"
+      "basename": "使用 Redis 过程中可能遇到的问题以及解决方案",
+      "path": "src/00_Inbox/使用 Redis 过程中可能遇到的问题以及解决方案.md"
     },
     {
       "basename": "怎么说好一个项目？",
       "path": "src/00_Inbox/怎么说好一个项目？.md"
     },
     {
-      "basename": "240611_每个男人都要有一根的梦中情棍？",
-      "path": "src/blog/2024/240611_每个男人都要有一根的梦中情棍？.md"
+      "basename": "draft",
+      "path": "the_draft/draft.md"
+    },
+    {
+      "basename": "八股篇",
+      "path": "src/00_Inbox/八股篇.md"
+    },
+    {
+      "basename": "羞怯与于市井鼠目，必苟且匍于世间",
+      "path": "src/00_Inbox/羞怯与于市井鼠目，必苟且匍于世间.md"
+    },
+    {
+      "basename": "「场景题」 - 订单到期自动关闭",
+      "path": "src/00_Inbox/「场景题」 - 订单到期自动关闭.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "white_board",
+      "path": "the_draft/white_board.ex"
+    },
+    {
+      "basename": "reference-style link template",
+      "path": "template/reference-style link template.md"
+    },
+    {
+      "basename": "重点面试题",
+      "path": "src/00_Inbox/重点面试题.md"
+    },
+    {
+      "basename": "MySQL 自增主键一定是连续的吗？",
+      "path": "src/00_Inbox/MySQL 自增主键一定是连续的吗？.md"
+    },
+    {
+      "basename": "怎么包装项目",
+      "path": "src/00_Inbox/怎么包装项目.md"
     },
     {
       "basename": "01_我的信息流转方案",
       "path": "src/02_Area/Lifestyle/06_终身学习体系/01_我的信息流转方案.md"
+    },
+    {
+      "basename": "240611_每个男人都要有一根的梦中情棍？",
+      "path": "src/blog/2024/240611_每个男人都要有一根的梦中情棍？.md"
+    },
+    {
+      "basename": "关于缓存一致性的问题",
+      "path": "src/01_Project/Interview/缓存/关于缓存一致性的问题.md"
+    },
+    {
+      "basename": "关于缓存一致性的问题",
+      "path": "src/01_Project/Interview/缓存/excalidraw/关于缓存一致性的问题.ex"
+    },
+    {
+      "basename": "01_Docker 入门",
+      "path": "src/03_Resource/code/09_tools/01_Docker/01_Docker 入门.md"
     },
     {
       "basename": "README",
@@ -75,10 +99,6 @@
     {
       "basename": "椰子呆呆的人生准则",
       "path": "src/00_Inbox/椰子呆呆的人生准则.md"
-    },
-    {
-      "basename": "羞怯与于市井鼠目，必苟且匍于世间",
-      "path": "src/00_Inbox/羞怯与于市井鼠目，必苟且匍于世间.md"
     },
     {
       "basename": "当我准备面试时，我应该准备什么？",
@@ -161,14 +181,6 @@
       "path": "src/03_Resource/英语学习资料.md"
     },
     {
-      "basename": "reference-style link template",
-      "path": "template/reference-style link template.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
       "basename": "香港、澳门游玩攻略",
       "path": "src/04_Archive/游记/香港、澳门游玩攻略.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "README",
       "path": "src/02_Area/Tech/README.md"
-    },
-    {
-      "basename": "阅读 3.0 Web 版搭建",
-      "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/阅读 3.0 Web 版搭建.md"
-    },
-    {
-      "basename": "Clash 分流以及去广告",
-      "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/Clash 分流以及去广告.md"
-    },
-    {
-      "basename": "README",
-      "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/README.md"
     }
   ],
   "omittedPaths": [],

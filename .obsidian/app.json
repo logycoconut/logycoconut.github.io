@@ -16,7 +16,7 @@
   "livePreview": true,
   "spellcheck": true,
   "focusNewTab": true,
-  "propertiesInDocument": "source",
+  "propertiesInDocument": "visible",
   "foldIndent": false,
   "foldHeading": false,
   "showInlineTitle": true,

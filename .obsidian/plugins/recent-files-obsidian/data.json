@@ -1,6 +1,90 @@
 {
   "recentFiles": [
     {
+      "basename": "椰子呆呆的人生准则",
+      "path": "src/00_Inbox/椰子呆呆的人生准则.md"
+    },
+    {
+      "basename": "羞怯与于市井鼠目，必苟且匍于世间",
+      "path": "src/00_Inbox/羞怯与于市井鼠目，必苟且匍于世间.md"
+    },
+    {
+      "basename": "01_我的信息流转方案",
+      "path": "src/02_Area/Lifestyle/06_终身学习体系/01_我的信息流转方案.md"
+    },
+    {
+      "basename": "主题月系列活动记录",
+      "path": "src/00_Inbox/主题月系列活动记录.md"
+    },
+    {
+      "basename": "八股篇",
+      "path": "src/00_Inbox/八股篇.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "src/00_Inbox/未命名.md"
+    },
+    {
+      "basename": "重点面试题",
+      "path": "src/00_Inbox/重点面试题.md"
+    },
+    {
+      "basename": "Kafka 为什么这么快？RocketMQ 哪里不如 Kafka？",
+      "path": "src/00_Inbox/Kafka 为什么这么快？RocketMQ 哪里不如 Kafka？.md"
+    },
+    {
+      "basename": "MySQL 自增主键一定是连续的吗？",
+      "path": "src/00_Inbox/MySQL 自增主键一定是连续的吗？.md"
+    },
+    {
+      "basename": "Redis 的大 Key 问题",
+      "path": "src/00_Inbox/Redis 的大 Key 问题.md"
+    },
+    {
+      "basename": "Redis 可以用来放点赞数据吗？",
+      "path": "src/00_Inbox/Redis 可以用来放点赞数据吗？.md"
+    },
+    {
+      "basename": "「场景题」 - 订单到期自动关闭",
+      "path": "src/00_Inbox/「场景题」 - 订单到期自动关闭.md"
+    },
+    {
+      "basename": "未命名 2",
+      "path": "src/00_Inbox/未命名 2.md"
+    },
+    {
+      "basename": "draft",
+      "path": "the_draft/draft.md"
+    },
+    {
+      "basename": "white_board",
+      "path": "the_draft/white_board.ex"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "09_Docker 镜像",
+      "path": "src/02_Area/Lifestyle/02_装机必备/09_Docker 镜像.md"
+    },
+    {
+      "basename": "亿级数据迁移方案和优化点",
+      "path": "src/00_Inbox/亿级数据迁移方案和优化点.md"
+    },
+    {
+      "basename": "07_好玩的 Docker 项目",
+      "path": "src/02_Area/Lifestyle/02_装机必备/07_好玩的 Docker 项目.md"
+    },
+    {
+      "basename": "幂等操作如何实现",
+      "path": "src/00_Inbox/幂等操作如何实现.md"
+    },
+    {
+      "basename": "怎么说好一个项目？",
+      "path": "src/00_Inbox/怎么说好一个项目？.md"
+    },
+    {
       "basename": "「系统设计」 - 直播弹幕系统设计",
       "path": "src/00_Inbox/「系统设计」 - 直播弹幕系统设计.md"
     },
@@ -9,60 +93,16 @@
       "path": "src/00_Inbox/「系统设计」 - 聊天室已读未读功能.md"
     },
     {
-      "basename": "「场景题」 -",
-      "path": "src/00_Inbox/「场景题」 -.md"
-    },
-    {
       "basename": "使用 Redis 过程中可能遇到的问题以及解决方案",
       "path": "src/00_Inbox/使用 Redis 过程中可能遇到的问题以及解决方案.md"
-    },
-    {
-      "basename": "怎么说好一个项目？",
-      "path": "src/00_Inbox/怎么说好一个项目？.md"
-    },
-    {
-      "basename": "draft",
-      "path": "the_draft/draft.md"
-    },
-    {
-      "basename": "八股篇",
-      "path": "src/00_Inbox/八股篇.md"
-    },
-    {
-      "basename": "羞怯与于市井鼠目，必苟且匍于世间",
-      "path": "src/00_Inbox/羞怯与于市井鼠目，必苟且匍于世间.md"
-    },
-    {
-      "basename": "「场景题」 - 订单到期自动关闭",
-      "path": "src/00_Inbox/「场景题」 - 订单到期自动关闭.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "white_board",
-      "path": "the_draft/white_board.ex"
     },
     {
       "basename": "reference-style link template",
       "path": "template/reference-style link template.md"
     },
     {
-      "basename": "重点面试题",
-      "path": "src/00_Inbox/重点面试题.md"
-    },
-    {
-      "basename": "MySQL 自增主键一定是连续的吗？",
-      "path": "src/00_Inbox/MySQL 自增主键一定是连续的吗？.md"
-    },
-    {
       "basename": "怎么包装项目",
       "path": "src/00_Inbox/怎么包装项目.md"
-    },
-    {
-      "basename": "01_我的信息流转方案",
-      "path": "src/02_Area/Lifestyle/06_终身学习体系/01_我的信息流转方案.md"
     },
     {
       "basename": "240611_每个男人都要有一根的梦中情棍？",
@@ -95,10 +135,6 @@
     {
       "basename": "02_数码产品",
       "path": "src/02_Area/Lifestyle/05_好物推荐/02_数码产品.md"
-    },
-    {
-      "basename": "椰子呆呆的人生准则",
-      "path": "src/00_Inbox/椰子呆呆的人生准则.md"
     },
     {
       "basename": "当我准备面试时，我应该准备什么？",
@@ -137,10 +173,6 @@
       "path": "src/02_Area/Lifestyle/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md"
     },
     {
-      "basename": "09_Docker 镜像",
-      "path": "src/02_Area/Lifestyle/02_装机必备/09_Docker 镜像.md"
-    },
-    {
       "basename": "08_sublime_text",
       "path": "src/02_Area/Lifestyle/02_装机必备/08_sublime_text.md"
     },
@@ -167,38 +199,6 @@
     {
       "basename": "怎么优化一个大 Key",
       "path": "src/03_Resource/怎么优化一个大 Key.md"
-    },
-    {
-      "basename": "收藏癖的美丽废物",
-      "path": "src/03_Resource/收藏癖的美丽废物.md"
-    },
-    {
-      "basename": "MySQL 中的锁",
-      "path": "src/03_Resource/MySQL 中的锁.md"
-    },
-    {
-      "basename": "英语学习资料",
-      "path": "src/03_Resource/英语学习资料.md"
-    },
-    {
-      "basename": "香港、澳门游玩攻略",
-      "path": "src/04_Archive/游记/香港、澳门游玩攻略.md"
-    },
-    {
-      "basename": "八部金刚功",
-      "path": "src/01_Project/养生/八部金刚功.md"
-    },
-    {
-      "basename": "2024 年度计划",
-      "path": "src/04_Archive/计划单/2024 年度计划.md"
-    },
-    {
-      "basename": "README",
-      "path": "src/02_Area/Lifestyle/README.md"
-    },
-    {
-      "basename": "README",
-      "path": "src/02_Area/Tech/README.md"
     }
   ],
   "omittedPaths": [],

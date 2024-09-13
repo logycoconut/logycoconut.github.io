@@ -43,6 +43,9 @@ docker run -d --name emby-server -p 8096:8096 -p 8920:8920 -v /Users/hall/Docume
 
 # 解锁版
 docker run -d -e PUID=1000 -e PGID=1000 -v /Users/hall/Documents/ForDocker/config/emby:/config -v /Users/hall/Documents/Media:/data -p 8096:8096 -p 8920:8920 --name=emby xinjiawei1/emby_unlockd:latest
+
+# amilys
+docker run -d -e PUID=1000 -e PGID=1000 -v /Users/hall/Documents/ForDocker/config/emby:/config -v /Users/hall/Documents/Media:/data -p 8096:8096 -p 8920:8920 --name=emby-server-amilys amilys/embyserver:4.9.0.28
 ```
 
 还有其他版本，可以根据自己需要多尝试一下再选择

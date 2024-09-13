@@ -1,0 +1,1 @@
+import{_}from"./plugin-vue_export-helper-c27b6911.js";import{o as e,c as t}from"./app-0845c340.js";const c={};function o(r,s){return e(),t("div")}const f=_(c,[["render",o],["__file","Redis 可以用来放点赞数据吗？.html.vue"]]);export{f as default};

@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "「系统设计」 - 聊天室已读未读功能",
+      "path": "src/00_Inbox/「系统设计」 - 聊天室已读未读功能.md"
+    },
+    {
+      "basename": "「场景题」 - 订单到期自动关闭",
+      "path": "src/00_Inbox/「场景题」 - 订单到期自动关闭.md"
+    },
+    {
+      "basename": "website_navigation",
+      "path": "src/single_page/website_navigation.md"
+    },
+    {
+      "basename": "Redis 的大 Key 问题",
+      "path": "src/00_Inbox/Redis 的大 Key 问题.md"
+    },
+    {
       "basename": "椰子呆呆的人生准则",
       "path": "src/00_Inbox/椰子呆呆的人生准则.md"
     },
@@ -37,16 +53,8 @@
       "path": "src/00_Inbox/MySQL 自增主键一定是连续的吗？.md"
     },
     {
-      "basename": "Redis 的大 Key 问题",
-      "path": "src/00_Inbox/Redis 的大 Key 问题.md"
-    },
-    {
       "basename": "Redis 可以用来放点赞数据吗？",
       "path": "src/00_Inbox/Redis 可以用来放点赞数据吗？.md"
-    },
-    {
-      "basename": "「场景题」 - 订单到期自动关闭",
-      "path": "src/00_Inbox/「场景题」 - 订单到期自动关闭.md"
     },
     {
       "basename": "未命名 2",
@@ -87,10 +95,6 @@
     {
       "basename": "「系统设计」 - 直播弹幕系统设计",
       "path": "src/00_Inbox/「系统设计」 - 直播弹幕系统设计.md"
-    },
-    {
-      "basename": "「系统设计」 - 聊天室已读未读功能",
-      "path": "src/00_Inbox/「系统设计」 - 聊天室已读未读功能.md"
     },
     {
       "basename": "使用 Redis 过程中可能遇到的问题以及解决方案",
@@ -139,10 +143,6 @@
     {
       "basename": "当我准备面试时，我应该准备什么？",
       "path": "src/01_Project/Interview/当我准备面试时，我应该准备什么？.md"
-    },
-    {
-      "basename": "website_navigation",
-      "path": "src/single_page/website_navigation.md"
     },
     {
       "basename": "02_Chrome 推荐插件以及油猴脚本",

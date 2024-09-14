@@ -11,8 +11,11 @@
             "id": "9b7c57fad5e1a328",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/plugins/recent-files-obsidian/data.json",
+                "staged": false
+              }
             }
           }
         ]
@@ -65,7 +68,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388.5
+    "width": 310.5,
+    "collapsed": true
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -137,14 +141,18 @@
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "templates:插入模板": false,
-      "excalidraw-cn:Create New Excalidraw File": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "excalidraw-cn:Create New Excalidraw File": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "ac33791abec12b73",
+  "active": "9b7c57fad5e1a328",
   "lastOpenFiles": [
+    "src/00_Inbox/「系统设计」 - 聊天室已读未读功能.md",
+    "src/00_Inbox/「场景题」 - 订单到期自动关闭.md",
+    "src/single_page/website_navigation.md",
+    "src/00_Inbox/Redis 的大 Key 问题.md",
     "src/00_Inbox/椰子呆呆的人生准则.md",
     "src/00_Inbox/羞怯与于市井鼠目，必苟且匍于世间.md",
     "src/02_Area/Lifestyle/06_终身学习体系/01_我的信息流转方案.md",
@@ -154,9 +162,7 @@
     "src/00_Inbox/重点面试题.md",
     "src/00_Inbox/Kafka 为什么这么快？RocketMQ 哪里不如 Kafka？.md",
     "src/00_Inbox/MySQL 自增主键一定是连续的吗？.md",
-    "src/00_Inbox/Redis 的大 Key 问题.md",
     "src/00_Inbox/Redis 可以用来放点赞数据吗？.md",
-    "src/00_Inbox/「场景题」 - 订单到期自动关闭.md",
     "src/00_Inbox/「场景题」 -.md",
     "src/00_Inbox/未命名 2.md",
     "src/00_Inbox/配置一台家庭游戏主机的必要性分析.md",
@@ -170,8 +176,6 @@
     "src/00_Inbox/怎么说好一个项目？.md",
     "src/00_Inbox/面试牢骚话.md",
     "src/00_Inbox/「系统设计」 - 直播弹幕系统设计.md",
-    "src/00_Inbox/主动经营人生.md",
-    "src/00_Inbox/开车太暴躁.md",
     "the_draft",
     "src/01_Project/Interview/缓存/excalidraw/关于缓存一致性的问题.ex",
     "src/02_Area/Lifestyle/05_好物推荐",

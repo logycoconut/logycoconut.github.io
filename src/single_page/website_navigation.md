@@ -15,7 +15,7 @@ tag: []
 
   可以通过 [V2HOT](https://v2hot.pipecraft.net/hot/hottest-3) 跳转到 V2EX
 
-- [TopBook](https://topbook.cc) - 高效生活视频书
+- [TopBook](https://topbook.cc) - 高效生活视频
 
 - [PKMer](https://pkmer.cn/) 
 

@@ -1,5 +1,5 @@
 ---
-title: Chrome 推荐插件以及油猴脚本
+title: ""
 tag: [Chrome]
 ---
 
@@ -39,21 +39,13 @@ tag: [Chrome]
 
 - 同步问题: 插件本身提供同步功能, 通过开启 Google Drive 的方式同步订阅网站
 
-#### Notion Boost - Notion 的网页端插件
-
-Notion 官方不知道为什么迟迟不推出 outline 的功能, 在长文编辑的时候很容易让人困扰
-
-我使用 Notion Boost 的主要目的就是为了 outline 功能
-
-#### `crxMouse` Chrome™ 手势
-
-在使用鼠标的时候有点用
-
 #### JSON View - Json 解析
 
 ### 油猴脚本
 
 _建议开启同步脚本（设置 - 同步脚本 - 启用 TESLA - 浏览器同步）_
+
+- Bilibili Evolved - B 站去广告、暗黑模式等
 
 - KeepChatGPT - 优化 ChatGPT 使用体验
 

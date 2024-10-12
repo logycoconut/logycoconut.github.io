@@ -1,5 +1,5 @@
 ---
-title: Mybatis Plus 逻辑删除 @TableLogic
+title: ""
 tag: [Mybatis Plus]
 ---
 

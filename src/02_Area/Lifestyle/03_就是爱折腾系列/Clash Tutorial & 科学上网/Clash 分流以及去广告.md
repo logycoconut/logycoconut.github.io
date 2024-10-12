@@ -1,6 +1,9 @@
 ---
 title: Clash 分流以及去广告
-tag: [Clash]
+tags:
+  - Clash
+category:
+  -  科学上网
 ---
 
 # Clash 分流以及去广告

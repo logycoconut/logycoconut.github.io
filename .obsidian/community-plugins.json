@@ -1,8 +1,6 @@
 [
-  "table-editor-obsidian",
   "obsidian-image-auto-upload-plugin",
   "obsidian-git",
-  "cm-editor-syntax-highlight-obsidian",
   "url-into-selection",
   "easy-typing-obsidian",
   "obsidian-style-settings",
@@ -10,5 +8,6 @@
   "omnisearch",
   "obsidian-linter",
   "typewriter-mode",
-  "recent-files-obsidian"
+  "cm-editor-syntax-highlight-obsidian",
+  "open-in-new-tab"
 ]

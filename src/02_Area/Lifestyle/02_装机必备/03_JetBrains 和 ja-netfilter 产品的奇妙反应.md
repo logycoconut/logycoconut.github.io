@@ -1,11 +1,13 @@
 ---
-title: ja-netfilter 和 JetBrains 产品的奇妙反应
+title: JetBrains 和 ja-netfilter 产品的奇妙反应
 tag: [JetBrains, ja-netfilter, Datagrip, IDEA]
 ---
 
+# JetBrains 和 ja-netfilter 产品的奇妙反应
+
 > 本文所说的方式不推荐!!!
-> 一是社区版的功能足够好用
-> 二是当破解方式失效时会对项目造成短暂的影响
+> - 社区版的功能足够好用
+> - 当破解方式失效时会对项目造成短暂的影响
 >
 > 拥有 `JetBrains` 全家桶最好的方式, 还得是通过维护开源项目获取免费的 license
 > 具体可以查看[官网说明](https://www.jetbrains.com/community/opensource/#support)
@@ -20,20 +22,19 @@ tag: [JetBrains, ja-netfilter, Datagrip, IDEA]
 苦于在各个软件中切换, 想要寻找一款 `All in One` 的数据库工具
 调研了之后, 发现 `JetBrains` 家的 `DataGrip` 比较能满足我现在的场景
 
+`DataGrip` 并不是一款免费的软件, 毕竟它是这么好用!
 **但是... there's always a but**
-
-DataGrip 并不是一款免费的软件, 毕竟它是这么好用!
 
 ### `ja-netfilter` 登场
 
-> [仓库地址](https://zhile.io/2021/11/29/ja-netfilter-javaagent-lib.html)
+*项目介绍： https://zhile.io/2021/11/29/ja-netfilter-javaagent-lib.html*
 
 `ja-netfilter` 是 zhile 大佬开发的一款插件
 
 主要用于阻断软件的恶意网络请求,  例如黑心软件读取本地信息上传云端
-但同时也可以阻断某些非恶意的请求, 例如说 DataGrip 的激活验证接口
+但同时也可以阻断某些非恶意的请求, 例如说 `DataGrip` 的激活验证接口
 
-_正是这个特性给了我们操作空间_
+**_正是这个特性给了我们操作空间_**
 
 ### 如何使用 `ja-netfilter` ( 以 `DataGrip` 为例 )
 
@@ -83,7 +84,7 @@ EQUAL,65537,24773058818499217187577663886010908531303294206336895556072197892590
 ```
 --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED
 --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED
--javaagent:/Users/hall/Documents/Env/ja-netfilter/ja-netfilter.jar
+-javaagent:/Users/logycoconut/Documents/Env/ja-netfilter/ja-netfilter.jar
 ```
 
 **配置完了一定要重启 `DataGrip`**, 不然 `ja-netfilter` 插件不生效

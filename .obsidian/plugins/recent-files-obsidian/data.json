@@ -1,12 +1,76 @@
 {
   "recentFiles": [
     {
-      "basename": "2024 年度计划",
-      "path": "src/04_Archive/计划单/2024 年度计划.md"
+      "basename": "README",
+      "path": "src/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "src/02_Area/Lifestyle/02_装机必备/README.md"
+    },
+    {
+      "basename": "08_Sublime Text 4 Settings",
+      "path": "src/02_Area/Lifestyle/02_装机必备/08_Sublime Text 4 Settings.md"
+    },
+    {
+      "basename": "07_Docker For Fun",
+      "path": "src/02_Area/Lifestyle/02_装机必备/07_Docker For Fun.md"
+    },
+    {
+      "basename": "05_Obsidian Plugins",
+      "path": "src/02_Area/Lifestyle/02_装机必备/05_Obsidian Plugins.md"
+    },
+    {
+      "basename": "06_Eudic 增加试用时间",
+      "path": "src/02_Area/Lifestyle/02_装机必备/06_Eudic 增加试用时间.md"
+    },
+    {
+      "basename": "03_JetBrains 和 ja-netfilter 产品的奇妙反应",
+      "path": "src/02_Area/Lifestyle/02_装机必备/03_JetBrains 和 ja-netfilter 产品的奇妙反应.md"
+    },
+    {
+      "basename": "04_uTools Plugins",
+      "path": "src/02_Area/Lifestyle/02_装机必备/04_uTools Plugins.md"
+    },
+    {
+      "basename": "02_Chrome 插件、油猴脚本推荐",
+      "path": "src/02_Area/Lifestyle/02_装机必备/02_Chrome 插件、油猴脚本推荐.md"
+    },
+    {
+      "basename": "01_MacOS 软件",
+      "path": "src/02_Area/Lifestyle/02_装机必备/01_MacOS 软件.md"
+    },
+    {
+      "basename": "01_个人设备推荐",
+      "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/01_个人设备推荐.md"
+    },
+    {
+      "basename": "Clash 分流以及去广告",
+      "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/Clash 分流以及去广告.md"
     },
     {
       "basename": "2024.10 国庆日本之行",
       "path": "src/00_Inbox/2024.10 国庆日本之行.md"
+    },
+    {
+      "basename": "主题月系列活动记录",
+      "path": "src/00_Inbox/主题月系列活动记录.md"
+    },
+    {
+      "basename": "远程登录我的 Mac 电脑",
+      "path": "src/00_Inbox/远程登录我的 Mac 电脑.md"
+    },
+    {
+      "basename": "怎么包装项目",
+      "path": "src/00_Inbox/怎么包装项目.md"
+    },
+    {
+      "basename": "未命名 2",
+      "path": "src/00_Inbox/未命名 2.md"
+    },
+    {
+      "basename": "2024 年度计划",
+      "path": "src/04_Archive/计划单/2024 年度计划.md"
     },
     {
       "basename": "2023.01 港珠澳之行",
@@ -17,36 +81,12 @@
       "path": "src/00_Inbox/使用 Redis 过程中可能遇到的问题以及解决方案.md"
     },
     {
-      "basename": "远程登录我的 Mac 电脑",
-      "path": "src/00_Inbox/远程登录我的 Mac 电脑.md"
-    },
-    {
-      "basename": "02_Chrome 推荐插件以及油猴脚本",
-      "path": "src/02_Area/Lifestyle/02_装机必备/02_Chrome 推荐插件以及油猴脚本.md"
-    },
-    {
-      "basename": "01_MacOS 软件",
-      "path": "src/02_Area/Lifestyle/02_装机必备/01_MacOS 软件.md"
-    },
-    {
-      "basename": "09_Docker 镜像",
-      "path": "src/02_Area/Lifestyle/02_装机必备/09_Docker 镜像.md"
-    },
-    {
-      "basename": "未命名 2",
-      "path": "src/00_Inbox/未命名 2.md"
-    },
-    {
       "basename": "拿到一台新电脑后，我需要做什么",
       "path": "src/00_Inbox/拿到一台新电脑后，我需要做什么.md"
     },
     {
       "basename": "怎么说好一个项目？",
       "path": "src/00_Inbox/怎么说好一个项目？.md"
-    },
-    {
-      "basename": "主题月系列活动记录",
-      "path": "src/00_Inbox/主题月系列活动记录.md"
     },
     {
       "basename": "「系统设计」 - 聊天室已读未读功能",
@@ -113,10 +153,6 @@
       "path": "src/00_Inbox/亿级数据迁移方案和优化点.md"
     },
     {
-      "basename": "07_好玩的 Docker 项目",
-      "path": "src/02_Area/Lifestyle/02_装机必备/07_好玩的 Docker 项目.md"
-    },
-    {
       "basename": "幂等操作如何实现",
       "path": "src/00_Inbox/幂等操作如何实现.md"
     },
@@ -127,10 +163,6 @@
     {
       "basename": "reference-style link template",
       "path": "template/reference-style link template.md"
-    },
-    {
-      "basename": "怎么包装项目",
-      "path": "src/00_Inbox/怎么包装项目.md"
     },
     {
       "basename": "240611_每个男人都要有一根的梦中情棍？",
@@ -163,42 +195,6 @@
     {
       "basename": "02_数码产品",
       "path": "src/02_Area/Lifestyle/05_好物推荐/02_数码产品.md"
-    },
-    {
-      "basename": "当我准备面试时，我应该准备什么？",
-      "path": "src/01_Project/Interview/当我准备面试时，我应该准备什么？.md"
-    },
-    {
-      "basename": "什么是 P.A.R.A 笔记管理法",
-      "path": "src/03_Resource/什么是 P.A.R.A 笔记管理法.md"
-    },
-    {
-      "basename": "01_汽车篇",
-      "path": "src/02_Area/Lifestyle/03_穷鬼生存指南/01_汽车篇.md"
-    },
-    {
-      "basename": "05_Obsidian 插件",
-      "path": "src/02_Area/Lifestyle/02_装机必备/05_Obsidian 插件.md"
-    },
-    {
-      "basename": "01_如何给设备安装黑苹果？",
-      "path": "src/02_Area/Lifestyle/03_就是爱折腾系列/黑苹果相关/01_如何给设备安装黑苹果？.md"
-    },
-    {
-      "basename": "01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库",
-      "path": "src/02_Area/Lifestyle/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md"
-    },
-    {
-      "basename": "08_sublime_text",
-      "path": "src/02_Area/Lifestyle/02_装机必备/08_sublime_text.md"
-    },
-    {
-      "basename": "05_Markdown 语法",
-      "path": "src/02_Area/Lifestyle/01_如何打造个人知识库/05_Markdown 语法.md"
-    },
-    {
-      "basename": "04_Obsidian 同步方案",
-      "path": "src/02_Area/Lifestyle/01_如何打造个人知识库/04_Obsidian 同步方案.md"
     }
   ],
   "omittedPaths": [],

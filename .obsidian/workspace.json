@@ -13,20 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/04_Archive/计划单/2024 年度计划.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "86a00273a1863e56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/00_Inbox/远程登录我的 Mac 电脑.md",
+                "file": "src/README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/04_Archive/计划单/2024 年度计划.md"
+                "file": "src/README.md"
               }
             }
           },
@@ -128,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/04_Archive/计划单/2024 年度计划.md",
+                "file": "src/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +139,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "src/04_Archive/计划单/2024 年度计划.md"
+                "file": "src/README.md"
               }
             }
           }
@@ -176,33 +163,33 @@
   },
   "active": "ac33791abec12b73",
   "lastOpenFiles": [
+    "src/02_Area/Lifestyle/02_装机必备/README.md",
+    "src/00_Inbox/[].md",
+    "src/00_Inbox/未命名.md",
+    "src/02_Area/Lifestyle/02_装机必备/08_Sublime Text 4 Settings.md",
+    "src/02_Area/Lifestyle/02_装机必备/07_Docker For Fun.md",
+    "src/02_Area/Lifestyle/02_装机必备/05_Obsidian Plugins.md",
+    "src/02_Area/Lifestyle/02_装机必备/06_Eudic 增加试用时间.md",
+    "src/02_Area/Lifestyle/02_装机必备/03_JetBrains 和 ja-netfilter 产品的奇妙反应.md",
+    "src/02_Area/Lifestyle/02_装机必备/04_uTools Plugins.md",
+    "src/02_Area/Lifestyle/02_装机必备/02_Chrome 插件、油猴脚本推荐.md",
+    "src/02_Area/Lifestyle/02_装机必备/01_MacOS 软件.md",
+    "src/02_Area/Lifestyle/03_就是爱折腾系列/01_个人设备推荐.md",
+    "src/02_Area/Lifestyle/03_就是爱折腾系列/Clash 分流以及去广告.md",
     "src/00_Inbox/2024.10 国庆日本之行.md",
+    "src/00_Inbox/主题月系列活动记录.md",
+    "src/00_Inbox/远程登录我的 Mac 电脑.md",
+    "src/00_Inbox/怎么包装项目.md",
+    "src/00_Inbox/未命名 2.md",
+    "src/02_Area/Lifestyle/02_装机必备/09_Docker 镜像.md",
+    "src/04_Archive/计划单/2024 年度计划.md",
     "src/04_Archive/游记/2023.01 港珠澳之行.md",
     "src/00_Inbox/使用 Redis 过程中可能遇到的问题以及解决方案.md",
     "src/00_Inbox/日本旅游攻略.md",
-    "src/00_Inbox/远程登录我的 Mac 电脑.md",
-    "src/02_Area/Lifestyle/02_装机必备/02_Chrome 推荐插件以及油猴脚本.md",
-    "src/02_Area/Lifestyle/02_装机必备/01_MacOS 软件.md",
-    "src/02_Area/Lifestyle/02_装机必备/09_Docker 镜像.md",
-    "src/00_Inbox/未命名 2.md",
     "src/00_Inbox/拿到一台新电脑后，我需要做什么.md",
     "src/00_Inbox/要不要买系列/要不要买一个内裤洗衣机？.md",
     "src/00_Inbox/要不要买系列",
     "src/00_Inbox/怎么说好一个项目？.md",
-    "src/00_Inbox/主题月系列活动记录.md",
-    "src/00_Inbox/「系统设计」 - 聊天室已读未读功能.md",
-    "src/00_Inbox/「场景题」 - 订单到期自动关闭.md",
-    "src/single_page/website_navigation.md",
-    "src/00_Inbox/Redis 的大 Key 问题.md",
-    "src/00_Inbox/椰子呆呆的人生准则.md",
-    "src/00_Inbox/羞怯与于市井鼠目，必苟且匍于世间.md",
-    "src/02_Area/Lifestyle/06_终身学习体系/01_我的信息流转方案.md",
-    "src/00_Inbox/八股篇.md",
-    "src/00_Inbox/重点面试题.md",
-    "src/00_Inbox/Kafka 为什么这么快？RocketMQ 哪里不如 Kafka？.md",
-    "src/00_Inbox/MySQL 自增主键一定是连续的吗？.md",
-    "src/00_Inbox/Redis 可以用来放点赞数据吗？.md",
-    "src/00_Inbox/「场景题」 -.md",
     "the_draft/white_board.ex",
     "the_draft",
     "src/01_Project/Interview/缓存/excalidraw/关于缓存一致性的问题.ex",

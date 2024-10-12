@@ -3,6 +3,8 @@ title: Obsidian 插件
 tag: [Obsidian]
 ---
 
+# Obsidian 插件
+
 #### `Obsidian Git` - 使用 `Git` 管理 `Obsidian` 仓库
 
 #### `Excalidraw` - 手绘风格画图工具

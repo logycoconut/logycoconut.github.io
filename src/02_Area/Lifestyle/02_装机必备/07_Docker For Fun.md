@@ -1,12 +1,11 @@
 ---
-title: Docker 镜像
-tag: [Docker] 
-aliases: [Docker 镜像]
+title: 好玩的 Docker 项目
+tag: [Docker]
 ---
 
-# Docker 镜像
+# 好玩的 Docker 项目
 
-> 安装容器之前先去 [`docker hub`](https://hub.docker.com/) 看看 `tag`、版本号
+安装容器之前先去 [`docker hub`](https://hub.docker.com/) 看看 `tag`、版本号
 
 ## 目前使用频率较多的容器
 
@@ -64,6 +63,7 @@ docker run -d -e PUID=1000 -e PGID=1000 -v /Users/hall/Documents/ForDocker/confi
 而且目前我的容器数量并不多，同时他们并不是需要频繁更新的类型
 所以还是采用**手动更新**的方案
 
-- 停止当前容器 `docker stop xxx`
+- 停止当前容器
+    `docker stop xxx`
 - 在 docker hub 中找到最新的容器 tag 并 pull 到本地
 - 使用 run 命令启动最新镜像

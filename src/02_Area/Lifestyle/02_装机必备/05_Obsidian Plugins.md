@@ -1,6 +1,7 @@
 ---
 title: Obsidian 插件
 tag: [Obsidian]
+tags: [] 
 ---
 
 # Obsidian 插件
@@ -11,6 +12,9 @@ tag: [Obsidian]
 - `Excalidraw`  
     手绘风格画图工具，另见 `Excalidraw CN`
     `Excalidraw` 的中文字体优化版本，我现在正在用这个
+
+- `Easy Typing` 
+    优化中英文输入，在中英文之间加入 _盘古之白_
 
 -  `Image auto upload Plugin` 
     配合 `PicGo` 可以实现无缝粘贴图片
@@ -30,8 +34,8 @@ tag: [Obsidian]
     高亮代码块，需要手动安装
     https://github.com/deathau/cm-editor-syntax-highlight-obsidian
 
-- `Easy Typing` 
-    优化中英文输入，在中英文之间加入 _盘古之白_
+- `Typewriter Mode`
+    打字机模式，帮助打字始终在页面中间
 
 -  `Advanced Tables`
     格式化 `Markdown` 表格格式

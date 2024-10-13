@@ -41,12 +41,16 @@
             "id": "27f2a26887d38ed3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "src/02_Area/Lifestyle/02_装机必备/07_Docker For Fun.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/02_Area/Lifestyle/02_装机必备/05_Obsidian Plugins.md"
+              }
             }
           },
           {
@@ -139,6 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/02_Area/Lifestyle/02_装机必备/05_Obsidian Plugins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +168,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "src/02_Area/Lifestyle/02_装机必备/05_Obsidian Plugins.md"
+              }
             }
           }
         ],
@@ -182,8 +191,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "27f2a26887d38ed3",
+  "active": "1b1591526459a631",
   "lastOpenFiles": [
+    "src/02_Area/Lifestyle/02_装机必备/07_Docker For Fun.md",
     "src/00_Inbox/2024.10 国庆日本之行.md",
     "src/03_Resource/code/04_framework/MybatisPlus/Mybatis Plus 逻辑删除 @TableLogic.md",
     "src/02_Area/Lifestyle/02_装机必备/05_Obsidian Plugins.md",
@@ -206,7 +216,6 @@
     "src/03_Resource/code/场景题/01_电商/订单超时未支付的三种解决方案.md",
     "src/00_Inbox/Kafka 为什么这么快？RocketMQ 哪里不如 Kafka？.md",
     "src/00_Inbox/MySQL 自增主键一定是连续的吗？.md",
-    "src/02_Area/Lifestyle/02_装机必备/07_Docker For Fun.md",
     "src/02_Area/Lifestyle/02_装机必备/06_Eudic 增加试用时间.md",
     "src/02_Area/Lifestyle/02_装机必备/03_JetBrains 和 ja-netfilter 产品的奇妙反应.md",
     "src/02_Area/Lifestyle/02_装机必备/04_uTools Plugins.md",

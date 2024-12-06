@@ -57,17 +57,142 @@
             }
           },
           {
-            "id": "5aa66d0ac73462dd",
+            "id": "83d68e5e722ca277",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "src/00_Inbox/家庭铝型材 DIY 材料清单.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "家庭铝型材 DIY 材料清单"
+            }
+          },
+          {
+            "id": "285c060eb0d6d6e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/00_Inbox/拿到一台新电脑后，我需要做什么.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "拿到一台新电脑后，我需要做什么"
+            }
+          },
+          {
+            "id": "64355a3bbe28d30a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/00_Inbox/未命名 2.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名 2"
+            }
+          },
+          {
+            "id": "3b39d2d2341167af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/00_Inbox/消费指南.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "消费指南"
+            }
+          },
+          {
+            "id": "b7f090ffc64d906d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/00_Inbox/人生 SOP.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "人生 SOP"
+            }
+          },
+          {
+            "id": "899ed8f5871f39c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/00_Inbox/如何精力充沛地过一整天？.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "如何精力充沛地过一整天？"
+            }
+          },
+          {
+            "id": "39893da3b8e6974f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/01_Project/LOG/周刊/第 1 期.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "第 1 期"
+            }
+          },
+          {
+            "id": "83efb3c22b1fd69d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/01_Project/LOG/主题月/2024.11.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024.11"
+            }
+          },
+          {
+            "id": "79e2e3bb6ca9ae7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/00_Inbox/消费指南.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "消费指南"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -152,10 +277,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/00_Inbox/建立一个对外的窗口？.md"
+                "file": "src/01_Project/LOG/周刊/第 1 期.md"
               },
               "icon": "lucide-list",
-              "title": "建立一个对外的窗口？ 的大纲"
+              "title": "第 1 期 的大纲"
             }
           },
           {
@@ -225,10 +350,23 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ac33791abec12b73",
+  "active": "39893da3b8e6974f",
   "lastOpenFiles": [
-    "src/00_Inbox/建立一个对外的窗口？.md",
+    "src/00_Inbox/多年 iPhone 用户转 Android（iPhone 13 转 Xiaomi 15）.md",
+    "src/00_Inbox/未命名 2.md",
+    "src/00_Inbox/拿到一台新电脑后，我需要做什么.md",
+    "src/00_Inbox/家庭铝型材 DIY 材料清单.md",
+    "src/01_Project/LOG/周刊/第 1 期.md",
+    "excalidraw 24-11-11 03.24.49.ex",
+    "src/00_Inbox/人生 SOP.md",
+    "src/00_Inbox/消费指南.md",
+    "src/01_Project/LOG/主题月/2024.11.md",
     "src/00_Inbox/2024.10 国庆日本之行.md",
+    "src/00_Inbox/建立一个对外的窗口？.md",
+    "src/00_Inbox/如何精力充沛地过一整天？.md",
+    "src/01_Project/LOG/主题月",
+    "src/01_Project/LOG",
+    "src/01_Project/LOG/周刊",
     "src/02_Area/Lifestyle/02_装机必备/07_Docker For Fun.md",
     "src/03_Resource/code/04_framework/MybatisPlus/Mybatis Plus 逻辑删除 @TableLogic.md",
     "src/02_Area/Lifestyle/02_装机必备/05_Obsidian Plugins.md",
@@ -245,24 +383,11 @@
     "src/02_Area/Lifestyle/03_就是爱折腾系列/01_个人设备推荐.md",
     "src/02_Area/Lifestyle/02_装机必备/08_Sublime Text 4 Settings.md",
     "src/03_Resource/code/04_framework/MybatisPlus/README.md",
-    "src/03_Resource/code/09_tools/210622 Vim.md",
-    "src/03_Resource/code/06_distribution/README.md",
-    "src/03_Resource/code/场景题/01_电商/订单超时未支付的三种解决方案.md",
-    "src/00_Inbox/Kafka 为什么这么快？RocketMQ 哪里不如 Kafka？.md",
-    "src/00_Inbox/MySQL 自增主键一定是连续的吗？.md",
-    "src/02_Area/Lifestyle/02_装机必备/06_Eudic 增加试用时间.md",
-    "src/02_Area/Lifestyle/02_装机必备/03_JetBrains 和 ja-netfilter 产品的奇妙反应.md",
-    "src/02_Area/Lifestyle/02_装机必备/04_uTools Plugins.md",
-    "src/02_Area/Lifestyle/02_装机必备/02_Chrome 插件、油猴脚本.md",
     "src/00_Inbox/要不要买系列",
     "the_draft/white_board.ex",
     "the_draft",
     "src/01_Project/Interview/缓存/excalidraw/关于缓存一致性的问题.ex",
     "src/02_Area/Lifestyle/05_好物推荐",
-    "excalidraw 24-06-11 06.27.50.ex",
-    "excalidraw 24-06-01 10.10.58.ex",
-    "src/blog/2024",
-    "src/blog/2023",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

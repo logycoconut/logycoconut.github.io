@@ -5,6 +5,7 @@
   "BaseObEditEnhance": true,
   "FW2HWEnhance": true,
   "BetterCodeEdit": true,
+  "BetterBackspace": true,
   "AutoFormat": true,
   "ExcludeFiles": "",
   "ChineseEnglishSpace": true,

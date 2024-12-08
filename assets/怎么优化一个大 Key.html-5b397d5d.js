@@ -1,0 +1,1 @@
+import{_}from"./plugin-vue_export-helper-c27b6911.js";import{o as t,c as o,a as e}from"./app-19bdab2f.js";const s={},c=e("p",null,"在 Redis 中, 像 10KB、100KB 这样的已经算是一个大 Key 了",-1),n=e("p",null,"可以采用业务拆分的形式",-1),r=[c,n];function l(a,i){return t(),o("div",null,r)}const m=_(s,[["render",l],["__file","怎么优化一个大 Key.html.vue"]]);export{m as default};

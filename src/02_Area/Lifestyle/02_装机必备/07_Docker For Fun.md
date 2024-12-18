@@ -42,18 +42,43 @@ docker run -d --name emby-server -p 8096:8096 -p 8920:8920 -v /Users/hall/Docume
 
 # amilys（目前在用）
 docker run -d -e PUID=1000 -e PGID=1000 -v /Users/hall/Documents/ForDocker/config/emby-amilys:/config -v /Users/hall/Documents/Media:/data -p 8096:8096 -p 8920:8920 --name=emby-server-amilys-1011 amilys/embyserver:4.8.9.0
-
-# xinjiawei1
-docker run -d -e PUID=1000 -e PGID=1000 -v /Users/hall/Documents/ForDocker/config/emby:/config -v /Users/hall/Documents/Media:/data -p 8096:8096 -p 8920:8920 --name=emby xinjiawei1/emby_unlockd:latest
 ```
 
 还有其他版本，可以根据自己需要多尝试一下再选择
 
-- https://hub.docker.com/r/amilys/embyserver
 - https://hub.docker.com/r/xinjiawei1/emby_unlockd
 - https://hub.docker.com/r/zishuo/embyserver/
 - https://hub.docker.com/r/lovechen/embyserver
 - ...
+
+### HA 智能家居 ( Home Assistant )
+
+现在的家电都喜欢搞物联网那一套
+但是各自没有统一的协议，导致手机上全是各种 “xx 爱家” APP
+
+HA 就是这么一个平台，可以在上面统一管理家里所有的智能设备
+
+```bash
+-- 运行 HA 容器
+docker run --restart always -d --name homeassistant -v /Users/hall/Documents/ForDocker/config/home-assistant:/config -e TZ=Asia/Shanghai --net=host ghcr.io/home-assistant/home-assistant:stable
+
+-- 集成 HACS
+docker exec -it homeassistant bash
+wget -O - https://get.hacs.xyz | bash -
+```
+
+- 集成米家设备 ` Xiaomi Home`
+    https://github.com/XiaoMi/ha_xiaomi_home/blob/main/doc/README_zh.md
+
+- 海信空调集成插件
+    https://bbs.hassbian.com/thread-25586-1-1.html
+    https://github.com/manymuch/HisenseHA
+
+- 国家电网 APP 电费信息整合
+    https://github.com/ARC-MX/sgcc_electricity_new
+
+- 追觅 Dreame 设备集成
+    *Deprecated*，只支持较老的设备
 
 ## 更新策略
 

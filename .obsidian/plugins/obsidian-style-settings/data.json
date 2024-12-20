@@ -10,7 +10,7 @@
   "Appearance-light@@card-highlight-light": true,
   "Components@@CTA-BTN-enable": true,
   "Components@@file-names-untrim": true,
-  "Components@@folder-font-bold": true,
+  "Components@@folder-font-bold": false,
   "Components@@colorful-folder": true,
   "Components@@file-icon-remove": false,
   "Appearance-light@@accent-color-override-light": true,

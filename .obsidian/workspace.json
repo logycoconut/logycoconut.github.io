@@ -4,90 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "1bd34e3748104549",
+        "id": "6d2a25b8807ebc7f",
         "type": "tabs",
         "children": [
           {
-            "id": "1b1591526459a631",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/02_Area/Lifestyle/02_装机必备/05_Obsidian Plugins.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "05_Obsidian Plugins"
-            }
-          },
-          {
-            "id": "0edd63f729ec600d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/00_Inbox/2024.10 国庆日本之行.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "2024.10 国庆日本之行"
-            }
-          },
-          {
-            "id": "af393dc05688f3f0",
+            "id": "58364218cb00fe26",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/00_Inbox/建立一个对外的窗口？.md",
+                "file": "src/01_Project/LOG/周刊/第 3 期：小米官方 HA 插件.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "建立一个对外的窗口？"
+              "title": "第 3 期：小米官方 HA 插件"
             }
           },
           {
-            "id": "83d68e5e722ca277",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/00_Inbox/家庭铝型材 DIY 材料清单.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "家庭铝型材 DIY 材料清单"
-            }
-          },
-          {
-            "id": "285c060eb0d6d6e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/00_Inbox/拿到一台新电脑后，我需要做什么.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "拿到一台新电脑后，我需要做什么"
-            }
-          },
-          {
-            "id": "64355a3bbe28d30a",
+            "id": "41609dbe82b36010",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -102,22 +38,156 @@
             }
           },
           {
-            "id": "3b39d2d2341167af",
+            "id": "4ec8908d8de5406d",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "src/00_Inbox/Obsidian 图床位置命名规范.md",
+                "staged": false
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (Obsidian 图床位置命名规范)"
+            }
+          },
+          {
+            "id": "bed0e49da0fa54d6",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "src/.vuepress/config.ts",
+                "staged": false
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (config.ts)"
+            }
+          },
+          {
+            "id": "c85e50dbd6c74db0",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/plugins/obsidian-image-auto-upload-plugin/data.json",
+                "staged": false
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (data.json)"
+            }
+          },
+          {
+            "id": "c477a4e7e19647a8",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/appearance.json",
+                "staged": false
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (appearance.json)"
+            }
+          },
+          {
+            "id": "cf6c32b009deb64a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/00_Inbox/消费指南.md",
+                "file": "src/00_Inbox/值得一看的电影、纪录片、小说.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "消费指南"
+              "title": "值得一看的电影、纪录片、小说"
             }
           },
           {
-            "id": "b7f090ffc64d906d",
+            "id": "0e320cb1224e47ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/00_Inbox/怎么说好一个项目？.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "怎么说好一个项目？"
+            }
+          },
+          {
+            "id": "fc07d98e3f93fddb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/00_Inbox/拿到一台新电脑后，我需要做什么.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "拿到一台新电脑后，我需要做什么"
+            }
+          },
+          {
+            "id": "8d99c594adc51c11",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "src/.vuepress/theme.ts",
+                "staged": false
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (theme.ts)"
+            }
+          },
+          {
+            "id": "b8be5779cbf1683c",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/themes/Border/theme.css",
+                "staged": false
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (theme.css)"
+            }
+          },
+          {
+            "id": "35c4e9f12bc48485",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "pnpm-lock.yaml",
+                "staged": false
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (pnpm-lock.yaml)"
+            }
+          },
+          {
+            "id": "4f6509135458ea61",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/workspace.json",
+                "staged": false
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (workspace.json)"
+            }
+          },
+          {
+            "id": "7f5e0031b8663572",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -130,69 +200,9 @@
               "icon": "lucide-file",
               "title": "人生 SOP"
             }
-          },
-          {
-            "id": "899ed8f5871f39c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/00_Inbox/如何精力充沛地过一整天？.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "如何精力充沛地过一整天？"
-            }
-          },
-          {
-            "id": "39893da3b8e6974f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/01_Project/LOG/周刊/第 1 期.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "第 1 期"
-            }
-          },
-          {
-            "id": "83efb3c22b1fd69d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/01_Project/LOG/主题月/2024.11.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024.11"
-            }
-          },
-          {
-            "id": "79e2e3bb6ca9ae7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/00_Inbox/消费指南.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "消费指南"
-            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -276,11 +286,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/01_Project/LOG/周刊/第 1 期.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "第 1 期 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -350,44 +358,43 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "39893da3b8e6974f",
+  "active": "c85e50dbd6c74db0",
   "lastOpenFiles": [
-    "src/00_Inbox/多年 iPhone 用户转 Android（iPhone 13 转 Xiaomi 15）.md",
-    "src/00_Inbox/未命名 2.md",
+    "the_draft/white_board.ex",
     "src/00_Inbox/拿到一台新电脑后，我需要做什么.md",
-    "src/00_Inbox/家庭铝型材 DIY 材料清单.md",
-    "src/01_Project/LOG/周刊/第 1 期.md",
-    "excalidraw 24-11-11 03.24.49.ex",
+    "pnpm-lock.yaml",
+    "node_modules/@vuepress",
+    "node_modules",
+    "src/00_Inbox/怎么说好一个项目？.md",
+    "src/00_Inbox/值得一看的电影、纪录片、小说.md",
+    "src/00_Inbox/Obsidian 图床位置命名规范.md",
+    "src/00_Inbox/未命名 2.md",
+    "src/01_Project/LOG/周刊/第 3 期：小米官方 HA 插件.md",
     "src/00_Inbox/人生 SOP.md",
-    "src/00_Inbox/消费指南.md",
     "src/01_Project/LOG/主题月/2024.11.md",
-    "src/00_Inbox/2024.10 国庆日本之行.md",
-    "src/00_Inbox/建立一个对外的窗口？.md",
+    "src/02_Area/Lifestyle/Obsidian 使用指南/Obsidian 文件同步规范.md",
+    "src/01_Project/LOG/周刊/第 2 期： 冬日关怀.md",
+    "template/周刊模板.md",
+    "src/01_Project/LOG/周刊/第 1 期：换了新手机.md",
+    "src/01_Project/LOG/周刊/第 2 期：冬日关怀.md",
+    "src/00_Inbox/远程登录我的 Mac 电脑.md",
+    "src/02_Area/Lifestyle/02_装机必备/07_Docker For Fun.md",
+    "src/00_Inbox/椰子呆呆的人生准则.md",
     "src/00_Inbox/如何精力充沛地过一整天？.md",
+    "src/04_Archive/计划单/2024 年度计划.md",
+    "src/04_Archive/游记/2024.10 国庆日本之行.md",
+    "src/04_Archive/游记/2023.01 港珠澳之行.md",
+    "src/02_Area/Lifestyle/02_装机必备/05_Obsidian Plugins.md",
+    "src/02_Area/Lifestyle/Obsidian 使用指南/Obsidian 同步方案.md",
+    "src/02_Area/Lifestyle/Obsidian 使用指南",
+    "src/02_Area/Lifestyle/01_如何打造个人知识库/05_Markdown 语法.md",
+    "src/02_Area/Lifestyle/01_如何打造个人知识库/03_通过 GitHub Actions 完成知识库的发布.md",
+    "src/02_Area/Lifestyle/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
+    "excalidraw 24-11-11 03.24.49.ex",
     "src/01_Project/LOG/主题月",
     "src/01_Project/LOG",
     "src/01_Project/LOG/周刊",
-    "src/02_Area/Lifestyle/02_装机必备/07_Docker For Fun.md",
-    "src/03_Resource/code/04_framework/MybatisPlus/Mybatis Plus 逻辑删除 @TableLogic.md",
-    "src/02_Area/Lifestyle/02_装机必备/05_Obsidian Plugins.md",
-    "src/00_Inbox/八股篇.md",
-    "src/00_Inbox/怎么包装项目.md",
-    "src/00_Inbox/幂等操作如何实现.md",
-    "src/00_Inbox/羞怯与于市井鼠目，必苟且匍于世间.md",
-    "src/00_Inbox/未命名 1.md",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/Clash Tutorial & 科学上网/Clash 分流以及去广告.md",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/Clash Tutorial & 科学上网/闲置 Mac 设备作为旁路由.md",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/iOS 修炼手册/02_如何优雅地屏蔽广告.md",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/黑苹果相关/01_如何给设备安装黑苹果？.md",
     "src/02_Area/Lifestyle/03_就是爱折腾系列/Clash Tutorial & 科学上网",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/01_个人设备推荐.md",
-    "src/02_Area/Lifestyle/02_装机必备/08_Sublime Text 4 Settings.md",
-    "src/03_Resource/code/04_framework/MybatisPlus/README.md",
-    "src/00_Inbox/要不要买系列",
-    "the_draft/white_board.ex",
-    "the_draft",
-    "src/01_Project/Interview/缓存/excalidraw/关于缓存一致性的问题.ex",
-    "src/02_Area/Lifestyle/05_好物推荐",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

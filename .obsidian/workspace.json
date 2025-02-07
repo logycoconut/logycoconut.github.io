@@ -4,205 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "6d2a25b8807ebc7f",
+        "id": "729aa06a654fb167",
         "type": "tabs",
         "children": [
           {
-            "id": "58364218cb00fe26",
+            "id": "3fb76e74ae057d2d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "src/01_Project/LOG/周刊/第 3 期：小米官方 HA 插件.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "aFile": ".obsidian/themes/Border/manifest.json",
+                "bFile": ".obsidian/themes/Border/manifest.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "第 3 期：小米官方 HA 插件"
-            }
-          },
-          {
-            "id": "41609dbe82b36010",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/00_Inbox/未命名 2.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "未命名 2"
-            }
-          },
-          {
-            "id": "4ec8908d8de5406d",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "src/00_Inbox/Obsidian 图床位置命名规范.md",
-                "staged": false
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (Obsidian 图床位置命名规范)"
-            }
-          },
-          {
-            "id": "bed0e49da0fa54d6",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "src/.vuepress/config.ts",
-                "staged": false
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (config.ts)"
-            }
-          },
-          {
-            "id": "c85e50dbd6c74db0",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/plugins/obsidian-image-auto-upload-plugin/data.json",
-                "staged": false
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (data.json)"
-            }
-          },
-          {
-            "id": "c477a4e7e19647a8",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/appearance.json",
-                "staged": false
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (appearance.json)"
-            }
-          },
-          {
-            "id": "cf6c32b009deb64a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/00_Inbox/值得一看的电影、纪录片、小说.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "值得一看的电影、纪录片、小说"
-            }
-          },
-          {
-            "id": "0e320cb1224e47ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/00_Inbox/怎么说好一个项目？.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "怎么说好一个项目？"
-            }
-          },
-          {
-            "id": "fc07d98e3f93fddb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/00_Inbox/拿到一台新电脑后，我需要做什么.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "拿到一台新电脑后，我需要做什么"
-            }
-          },
-          {
-            "id": "8d99c594adc51c11",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "src/.vuepress/theme.ts",
-                "staged": false
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (theme.ts)"
-            }
-          },
-          {
-            "id": "b8be5779cbf1683c",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/themes/Border/theme.css",
-                "staged": false
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (theme.css)"
-            }
-          },
-          {
-            "id": "35c4e9f12bc48485",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "pnpm-lock.yaml",
-                "staged": false
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (pnpm-lock.yaml)"
-            }
-          },
-          {
-            "id": "4f6509135458ea61",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (workspace.json)"
-            }
-          },
-          {
-            "id": "7f5e0031b8663572",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/00_Inbox/人生 SOP.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "人生 SOP"
+              "icon": "diff",
+              "title": "Diff: manifest.json"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -221,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -282,16 +102,6 @@
             }
           },
           {
-            "id": "d820eb18d1b6f133",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {},
-              "icon": "lucide-list",
-              "title": "大纲"
-            }
-          },
-          {
             "id": "ac33791abec12b73",
             "type": "leaf",
             "state": {
@@ -334,15 +144,25 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "src/00_Inbox/建立一个对外的窗口？.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "建立一个对外的窗口？的笔记属性"
+              "title": "笔记属性"
+            }
+          },
+          {
+            "id": "f9ca0fa4fd3246d5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "src/README.md"
+              },
+              "icon": "lucide-list",
+              "title": "README 的大纲"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -358,8 +178,24 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c85e50dbd6c74db0",
+  "active": "3fb76e74ae057d2d",
   "lastOpenFiles": [
+    "src/01_Project/LOG/周刊/第 6 期：.md",
+    "README.md",
+    "src/README.md",
+    "src/01_Project/LOG/主题月/2024.11.md",
+    "src/01_Project/LOG/周刊/第 3 期：小米官方 HA 插件.md",
+    "src/01_Project/LOG/周刊/第 4 期：圣诞快乐.md",
+    "src/01_Project/LOG/周刊/第 5 期：新年好呀.md",
+    "src/00_Inbox/全栈开发指南.md",
+    "src/00_Inbox/我的 2024.md",
+    "src/01_Project/LOG/周刊/第 1 期：换了新手机.md",
+    "src/01_Project/LOG/周刊/未命名.md",
+    "src/01_Project/LOG/周刊/第 2 期：冬日关怀.md",
+    "src/00_Inbox/消费指南.md",
+    "src/01_Project/LOG/周刊/第 2 期： 冬日关怀.md",
+    "template/周刊模板.md",
+    "yarn.lock",
     "the_draft/white_board.ex",
     "src/00_Inbox/拿到一台新电脑后，我需要做什么.md",
     "pnpm-lock.yaml",
@@ -369,32 +205,17 @@
     "src/00_Inbox/值得一看的电影、纪录片、小说.md",
     "src/00_Inbox/Obsidian 图床位置命名规范.md",
     "src/00_Inbox/未命名 2.md",
-    "src/01_Project/LOG/周刊/第 3 期：小米官方 HA 插件.md",
     "src/00_Inbox/人生 SOP.md",
-    "src/01_Project/LOG/主题月/2024.11.md",
     "src/02_Area/Lifestyle/Obsidian 使用指南/Obsidian 文件同步规范.md",
-    "src/01_Project/LOG/周刊/第 2 期： 冬日关怀.md",
-    "template/周刊模板.md",
-    "src/01_Project/LOG/周刊/第 1 期：换了新手机.md",
-    "src/01_Project/LOG/周刊/第 2 期：冬日关怀.md",
     "src/00_Inbox/远程登录我的 Mac 电脑.md",
     "src/02_Area/Lifestyle/02_装机必备/07_Docker For Fun.md",
     "src/00_Inbox/椰子呆呆的人生准则.md",
     "src/00_Inbox/如何精力充沛地过一整天？.md",
-    "src/04_Archive/计划单/2024 年度计划.md",
-    "src/04_Archive/游记/2024.10 国庆日本之行.md",
-    "src/04_Archive/游记/2023.01 港珠澳之行.md",
-    "src/02_Area/Lifestyle/02_装机必备/05_Obsidian Plugins.md",
-    "src/02_Area/Lifestyle/Obsidian 使用指南/Obsidian 同步方案.md",
     "src/02_Area/Lifestyle/Obsidian 使用指南",
-    "src/02_Area/Lifestyle/01_如何打造个人知识库/05_Markdown 语法.md",
-    "src/02_Area/Lifestyle/01_如何打造个人知识库/03_通过 GitHub Actions 完成知识库的发布.md",
-    "src/02_Area/Lifestyle/01_如何打造个人知识库/01_基于 VuePress Theme Hope、Obsidian 搭建个人知识库.md",
     "excalidraw 24-11-11 03.24.49.ex",
     "src/01_Project/LOG/主题月",
     "src/01_Project/LOG",
     "src/01_Project/LOG/周刊",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/Clash Tutorial & 科学上网",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

@@ -1,19 +1,12 @@
 ---
-title: README
-tag: [] 
+title: 
+tags: 
 home: true
 icon: home
 heroText: 个人知识库
 tagline: 欢迎来到 logycoconut 的知识库
-actions:
-#   - text: 哔哩哔哩
-#     link: https://space.bilibili.com/16727759/dynamic
-#     type: primary
-features:
-#   - title: 布局增强
-#     icon: layout
-#     details: 添加路径导航、页脚、改进的导航栏、改进的页面导航等。
-#     link: https://vuepress-theme-hope.github.io/v2/guide/layout/
+actions: 
+features: 
 copyright: false
 footer: MIT Licensed | Copyright © 2019 - present logycoconut
 ---
@@ -28,9 +21,10 @@ footer: MIT Licensed | Copyright © 2019 - present logycoconut
 
 - 游泳爱好者, 目前掌握蛙泳
 
-​​<!-- +++++++++ 下面是引用式链接 +++++++++ -->
+- ISTJ / 物流师性格
+    *https://www.16personalities.com/ch/istj-%E4%BA%BA%E6%A0%BC
 
-[哔哩哔哩]: https://space.bilibili.com/16727759/dynamic
+​​<!-- +++++++++ 下面是引用式链接 +++++++++ -->
 
 [阮一峰科技爱好者周刊：第 87 期]: https://www.ruanyifeng.com/blog/2019/12/weekly-issue-87.html
 

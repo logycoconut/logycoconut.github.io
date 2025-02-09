@@ -1,0 +1,3 @@
+import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o as s,c as a,f as n}from"./app-d43a649e.js";const c={},t=n(`<p>家里有一台 Mac 设备被当做了服务器，所以有时候需要登录到这台电脑进行一些操作</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token function">ssh</span> username@hostname
+-- 比如 <span class="token function">ssh</span> hall@192.168.31.85
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div>`,2),o=[t];function _(i,l){return s(),a("div",null,o)}const m=e(c,[["render",_],["__file","远程登录我的 Mac 电脑.html.vue"]]);export{m as default};

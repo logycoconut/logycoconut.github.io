@@ -4,14 +4,17 @@ export default navbar([
   "/",
   {
     text: "🥳 成为一个有趣的人",
-    link: "/02_Area/Lifestyle/",
+    link: "/area/lifestyle/",
   },
   {
-    text: "⚓️ 网站导航",
-    link: "/single_page/website_navigation.md",
+    text: "🏞️ 记录生活",
+    children: [
+      "/area/log_for_life/weekly/", 
+      "/area/log_for_life/travel/",
+    ],
   },
   {
-    text: "周刊",
-    link: "/01_Log/Weekly/",
+    text: "🧭 网站导航",
+    link: "/area/other/website_navigation.md",
   },
 ]);

@@ -24,7 +24,7 @@
       "force-multi-line-array-style": ""
     },
     "insert-yaml-attributes": {
-      "enabled": true,
+      "enabled": false,
       "text-to-insert": "tags: [] "
     },
     "move-tags-to-yaml": {

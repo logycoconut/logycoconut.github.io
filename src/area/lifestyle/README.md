@@ -1,8 +1,11 @@
 ---
-title: 写在开头
+title: 成为一个有趣的人
+tags: [] 
 link: true
 index: false
 ---
+
+# 成为一个有趣的人
 
 这个 `Area` 的主题是**成为一个有趣的人**
 

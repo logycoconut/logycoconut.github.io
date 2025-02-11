@@ -4,26 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2f4b9507764d171c",
+        "id": "8b4e21faca347e59",
         "type": "tabs",
         "children": [
           {
-            "id": "4de6a7b50dda6125",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/single_page/website_navigation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "website_navigation"
-            }
-          },
-          {
-            "id": "99e1d77fcd9f6567",
+            "id": "006349484cf73e30",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -32,8 +17,7 @@
               "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 417.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -190,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.5
+    "width": 380.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,43 +187,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "99e1d77fcd9f6567",
+  "active": "ac33791abec12b73",
   "lastOpenFiles": [
-    "src/single_page/website_navigation.md",
+    "src/area/tech/README.md",
+    "src/area/other/README.md",
+    "src/area/other/website_navigation.md",
+    "src/area/log_for_life/README.md",
+    "src/area/lifestyle/README.md",
+    "src/area/log_for_life/travel/README.md",
+    "src/area/log_for_life/weekly/README.md",
+    "src/area/log_for_life/weekly/第 6 期：家庭 NAS.md",
+    "src/area/log_for_life/travel/2024.10 国庆日本之行.md",
+    "src/area/log_for_life/travel/2023.01 港珠澳之行.md",
+    "src/area/log_for_life/travel",
+    "src/README.md",
+    "src/area/lifestyle/家庭服务器指北/02_飞牛 OS 安装旁路由.md",
+    "src/area/lifestyle/家庭服务器指北/01_飞牛OS_家庭服务器指北.md",
+    "src/project/养生/太极站桩.md",
+    "src/project/养生/八部金刚功.md",
+    "src/log_for_life/travle/README.md",
+    "src/area/log_for_life/weekly/第 1 期：换了新手机.md",
+    "src/archive/计划单/2024 年度计划.md",
+    "src/area/log_for_life/plan",
+    "src/area/log_for_life",
+    "src/area/lifestyle/03_就是爱折腾系列/Clash Tutorial & 科学上网/README.md",
     "the_draft/white_board.ex",
     "README.md",
     "template/周刊模板.md",
     "template/reference-style link template.md",
-    "src/README.md",
     "the_draft/draft.md",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/01_个人设备推荐.md",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/02_URL Scheme 大全.md",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/阅读 3.0 Web 版搭建.md",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/05_个人宽带如何开启IPv6网络访问.md",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/Clash Tutorial & 科学上网/README.md",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/iOS 修炼手册/README.md",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/黑苹果相关/README.md",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/README.md",
-    "src/02_Area/Lifestyle/03_就是爱折腾系列/黑苹果相关/01_如何给设备安装黑苹果？.md",
-    "src/02_Area/Lifestyle/README.md",
-    "src/02_Area/Lifestyle/01_如何打造个人知识库/README.md",
-    "src/02_Area/Lifestyle/02_装机必备/07_Docker For Fun.md",
-    "src/01_Log/Weekly/第 6 期：家庭 NAS.md",
-    "src/01_Log/Weekly/第 5 期：新年好呀.md",
-    "src/01_Log/Weekly/第 4 期：圣诞快乐.md",
-    "src/01_Log/Weekly/第 3 期：小米官方 HA 插件.md",
-    "src/01_Log/Weekly/第 2 期：冬日关怀.md",
-    "src/01_Log/Weekly/第 1 期：换了新手机.md",
-    "src/01_Log/Weekly",
-    "src/01_Log/周刊/第 6 期：家庭 NAS.md",
+    "src/area/lifestyle/03_就是爱折腾系列/01_个人设备推荐.md",
+    "src/area/lifestyle/03_就是爱折腾系列/02_URL Scheme 大全.md",
+    "src/area/lifestyle/03_就是爱折腾系列/阅读 3.0 Web 版搭建.md",
+    "src/area/log_for_life/weekly",
     "src/01_Log/周刊",
-    "src/01_Log/主题月",
+    "src/archive/主题月",
     "src/01_Log",
     "src/LOG/周刊",
     "src/LOG/主题月",
-    "src/LOG",
-    "src/01_Project/家庭服务器指北",
-    "yarn.lock",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

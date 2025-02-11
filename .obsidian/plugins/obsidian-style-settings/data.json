@@ -56,5 +56,6 @@
   "Appearance-light@@workspace-divider-transparent-light": false,
   "Appearance-light@@mod-root-split-background-select-light": "mod-root-split-background-primary-light",
   "Components@@outline-enhanced": true,
-  "underwater-theme@@underwater-colors-light": "obsidian-light"
+  "underwater-theme@@underwater-colors-light": "rose-pine-dawn",
+  "underwater-theme@@underwater-colors-dark": "nord-dark"
 }

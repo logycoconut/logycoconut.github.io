@@ -11,10 +11,14 @@
             "id": "006349484cf73e30",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "src/.vuepress/theme.ts",
+                "bFile": "src/.vuepress/theme.ts",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: theme.ts"
             }
           }
         ]
@@ -187,7 +191,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ac33791abec12b73",
+  "active": "006349484cf73e30",
   "lastOpenFiles": [
     "src/area/tech/README.md",
     "src/area/other/README.md",

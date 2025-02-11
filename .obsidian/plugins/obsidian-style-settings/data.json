@@ -55,5 +55,6 @@
   "Components@@restored-scrollbars": false,
   "Appearance-light@@workspace-divider-transparent-light": false,
   "Appearance-light@@mod-root-split-background-select-light": "mod-root-split-background-primary-light",
-  "Components@@outline-enhanced": true
+  "Components@@outline-enhanced": true,
+  "underwater-theme@@underwater-colors-light": "obsidian-light"
 }

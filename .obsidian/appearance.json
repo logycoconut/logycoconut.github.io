@@ -10,5 +10,6 @@
   "textFontFamily": "LXGW Neo XiHei,Source Han Sans,Helvetica Neue",
   "interfaceFontFamily": "PT Sans,LXGW Neo XiHei,Source Han Sans,Helvetica Neue",
   "monospaceFontFamily": "LXGW Neo XiHei,Monaco",
-  "showViewHeader": true
+  "showViewHeader": true,
+  "showRibbon": true
 }

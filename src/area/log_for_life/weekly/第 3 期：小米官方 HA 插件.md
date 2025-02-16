@@ -7,7 +7,7 @@ date: 2024-12-22
 
 # 第 3 期：小米官方 HA 插件
 
-![1734684929751.jpg](https://cdn.jsdelivr.net/gh/logycoconut/pic-repo@master/daily/weekly/1734684929751.jpg)
+![](https://cdn.jsdelivr.net/gh/logycoconut/pic-repo@master/daily/weekly/1734684929751.jpg)
 
 >   拍摄于领克体验中心（西湖店）
 >   精致的下午茶，还有冠军小熊
@@ -16,7 +16,7 @@ date: 2024-12-22
 
 #### Xiaomi 发布官方 HA 支持
 
-- *https://github.com/XiaoMi/ha_xiaomi_home
+- *https://github.com/XiaoMi/ha_xiaomi_home*
 
 在小红书上看到消息后，赶紧体验了一下，比之前大佬开发的三方包确实要丝滑一些
 Xiaomi 这一波确实是格局大大的
@@ -43,7 +43,7 @@ Xiaomi 这一波确实是格局大大的
 
 #### 二号陪审员 / 电影 / 克林顿·伊斯特伍德
 
-- *https://movie.douban.com/subject/36340655/
+- *https://movie.douban.com/subject/36340655/*
 
 整片有点平淡，像白开水，甚至有些无聊
 剧情像是《十二怒汉》的另一个版本，在陪审团中有一人是变量

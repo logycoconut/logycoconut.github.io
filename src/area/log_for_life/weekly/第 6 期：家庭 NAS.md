@@ -7,7 +7,7 @@ date: 2025-02-09
 
 # 第 6 期：家庭 NAS
 
-![1739006061010.jpg](https://cdn.jsdelivr.net/gh/logycoconut/pic-repo@master/daily/weekly/1739006061010.jpg)
+![](https://cdn.jsdelivr.net/gh/logycoconut/pic-repo@master/daily/weekly/1739006061010.jpg)
 
 >  拍摄于台州·大麦屿港
 >  远处的风车下就是 1 号公路，晴天的景色非常好看

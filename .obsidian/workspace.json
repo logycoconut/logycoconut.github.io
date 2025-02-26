@@ -4,24 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "8b4e21faca347e59",
+        "id": "d30a83a564eac3f7",
         "type": "tabs",
         "children": [
           {
-            "id": "006349484cf73e30",
+            "id": "fade4c50aff8f6ec",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "src/.vuepress/theme.ts",
-                "bFile": "src/.vuepress/theme.ts",
-                "aRef": ""
+                "file": "src/area/lifestyle/家庭服务器指北/01_飞牛 OS 环境搭建与介绍.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "diff",
-              "title": "Diff: theme.ts"
+              "icon": "lucide-file",
+              "title": "01_飞牛 OS 环境搭建与介绍"
+            }
+          },
+          {
+            "id": "8c677cb9c9cadbf1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.5
+    "width": 452.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -89,13 +101,29 @@
         "type": "tabs",
         "children": [
           {
+            "id": "f9ca0fa4fd3246d5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
             "id": "3a67fe72c8cb4b00",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "标签"
@@ -150,20 +178,6 @@
             }
           },
           {
-            "id": "f9ca0fa4fd3246d5",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "大纲"
-            }
-          },
-          {
             "id": "dac3d694e359bb69",
             "type": "leaf",
             "state": {
@@ -174,11 +188,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 380.5
+    "width": 435.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,44 +205,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "006349484cf73e30",
+  "active": "8c677cb9c9cadbf1",
   "lastOpenFiles": [
-    "src/area/tech/README.md",
-    "src/area/other/README.md",
-    "src/area/other/website_navigation.md",
-    "src/area/log_for_life/README.md",
-    "src/area/lifestyle/README.md",
-    "src/area/log_for_life/travel/README.md",
-    "src/area/log_for_life/weekly/README.md",
-    "src/area/log_for_life/weekly/第 6 期：家庭 NAS.md",
-    "src/area/log_for_life/travel/2024.10 国庆日本之行.md",
-    "src/area/log_for_life/travel/2023.01 港珠澳之行.md",
-    "src/area/log_for_life/travel",
-    "src/README.md",
+    "src/area/lifestyle/家庭服务器指北/01_飞牛 OS 环境搭建与介绍.md",
+    "src/area/lifestyle/家庭服务器指北/README.md",
+    "src/area/lifestyle/家装改造计划/README.md",
+    "src/area/lifestyle/家装改造计划/draft/white_board.ex",
+    "src/area/log_for_life/weekly/第 8 期：转职木工.md",
+    "src/area/lifestyle/家装改造计划/01_L 型阳台增加窗帘轨道.md",
+    "src/area/lifestyle/家装改造计划/02_客厅电视下增加光轴置物架.md",
+    "src/area/log_for_life/weekly/第 7 期：南京博物院.md",
     "src/area/lifestyle/家庭服务器指北/02_飞牛 OS 安装旁路由.md",
-    "src/area/lifestyle/家庭服务器指北/01_飞牛OS_家庭服务器指北.md",
-    "src/project/养生/太极站桩.md",
-    "src/project/养生/八部金刚功.md",
-    "src/log_for_life/travle/README.md",
+    "src/area/log_for_life/weekly/第 6 期：家庭 NAS.md",
+    "src/area/log_for_life/weekly/第 5 期：新年好呀.md",
+    "src/area/log_for_life/weekly/第 4 期：圣诞快乐.md",
+    "src/area/log_for_life/weekly/第 3 期：小米官方 HA 插件.md",
+    "src/area/log_for_life/weekly/第 2 期：冬日关怀.md",
     "src/area/log_for_life/weekly/第 1 期：换了新手机.md",
-    "src/archive/计划单/2024 年度计划.md",
+    "().md",
+    "src/area/lifestyle/家庭服务器指北/00_服务器搭建（硬件篇）.md",
+    "the_draft/white_board.ex",
+    "src/area/lifestyle/家装改造计划/draft",
+    "src/inbox/使用 Redis 过程中可能遇到的问题以及解决方案.md",
+    "src/area/lifestyle/家装改造计划",
+    "src/inbox/怎么说好一个项目？.md",
+    "src/inbox/人生 SOP.md",
+    "src/inbox/全栈开发指南.md",
+    "src/inbox/值得一看的电影、纪录片、小说.md",
+    "src/inbox/怎么包装项目.md",
+    "src/inbox/远程登录我的 Mac 电脑.md",
+    "src/inbox/主题月系列活动记录.md",
+    "the_draft/draft.md",
+    "src/inbox/未命名 2.md",
+    "src/area/log_for_life/travel",
     "src/area/log_for_life/plan",
     "src/area/log_for_life",
-    "src/area/lifestyle/03_就是爱折腾系列/Clash Tutorial & 科学上网/README.md",
-    "the_draft/white_board.ex",
-    "README.md",
-    "template/周刊模板.md",
-    "template/reference-style link template.md",
-    "the_draft/draft.md",
-    "src/area/lifestyle/03_就是爱折腾系列/01_个人设备推荐.md",
-    "src/area/lifestyle/03_就是爱折腾系列/02_URL Scheme 大全.md",
-    "src/area/lifestyle/03_就是爱折腾系列/阅读 3.0 Web 版搭建.md",
     "src/area/log_for_life/weekly",
     "src/01_Log/周刊",
     "src/archive/主题月",
-    "src/01_Log",
-    "src/LOG/周刊",
-    "src/LOG/主题月",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

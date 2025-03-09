@@ -57,5 +57,9 @@
   "Appearance-light@@mod-root-split-background-select-light": "mod-root-split-background-primary-light",
   "Components@@outline-enhanced": true,
   "underwater-theme@@underwater-colors-light": "everforest-light",
-  "underwater-theme@@underwater-colors-dark": "nord-dark"
+  "underwater-theme@@underwater-colors-dark": "nord-dark",
+  "zen@@alt-heading-off": false,
+  "zen@@window-font-size": 13,
+  "zen@@action-button-on": false,
+  "zen@@mac-window-opacity": 0
 }

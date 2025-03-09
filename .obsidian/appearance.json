@@ -7,8 +7,8 @@
   "baseFontSize": 16,
   "baseFontSizeAction": false,
   "nativeMenus": false,
-  "textFontFamily": "LXGW Neo XiHei,Source Han Sans,Helvetica Neue",
-  "interfaceFontFamily": "PT Sans,LXGW Neo XiHei,Source Han Sans,Helvetica Neue",
+  "textFontFamily": "LXGW Neo XiHei Screen Full,Source Han Sans,Helvetica Neue",
+  "interfaceFontFamily": "Source Han Sans,LXGW Neo XiHei,PT Sans,Helvetica Neue",
   "monospaceFontFamily": "LXGW Neo XiHei,Monaco",
   "showViewHeader": true,
   "showRibbon": true

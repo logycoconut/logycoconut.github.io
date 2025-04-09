@@ -19,7 +19,7 @@ export default defineUserConfig({
     // 导入 LXGW Wenkai 字体样式表
     ["link", {
       rel: "stylesheet",
-      href: "https://cdn.jsdelivr.net/npm/cn-fontsource-lxgw-neo-xi-hei-regular@1.0.1/font.min.css"
+      href: "https://fontsapi.zeoseven.com/95/medium/result.css"
     }],
   ],
 

@@ -372,3 +372,5 @@ T 3 6 120 90 data4
 FORM
 PRINT
 ```
+
+- 参考：*[汉印 CPCL 编程手册](https://github.com/logycoconut/books/blob/main/Documentation/HPRT%20HM-Z3%3AHM-T3%20%E7%BC%96%E7%A8%8B%E6%89%8B%E5%86%8C.CPCL%20%E6%8C%87%E4%BB%A4/HPRT%20HM-Z3%3AHM-T3%20%E7%BC%96%E7%A8%8B%E6%89%8B%E5%86%8C.CPCL%20%E6%8C%87%E4%BB%A4.pdf)*

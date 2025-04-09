@@ -14,6 +14,10 @@ export default navbar([
     ],
   },
   {
+    text: "🙉 许愿成为技术专家",
+    link: "/area/tech/",
+  },
+  {
     text: "🧭 网站导航",
     link: "/area/other/website_navigation.md",
   },

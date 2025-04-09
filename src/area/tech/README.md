@@ -1,6 +1,7 @@
 ---
 text: 写在开头
 link: true
+index: false
 ---
 
 ### 背景

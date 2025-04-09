@@ -6,7 +6,7 @@
   "isOnlyActivateAfterFirstInteractionEnabled": false,
   "isOnlyMaintainTypewriterOffsetWhenReachedEnabled": false,
   "isTypewriterOnlyUseCommandsEnabled": false,
-  "typewriterOffset": 0.5,
+  "typewriterOffset": 0.6,
   "isKeepLinesAboveAndBelowEnabled": false,
   "linesAboveAndBelow": 5,
   "isMaxCharsPerLineEnabled": false,

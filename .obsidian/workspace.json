@@ -4,53 +4,172 @@
     "type": "split",
     "children": [
       {
-        "id": "a0fbf196f28883c5",
+        "id": "66355bd0bd9bc2f1",
         "type": "tabs",
         "children": [
           {
-            "id": "3bc9e74b4f807c80",
+            "id": "c64e7d5c9d38facc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/inbox/Redis 的大 Key 问题.md",
+                "file": "src/area/other/拿到一台新 Mac 后，我需要做些什么？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Redis 的大 Key 问题"
+              "title": "拿到一台新 Mac 后，我需要做些什么？"
             }
           },
           {
-            "id": "583ca96183559c83",
+            "id": "d197660a6bc82547",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "src/area/tech/README.md",
+                "bFile": "src/area/tech/README.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: README"
+            }
+          },
+          {
+            "id": "009d7cda45ec3bda",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "src/inbox/为什么互联网公司都在逐步弃用 Cookie？.md",
+                "bFile": "src/inbox/为什么互联网公司都在逐步弃用 Cookie？.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 为什么互联网公司都在逐步弃用 Cookie？"
+            }
+          },
+          {
+            "id": "f073daf39baa3aff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/area/log_for_life/weekly/第 10 期：时间管理.md",
+                "file": "src/inbox/为什么要做对账和幂等？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "第 10 期：时间管理"
+              "title": "为什么要做对账和幂等？"
             }
           },
           {
-            "id": "96a7469295964abc",
+            "id": "84b60f10c10a51c1",
             "type": "leaf",
             "state": {
-              "type": "excalidraw_cn",
+              "type": "markdown",
               "state": {
-                "file": "the_draft/white_board.ex"
+                "file": "src/project/Interview/场景题/接口优化技巧.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "white_board"
+              "title": "接口优化技巧"
+            }
+          },
+          {
+            "id": "1391e329ef82aaaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/area/log_for_life/weekly/第 12 期：SakuraSakura.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "第 12 期：SakuraSakura"
+            }
+          },
+          {
+            "id": "f4def11747275b35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/area/lifestyle/README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "92167dc7f66403f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/area/tech/React Native/React Native 中通过蓝牙连接汉印标签打印机 D35BT.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "React Native 中通过蓝牙连接汉印标签打印机 D35BT"
+            }
+          },
+          {
+            "id": "12b28afd792be2ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/area/other/life_guidelines.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "life_guidelines"
+            }
+          },
+          {
+            "id": "9a02910e0ba566bc",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "src/area/other/website_navigation.md",
+                "bFile": "src/area/other/website_navigation.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: website_navigation"
+            }
+          },
+          {
+            "id": "ff7e7f1729c653a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/area/other/website_navigation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "website_navigation"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +201,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:Expo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +209,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "搜索"
+              "title": "Search"
             }
           },
           {
@@ -107,7 +226,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 385.5
+    "width": 365.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -117,21 +236,6 @@
         "id": "d2b26903d4ccb216",
         "type": "tabs",
         "children": [
-          {
-            "id": "f9ca0fa4fd3246d5",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "src/area/log_for_life/weekly/第 10 期：时间管理.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "第 10 期：时间管理 的大纲"
-            }
-          },
           {
             "id": "3a67fe72c8cb4b00",
             "type": "leaf",
@@ -144,7 +248,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "标签"
+              "title": "Tags"
             }
           },
           {
@@ -163,12 +267,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/00_Inbox/建立一个对外的窗口？.md",
+                "file": "src/area/other/website_navigation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "建立一个对外的窗口？ 的出链列表"
+              "title": "Outgoing links from website_navigation"
             }
           },
           {
@@ -182,7 +286,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "添加笔记属性"
+              "title": "All properties"
             }
           },
           {
@@ -190,9 +294,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "src/area/other/website_navigation.md"
+              },
               "icon": "lucide-info",
-              "title": "笔记属性"
+              "title": "File properties for website_navigation"
             }
           },
           {
@@ -204,13 +310,28 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "6ed19ffb7b517218",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "src/area/other/website_navigation.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of website_navigation"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 395.5
+    "width": 324.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,34 +344,36 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "583ca96183559c83",
+  "active": "c64e7d5c9d38facc",
   "lastOpenFiles": [
-    "the_draft/white_board.ex",
+    "src/area/other/website_navigation.md",
+    "src/inbox/为什么要做对账和幂等？.md",
+    "src/area/other/life_guidelines.md",
+    "src/area/tech/React Native/React Native 中通过蓝牙连接汉印标签打印机 D35BT.md",
+    "src/area/tech/React Native/README.md",
+    "src/area/tech/README.md",
+    "src/area/other/拿到一台新 Mac 后，我需要做些什么？.md",
+    "src/area/log_for_life/weekly/第 12 期：SakuraSakura.md",
+    "src/area/log_for_life/weekly/第 1 期：换了新手机.md",
+    "src/project/Interview/场景题/接口优化技巧.md",
+    "src/area/lifestyle/README.md",
+    "src/area/other/README.md",
+    "src/area/tech/React Native",
+    "Untitled.md",
+    "src/area/log_for_life/weekly/第 9 期：人生 SOP.md",
+    "src/area/log_for_life/weekly/第 11 期：追逐落日.md",
     "src/area/log_for_life/weekly/第 10 期：时间管理.md",
+    "src/area/log_for_life/weekly/第 7 期：南京博物院.md",
+    "the_draft/draft.md",
+    "src/inbox/Redis 的大 Key 问题.md",
+    "src/inbox/为什么互联网公司都在逐步弃用 Cookie？.md",
+    "the_draft/white_board.ex",
     "src/inbox/未命名 2.md",
     "src/area/log_for_life/weekly/第 8 期：转职木工.md",
-    "src/area/log_for_life/weekly/第 9 期：人生 SOP.md",
-    "src/area/log_for_life/weekly/第 7 期：南京博物院.md",
-    "src/inbox/Redis 的大 Key 问题.md",
-    "src/area/other/life_guidelines.md",
-    "src/area/other/website_navigation.md",
     "src/project/未命名.md",
     "src/resource/并发常见问题.md",
     "src/resource/分布式锁可以解决什么问题？.md",
     "src/resource/为什么消息至少投递成功一次，但没有办法保证只投递一次？.md",
-    "src/resource/怎么解决消息堆积？.md",
-    "src/resource/MySQL 如何实现 ACID.md",
-    "src/resource/怎么优化一个大 Key.md",
-    "src/resource/MySQL 中的锁.md",
-    "src/resource/什么是 P.A.R.A 笔记管理法.md",
-    "src/resource/大环境下程序员出路最优解 - 成为远程个体户的全流程分享.md",
-    "the_draft/draft.md",
-    "src/inbox/「场景题」 - 订单到期自动关闭.md",
-    "src/inbox/人生 SOP.md",
-    "src/inbox/亿级数据迁移方案和优化点.md",
-    "src/area/lifestyle/Obsidian 使用指南/Obsidian 同步方案.md",
-    "src/area/lifestyle/Obsidian 使用指南/Obsidian 文件同步规范.md",
-    "src/area/lifestyle/Obsidian 使用指南/Obsidian 图床位置命名规范.md",
     "src/area/lifestyle/家装改造计划/draft/white_board.ex",
     "src/area/lifestyle/家装改造计划/draft",
     "src/area/lifestyle/家装改造计划",
@@ -259,7 +382,6 @@
     "src/area/log_for_life",
     "src/area/log_for_life/weekly",
     "src/01_Log/周刊",
-    "src/archive/主题月",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

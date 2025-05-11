@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e1fa96529dd22e9c",
+        "id": "35050cbc49c099e9",
         "type": "tabs",
         "children": [
           {
-            "id": "5f8e2e20cec24b3a",
+            "id": "2b7d315793396ca1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "src/area/log_for_life/weekly/第 15 期：闭关修炼.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "第 15 期：闭关修炼"
             }
           }
         ]
@@ -49,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "FN",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 393.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -84,6 +89,44 @@
         "id": "d2b26903d4ccb216",
         "type": "tabs",
         "children": [
+          {
+            "id": "6ed19ffb7b517218",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "007323d7114f7cb1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "ac33791abec12b73",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
           {
             "id": "3a67fe72c8cb4b00",
             "type": "leaf",
@@ -100,16 +143,6 @@
             }
           },
           {
-            "id": "ac33791abec12b73",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
             "id": "0ffe64b7ef3a3a9c",
             "type": "leaf",
             "state": {
@@ -123,47 +156,19 @@
             }
           },
           {
-            "id": "007323d7114f7cb1",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
             "id": "2b4c55771cb2c52f",
             "type": "leaf",
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "src/area/other/website_navigation.md"
+                "file": "src/area/log_for_life/weekly/第 8 期：转职木工.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for website_navigation"
-            }
-          },
-          {
-            "id": "6ed19ffb7b517218",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "大纲"
+              "title": "第 8 期：转职木工的笔记属性"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -178,12 +183,17 @@
       "excalidraw-cn:Create New Excalidraw File": false
     }
   },
-  "active": "5f8e2e20cec24b3a",
+  "active": "ac33791abec12b73",
   "lastOpenFiles": [
-    "src/area/log_for_life/weekly/第 3 期：小米官方 HA 插件.md",
-    "src/area/log_for_life/weekly/第 8 期：转职木工.md",
-    "src/area/log_for_life/weekly/第 4 期：圣诞快乐.md",
+    "src/area/log_for_life/weekly/第 14 期：京东外卖.md",
+    "src/area/log_for_life/weekly/第 15 期：闭关修炼.md",
+    "src/area/other/life_guidelines.md",
+    "src/area/lifestyle/家庭服务器指北/02_飞牛 OS 安装旁路由.md",
     "src/area/log_for_life/weekly/第 13 期：数字肥胖.md",
+    "src/area/lifestyle/家庭服务器指北/01_飞牛 OS 环境搭建与介绍.md",
+    "src/area/log_for_life/weekly/第 8 期：转职木工.md",
+    "src/area/log_for_life/weekly/第 3 期：小米官方 HA 插件.md",
+    "src/area/log_for_life/weekly/第 4 期：圣诞快乐.md",
     "src/area/log_for_life/weekly/第 12 期：SakuraSakura.md",
     "src/area/log_for_life/weekly/第 7 期：南京博物院.md",
     "src/area/log_for_life/weekly/第 5 期：新年好呀.md",
@@ -198,16 +208,11 @@
     "src/area/other/拿到一台新 Mac 后，我需要做些什么？.md",
     "src/area/other/website_navigation.md",
     "src/inbox/为什么要做对账和幂等？.md",
-    "src/area/other/life_guidelines.md",
     "src/area/tech/React Native/React Native 中通过蓝牙连接汉印标签打印机 D35BT.md",
     "src/area/tech/React Native/README.md",
     "src/area/tech/README.md",
     "src/area/log_for_life/weekly/第 1 期：换了新手机.md",
-    "src/project/Interview/场景题/接口优化技巧.md",
-    "src/area/lifestyle/README.md",
-    "src/area/other/README.md",
     "src/area/tech/React Native",
-    "Untitled.md",
     "src/area/lifestyle/家装改造计划/draft/white_board.ex",
     "src/area/lifestyle/家装改造计划/draft",
     "src/area/lifestyle/家装改造计划",

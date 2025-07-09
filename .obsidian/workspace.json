@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "35050cbc49c099e9",
+        "id": "698fa8b89d8a0562",
         "type": "tabs",
         "children": [
           {
-            "id": "2b7d315793396ca1",
+            "id": "af621186f10eddde",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "src/area/log_for_life/weekly/第 15 期：闭关修炼.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "aFile": "src/.vuepress/config.ts",
+                "bFile": "src/.vuepress/config.ts",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "第 15 期：闭关修炼"
+              "icon": "diff",
+              "title": "Diff: config.ts"
             }
           }
         ]
@@ -54,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "FN",
+                "query": "独立开发",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 393.5
+    "width": 340.5
   },
   "right": {
     "id": "6e149d68010dd5c0",
@@ -95,12 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "src/area/log_for_life/weekly/第 17 期：热浪太强.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "第 17 期：热浪太强 的大纲"
             }
           },
           {
@@ -160,11 +160,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "src/area/log_for_life/weekly/第 8 期：转职木工.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "第 8 期：转职木工的笔记属性"
+              "title": "笔记属性"
             }
           }
         ],
@@ -172,7 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5
+    "width": 344.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,44 +181,44 @@
       "excalidraw-cn:Create New Excalidraw File": false
     }
   },
-  "active": "ac33791abec12b73",
+  "active": "af621186f10eddde",
   "lastOpenFiles": [
-    "src/area/log_for_life/weekly/第 14 期：京东外卖.md",
-    "src/area/log_for_life/weekly/第 15 期：闭关修炼.md",
-    "src/area/other/life_guidelines.md",
-    "src/area/lifestyle/家庭服务器指北/02_飞牛 OS 安装旁路由.md",
-    "src/area/log_for_life/weekly/第 13 期：数字肥胖.md",
-    "src/area/lifestyle/家庭服务器指北/01_飞牛 OS 环境搭建与介绍.md",
-    "src/area/log_for_life/weekly/第 8 期：转职木工.md",
-    "src/area/log_for_life/weekly/第 3 期：小米官方 HA 插件.md",
-    "src/area/log_for_life/weekly/第 4 期：圣诞快乐.md",
-    "src/area/log_for_life/weekly/第 12 期：SakuraSakura.md",
-    "src/area/log_for_life/weekly/第 7 期：南京博物院.md",
-    "src/area/log_for_life/weekly/第 5 期：新年好呀.md",
-    "src/area/log_for_life/weekly/第 10 期：时间管理.md",
+    "src/未命名.md",
     "src/README.md",
-    "the_draft/white_board.ex",
+    "README.md",
+    "src/banyan_editor_placeholder.md",
+    "src/area/lifestyle/README.md",
+    "src/area/log_for_life/weekly/第 17 期：热浪太强.md",
+    "src/area/log_for_life/weekly/第 12 期：SakuraSakura.md",
+    "src/area/other/life_guidelines.md",
+    "src/area/other/值得一看的电影、纪录片、小说.md",
+    "src/area/log_for_life/README.md",
+    "src/area/log_for_life/weekly/第 16 期：人生坎坷.md",
+    "src/inbox/独立开发指南.md",
     "the_draft/draft.md",
-    "template/reference-style link template.md",
-    "template/周刊模板.md",
-    "src/area/log_for_life/weekly/第 9 期：人生 SOP.md",
-    "src/area/log_for_life/weekly/第 11 期：追逐落日.md",
+    "excalidraw 25-06-27 01.30.46.ex",
+    "未命名.md",
+    "src/inbox/手机开荒.md",
+    "excalidraw 25-06-27 01.07.34.ex",
+    "src/area/log_for_life/weekly/第 15 期：闭关修炼.md",
     "src/area/other/拿到一台新 Mac 后，我需要做些什么？.md",
+    "src/resource/code/09_tools/01_Docker/01_Docker 入门.md",
+    "src/area/log_for_life/code-in-100-places/001-.md",
+    "src/area/log_for_life/weekly/README.md",
+    "src/area/log_for_life/code-in-100-places/README.md",
+    "src/area/lifestyle/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md",
+    "src/inbox/未命名.md",
     "src/area/other/website_navigation.md",
-    "src/inbox/为什么要做对账和幂等？.md",
-    "src/area/tech/React Native/React Native 中通过蓝牙连接汉印标签打印机 D35BT.md",
-    "src/area/tech/React Native/README.md",
-    "src/area/tech/README.md",
-    "src/area/log_for_life/weekly/第 1 期：换了新手机.md",
+    "src/area/lifestyle/02_装机必备/03_JetBrains 和 ja-netfilter 产品的奇妙反应.md",
+    "src/area/lifestyle/03_就是爱折腾系列/Clash Tutorial & 科学上网/Clash 分流以及去广告.md",
+    "src/area/log_for_life/code-in-100-places",
+    "the_draft/white_board.ex",
     "src/area/tech/React Native",
     "src/area/lifestyle/家装改造计划/draft/white_board.ex",
     "src/area/lifestyle/家装改造计划/draft",
     "src/area/lifestyle/家装改造计划",
     "src/area/log_for_life/travel",
     "src/area/log_for_life/plan",
-    "src/area/log_for_life",
-    "src/area/log_for_life/weekly",
-    "src/01_Log/周刊",
     "未命名.canvas",
     "src/01_daliy/05_终身学习体系/230202_个人信息流分享.canvas",
     "node_modules/vuepress-theme-hope/lib/bundle/modules/blog/assets/hero.jpg",

@@ -60,6 +60,6 @@
   "underwater-theme@@underwater-colors-dark": "nord-dark",
   "zen@@alt-heading-off": false,
   "zen@@window-font-size": 13,
-  "zen@@action-button-on": false,
-  "zen@@mac-window-opacity": 0
+  "zen@@mac-window-opacity": 0,
+  "zen@@close-left-vault-profile": false
 }

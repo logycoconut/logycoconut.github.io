@@ -1,14 +1,14 @@
 {
   "accentColor": "",
   "cssTheme": "Border",
-  "theme": "obsidian",
+  "theme": "system",
   "enabledCssSnippets": [],
   "translucency": true,
   "baseFontSize": 16,
   "baseFontSizeAction": false,
   "nativeMenus": false,
-  "textFontFamily": "LXGW ZhenKai GB,LXGW WenKai Mono GB Screen,LXGW Neo XiHei Screen Full,Source Han Sans",
-  "interfaceFontFamily": "LXGW Neo XiHei Screen Full,Source Han Sans,PT Sans,Helvetica Neue",
+  "textFontFamily": "LXGW ZhenKai GB,Maple Mono NF,LXGW WenKai Mono GB Screen,LXGW Neo XiHei Screen Full,Source Han Sans",
+  "interfaceFontFamily": "LXGW Neo XiHei Screen Full,Maple Mono NF,Source Han Sans,PT Sans,Helvetica Neue",
   "monospaceFontFamily": "Maple Mono NF CN,LXGW Neo XiHei,Monaco",
   "showViewHeader": true,
   "showRibbon": true

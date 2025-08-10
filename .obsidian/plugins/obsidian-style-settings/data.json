@@ -61,5 +61,6 @@
   "zen@@alt-heading-off": false,
   "zen@@window-font-size": 13,
   "zen@@mac-window-opacity": 0,
-  "zen@@close-left-vault-profile": false
+  "zen@@close-left-vault-profile": false,
+  "Mobile@@drawer-phone-full-width": true
 }

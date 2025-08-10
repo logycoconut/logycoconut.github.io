@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "698fa8b89d8a0562",
+        "id": "ee9dceb68336fdba",
         "type": "tabs",
         "children": [
           {
-            "id": "af621186f10eddde",
+            "id": "9e01885c32168678",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "src/.vuepress/config.ts",
-                "bFile": "src/.vuepress/config.ts",
+                "aFile": "未命名.md",
+                "bFile": "未命名.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: config.ts"
+              "title": "Diff: 未命名"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "独立开发",
+                "query": "公里",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,13 +94,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/area/log_for_life/weekly/第 17 期：热浪太强.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "第 17 期：热浪太强 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -181,16 +180,25 @@
       "excalidraw-cn:Create New Excalidraw File": false
     }
   },
-  "active": "af621186f10eddde",
+  "active": "ac33791abec12b73",
   "lastOpenFiles": [
+    "src/area/log_for_life/code-in-100-places/README.md",
+    "src/area/log_for_life/code-in-100-places/001 - 我的书桌.md",
+    "src/area/log_for_life/code-in-100-places/002 - 老家的床头柜.md",
+    "src/area/log_for_life/weekly/第 19 期：AI 编程.md",
+    "src/area/log_for_life/weekly/第 3 期：小米官方 HA 插件.md",
+    "src/area/log_for_life/weekly/第 17 期：热浪太强.md",
+    "src/area/log_for_life/weekly/第 18 期：日落特调.md",
+    "src/area/other/life_guidelines.md",
     "src/未命名.md",
+    "src/area/other/拿到一台新 Mac 后，我需要做些什么？.md",
+    "src/area/other/website_navigation.md",
+    "src/inbox/使用 Redis 过程中可能遇到的问题以及解决方案.md",
     "src/README.md",
     "README.md",
     "src/banyan_editor_placeholder.md",
     "src/area/lifestyle/README.md",
-    "src/area/log_for_life/weekly/第 17 期：热浪太强.md",
     "src/area/log_for_life/weekly/第 12 期：SakuraSakura.md",
-    "src/area/other/life_guidelines.md",
     "src/area/other/值得一看的电影、纪录片、小说.md",
     "src/area/log_for_life/README.md",
     "src/area/log_for_life/weekly/第 16 期：人生坎坷.md",
@@ -201,16 +209,7 @@
     "src/inbox/手机开荒.md",
     "excalidraw 25-06-27 01.07.34.ex",
     "src/area/log_for_life/weekly/第 15 期：闭关修炼.md",
-    "src/area/other/拿到一台新 Mac 后，我需要做些什么？.md",
     "src/resource/code/09_tools/01_Docker/01_Docker 入门.md",
-    "src/area/log_for_life/code-in-100-places/001-.md",
-    "src/area/log_for_life/weekly/README.md",
-    "src/area/log_for_life/code-in-100-places/README.md",
-    "src/area/lifestyle/01_如何打造个人知识库/02_VuePress Theme Hope 使用指南.md",
-    "src/inbox/未命名.md",
-    "src/area/other/website_navigation.md",
-    "src/area/lifestyle/02_装机必备/03_JetBrains 和 ja-netfilter 产品的奇妙反应.md",
-    "src/area/lifestyle/03_就是爱折腾系列/Clash Tutorial & 科学上网/Clash 分流以及去广告.md",
     "src/area/log_for_life/code-in-100-places",
     "the_draft/white_board.ex",
     "src/area/tech/React Native",

@@ -1,0 +1,70 @@
+import{_ as s}from"./plugin-vue_export-helper-DlAUqK2U.js";import{c as a,d as e,o as i}from"./app-CRoaDNLO.js";const l={};function p(d,n){return i(),a("div",null,n[0]||(n[0]=[e(`<blockquote><ul><li>SpringCloud采用了Zuul作为微服务的网口</li><li>Zuul网关为全部微服务提供唯一入口, 避免直接暴露接口, 后台服务更加安全</li><li>对每个请求鉴权</li><li>处理跨域请求</li></ul></blockquote><h2 id="跨域请求处理" tabindex="-1"><a class="header-anchor" href="#跨域请求处理"><span>跨域请求处理</span></a></h2><p>关于跨域问题，现在一般都采用 CORS 方案（一个 W3C 标准）解决, 需要服务器和浏览器同时支持，但是开发者只需要关心服务器实现即可，其他的都由浏览器完成</p><p>浏览器会在请求中加上一些头信息，例如 Origin，我们需要以此判断是否允许其跨域，然后在响应头中加入一些信息</p><p>SpringMVC 内部实现了 CORS 的跨域过滤器 <code>CorsFilter</code> ，我们可以直接用，编写代码将其注入到容器中即可</p><div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34;"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>@Configuration</span></span>
+<span class="line"><span>public class CorsConfig {</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    @Bean</span></span>
+<span class="line"><span>    public CorsFilter corsFilter() {</span></span>
+<span class="line"><span>        // 1.添加Cors配置信息</span></span>
+<span class="line"><span>        CorsConfiguration config = new CorsConfiguration();</span></span>
+<span class="line"><span>        // 1.1 允许的域</span></span>
+<span class="line"><span>        config.addAllowedOrigin(&quot;http://example.com&quot;);</span></span>
+<span class="line"><span>        // 1.2 是否发送Cookie信息</span></span>
+<span class="line"><span>        config.setAllowCredentials(true);</span></span>
+<span class="line"><span>        // 1.3 允许的请求方式</span></span>
+<span class="line"><span>        config.addAllowedMethod(&quot;OPTIONS&quot;);</span></span>
+<span class="line"><span>        config.addAllowedMethod(&quot;HEAD&quot;);</span></span>
+<span class="line"><span>        config.addAllowedMethod(&quot;GET&quot;);</span></span>
+<span class="line"><span>        config.addAllowedMethod(&quot;PUT&quot;);</span></span>
+<span class="line"><span>        config.addAllowedMethod(&quot;POST&quot;);</span></span>
+<span class="line"><span>        config.addAllowedMethod(&quot;DELETE&quot;);</span></span>
+<span class="line"><span>        config.addAllowedMethod(&quot;PATCH&quot;);</span></span>
+<span class="line"><span>        // 1.4允许的头信息</span></span>
+<span class="line"><span>        config.addAllowedHeader(&quot;*&quot;);</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>        // 2.添加映射路径，这里拦截一切请求</span></span>
+<span class="line"><span>        UrlBasedCorsConfigurationSource configSource = new UrlBasedCorsConfigurationSource();</span></span>
+<span class="line"><span>        configSource.registerCorsConfiguration(&quot;/**&quot;, config);</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>        // 3.返回新的CorsFilter</span></span>
+<span class="line"><span>        return new CorsFilter(configSource);</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>}</span></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="请求鉴权" tabindex="-1"><a class="header-anchor" href="#请求鉴权"><span>请求鉴权</span></a></h2><h3 id="继承-zuulfilter" tabindex="-1"><a class="header-anchor" href="#继承-zuulfilter"><span>继承 ZuulFilter</span></a></h3><p>原理就是对于每个经过网关的请求都进行过滤</p><p>编写 Component 继承 <code>ZuulFilter</code> 并实现接口方法</p><div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34;"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>@Component</span></span>
+<span class="line"><span>public class ExampleFilter extends ZuulFilter {</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    /**</span></span>
+<span class="line"><span>     * 过滤类别,:</span></span>
+<span class="line"><span>     * pre：在请求被路由之前调用</span></span>
+<span class="line"><span>     * routing: 路由请求时被调用</span></span>
+<span class="line"><span>     * post: 在routing和error过滤器之后被调用</span></span>
+<span class="line"><span>     * error: 处理请求时发生错误后被调用</span></span>
+<span class="line"><span>     */</span></span>
+<span class="line"><span>    @Override</span></span>
+<span class="line"><span>    public String filterType() {</span></span>
+<span class="line"><span>        return null;</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    /**</span></span>
+<span class="line"><span>     * 过滤优先级</span></span>
+<span class="line"><span>     */</span></span>
+<span class="line"><span>    @Override</span></span>
+<span class="line"><span>    public int filterOrder() {</span></span>
+<span class="line"><span>        return 0;</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    /**</span></span>
+<span class="line"><span>     * 判断是否进行过滤</span></span>
+<span class="line"><span>     */</span></span>
+<span class="line"><span>    @Override</span></span>
+<span class="line"><span>    public boolean shouldFilter() {</span></span>
+<span class="line"><span>        return false;</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>    /**</span></span>
+<span class="line"><span>     * 处理主要逻辑的地方, 例如进行登录判断, 日志记录等</span></span>
+<span class="line"><span>     */</span></span>
+<span class="line"><span>    @Override</span></span>
+<span class="line"><span>    public Object run() throws ZuulException {</span></span>
+<span class="line"><span>        return null;</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>}</span></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="zuul-不允许设置敏感-head-头的坑" tabindex="-1"><a class="header-anchor" href="#zuul-不允许设置敏感-head-头的坑"><span>Zuul 不允许设置敏感 Head 头的坑</span></a></h3><p>在鉴权服务中, 我们通常使用 jwt 来实现客户端的无状态登录, 所以需要向客户端中设置 cookie 信息</p><p>但是 zuul 内部有默认的过滤器, 会将请求和响应头信息过滤, 不允许设置敏感信息 ( 比如set-cookie )</p><p><strong>解决方案:</strong></p><p>在application.yml中配置</p><div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34;"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>zuul:</span></span>
+<span class="line"><span>  sensitive-headers:  # 配置禁止使用的头信息, 设置为null代表不禁止任何头信息</span></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div>`,17)]))}const t=s(l,[["render",p],["__file","200202_Zuul 的鉴权以及微服务的跨域问题.html.vue"]]),o=JSON.parse(`{"path":"/archive/blog/2020/200202_Zuul%20%E7%9A%84%E9%89%B4%E6%9D%83%E4%BB%A5%E5%8F%8A%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%9A%84%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98.html","title":"Zuul 的鉴权以及微服务的跨域问题","lang":"zh-CN","frontmatter":{"title":"Zuul 的鉴权以及微服务的跨域问题","date":"2020-02-02T12:56:41.000Z","draft":false,"category":["关于技术"],"tag":["SpringBoot"],"description":"SpringCloud采用了Zuul作为微服务的网口 Zuul网关为全部微服务提供唯一入口, 避免直接暴露接口, 后台服务更加安全 对每个请求鉴权 处理跨域请求 跨域请求处理 关于跨域问题，现在一般都采用 CORS 方案（一个 W3C 标准）解决, 需要服务器和浏览器同时支持，但是开发者只需要关心服务器实现即可，其他的都由浏览器完成 浏览器会在请求中加...","head":[["meta",{"property":"og:url","content":"https://logycoconut.github.io/archive/blog/2020/200202_Zuul%20%E7%9A%84%E9%89%B4%E6%9D%83%E4%BB%A5%E5%8F%8A%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%9A%84%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98.html"}],["meta",{"property":"og:site_name","content":"logycoconut's k-lab"}],["meta",{"property":"og:title","content":"Zuul 的鉴权以及微服务的跨域问题"}],["meta",{"property":"og:description","content":"SpringCloud采用了Zuul作为微服务的网口 Zuul网关为全部微服务提供唯一入口, 避免直接暴露接口, 后台服务更加安全 对每个请求鉴权 处理跨域请求 跨域请求处理 关于跨域问题，现在一般都采用 CORS 方案（一个 W3C 标准）解决, 需要服务器和浏览器同时支持，但是开发者只需要关心服务器实现即可，其他的都由浏览器完成 浏览器会在请求中加..."}],["meta",{"property":"og:type","content":"article"}],["meta",{"property":"og:locale","content":"zh-CN"}],["meta",{"property":"og:updated_time","content":"2025-02-11T14:19:39.000Z"}],["meta",{"property":"article:tag","content":"SpringBoot"}],["meta",{"property":"article:published_time","content":"2020-02-02T12:56:41.000Z"}],["meta",{"property":"article:modified_time","content":"2025-02-11T14:19:39.000Z"}],["script",{"type":"application/ld+json"},"{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"Article\\",\\"headline\\":\\"Zuul 的鉴权以及微服务的跨域问题\\",\\"image\\":[\\"\\"],\\"datePublished\\":\\"2020-02-02T12:56:41.000Z\\",\\"dateModified\\":\\"2025-02-11T14:19:39.000Z\\",\\"author\\":[{\\"@type\\":\\"Person\\",\\"name\\":\\"logycoconut\\",\\"url\\":\\"https://logycoconut.github.io/\\"}]}"]]},"headers":[{"level":2,"title":"跨域请求处理","slug":"跨域请求处理","link":"#跨域请求处理","children":[]},{"level":2,"title":"请求鉴权","slug":"请求鉴权","link":"#请求鉴权","children":[{"level":3,"title":"继承 ZuulFilter","slug":"继承-zuulfilter","link":"#继承-zuulfilter","children":[]},{"level":3,"title":"Zuul 不允许设置敏感 Head 头的坑","slug":"zuul-不允许设置敏感-head-头的坑","link":"#zuul-不允许设置敏感-head-头的坑","children":[]}]}],"git":{"createdTime":1667915485000,"updatedTime":1739283579000,"contributors":[{"name":"logycoconut","username":"logycoconut","email":"1425795337@qq.com","commits":1,"url":"https://github.com/logycoconut"},{"name":"logycoconut","username":"logycoconut","email":"logycoconut@foxmail.com","commits":5,"url":"https://github.com/logycoconut"}]},"readingTime":{"minutes":2.12,"words":636},"filePathRelative":"archive/blog/2020/200202_Zuul 的鉴权以及微服务的跨域问题.md","localizedDate":"2020年2月2日","autoDesc":true}`);export{t as comp,o as data};

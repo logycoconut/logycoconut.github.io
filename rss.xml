@@ -6,8 +6,8 @@
     <link>https://logycoconut.github.io/</link>
     <description>logycoconut&amp;apos;s k-lab</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 21 Sep 2025 16:02:56 GMT</pubDate>
-    <lastBuildDate>Sun, 21 Sep 2025 16:02:56 GMT</lastBuildDate>
+    <pubDate>Tue, 23 Sep 2025 10:18:43 GMT</pubDate>
+    <lastBuildDate>Tue, 23 Sep 2025 10:18:43 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>React Native</category>
@@ -23,6 +23,356 @@
     <category>自我提升</category>
     <category>黑苹果</category>
     <category>折腾博客</category>
+    <item>
+      <title>为什么互联网公司都在逐步弃用 Cookie？</title>
+      <link>https://logycoconut.github.io/inbox/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BA%92%E8%81%94%E7%BD%91%E5%85%AC%E5%8F%B8%E9%83%BD%E5%9C%A8%E9%80%90%E6%AD%A5%E5%BC%83%E7%94%A8%20Cookie%EF%BC%9F.html</link>
+      <guid>https://logycoconut.github.io/inbox/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BA%92%E8%81%94%E7%BD%91%E5%85%AC%E5%8F%B8%E9%83%BD%E5%9C%A8%E9%80%90%E6%AD%A5%E5%BC%83%E7%94%A8%20Cookie%EF%BC%9F.html</guid>
+      <source url="https://logycoconut.github.io/rss.xml">为什么互联网公司都在逐步弃用 Cookie？</source>
+      <description>为什么互联网公司都在逐步弃用 Cookie？ 我们都知道 HTTP 请求是无状态的，也就是说，每一个 HTTP 请求都是独立的 那怎么知道哪些 HTTP 请求是归属于一个用户的呢？ 于是在 HTTP、浏览器的发展过程中出现了 Cookie Cookie 里面可以存放用户信息，并随着 HTTP 请求的发送传递到后端 但是 Cookie 有几个明显的缺点 ...</description>
+      <pubDate>Tue, 23 Sep 2025 10:17:45 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>我们都知道 HTTP 请求是无状态的，也就是说，每一个 HTTP 请求都是独立的<br>
+那怎么知道哪些 HTTP 请求是归属于一个用户的呢？</p>
+<p>于是在 HTTP、浏览器的发展过程中出现了 Cookie<br>
+Cookie 里面可以存放用户信息，并随着 HTTP 请求的发送传递到后端</p>
+<p>但是 Cookie 有几个明显的缺点</p>
+<ul>
+<li>有跨域问题<br>
+虽然可以在服务端进行一个支持，但是推动服务端进行改造是一个成本非常大的事情</li>
+<li>同域名下的所有请求都会自动携带上 Cookie，即使是 CDN 文件，会消耗额外的带宽</li>
+<li>存在跨站请求的风险</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>椰子呆呆的一天（SOP 实践）</title>
+      <link>https://logycoconut.github.io/area/SOP/%E6%A4%B0%E5%AD%90%E5%91%86%E5%91%86%E7%9A%84%E4%B8%80%E5%A4%A9.html</link>
+      <guid>https://logycoconut.github.io/area/SOP/%E6%A4%B0%E5%AD%90%E5%91%86%E5%91%86%E7%9A%84%E4%B8%80%E5%A4%A9.html</guid>
+      <source url="https://logycoconut.github.io/rss.xml">椰子呆呆的一天（SOP 实践）</source>
+      <description>椰子呆呆的一天（SOP 实践） 早晨（08:30 - 09:30） 刷牙洗脸 / 10min 咖啡 / 10min 拉伸 / 5min 中午（12:00 - 13:30） 午饭 / 1h / 食材提前准备 午休 / 30min 傍晚（18:30 - 20:00） 晚饭 / 1h 有氧运动 / 1h 睡前 快速冲个澡 / 10min todoist in...</description>
+      <pubDate>Tue, 23 Sep 2025 10:17:45 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h3>早晨（08:30 -  09:30）</h3>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 刷牙洗脸 / 10min</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> 咖啡 / 10min</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> 拉伸 / 5min</label></li>
+</ul>
+<h3>中午（12:00 - 13:30）</h3>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> 午饭 / 1h / 食材提前准备</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> 午休 / 30min</label></li>
+</ul>
+<h3>傍晚（18:30 -  20:00）</h3>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-5" disabled="disabled"><label class="task-list-item-label" for="task-item-5"> 晚饭 / 1h</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-6" disabled="disabled"><label class="task-list-item-label" for="task-item-6"> 有氧运动 / 1h</label></li>
+</ul>
+<h3>睡前</h3>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-7" disabled="disabled"><label class="task-list-item-label" for="task-item-7"> 快速冲个澡 / 10min</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-8" disabled="disabled"><label class="task-list-item-label" for="task-item-8"> todoist inbox 任务整理 / 10min</label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-9" disabled="disabled"><label class="task-list-item-label" for="task-item-9"> 第二天的任务安排 / 10min</label></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>拿到一台新 Mac 后，我需要做些什么？（开荒）</title>
+      <link>https://logycoconut.github.io/area/other/%E6%8B%BF%E5%88%B0%E4%B8%80%E5%8F%B0%E6%96%B0%20Mac%20%E5%90%8E%EF%BC%8C%E6%88%91%E9%9C%80%E8%A6%81%E5%81%9A%E4%BA%9B%E4%BB%80%E4%B9%88%EF%BC%9F.html</link>
+      <guid>https://logycoconut.github.io/area/other/%E6%8B%BF%E5%88%B0%E4%B8%80%E5%8F%B0%E6%96%B0%20Mac%20%E5%90%8E%EF%BC%8C%E6%88%91%E9%9C%80%E8%A6%81%E5%81%9A%E4%BA%9B%E4%BB%80%E4%B9%88%EF%BC%9F.html</guid>
+      <source url="https://logycoconut.github.io/rss.xml">拿到一台新 Mac 后，我需要做些什么？（开荒）</source>
+      <description>拿到一台新 Mac 后，我需要做些什么？（开荒） App Obsidian 用来写一些文档，输出自己的知识库 和 Notion 搭配使用 一个用于记录公开的想法，一个用于记录私人的笔记 安装有眼缘的字体 默认字体也蛮好看的，但是平淡的日子总要来点不一样 折腾字体，才能让我有兴趣码字 LXGW WenKai Mono GB Screen / 霞鹜文楷等宽...</description>
+      <pubDate>Tue, 23 Sep 2025 10:17:45 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2>App</h2>
+<h4>Obsidian</h4>
+<p>用来写一些文档，输出自己的知识库<br>
+和 Notion 搭配使用<br>
+一个用于记录公开的想法，一个用于记录私人的笔记</p>
+<h2>安装有眼缘的字体</h2>
+<blockquote>
+<p>默认字体也蛮好看的，但是平淡的日子总要来点不一样<br>
+折腾字体，才能让我有兴趣码字</p>
+</blockquote>
+<h4>LXGW WenKai Mono GB Screen / 霞鹜文楷等宽 GB 屏幕阅读版</h4>
+<ul>
+<li>目前用于 Obsidian 以及 <a href="http://github.io" target="_blank" rel="noopener noreferrer">github.io</a> 的文档字体</li>
+<li>最近对方方正正的字体无感，开始喜欢楷体、斜体</li>
+<li>下载地址： <a href="https://github.com/lxgw/LxgwWenKai-Screen" target="_blank" rel="noopener noreferrer">https://github.com/lxgw/LxgwWenKai-Screen</a></li>
+<li><a href="https://github.com/lxgw/LxgwZhenKai" target="_blank" rel="noopener noreferrer">LXGW ZhenKai / 霞鹜臻楷</a>是在该字体的基础上加粗衍生的，同样可以了解一下</li>
+</ul>
+<h4>LXGW Neo XiHei / 霞鹜新晰黑</h4>
+<ul>
+<li>用于比较正式的场合，方便阅读</li>
+<li>感觉字体偏细的话可以选择<a href="https://github.com/lxgw/LxgwNeoXiZhi-Screen" target="_blank" rel="noopener noreferrer">屏幕阅读版</a></li>
+<li>下载地址： <a href="https://github.com/lxgw/LxgwNeoXiHei" target="_blank" rel="noopener noreferrer">https://github.com/lxgw/LxgwNeoXiHei</a></li>
+</ul>
+<h4>Maple Mono</h4>
+<ul>
+<li>开源等宽编程字体，手工微调斜体、大量连字</li>
+<li>作者审美相当哇塞，用在我的 iTerm 里面绝了</li>
+<li>下载地址：<a href="https://github.com/subframe7536/maple-font" target="_blank" rel="noopener noreferrer">https://github.com/subframe7536/maple-font</a></li>
+</ul>
+<h2>配置开发环境</h2>
+<h4>Java</h4>
+<p>这个不需要配了<br>
+Javaer 应该都会使用 IDEA 来开发，而 IDEA 可以很方便的配置 Java 环境，点点点的功夫啦～<br>
+<em>Android SDK 同理，Android Studio 里面啥都有</em></p>
+<h4>pnpm</h4>
+<blockquote>
+<p>自从有了 C 老师（ ChatGPT ），我也可以自豪的说，我是一名前端开发！</p>
+</blockquote>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" data-title="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">curl</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -fsSL</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> https://get.pnpm.io/install.sh</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> | </span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">sh</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> -</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">source</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> /Users/logycoconut/.zshrc</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><h4>node</h4>
+<p><em>使用 pnpm 来管理 node 环境</em><br>
+*<a href="https://pnpm.io/zh/next/cli/env" target="_blank" rel="noopener noreferrer">https://pnpm.io/zh/next/cli/env</a></p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" data-title="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">pnpm</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> env</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> use</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> --global</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> lts</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>独立开发</title>
+      <link>https://logycoconut.github.io/area/tech/freelance/</link>
+      <guid>https://logycoconut.github.io/area/tech/freelance/</guid>
+      <source url="https://logycoconut.github.io/rss.xml">独立开发</source>
+      <description>独立开发</description>
+      <pubDate>Tue, 23 Sep 2025 10:16:36 GMT</pubDate>
+      <content:encoded><![CDATA[
+]]></content:encoded>
+    </item>
+    <item>
+      <title>独立开发指南</title>
+      <link>https://logycoconut.github.io/area/tech/freelance/%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97.html</link>
+      <guid>https://logycoconut.github.io/area/tech/freelance/%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97.html</guid>
+      <source url="https://logycoconut.github.io/rss.xml">独立开发指南</source>
+      <description>独立开发指南 Github 快速搭建一个应用 *https://github.com/wasp-lang/wasp 怎么给 APP、网站设计一个好的配色 *https://aicolors.co/ 免费可用的云服务 ✅ vercel - https://vercel.com/ railway - https://railway.com/ netlify...</description>
+      <pubDate>Tue, 23 Sep 2025 10:16:36 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h4>Github</h4>
+<h4>快速搭建一个应用</h4>
+<ul>
+<li>*<a href="https://github.com/wasp-lang/wasp" target="_blank" rel="noopener noreferrer">https://github.com/wasp-lang/wasp</a></li>
+</ul>
+<h4>怎么给 APP、网站设计一个好的配色</h4>
+<ul>
+<li>*<a href="https://aicolors.co/" target="_blank" rel="noopener noreferrer">https://aicolors.co/</a></li>
+</ul>
+<h3>免费可用的云服务 ✅</h3>
+<ul>
+<li>
+<p>vercel -  <a href="https://vercel.com/" target="_blank" rel="noopener noreferrer">https://vercel.com/</a></p>
+</li>
+<li>
+<p>railway - <a href="https://railway.com/" target="_blank" rel="noopener noreferrer">https://railway.com/</a></p>
+</li>
+<li>
+<p>netlify - <a href="https://app.netlify.com/" target="_blank" rel="noopener noreferrer">https://app.netlify.com/</a></p>
+</li>
+<li>
+<p>render - <a href="https://dashboard.render.com/" target="_blank" rel="noopener noreferrer">https://dashboard.render.com/</a></p>
+</li>
+<li>
+<p>supabase - <a href="https://supabase.com/" target="_blank" rel="noopener noreferrer">https://supabase.com/</a></p>
+</li>
+<li>
+<p>upstash - <a href="https://upstash.com/" target="_blank" rel="noopener noreferrer">https://upstash.com/</a><br>
+免费的 KV 服务<br>
+Data Size 256 MB<br>
+Monthly Commands 500 K</p>
+</li>
+<li>
+<p>axiom - <a href="https://axiom.co/" target="_blank" rel="noopener noreferrer">https://axiom.co/</a><br>
+免费的日志服务<br>
+Always Free storage <strong>25GB</strong></p>
+</li>
+</ul>
+<h3>产品设计工具</h3>
+<ul>
+<li><a href="https://stitch.withgoogle.com/" target="_blank" rel="noopener noreferrer">Google Stitch</a>  - AI 设计工具 / Design with AI<br>
+可以快速将想法落地为 Figma 文档</li>
+</ul>
+<h3>存储</h3>
+<h4>数据库</h4>
+<ul>
+<li>
+<p><a href="https://www.prisma.io/" target="_blank" rel="noopener noreferrer">Prisma</a> - 免费的 PostgreSQL 服务<br>
+提供 1 个 G 的存储、至多 10 个数据库、以及前 100k 个请求免费<br>
+足够折腾一些小东西了</p>
+</li>
+<li>
+<p><a href="https://tidbcloud.com/" target="_blank" rel="noopener noreferrer">TiDB</a> - TiDB 本身是是一种开源的分布式 NewSQL 数据库，兼容 MySQL 的语法<br>
+TiDB Cloud 提供了免费套餐（5GB 存储，每月 50M 请求单元），适合测试和小型项目<br>
+<em>With the free quota, customers can store 5 GiB of row-based data, 5 GiB of columnar data, and consume 50 million RUs for one month</em><br>
+可以直接当成 MySQL 来使用</p>
+</li>
+</ul>
+<h3>域名服务</h3>
+<h4>域名购买</h4>
+<ul>
+<li><a href="https://www.spaceship.com/zh/" target="_blank" rel="noopener noreferrer">spaceship</a> - 性价比<br>
+购买后托管给 Cloudfare 即可</li>
+</ul>
+<h3>UI 设计</h3>
+<h4>图标库</h4>
+<ul>
+<li><a href="https://www.thiings.co/things" target="_blank" rel="noopener noreferrer">The Things Collection</a> 立体图标库<br>
+<em>作者信息： <a href="https://x.com/clarkcharlie03" target="_blank" rel="noopener noreferrer">https://x.com/clarkcharlie03</a></em><br>
+图标都设计的很有趣，让人眼前一亮</li>
+</ul>
+<h2>开发</h2>
+<h3>Front-End</h3>
+<h4>组件</h4>
+<ul>
+<li><a href="https://tamagui.dev/" target="_blank" rel="noopener noreferrer">tamagui</a> - for&nbsp;React&nbsp;and&nbsp;React&nbsp;Native</li>
+<li>Magic UI - <a href="https://magicui.design/" target="_blank" rel="noopener noreferrer">https://magicui.design/</a></li>
+<li>Hero UI - <a href="https://www.heroui.com/" target="_blank" rel="noopener noreferrer">https://www.heroui.com/</a></li>
+<li>Radix UI - <a href="https://www.radix-ui.com/" target="_blank" rel="noopener noreferrer">https://www.radix-ui.com/</a></li>
+</ul>
+<h3>Back-End</h3>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI 开发的神兵利器</title>
+      <link>https://logycoconut.github.io/area/tech/AI/AI%20%E5%BC%80%E5%8F%91%E7%9A%84%E7%A5%9E%E5%85%B5%E5%88%A9%E5%99%A8.html</link>
+      <guid>https://logycoconut.github.io/area/tech/AI/AI%20%E5%BC%80%E5%8F%91%E7%9A%84%E7%A5%9E%E5%85%B5%E5%88%A9%E5%99%A8.html</guid>
+      <source url="https://logycoconut.github.io/rss.xml">AI 开发的神兵利器</source>
+      <description>AI 开发的神兵利器 编辑器 / Cli / 插件 Kiro，50 次 / month 的 Vibe 额度，好用 Qoder，阿里推出的 Code 工具，不提供免费额度 Trae，字节的产品，10 fast + 50 slow / month CodeX，openAI 的产品，目前很强势 Gemini Cli， google 家的产品，胜在免费，但是会...</description>
+      <pubDate>Tue, 23 Sep 2025 10:11:07 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h3>编辑器 / Cli / 插件</h3>
+<ul>
+<li>
+<p>Kiro，50 次 / month 的 Vibe 额度，好用</p>
+</li>
+<li>
+<p>Qoder，阿里推出的 Code 工具，不提供免费额度</p>
+</li>
+<li>
+<p>Trae，字节的产品，10 fast + 50 slow / month</p>
+</li>
+<li>
+<p>CodeX，openAI 的产品，目前很强势</p>
+</li>
+<li>
+<p>Gemini Cli， google 家的产品，胜在免费，但是会有很多幻觉，很犟</p>
+</li>
+<li>
+<p><a href="https://community.atlassian.com/forums/Rovo-for-Software-Teams-Beta/Introducing-Rovo-Dev-CLI-AI-Powered-Development-in-your-terminal/ba-p/3043623?referer=https://community.atlassian.com/forums/Rovo-for-Software-Teams-Beta/Introducing-Rovo-Dev-CLI-AI-Powered-Development-in-your-terminal/ba-p/3043623" target="_blank" rel="noopener noreferrer">Rovo Dev Agent</a>，atlassian 家的产品，目前还是免费的，每天有 20M token 的额度，完全足够用了</p>
+</li>
+<li>
+<p>Augment Code，一个插件，方便在 IDEA 中也可以方便的使用 AI，每个月也有不少免费额度，好用</p>
+</li>
+</ul>
+<h3>如何优化自己的提示词</h3>
+<p>todo...</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI 编程</title>
+      <link>https://logycoconut.github.io/area/tech/AI/</link>
+      <guid>https://logycoconut.github.io/area/tech/AI/</guid>
+      <source url="https://logycoconut.github.io/rss.xml">AI 编程</source>
+      <description>AI 编程</description>
+      <pubDate>Tue, 23 Sep 2025 10:11:07 GMT</pubDate>
+      <content:encoded><![CDATA[
+]]></content:encoded>
+    </item>
+    <item>
+      <title>体重变化记录</title>
+      <link>https://logycoconut.github.io/area/log_for_life/health/%E4%BD%93%E9%87%8D%E5%8F%98%E5%8C%96%E8%AE%B0%E5%BD%95.html</link>
+      <guid>https://logycoconut.github.io/area/log_for_life/health/%E4%BD%93%E9%87%8D%E5%8F%98%E5%8C%96%E8%AE%B0%E5%BD%95.html</guid>
+      <source url="https://logycoconut.github.io/rss.xml">体重变化记录</source>
+      <description>体重变化记录 “属实是没有想到有朝一日我会新建一个文档来记录我的减肥经历”</description>
+      <pubDate>Tue, 23 Sep 2025 09:44:08 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>“属实是没有想到有朝一日我会新建一个文档来记录我的减肥经历”</p>
+<p>| 日期                 | 体重（斤） | 备注  |<br>
+|</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>第 21 期：听演唱会</title>
+      <link>https://logycoconut.github.io/area/log_for_life/weekly/%E7%AC%AC%2021%20%E6%9C%9F%EF%BC%9A%E5%90%AC%E6%BC%94%E5%94%B1%E4%BC%9A.html</link>
+      <guid>https://logycoconut.github.io/area/log_for_life/weekly/%E7%AC%AC%2021%20%E6%9C%9F%EF%BC%9A%E5%90%AC%E6%BC%94%E5%94%B1%E4%BC%9A.html</guid>
+      <source url="https://logycoconut.github.io/rss.xml">第 21 期：听演唱会</source>
+      <description>第 21 期：听演唱会 MVIMG_20250912_212753.jpgMVIMG_20250912_212753.jpg 拍摄于南京·奥体 朋友帮忙抢的汪苏泷演唱会门票 现场太有感觉了，感觉复习了一遍我的初中曲库 近期两三事 无意中看到的一个版本号发布规则 名为「骄傲版本控制」，例如说 2.7.123 2：自豪版本，当你为发布感到自豪时进行 Bum...</description>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<figure><img src="https://cdn.jsdelivr.net/gh/logycoconut/pic-repo@master/daily/weeklyMVIMG_20250912_212753.jpg" alt="MVIMG_20250912_212753.jpg" tabindex="0" loading="lazy"><figcaption>MVIMG_20250912_212753.jpg</figcaption></figure>
+<blockquote>
+<p>拍摄于南京·奥体<br>
+朋友帮忙抢的汪苏泷演唱会门票<br>
+现场太有感觉了，感觉复习了一遍我的初中曲库</p>
+</blockquote>
+<h2>近期两三事</h2>
+<h4>无意中看到的一个版本号发布规则</h4>
+<p>名为「骄傲版本控制」，例如说 <code>2.7.123</code></p>
+<ul>
+<li>2：自豪版本，当你为发布感到自豪时进行 Bump</li>
+<li>7：默认版本，只是正常的/可以发布的版本</li>
+<li>123：羞愧版本，修复问题时尴尬到无法承认</li>
+</ul>
+<h4>CookLikeHOC / 🥢像老乡鸡🐔那样做饭</h4>
+<ul>
+<li><a href="https://github.com/logycoconut/CookLikeHOC" target="_blank" rel="noopener noreferrer">https://github.com/logycoconut/CookLikeHOC</a></li>
+</ul>
+<p>谁能想到老乡鸡也能开源？！</p>
+<p>好吧，其实是网友整理的，但是里面的菜品都是根据老乡鸡公开资料整理的<br>
+看了几个，好像还真有点用<br>
+用量都非常精准，可以复刻出老乡鸡的味道</p>
+<h2>效率工具</h2>
+<h4>macOS / networkQuality 命令检测网络质量</h4>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" data-title="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">➜</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">  ~</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> networkQuality</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">====</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> SUMMARY</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ====</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Uplink</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> capacity:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 34.519</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> Mbps</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Downlink</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> capacity:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 418.937</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> Mbps</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Responsiveness:</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> Medium</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> (177.740 </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">milliseconds</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> | </span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">337</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> RPM</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">Idle</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> Latency:</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 189.437</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> milliseconds</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> | </span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">316</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> RPM</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4>如何选择正确的开源许可证？</h4>
+<ul>
+<li><a href="https://choosealicense.com" target="_blank" rel="noopener noreferrer">https://choosealicense.com</a></li>
+</ul>
+<p>之前一直对各种许可证摸不着头脑，只知道大家一般都用 MIT<br>
+有一个网站可以对照会清晰很多，网址也很好记</p>
+<h2>随便看看</h2>
+<h4>新·驯龙高手 / 电影</h4>
+<ul>
+<li><a href="https://movie.douban.com/subject/36247731/" target="_blank" rel="noopener noreferrer">https://movie.douban.com/subject/36247731/</a></li>
+</ul>
+<p>动画 IP 真人化的特别离谱！完全挑不出毛病来<br>
+选角和特效还原度非常高<br>
+（有些真人版真的是不忍直视）</p>
+]]></content:encoded>
+      <enclosure url="https://cdn.jsdelivr.net/gh/logycoconut/pic-repo@master/daily/weeklyMVIMG_20250912_212753.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>我的家庭影院入门</title>
+      <link>https://logycoconut.github.io/area/lifestyle/%E5%AE%B6%E5%BA%AD%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8C%87%E5%8C%97/%E6%88%91%E7%9A%84%E5%AE%B6%E5%BA%AD%E5%BD%B1%E9%99%A2%E5%85%A5%E9%97%A8.html</link>
+      <guid>https://logycoconut.github.io/area/lifestyle/%E5%AE%B6%E5%BA%AD%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8C%87%E5%8C%97/%E6%88%91%E7%9A%84%E5%AE%B6%E5%BA%AD%E5%BD%B1%E9%99%A2%E5%85%A5%E9%97%A8.html</guid>
+      <source url="https://logycoconut.github.io/rss.xml">我的家庭影院入门</source>
+      <description>我的家庭影院入门 硬件部分 Amazon Fire TV 2nd Xiaomi 电视 75 寸（其实效果不太好，有一点落伍，但是是原房主送的，将就用着） 路由器 Xiaomi AX3000T，性能基本够用，不看蓝盘不会卡顿 软件（ Android TV ） 当贝桌面精简版，应用启动器，比 Fire TV 原生桌面流畅 飞牛 TV，现在基本上就用这个看影...</description>
+      <pubDate>Tue, 23 Sep 2025 09:32:33 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h3>硬件部分</h3>
+<ul>
+<li>Amazon Fire TV 2nd</li>
+<li>Xiaomi 电视 75 寸（其实效果不太好，有一点落伍，但是是原房主送的，将就用着）</li>
+<li>路由器 Xiaomi AX3000T，性能基本够用，不看蓝盘不会卡顿</li>
+</ul>
+<h3>软件（ Android TV ）</h3>
+<ul>
+<li>当贝桌面精简版，应用启动器，比 Fire TV 原生桌面流畅</li>
+<li>飞牛 TV，现在基本上就用这个看影视了</li>
+<li>OrionTV + <s>MoonTV</s>，一个影视聚合播放器, 资源不是特别高清，用作飞牛的备份<br>
+原作者已经不维护了（但是功能已经很完善，够用），可以关注衍生分支 <a href="https://github.com/djteang/OrangeTV" target="_blank" rel="noopener noreferrer">OrangeTV</a></li>
+<li>Clash For Android TV，用来看 Youtube 的，不过不太常用</li>
+<li><a href="https://github.com/xiaoyaocz/dart_simple_live" target="_blank" rel="noopener noreferrer">Simple TV</a>，在 Android 平台聚合各大直播网站的 APP<br>
+作者不提供 release 包，但是可以在仓库的 Actions 中找到打好的包</li>
+</ul>
+<h3>其他</h3>
+<p>等 Apple TV 新品发布 &amp; 飞牛 TV Apple TV App 发布后，可能会换成 Apple TV</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Amazon Fire TV 购买体验</title>
       <link>https://logycoconut.github.io/area/lifestyle/%E5%AE%B6%E5%BA%AD%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8C%87%E5%8C%97/03_Amazon%20Fire%20TV%20%E8%B4%AD%E4%B9%B0%E4%BD%93%E9%AA%8C.html</link>
@@ -821,9 +1171,13 @@
       <link>https://logycoconut.github.io/area/other/life_guidelines.html</link>
       <guid>https://logycoconut.github.io/area/other/life_guidelines.html</guid>
       <source url="https://logycoconut.github.io/rss.xml">椰子呆呆的人生准则</source>
-      <description>椰子呆呆的人生准则 好好吃饭～ 了解自己的食量 早饭：1 个枫糖面包 + 1 杯拿铁 中午：1 荤 1 素 1 碗饭 晚饭：1 荤 1 素 1 碗饭 不暴饮暴食，尽量只吃 8 分饱 晕碳真的很难受 10 点后不进食（特殊原因除外） 喝水这件小事 多喝水 每小时喝 200ml（半杯） 保持运动 保持有氧运动（跑步、游泳、拳击...） 每周 2 小时 游戏...</description>
+      <description>椰子呆呆的人生准则 「健康学习到 150 岁」 https://github.com/zijie0/HumanSystemOptimization 好好吃饭～ 了解自己的食量 早饭：1 个枫糖面包 + 1 杯拿铁 中午：1 荤 1 素 1 碗饭 晚饭：1 荤 1 素 1 碗饭 不暴饮暴食，尽量只吃 8 分饱 晕碳真的很难受 10 点后不进食（特殊原因除...</description>
       <pubDate>Sun, 09 Mar 2025 15:38:51 GMT</pubDate>
       <content:encoded><![CDATA[
+<h2>「健康学习到 150 岁」</h2>
+<ul>
+<li><a href="https://github.com/zijie0/HumanSystemOptimization" target="_blank" rel="noopener noreferrer">https://github.com/zijie0/HumanSystemOptimization</a></li>
+</ul>
 <h3>好好吃饭～</h3>
 <ul>
 <li>了解自己的食量
@@ -836,6 +1190,12 @@
 <li>不暴饮暴食，尽量只吃 8 分饱<br>
 <em>晕碳真的很难受</em></li>
 <li>10 点后不进食（特殊原因除外）</li>
+<li>注意保护好自己的胰岛<br>
+<em>身边的亲人得了糖尿病有感</em></li>
+<li>尽量自己烧饭吃<br>
+家里食材太多了，容易浪费<br>
+有时候觉得家里冰箱的僵尸肉和外卖的劣质肉有啥区别呢<br>
+如果选择线下连锁店的外卖，家里肉甚至还比不上店里的</li>
 </ul>
 <h3>喝水这件小事</h3>
 <ul>
@@ -844,6 +1204,8 @@
 <li>每小时喝 200ml（半杯）</li>
 </ul>
 </li>
+<li>尽量选择无糖、五分糖<br>
+如果不加糖实在不好喝的话就选择喝水</li>
 </ul>
 <h3>保持运动</h3>
 <ul>
@@ -891,6 +1253,7 @@
 <li>在外工作</li>
 <li>每天解决 10 个问题</li>
 </ul>
+<h3>SOP</h3>
 ]]></content:encoded>
     </item>
     <item>
@@ -1254,24 +1617,6 @@ WinOS 的需求主要就是 LOL，后续可以使用 matebook 接显示器解决
       <guid>https://logycoconut.github.io/area/lifestyle/03_%E5%B0%B1%E6%98%AF%E7%88%B1%E6%8A%98%E8%85%BE%E7%B3%BB%E5%88%97/%E9%BB%91%E8%8B%B9%E6%9E%9C%E7%9B%B8%E5%85%B3/</guid>
       <source url="https://logycoconut.github.io/rss.xml">黑苹果</source>
       <pubDate>Tue, 11 Feb 2025 09:47:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>全栈开发指南</title>
-      <link>https://logycoconut.github.io/inbox/%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97.html</link>
-      <guid>https://logycoconut.github.io/inbox/%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97.html</guid>
-      <source url="https://logycoconut.github.io/rss.xml">全栈开发指南</source>
-      <description>全栈开发指南 快速搭建一个应用 *https://github.com/wasp-lang/wasp 怎么给 APP、网站设计一个好的配色 *https://aicolors.co/</description>
-      <pubDate>Sun, 09 Feb 2025 13:15:16 GMT</pubDate>
-      <content:encoded><![CDATA[
-<h4>快速搭建一个应用</h4>
-<ul>
-<li>*<a href="https://github.com/wasp-lang/wasp" target="_blank" rel="noopener noreferrer">https://github.com/wasp-lang/wasp</a></li>
-</ul>
-<h4>怎么给 APP、网站设计一个好的配色</h4>
-<ul>
-<li>*<a href="https://aicolors.co/" target="_blank" rel="noopener noreferrer">https://aicolors.co/</a></li>
-</ul>
-]]></content:encoded>
     </item>
     <item>
       <title>2024.11</title>
@@ -1994,32 +2339,6 @@ _主题安装需要在 <code>Package Control: Install Package Package</code> 选
 <span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    "color_scheme"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"ayu-dark.sublime-color-scheme"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span></span>
 <span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>拿到一台新电脑后，我需要做什么</title>
-      <link>https://logycoconut.github.io/area/other/%E6%8B%BF%E5%88%B0%E4%B8%80%E5%8F%B0%E6%96%B0%E7%94%B5%E8%84%91%E5%90%8E%EF%BC%8C%E6%88%91%E9%9C%80%E8%A6%81%E5%81%9A%E4%BB%80%E4%B9%88.html</link>
-      <guid>https://logycoconut.github.io/area/other/%E6%8B%BF%E5%88%B0%E4%B8%80%E5%8F%B0%E6%96%B0%E7%94%B5%E8%84%91%E5%90%8E%EF%BC%8C%E6%88%91%E9%9C%80%E8%A6%81%E5%81%9A%E4%BB%80%E4%B9%88.html</guid>
-      <source url="https://logycoconut.github.io/rss.xml">拿到一台新电脑后，我需要做什么</source>
-      <description>拿到一台新电脑后，我需要做什么 App 字体 LXGW Neo XiHei / 霞鹜新晰黑 目前用于 Obsidian 的文档字体，非常舒服 Regular 即可 下载地址： https://github.com/lxgw/LxgwNeoXiHei 开发环境 pnpm node 使用 pnpm 来管理 node 环境 *https://pnpm.io/...</description>
-      <pubDate>Fri, 11 Oct 2024 10:43:17 GMT</pubDate>
-      <content:encoded><![CDATA[
-<h3>App</h3>
-<h3>字体</h3>
-<h4>LXGW Neo XiHei / 霞鹜新晰黑</h4>
-<ul>
-<li>目前用于 Obsidian 的文档字体，非常舒服</li>
-<li>Regular 即可</li>
-<li>下载地址： <a href="https://github.com/lxgw/LxgwNeoXiHei" target="_blank" rel="noopener noreferrer">https://github.com/lxgw/LxgwNeoXiHei</a></li>
-</ul>
-<h3>开发环境</h3>
-<h4>pnpm</h4>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" data-title="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">curl</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -fsSL</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> https://get.pnpm.io/install.sh</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> | </span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">sh</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> -</span></span>
-<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">source</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> /Users/logycoconut/.zshrc</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><h4>node</h4>
-<p><em>使用 pnpm 来管理 node 环境</em><br>
-*<a href="https://pnpm.io/zh/next/cli/env" target="_blank" rel="noopener noreferrer">https://pnpm.io/zh/next/cli/env</a></p>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" data-title="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">pnpm</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> env</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> use</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> --global</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> lts</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content:encoded>
     </item>
     <item>
       <title>Kafka 为什么这么快？RocketMQ 哪里不如 Kafka？</title>
@@ -6360,59 +6679,16 @@ max_trx_id并不是m_ids中的最大值</li>
 ]]></content:encoded>
     </item>
     <item>
-      <title>Obsidian 插件</title>
+      <title>Obsidian 主题、插件</title>
       <link>https://logycoconut.github.io/area/lifestyle/02_%E8%A3%85%E6%9C%BA%E5%BF%85%E5%A4%87/05_Obsidian%20Plugins.html</link>
       <guid>https://logycoconut.github.io/area/lifestyle/02_%E8%A3%85%E6%9C%BA%E5%BF%85%E5%A4%87/05_Obsidian%20Plugins.html</guid>
-      <source url="https://logycoconut.github.io/rss.xml">Obsidian 插件</source>
-      <description>Obsidian 插件 Obsidian Git 使用 Git 管理 Obsidian 仓库 Excalidraw 手绘风格画图工具，另见 Excalidraw CN Excalidraw 的中文字体优化版本，我现在正在用这个 Easy Typing 优化中英文输入，在中英文之间加入 盘古之白 Image auto upload Plugin 配合 P...</description>
+      <source url="https://logycoconut.github.io/rss.xml">Obsidian 主题、插件</source>
+      <description>Obsidian 主题、插件 插件 主题 (排名分先后)</description>
       <pubDate>Wed, 13 Sep 2023 07:03:20 GMT</pubDate>
       <content:encoded><![CDATA[
-<ul>
-<li>
-<p><code>Obsidian Git</code><br>
-使用 <code>Git</code> 管理 <code>Obsidian</code> 仓库</p>
-</li>
-<li>
-<p><code>Excalidraw</code><br>
-手绘风格画图工具，另见 <code>Excalidraw CN</code><br>
-<code>Excalidraw</code> 的中文字体优化版本，我现在正在用这个</p>
-</li>
-<li>
-<p><code>Easy Typing</code><br>
-优化中英文输入，在中英文之间加入 <em>盘古之白</em></p>
-</li>
-<li>
-<p><code>Image auto upload Plugin</code><br>
-配合 <code>PicGo</code> 可以实现无缝粘贴图片<br>
-在《基于 <code>VuePress Theme Hope</code>、<code>Obsidian</code> 搭建个人知识库》文章中介绍了 <code>PicGo</code> 结合 <code>Github</code> 图床的用法</p>
-</li>
-<li>
-<p><code>Paste URL into selection</code><br>
-改善超链接</p>
-</li>
-<li>
-<p><code>Linter</code><br>
-文件格式化</p>
-</li>
-<li>
-<p><code>BRAT</code><br>
-用于安装还未上架到应用商店的插件<br>
-通过输入 <code>Git</code> 仓库就直接安装插件</p>
-</li>
-<li>
-<p><code>Editor Syntax Highlight</code><br>
-高亮代码块，需要手动安装<br>
-<a href="https://github.com/deathau/cm-editor-syntax-highlight-obsidian" target="_blank" rel="noopener noreferrer">https://github.com/deathau/cm-editor-syntax-highlight-obsidian</a></p>
-</li>
-<li>
-<p><code>Typewriter Mode</code><br>
-打字机模式，帮助打字始终在页面中间</p>
-</li>
-<li>
-<p><code>Advanced Tables</code><br>
-格式化 <code>Markdown</code> 表格格式</p>
-</li>
-</ul>
+<h3>插件</h3>
+<p>| name                     | remark                                                                                                  |<br>
+|</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -7897,11 +8173,11 @@ Roll_pointer</p>
       <link>https://logycoconut.github.io/area/lifestyle/02_%E8%A3%85%E6%9C%BA%E5%BF%85%E5%A4%87/01_MacOS%20%E8%BD%AF%E4%BB%B6.html</link>
       <guid>https://logycoconut.github.io/area/lifestyle/02_%E8%A3%85%E6%9C%BA%E5%BF%85%E5%A4%87/01_MacOS%20%E8%BD%AF%E4%BB%B6.html</guid>
       <source url="https://logycoconut.github.io/rss.xml">拿到一台新 Mac，该安装哪些 APP？</source>
-      <description>拿到一台新 Mac，该安装哪些 APP？ 以下软件都可以在官网、Github 仓库直接下载安装 不要轻易相信三方网站，注意甄别哦～ 开发工具 另外： 「Sequel Pro」的正式版在 Mac 上打开有点问题，可以下载 测试版本。 oh-my-zsh 插件 *指南： https://github.com/dunwu/linux-tutorial/blo...</description>
+      <description>拿到一台新 Mac，该安装哪些 APP？ 以下软件都可以在官网、Github 仓库直接下载安装 不要轻易相信三方网站，注意甄别～ 开发工具 另外： 「Sequel Pro」的正式版在 Mac 上打开有点问题，可以下载 测试版本。 oh-my-zsh 插件 *指南： https://github.com/dunwu/linux-tutorial/blob...</description>
       <pubDate>Sun, 02 Jul 2023 05:19:06 GMT</pubDate>
       <content:encoded><![CDATA[
 <p><em>以下软件都可以在官网、Github 仓库直接下载安装<br>
-不要轻易相信三方网站，注意甄别哦～</em></p>
+不要轻易相信三方网站，注意甄别～</em></p>
 <h3>开发工具</h3>
 <p>| 名称                               | 介绍                  | 备注                                                 |<br>
 | :</p>
@@ -18611,7 +18887,7 @@ type 作为 index 中的逻辑类别</p>
       <link>https://logycoconut.github.io/area/other/website_navigation.html</link>
       <guid>https://logycoconut.github.io/area/other/website_navigation.html</guid>
       <source url="https://logycoconut.github.io/rss.xml">网站导航</source>
-      <description>网站导航 🙋 社交 社区门户 好想法 🔧 工具 创意 图片处理 思考工具 💻 开发 文档 流程图 独立开发者工具 📦 资源 Mac 应用 电子书 装机资源 壁纸 英语学习 字体</description>
+      <description>网站导航 🙋 社交 社区门户 好想法 🔧 工具 创意 图片处理 思考工具 💻 开发 文档 流程图 独立开发者工具 📦 资源 Mac 应用 电子书 装机资源 壁纸 英语学习 字体库</description>
       <pubDate>Sat, 03 Dec 2022 10:40:47 GMT</pubDate>
       <content:encoded><![CDATA[
 <h2>🙋 社交</h2>
@@ -18737,11 +19013,11 @@ type 作为 index 中的逻辑类别</p>
 ]]></content:encoded>
     </item>
     <item>
-      <title>基础教程</title>
+      <title></title>
       <link>https://logycoconut.github.io/resource/code/09_tools/01_Docker/01_Docker%20%E5%85%A5%E9%97%A8.html</link>
       <guid>https://logycoconut.github.io/resource/code/09_tools/01_Docker/01_Docker%20%E5%85%A5%E9%97%A8.html</guid>
-      <source url="https://logycoconut.github.io/rss.xml">基础教程</source>
-      <description>教程 配置加速器 在 Docker daemon configuration file 中写入 {&amp;quot;registry-mirrors&amp;quot;:[&amp;quot;http://hub-mirror.c.163.com&amp;quot;]} 容器使用 创建镜像 基于已有的镜像创建 基于 Dockerfile 来创建（推荐） 导出、加载镜像 加载镜像 上传镜像 创建自己的仓库 查看现有的镜像 ...</description>
+      <source url="https://logycoconut.github.io/rss.xml"></source>
+      <description>教程 配置加速器 在 Docker daemon configuration file 中写入 {&amp;quot;registry-mirrors&amp;quot;:[&amp;quot;http://hub-mirror.c.163.com&amp;quot;]} 镜像站网站 境内 Docker 镜像状态监控 https://status.anye.xyz/ 镜像站 https://mirror.kentxxq.c...</description>
       <pubDate>Mon, 17 May 2021 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" data-title="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span>强大的容器技术，前后端都用得着</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h2>教程</h2>
@@ -18754,7 +19030,12 @@ type 作为 index 中的逻辑类别</p>
 <span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">http://hub-mirror.c.163.com</span></span>
 <span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 阿里云镜像（专属加速）</span></span>
 <span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3>容器使用</h3>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4>镜像站网站</h4>
+<ul>
+<li>境内 Docker 镜像状态监控 <a href="https://status.anye.xyz/" target="_blank" rel="noopener noreferrer">https://status.anye.xyz/</a></li>
+<li>镜像站 <a href="https://mirror.kentxxq.com/image" target="_blank" rel="noopener noreferrer">https://mirror.kentxxq.com/image</a></li>
+</ul>
+<h3>容器使用</h3>
 <div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" data-title="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 启动一个 alpine 镜像并指定 name</span></span>
 <span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># -i 交互式操作</span></span>
 <span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># -t 终端</span></span>

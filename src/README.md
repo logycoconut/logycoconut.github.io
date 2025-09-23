@@ -3,6 +3,7 @@ title: 主页
 tags: 
 home: true
 portfolio: true
+avatar: https://cdn.jsdelivr.net/gh/logycoconut/pic-repo@master/daily/life/IMG_SEGMENT_SEND.png
 icon: house
 welcome: 👋 你好，我是
 name: logycoconut

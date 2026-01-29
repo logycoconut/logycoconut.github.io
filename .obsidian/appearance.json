@@ -1,10 +1,10 @@
 {
   "accentColor": "",
   "cssTheme": "Baseline",
-  "theme": "system",
+  "theme": "moonstone",
   "enabledCssSnippets": [],
   "translucency": true,
-  "baseFontSize": 16,
+  "baseFontSize": 17,
   "baseFontSizeAction": false,
   "nativeMenus": false,
   "textFontFamily": "LXGW ZhenKai GB,Maple Mono NF,LXGW WenKai Mono GB Screen,LXGW Neo XiHei Screen Full,Source Han Sans",

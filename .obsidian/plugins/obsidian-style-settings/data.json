@@ -63,6 +63,9 @@
   "zen@@mac-window-opacity": 0,
   "zen@@close-left-vault-profile": false,
   "Mobile@@drawer-phone-full-width": true,
+  "phycat-colors@@light-color-scheme": "theme-light-cheery",
+  "phycat-colors@@dark-color-scheme": "theme-dark-radiation",
+  "phycat-layout@@layout-style": "layout-default",
   "baseline-style@@accented-interface": true,
   "baseline-style@@color-scheme-light": "notion-light",
   "baseline-style@@color-scheme-dark": "notion-dark",
@@ -71,6 +74,10 @@
   "baseline-style@@radius-modifier": 0.75,
   "baseline-style@@layout-style": "layout-minimal",
   "baseline-style@@anim-motion-baseline": "cubic-bezier(0.32, 0.72, 0, 1)",
+  "baseline-style@@tab-style": "tab-underline-accented",
+  "baseline-style@@tab-top-left-style": "tab-top-left-icon",
+  "baseline-style@@tab-left-style": "tab-left-icon",
+  "baseline-style@@tab-right-style": "tab-right-icon",
   "baseline-style@@nav-item-active-style": "nav-item-subtle",
   "baseline-style@@hide-vault-switcher-off": true,
   "baseline-style@@nav-indentation-guide-width": "0px",
@@ -92,8 +99,5 @@
   "baseline-style@@blockquote-background-color@@dark": "#FFFFFF00",
   "baseline-style@@blockquote-background-color@@light": "#FFFFFF00",
   "baseline-style@@blockquote-border-color@@dark": "#F0EFED",
-  "baseline-style@@blockquote-border-color@@light": "#2C2C2B",
-  "phycat-colors@@light-color-scheme": "theme-light-cheery",
-  "phycat-colors@@dark-color-scheme": "theme-dark-radiation",
-  "phycat-layout@@layout-style": "layout-default"
+  "baseline-style@@blockquote-border-color@@light": "#2C2C2B"
 }

@@ -82,12 +82,18 @@ id: 1739286855908074
 
 ### Mac 应用
 
-| 站点                                     | 简介 |
-| ---------------------------------------- | ---- |
-| [MacYY](http://www.macyy.cn)             |      |
-| [麦克搜](https://www.imacso.com)         |      |
-| [MacApp 分享频道](https://macapp.org.cn) |      |
-| [ORANGE MAC 应用商店](http://www.onemac.app)                                         |      |
+| 站点                                                   | 简介  |
+| ---------------------------------------------------- | --- |
+| [麦克搜](https://www.imacso.com)                        |     |
+| [MacApp 分享频道](https://macapp.org.cn)                 |     |
+| [MacWK](https://macwk.cn/)                           |     |
+| [minorpatch](https://www.minorpatch.com/)            |     |
+| [macbed](https://www.macbed.com/)                    |     |
+| [macked](https://macked.app/)                        |     |
+| [XMac](https://xmac.app/)                            |     |
+| [cmacked](https://cmacked.com/apps/)                 |     |
+| [awesome-mac](https://wangchujiang.com/awesome-mac/) |     |
+| [haxmac](https://haxmac.cc/)                         |     |
 
 ### 电子书
 
@@ -98,11 +104,11 @@ id: 1739286855908074
 
 ### 装机资源
 
-| 站点                                       | 简介                              |
-| ------------------------------------------ | --------------------------------- |
+| 站点                                         | 简介                  |
+| ------------------------------------------ | ------------------- |
 | [i tell you](https://next.itellyou.cn)     | 各个操作系统的镜像（脱胎于 MSDN） |
-| [飞牛 OS](https://www.fnnas.com/)          | 免费好用的 NAS 系统               |
-| [balenaEtcher](https://etcher.balena.io/)/ |               U 盘刻录工具                    | 
+| [飞牛 OS](https://www.fnnas.com/)            | 免费好用的 NAS 系统        |
+| [balenaEtcher](https://etcher.balena.io/)/ | U 盘刻录工具             |
 
 ### 壁纸
 
@@ -124,3 +130,10 @@ id: 1739286855908074
 | [LXGW Neo XiHei / 霞鹜新晰黑](https://github.com/lxgw/LxgwNeoXiHei)<br>[LXGW WenKai GB / 霞鹜文楷](https://github.com/lxgw/LxgwWenKai-Screen) | 个人设计师，其他作品也都很好看 |
 | [Maple Mono](https://github.com/subframe7536/maple-font?tab=readme-ov-file)                                                          | 编程字体            |
 | [思源黑体](https://github.com/adobe-fonts/source-han-sans)                                                                               |                 |
+
+### 游戏库
+
+| 名称                                     | 简介  |
+| -------------------------------------- | --- |
+| [Switch520](https://www.gamer520.com/) |     |
+|  [蒸汽宝库](https://www.steambk.com/)      |     |

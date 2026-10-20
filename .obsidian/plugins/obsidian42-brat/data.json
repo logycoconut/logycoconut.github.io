@@ -1,10 +1,17 @@
 {
-  "pluginList": [],
-  "pluginSubListFrozenVersion": [],
+  "pluginList": [
+    "PandoraReads/apex-dashboard"
+  ],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "PandoraReads/apex-dashboard",
+      "version": "latest"
+    }
+  ],
   "themesList": [
     {
       "repo": "sumruler/obsidian-theme-phycat",
-      "lastUpdate": "29855473"
+      "lastUpdate": "39638238"
     }
   ],
   "updateAtStartup": true,
@@ -15,6 +22,7 @@
   "loggingVerboseEnabled": false,
   "debuggingMode": false,
   "notificationsEnabled": true,
+  "globalTokenName": "",
   "personalAccessToken": "",
   "selectLatestPluginVersionByDefault": false,
   "allowIncompatiblePlugins": false

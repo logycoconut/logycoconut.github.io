@@ -27,6 +27,8 @@ tag: [JetBrains, ja-netfilter, Datagrip, IDEA]
 
 ### `ja-netfilter` 登场
 
+- 更新于 2025.12，ja-netfilter 适配 Java25 啦，[直达链接](https://zhile.io/2025/10/31/ja-netfilter-for-java25.html)
+
 *项目介绍： https://zhile.io/2021/11/29/ja-netfilter-javaagent-lib.html*
 
 `ja-netfilter` 是 zhile 大佬开发的一款插件

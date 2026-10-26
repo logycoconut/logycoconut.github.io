@@ -6,14 +6,14 @@
     <link>https://logycoconut.github.io/</link>
     <description>logycoconut&amp;apos;s k-lab</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 12 Dec 2025 07:10:26 GMT</pubDate>
-    <lastBuildDate>Fri, 12 Dec 2025 07:10:26 GMT</lastBuildDate>
+    <pubDate>Mon, 26 Oct 2026 16:42:52 GMT</pubDate>
+    <lastBuildDate>Mon, 26 Oct 2026 16:42:52 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>游记</category>
     <category>React Native</category>
     <category>家装改造计划</category>
     <category>家庭服务器指北</category>
-    <category>游记</category>
     <category> 科学上网</category>
     <category>穷鬼生存指南</category>
     <category>Redis 核心技术与实战</category>
@@ -23,6 +23,121 @@
     <category>自我提升</category>
     <category>黑苹果</category>
     <category>折腾博客</category>
+    <item>
+      <title>第 22 期：潜水体验</title>
+      <link>https://logycoconut.github.io/area/log_for_life/weekly/%E7%AC%AC%2022%20%E6%9C%9F%EF%BC%9A%E6%BD%9C%E6%B0%B4%E4%BD%93%E9%AA%8C.html</link>
+      <guid>https://logycoconut.github.io/area/log_for_life/weekly/%E7%AC%AC%2022%20%E6%9C%9F%EF%BC%9A%E6%BD%9C%E6%B0%B4%E4%BD%93%E9%AA%8C.html</guid>
+      <source url="https://logycoconut.github.io/rss.xml">第 22 期：潜水体验</source>
+      <description>第 22 期：潜水体验 MVIMG_20251105_075149.jpgMVIMG_20251105_075149.jpg 拍摄于马来西亚·仙本那 一次说走就走的出海体验 近期两三事 在东马来西亚度过了愉快的一周 主要去了亚庇 - 仙本那两个地方，亚庇偏向比较度假村式的休闲，仙本那则更加偏向原生态的近距离体验 出海深潜得开一个多小时的船，但是非常幸运...</description>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<figure><img src="https://cdn.jsdelivr.net/gh/logycoconut/pic-repo@master/daily/weekly/MVIMG_20251105_075149.jpg" alt="MVIMG_20251105_075149.jpg" tabindex="0" loading="lazy"><figcaption>MVIMG_20251105_075149.jpg</figcaption></figure>
+<blockquote>
+<p>拍摄于马来西亚·仙本那<br>
+一次说走就走的出海体验</p>
+</blockquote>
+<h2>近期两三事</h2>
+<h4>在东马来西亚度过了愉快的一周</h4>
+<p>主要去了亚庇 - 仙本那两个地方，亚庇偏向比较度假村式的休闲，仙本那则更加偏向原生态的近距离体验<br>
+出海深潜得开一个多小时的船，但是非常幸运地看到海龟！</p>
+<h2>效率工具</h2>
+<h4>macOS / Mole ( Deep clean and optimize your Mac )</h4>
+<ul>
+<li><a href="https://github.com/tw93/Mole" target="_blank" rel="noopener noreferrer">https://github.com/tw93/Mole</a></li>
+</ul>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">➜</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">  ~</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> brew</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> install</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> mole</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>一键安装，很实用的小工具<br>
+同时提供 <code>mole status</code> 命令，可以作为系统监控使用</p>
+<h2>随便看看</h2>
+<h4>疯狂动物城 2 / 电影</h4>
+<ul>
+<li><a href="https://movie.douban.com/subject/26817136/" target="_blank" rel="noopener noreferrer">https://movie.douban.com/subject/26817136/</a></li>
+</ul>
+<p>蛮好看的，但是没有第一部横空出世的惊艳<br>
+反而是宝伯特的一句“可是我不想不一样”，让我鸡皮疙瘩都出来了，见过了太多出淤泥而不染，突然来个从一而终的反派也是给我震惊了</p>
+]]></content:encoded>
+      <enclosure url="https://cdn.jsdelivr.net/gh/logycoconut/pic-repo@master/daily/weekly/MVIMG_20251105_075149.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>第 23 期：新的一年</title>
+      <link>https://logycoconut.github.io/area/log_for_life/weekly/%E7%AC%AC%2023%20%E6%9C%9F%EF%BC%9A%E6%96%B0%E7%9A%84%E4%B8%80%E5%B9%B4.html</link>
+      <guid>https://logycoconut.github.io/area/log_for_life/weekly/%E7%AC%AC%2023%20%E6%9C%9F%EF%BC%9A%E6%96%B0%E7%9A%84%E4%B8%80%E5%B9%B4.html</guid>
+      <source url="https://logycoconut.github.io/rss.xml">第 23 期：新的一年</source>
+      <description>第 23 期：新的一年 拍摄于新加坡 并不完美的旅行体验 近期两三事 在东马来西亚度过了愉快的一周 效率工具 Beautiful maps, made simple. https://mapcn.vercel.app/ 发现一个现代化地图组件，干净快速 文档一目了然，用法相当简单 随便看看 杰克·莱恩 / 美剧 https://movie.douban...</description>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<blockquote>
+<p>拍摄于新加坡<br>
+并不完美的旅行体验</p>
+</blockquote>
+<h2>近期两三事</h2>
+<h4>在东马来西亚度过了愉快的一周</h4>
+<h2>效率工具</h2>
+<h4>Beautiful maps, made simple.</h4>
+<ul>
+<li><a href="https://mapcn.vercel.app/" target="_blank" rel="noopener noreferrer">https://mapcn.vercel.app/</a></li>
+</ul>
+<p>发现一个现代化地图组件，干净快速<br>
+文档一目了然，用法相当简单</p>
+<h2>随便看看</h2>
+<h4>杰克·莱恩 / 美剧</h4>
+<ul>
+<li><a href="https://movie.douban.com/subject/26632311/" target="_blank" rel="noopener noreferrer">https://movie.douban.com/subject/26632311/</a></li>
+</ul>
+<p>由于近期 "委内瑞拉总统被迫访美" 事件，这部剧热度很高哇...</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>2025 .11 马来西亚、新加坡之行</title>
+      <link>https://logycoconut.github.io/area/log_for_life/travel/2025.11%20%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A%E3%80%81%E6%96%B0%E5%8A%A0%E5%9D%A1%E4%B9%8B%E8%A1%8C.html</link>
+      <guid>https://logycoconut.github.io/area/log_for_life/travel/2025.11%20%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A%E3%80%81%E6%96%B0%E5%8A%A0%E5%9D%A1%E4%B9%8B%E8%A1%8C.html</guid>
+      <source url="https://logycoconut.github.io/rss.xml">2025 .11 马来西亚、新加坡之行</source>
+      <description>2025 .11 马来西亚、新加坡之行 今年做的最意想不到的决定，就是临时起意来东南亚玩 本来只是凑个人头，但是后来发现大马还挺好玩！ 在准备工作方面，除了流量卡以及少量现金外，几乎没有什么必带的东西了 微信、支付宝都可以直接用，而且在马来西亚，你几乎可以全程使用中文沟通 新加坡其实也可以，但是有些店员会带有不明意味的歧视，在会说中文的情况下一定要用英...</description>
+      <category>游记</category>
+      <pubDate>Thu, 29 Jan 2026 15:45:59 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>今年做的最意想不到的决定，就是临时起意来东南亚玩<br>
+本来只是凑个人头，但是后来发现大马还挺好玩！</p>
+<p>在准备工作方面，除了流量卡以及少量现金外，几乎没有什么必带的东西了<br>
+微信、支付宝都可以直接用，而且在马来西亚，你几乎可以全程使用中文沟通</p>
+<p>新加坡其实也可以，但是有些店员会带有不明意味的歧视，在会说中文的情况下一定要用英语和你沟通哈哈，不知道是不是个例🤪</p>
+<h3>马来西亚篇（亚庇、仙本那）</h3>
+<p>亚庇和仙本那是两种完全不一样的旅游体验</p>
+<p>在亚庇，我们住的是度假村<br>
+在度假村里面，我们可以看海、游泳、以及浮潜... 非常放松，甚至可以直接一觉睡到天亮，然后就在度假村里面找一张躺椅舒服晒一天<br>
+想出去玩项目的话，就提前联系好，然后打车去码头出海，去近一点的海岛上感受更加干净的大海</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/logycoconut/pic-repo@master/daily/travel/2025_11/1769699576429.jpg" alt="度假村里面的码头" tabindex="0" loading="lazy"><figcaption>度假村里面的码头</figcaption></figure>
+<figure><img src="https://cdn.jsdelivr.net/gh/logycoconut/pic-repo@master/daily/travel/2025_11/1769699640884.jpg" alt="度假村外围" tabindex="0" loading="lazy"><figcaption>度假村外围</figcaption></figure>
+<figure><img src="https://cdn.jsdelivr.net/gh/logycoconut/pic-repo@master/daily/travel/2025_11/1769699576359.jpg" alt="度假村的沙滩" tabindex="0" loading="lazy"><figcaption>度假村的沙滩</figcaption></figure>
+<figure><img src="https://cdn.jsdelivr.net/gh/logycoconut/pic-repo@master/daily/travel/2025_11/1769699670745.jpg" alt="在亚庇跳岛游" tabindex="0" loading="lazy"><figcaption>在亚庇跳岛游</figcaption></figure>
+<figure><img src="https://cdn.jsdelivr.net/gh/logycoconut/pic-repo@master/daily/travel/2025_11/1769699640920.jpg" alt="丹绒亚路的日落" tabindex="0" loading="lazy"><figcaption>丹绒亚路的日落</figcaption></figure>
+<p>仙本那就比较原始一些，我们找了一个在雨林里面的酒店，住宿略差，类似民宿<br>
+但是在仙本那可以看到更加深邃的大海<br>
+我们坐了一个小时的游艇到达马达京岛，进行深潜训练，随后进行了人生的第一次潜水哈哈紧张</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/logycoconut/pic-repo@master/daily/travel/2025_11/1769699736583.jpg" alt="在斗湖机场第一次体验这么随意的出舱" tabindex="0" loading="lazy"><figcaption>在斗湖机场第一次体验这么随意的出舱</figcaption></figure>
+<figure><img src="https://cdn.jsdelivr.net/gh/logycoconut/pic-repo@master/daily/travel/2025_11/1769699736555.jpg" alt="仙本那的高速公路～" tabindex="0" loading="lazy"><figcaption>仙本那的高速公路～</figcaption></figure>
+<figure><img src="https://cdn.jsdelivr.net/gh/logycoconut/pic-repo@master/daily/travel/2025_11/1769699736520.jpg" alt="仙本那码头" tabindex="0" loading="lazy"><figcaption>仙本那码头</figcaption></figure>
+<figure><img src="https://cdn.jsdelivr.net/gh/logycoconut/pic-repo@master/daily/travel/2025_11/1769699748232.jpg" alt="远处是仙本那的深山，远看是一位躺着的婆婆" tabindex="0" loading="lazy"><figcaption>远处是仙本那的深山，远看是一位躺着的婆婆</figcaption></figure>
+<figure><img src="https://cdn.jsdelivr.net/gh/logycoconut/pic-repo@master/daily/travel/2025_11/1769699748180.jpg" alt="仙本那海岛旁边层次分明的海" tabindex="0" loading="lazy"><figcaption>仙本那海岛旁边层次分明的海</figcaption></figure>
+<h3>新加坡篇</h3>
+<p>在新加坡的两天算是用来放松的，因为除了机酒外没有定任何的行程，想去哪里全看心意<br>
+但也对新加坡快速地建立了一些认知</p>
+<ul>
+<li>不愧是发达国家！物价就是高！<br>
+两天喝的都是酒店净水器出来的水，还好有带水杯哈哈</li>
+<li>过道基本都有遮阳板，对行人很友好（可能是同时兼顾防晒+挡雨的需求）</li>
+<li>肉骨茶蛮好喝，但是其他美食相比于国内还是比较单调，尝鲜可以，但是天天吃不行</li>
+<li>城建很好，生机勃勃的，随处可见的植物</li>
+</ul>
+<figure><img src="https://cdn.jsdelivr.net/gh/logycoconut/pic-repo@master/daily/travel/2025_11/1769697334914.jpg" alt="樟宜机场，不必多言" tabindex="0" loading="lazy"><figcaption>樟宜机场，不必多言</figcaption></figure>
+<figure><img src="https://cdn.jsdelivr.net/gh/logycoconut/pic-repo@master/daily/travel/2025_11/1769698881052.jpg" alt="新加坡的顶级城建" tabindex="0" loading="lazy"><figcaption>新加坡的顶级城建</figcaption></figure>
+<p>但是这次主要是从亚庇直飞国内太贵，所以才加了新加坡的行程<br>
+结果确实没出我们所料，很无聊（可能是前几天在大马玩的太累），这才知道别人说“新加坡最好玩的就是樟宜机场”这句话一点没错<br>
+城建方面其实国内一线城市差不多，一点都不差，而且花一样的钱能获得更多的体验（消费太贵）<br>
+鉴定为只能去一次的旅游城市！</p>
+]]></content:encoded>
+      <enclosure url="https://cdn.jsdelivr.net/gh/logycoconut/pic-repo@master/daily/travel/2025_11/1769699576429.jpg" type="image/jpeg"/>
+    </item>
     <item>
       <title>为什么互联网公司都在逐步弃用 Cookie？</title>
       <link>https://logycoconut.github.io/inbox/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BA%92%E8%81%94%E7%BD%91%E5%85%AC%E5%8F%B8%E9%83%BD%E5%9C%A8%E9%80%90%E6%AD%A5%E5%BC%83%E7%94%A8%20Cookie%EF%BC%9F.html</link>
@@ -223,12 +338,35 @@ TiDB Cloud 提供了免费套餐（5GB 存储，每月 50M 请求单元），适
 <h3>Front-End</h3>
 <h4>组件</h4>
 <ul>
-<li><a href="https://tamagui.dev/" target="_blank" rel="noopener noreferrer">tamagui</a> - for&nbsp;React&nbsp;and&nbsp;React&nbsp;Native</li>
-<li>Magic UI - <a href="https://magicui.design/" target="_blank" rel="noopener noreferrer">https://magicui.design/</a></li>
-<li>Hero UI - <a href="https://www.heroui.com/" target="_blank" rel="noopener noreferrer">https://www.heroui.com/</a></li>
-<li>Radix UI - <a href="https://www.radix-ui.com/" target="_blank" rel="noopener noreferrer">https://www.radix-ui.com/</a></li>
+<li>
+<p><a href="https://tamagui.dev/" target="_blank" rel="noopener noreferrer">tamagui</a> - for&nbsp;React&nbsp;and&nbsp;React&nbsp;Native</p>
+</li>
+<li>
+<p>Magic UI - <a href="https://magicui.design/" target="_blank" rel="noopener noreferrer">https://magicui.design/</a></p>
+</li>
+<li>
+<p>Hero UI - <a href="https://www.heroui.com/" target="_blank" rel="noopener noreferrer">https://www.heroui.com/</a></p>
+</li>
+<li>
+<p>Radix UI - <a href="https://www.radix-ui.com/" target="_blank" rel="noopener noreferrer">https://www.radix-ui.com/</a></p>
+</li>
+<li>
+<p>mapcn - Beautiful maps, made simple.<br>
+Tailwind 风格的地图组件，零配置即可使用</p>
+</li>
 </ul>
 <h3>Back-End</h3>
+<h2>消息推送、通知</h2>
+<ul>
+<li>微信消息推送服务（微信测试公众号模板消息推送服务、免费）<br>
+借助微信公众平台的测试机制，达到给个人发送通知的目的
+<ul>
+<li><a href="https://github.com/hezhizheng/go-wxpush" target="_blank" rel="noopener noreferrer">Go-WXPush - 微信消息推送服务</a></li>
+<li><a href="https://github.com/frankiejun/wxpush" target="_blank" rel="noopener noreferrer">WXPush - 微信消息推送服务</a><br>
+<em>以上是同一机制的不同实现</em></li>
+</ul>
+</li>
+</ul>
 ]]></content:encoded>
     </item>
     <item>
@@ -369,6 +507,8 @@ TiDB Cloud 提供了免费套餐（5GB 存储，每月 50M 请求单元），适
 <li><a href="https://github.com/xiaoyaocz/dart_simple_live" target="_blank" rel="noopener noreferrer">Simple TV</a>，在 Android 平台聚合各大直播网站的 APP<br>
 作者不提供 release 包，但是可以在仓库的 Actions 中找到打好的包</li>
 </ul>
+<p>还有其他更多 APP 可以在 <a href="https://github.com/youhunwl/TVAPP" target="_blank" rel="noopener noreferrer">TVAPP</a> 这个仓库中找，热心网友收集整理<br>
+以及这个 IPTV 神器， <a href="https://iptv.cqshushu.com/" target="_blank" rel="noopener noreferrer">https://iptv.cqshushu.com/</a></p>
 <h3>其他</h3>
 <p>等 Apple TV 新品发布 &amp; 飞牛 TV Apple TV App 发布后，可能会换成 Apple TV</p>
 ]]></content:encoded>
@@ -8228,6 +8368,9 @@ Roll_pointer</p>
 <p><code>DataGrip</code> 并不是一款免费的软件, 毕竟它是这么好用!<br>
 <strong>但是... there's always a but</strong></p>
 <h3><code>ja-netfilter</code> 登场</h3>
+<ul>
+<li>更新于 2025.12，ja-netfilter 适配 Java25 啦，<a href="https://zhile.io/2025/10/31/ja-netfilter-for-java25.html" target="_blank" rel="noopener noreferrer">直达链接</a></li>
+</ul>
 <p><em>项目介绍： <a href="https://zhile.io/2021/11/29/ja-netfilter-javaagent-lib.html" target="_blank" rel="noopener noreferrer">https://zhile.io/2021/11/29/ja-netfilter-javaagent-lib.html</a></em></p>
 <p><code>ja-netfilter</code> 是 zhile 大佬开发的一款插件</p>
 <p>主要用于阻断软件的恶意网络请求,  例如黑心软件读取本地信息上传云端<br>
@@ -18886,7 +19029,7 @@ type 作为 index 中的逻辑类别</p>
       <link>https://logycoconut.github.io/area/other/website_navigation.html</link>
       <guid>https://logycoconut.github.io/area/other/website_navigation.html</guid>
       <source url="https://logycoconut.github.io/rss.xml">网站导航</source>
-      <description>网站导航 🙋 社交 社区门户 好想法 🔧 工具 创意 图片处理 思考工具 💻 开发 文档 流程图 独立开发者工具 📦 资源 Mac 应用 电子书 装机资源 壁纸 英语学习 字体库</description>
+      <description>网站导航 🙋 社交 社区门户 好想法 🔧 工具 创意 图片处理 思考工具 💻 开发 文档 流程图 独立开发者工具 📦 资源 Mac 应用 电子书 装机资源 壁纸 英语学习 字体库 游戏库</description>
       <pubDate>Sat, 03 Dec 2022 10:40:47 GMT</pubDate>
       <content:encoded><![CDATA[
 <h2>🙋 社交</h2>
